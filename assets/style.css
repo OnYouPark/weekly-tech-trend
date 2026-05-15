@@ -627,7 +627,7 @@ a:hover {
   background: var(--code-bg);
 }
 
-/* ---------- Comments (Giscus) ---------- */
+/* ---------- Comments (Cusdis) ---------- */
 .comments-section {
   max-width: var(--width-content);
   margin: 64px 0 0;
@@ -656,16 +656,16 @@ a:hover {
   line-height: 1.6;
 }
 
-#giscus-comments {
-  margin: 0;
-  min-height: 1px;
+#cusdis_thread {
+  width: 100%;
+  min-height: 100px;
 }
 
-#giscus-comments .giscus,
-#giscus-comments .giscus-frame {
-  width: 100%;
-  border: 0;
-  color-scheme: normal;
+#cusdis_thread iframe {
+  width: 100% !important;
+  border: 0 !important;
+  max-height: none !important;
+  overflow: visible !important;
 }
 
 /* ---------- States ---------- */

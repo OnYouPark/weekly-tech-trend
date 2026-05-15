@@ -57,10 +57,12 @@
         <article id="article-root">
           <p class="notice">기사를 불러오는 중입니다…</p>
         </article>
-        <section class="comments-section" id="comments-section" hidden aria-label="댓글">
+        <section class="comments-section" hidden aria-label="댓글">
           <h2 class="comments-section__title">댓글</h2>
-          <p class="comments-section__intro">GitHub 계정으로 로그인해 의견을 남길 수 있습니다.</p>
-          <div id="giscus-comments"></div>
+          <p class="comments-section__intro">
+            이름을 입력하고 자유롭게 의견을 남길 수 있습니다. (로그인 불필요 · 댓글은 검토 후 게시됩니다)
+          </p>
+          <div id="cusdis_thread"></div>
         </section>
       </div>
       <aside class="toc toc--side" id="toc-side" hidden>
@@ -95,60 +97,99 @@
         document.documentElement.setAttribute('data-theme', next);
         try { localStorage.setItem('theme', next); } catch (e) {}
         updateIcon();
-        if (typeof window.updateGiscusTheme === 'function') {
-          window.updateGiscusTheme(next);
+        if (typeof window.updateCusdisTheme === 'function') {
+          window.updateCusdisTheme(next);
         }
       });
     })();
 
-    /* ========== Giscus 댓글 ========== */
-    function initGiscus() {
-      var container = document.getElementById('giscus-comments');
-      var section = document.getElementById('comments-section');
-      if (!container || !section) return;
-      /* 중복 초기화 방지 */
-      if (container.querySelector('script[src*="giscus.app"]')) {
-        section.hidden = false;
-        return;
-      }
+    /* ========== Cusdis 댓글 ========== */
+    function initCusdis(slug, articleTitle) {
       try {
+        var thread = document.getElementById('cusdis_thread');
+        if (!thread) return;
+
         var theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
-        var script = document.createElement('script');
-        script.src = 'https://giscus.app/client.js';
-        script.setAttribute('data-repo', 'OnYouPark/weekly-tech-trend');
-        script.setAttribute('data-repo-id', 'R_kgDOSd3DRA');
-        script.setAttribute('data-category', 'Announcements');
-        script.setAttribute('data-category-id', 'DIC_kwDOSd3DRM4C9FjA');
-        script.setAttribute('data-mapping', 'url');
-        script.setAttribute('data-strict', '0');
-        script.setAttribute('data-reactions-enabled', '1');
-        script.setAttribute('data-emit-metadata', '0');
-        script.setAttribute('data-input-position', 'top');
-        script.setAttribute('data-theme', theme);
-        script.setAttribute('data-lang', 'ko');
-        script.setAttribute('data-loading', 'lazy');
-        script.setAttribute('crossorigin', 'anonymous');
-        script.async = true;
-        script.onerror = function () {
-          console.warn('Giscus 스크립트 로드 실패');
-        };
-        container.appendChild(script);
-        section.hidden = false;
-      } catch (e) {
-        console.warn('Giscus 초기화 실패:', e);
+
+        thread.setAttribute('data-host', 'https://cusdis.com');
+        thread.setAttribute('data-app-id', '4eeec65c-dc8b-4c9d-890a-36a3c7c7d6f6');
+        thread.setAttribute('data-page-id', slug);
+        thread.setAttribute('data-page-url', window.location.href);
+        thread.setAttribute('data-page-title', articleTitle);
+        thread.setAttribute('data-theme', theme);
+
+        var section = document.querySelector('.comments-section');
+        if (section) section.hidden = false;
+
+        if (!document.querySelector('script[src*="cusdis.es.js"]')) {
+          var script = document.createElement('script');
+          script.src = 'https://cusdis.com/js/cusdis.es.js';
+          script.async = true;
+          script.defer = true;
+          script.onerror = function () {
+            console.warn('Cusdis 스크립트 로드 실패');
+          };
+          document.body.appendChild(script);
+        }
+
+        observeCusdisIframe();
+      } catch (err) {
+        console.warn('Cusdis init failed:', err);
       }
     }
 
-    window.updateGiscusTheme = function (theme) {
-      var iframe = document.querySelector('iframe.giscus-frame');
-      if (!iframe || !iframe.contentWindow) return;
+    function observeCusdisIframe() {
+      var thread = document.getElementById('cusdis_thread');
+      if (!thread) return;
+
+      var observer = new MutationObserver(function () {
+        var iframe = thread.querySelector('iframe');
+        if (iframe) {
+          /* 초기에만 최소 높이 부여, 이후엔 postMessage가 정확한 값으로 갱신 */
+          if (!iframe.style.height || parseInt(iframe.style.height, 10) < 200) {
+            iframe.style.height = '600px';
+          }
+          observer.disconnect();
+        }
+      });
+
+      observer.observe(thread, { childList: true, subtree: true });
+    }
+
+    /* Cusdis iframe 자동 리사이즈 보강 — 페이지당 1회 등록 */
+    window.addEventListener('message', function (event) {
+      if (event.origin !== 'https://cusdis.com') return;
+      var data = event.data;
+      if (!data || data.from !== 'cusdis') return;
+
+      var iframe = document.querySelector('#cusdis_thread iframe');
+      if (!iframe) return;
+
+      if (data.event === 'resize' && typeof data.data === 'number') {
+        iframe.style.height = data.data + 'px';
+      } else if (typeof data.height === 'number') {
+        iframe.style.height = data.height + 'px';
+      }
+    });
+
+    window.updateCusdisTheme = function (theme) {
       try {
-        iframe.contentWindow.postMessage(
-          { giscus: { setConfig: { theme: theme } } },
-          'https://giscus.app'
-        );
-      } catch (e) {
-        console.warn('Giscus 테마 동기화 실패:', e);
+        if (window.CUSDIS && typeof window.CUSDIS.setTheme === 'function') {
+          window.CUSDIS.setTheme(theme);
+          return;
+        }
+        /* Fallback: data-theme 갱신 후 iframe 재로드 */
+        var thread = document.getElementById('cusdis_thread');
+        if (thread) {
+          thread.setAttribute('data-theme', theme);
+          var iframe = thread.querySelector('iframe');
+          if (iframe) {
+            var src = iframe.src;
+            iframe.src = src;
+          }
+        }
+      } catch (err) {
+        console.warn('Cusdis theme update failed:', err);
       }
     };
 
@@ -427,7 +468,7 @@
         buildTOC(articleBody);
         setupReadingProgress(articleBody);
 
-        try { initGiscus(); } catch (e) { console.warn('Giscus init 예외:', e); }
+        try { initCusdis(slug, title); } catch (e) { console.warn('Cusdis init 예외:', e); }
       }
 
       var slug = getSlug();
