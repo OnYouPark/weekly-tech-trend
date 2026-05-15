@@ -627,6 +627,47 @@ a:hover {
   background: var(--code-bg);
 }
 
+/* ---------- Comments (Giscus) ---------- */
+.comments-section {
+  max-width: var(--width-content);
+  margin: 64px 0 0;
+  padding-top: 40px;
+  border-top: 1px solid var(--border);
+}
+
+.comments-section__title {
+  font-family: var(--font-serif);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  margin: 0 0 16px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+  scroll-margin-top: 80px;
+}
+
+.comments-section__intro {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 0 0 24px;
+  line-height: 1.6;
+}
+
+#giscus-comments {
+  margin: 0;
+  min-height: 1px;
+}
+
+#giscus-comments .giscus,
+#giscus-comments .giscus-frame {
+  width: 100%;
+  border: 0;
+  color-scheme: normal;
+}
+
 /* ---------- States ---------- */
 .notice {
   font-family: var(--font-sans);
