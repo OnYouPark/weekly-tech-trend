@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>기사 — Weekly Tech Trend Analyst</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+
+  <link rel="stylesheet" href="./assets/style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <main class="wrap wrap--article">
+    <a class="back-link" href="./index.html">← 목록으로</a>
+
+    <article id="article-root">
+      <p class="notice">기사를 불러오는 중입니다…</p>
+    </article>
+
+    <footer class="site-footer">Powered by Claude × GitHub Pages</footer>
+  </main>
+
+  <script>
+    (function () {
+      'use strict';
+
+      const rootEl = document.getElementById('article-root');
+
+      function escapeHtml(s) {
+        return String(s == null ? '' : s)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#39;');
+      }
+
+      function getSlug() {
+        const params = new URLSearchParams(window.location.search);
+        const slug = params.get('slug') || '';
+        // slug 안전성: 영문/숫자/하이픈/언더스코어만 허용
+        if (!/^[A-Za-z0-9._-]+$/.test(slug)) return '';
+        return slug;
+      }
+
+      function showNotFound(message) {
+        rootEl.innerHTML =
+          '<p class="notice">' + escapeHtml(message || '기사를 찾을 수 없습니다.') +
+          ' <a href="./index.html">목록으로 돌아가기</a></p>';
+      }
+
+      function stripFrontmatter(md) {
+        // 파일 맨 앞 --- ... --- 영역 제거
+        if (!md) return '';
+        const trimmed = md.replace(/^﻿/, '');
+        if (!/^---\s*\r?\n/.test(trimmed)) return trimmed;
+        const end = trimmed.indexOf('\n---', 3);
+        if (end === -1) return trimmed;
+        // "\n---" 이후 라인 끝까지 잘라냄
+        const rest = trimmed.slice(end + 4);
+        return rest.replace(/^\r?\n/, '');
+      }
+
+      function renderArticle(meta, markdown) {
+        const title = (meta && meta.title) || '(제목 없음)';
+        document.title = title + ' — Weekly Tech Trend Analyst';
+
+        const tags = Array.isArray(meta && meta.tags) ? meta.tags : [];
+        const tagHtml = tags.map(function (t) {
+          return '<span>' + escapeHtml(t) + '</span>';
+        }).join('');
+
+        const body = stripFrontmatter(markdown);
+
+        // marked 설정
+        if (window.marked && marked.setOptions) {
+          marked.setOptions({
+            gfm: true,
+            breaks: false,
+            headerIds: false,
+            mangle: false
+          });
+        }
+
+        const bodyHtml = window.marked ? marked.parse(body) : escapeHtml(body);
+
+        rootEl.innerHTML = '' +
+          '<header class="article-header">' +
+            '<h1 class="article-title">' + escapeHtml(title) + '</h1>' +
+            '<div class="article-meta">' +
+              '<span class="article-meta__date">' + escapeHtml((meta && meta.date) || '') + '</span>' +
+              (tagHtml ? '<span class="article-meta__tags">' + tagHtml + '</span>' : '') +
+            '</div>' +
+          '</header>' +
+          '<div class="article-body">' + bodyHtml + '</div>';
+      }
+
+      const slug = getSlug();
+      if (!slug) {
+        showNotFound('기사를 찾을 수 없습니다.');
+        return;
+      }
+
+      // 1) 메타데이터 조회 → 2) 마크다운 fetch → 3) 렌더
+      fetch('./articles/index.json', { cache: 'no-cache' })
+        .then(function (res) {
+          if (!res.ok) throw new Error('index.json fetch 실패');
+          return res.json();
+        })
+        .then(function (data) {
+          const list = (data && Array.isArray(data.articles)) ? data.articles : [];
+          const meta = list.find(function (a) { return a.slug === slug; });
+          if (!meta) {
+            showNotFound('기사를 찾을 수 없습니다.');
+            return null;
+          }
+          return fetch('./articles/' + encodeURIComponent(slug) + '.md', { cache: 'no-cache' })
+            .then(function (res) {
+              if (!res.ok) throw new Error('markdown fetch 실패: ' + res.status);
+              return res.text();
+            })
+            .then(function (md) {
+              renderArticle(meta, md);
+            });
+        })
+        .catch(function (err) {
+          console.error(err);
+          showNotFound('기사를 불러오지 못했습니다.');
+        });
+    })();
+  </script>
+</body>
+</html>

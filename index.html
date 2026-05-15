@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly Tech Trend Analyst</title>
+  <meta name="description" content="주간 기술 트렌드 분석 — 제조업·생산기술 관점의 기술 동향 리포트">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <main class="wrap wrap--list">
+    <header class="site-header">
+      <h1 class="site-title"><a href="./index.html">Weekly Tech Trend Analyst</a></h1>
+      <p class="site-subtitle">주간 기술 트렌드 분석</p>
+    </header>
+
+    <ul id="article-list" class="article-list">
+      <li class="notice">기사를 불러오는 중입니다…</li>
+    </ul>
+
+    <footer class="site-footer">Powered by Claude × GitHub Pages</footer>
+  </main>
+
+  <script>
+    (function () {
+      'use strict';
+
+      const listEl = document.getElementById('article-list');
+
+      function formatDate(iso) {
+        // iso 예: "2026-05-15"
+        if (!iso) return '';
+        return iso;
+      }
+
+      function escapeHtml(s) {
+        return String(s == null ? '' : s)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#39;');
+      }
+
+      function renderList(articles) {
+        if (!articles || articles.length === 0) {
+          listEl.innerHTML = '<li class="notice">등록된 기사가 없습니다.</li>';
+          return;
+        }
+
+        const sorted = articles.slice().sort(function (a, b) {
+          return (b.date || '').localeCompare(a.date || '');
+        });
+
+        const html = sorted.map(function (a) {
+          const slug = encodeURIComponent(a.slug || '');
+          const tags = Array.isArray(a.tags) ? a.tags : [];
+          const tagHtml = tags.map(function (t) {
+            return '<span>' + escapeHtml(t) + '</span>';
+          }).join('');
+
+          return '' +
+            '<li class="article-card">' +
+              '<p class="article-card__date">' + escapeHtml(formatDate(a.date)) + '</p>' +
+              '<h2 class="article-card__title">' +
+                '<a href="./article.html?slug=' + slug + '">' + escapeHtml(a.title || '(제목 없음)') + '</a>' +
+              '</h2>' +
+              '<p class="article-card__summary">' + escapeHtml(a.summary || '') + '</p>' +
+              (tagHtml ? '<p class="article-card__tags">' + tagHtml + '</p>' : '') +
+            '</li>';
+        }).join('');
+
+        listEl.innerHTML = html;
+      }
+
+      fetch('./articles/index.json', { cache: 'no-cache' })
+        .then(function (res) {
+          if (!res.ok) throw new Error('index.json fetch 실패: ' + res.status);
+          return res.json();
+        })
+        .then(function (data) {
+          renderList(data && data.articles);
+        })
+        .catch(function (err) {
+          console.error(err);
+          listEl.innerHTML = '<li class="notice">기사 목록을 불러오지 못했습니다. 로컬에서 보고 있다면 정적 서버(예: <code>python -m http.server</code>)로 실행해주세요.</li>';
+        });
+    })();
+  </script>
+</body>
+</html>
