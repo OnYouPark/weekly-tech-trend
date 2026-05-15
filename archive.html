@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>아카이브 — Weekly Tech Trend Analyst</title>
+  <meta name="description" content="월별·태그별 전체 기사 아카이브">
+
+  <script>
+    /* FOUC 방지: 본문 렌더 이전에 테마 즉시 적용 */
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var theme = saved || (prefersDark ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <main class="wrap wrap--list">
+    <header class="site-header">
+      <div class="site-header__main">
+        <h1 class="site-title"><a href="./index.html">Weekly Tech Trend Analyst</a></h1>
+        <p class="site-subtitle">주간 기술 트렌드 분석</p>
+        <nav class="site-nav" aria-label="사이트 네비게이션">
+          <a class="site-nav__link" href="./index.html">홈</a>
+          <span class="site-nav__sep" aria-hidden="true">·</span>
+          <a class="site-nav__link is-active" href="./archive.html" aria-current="page">아카이브</a>
+        </nav>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="테마 전환">🌙</button>
+    </header>
+
+    <header class="archive-intro">
+      <h1 class="archive-intro__title">아카이브</h1>
+      <p class="archive-intro__subtitle">월별·태그별 전체 기사</p>
+    </header>
+
+    <section class="archive-section" aria-labelledby="archive-by-month">
+      <h2 class="archive-section__title" id="archive-by-month">월별</h2>
+      <div id="archive-month-root">
+        <p class="notice">목록을 불러오는 중입니다…</p>
+      </div>
+    </section>
+
+    <hr class="archive-divider" />
+
+    <section class="archive-section" aria-labelledby="archive-by-tag">
+      <h2 class="archive-section__title" id="archive-by-tag">태그별</h2>
+      <div id="archive-tag-root"></div>
+    </section>
+
+    <footer class="site-footer">Powered by Claude × GitHub Pages</footer>
+  </main>
+
+  <script>
+    /* 테마 토글 */
+    (function () {
+      var btn = document.getElementById('theme-toggle');
+      if (!btn) return;
+
+      function updateIcon() {
+        var current = document.documentElement.getAttribute('data-theme') || 'light';
+        btn.textContent = current === 'dark' ? '☀' : '🌙';
+        btn.setAttribute(
+          'aria-label',
+          current === 'dark' ? '라이트 모드로 전환' : '다크 모드로 전환'
+        );
+      }
+
+      updateIcon();
+
+      btn.addEventListener('click', function () {
+        var current = document.documentElement.getAttribute('data-theme') || 'light';
+        var next = current === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme', next); } catch (e) {}
+        updateIcon();
+      });
+    })();
+  </script>
+
+  <script>
+    /* 아카이브 렌더 */
+    (function () {
+      'use strict';
+
+      var monthRoot = document.getElementById('archive-month-root');
+      var tagRoot = document.getElementById('archive-tag-root');
+
+      function escapeHtml(s) {
+        return String(s == null ? '' : s)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#39;');
+      }
+
+      function isValidSlug(slug) {
+        return /^[A-Za-z0-9._-]+$/.test(slug || '');
+      }
+
+      function safeArticleHref(slug) {
+        if (!isValidSlug(slug)) return '#';
+        return './article.html?slug=' + encodeURIComponent(slug);
+      }
+
+      function formatYearMonth(ym) {
+        // "2026-05" -> "2026년 5월"
+        var parts = ym.split('-');
+        if (parts.length !== 2) return ym;
+        return parts[0] + '년 ' + parseInt(parts[1], 10) + '월';
+      }
+
+      function itemHtml(a) {
+        return '' +
+          '<li class="archive-item">' +
+            '<span class="archive-item__date">' + escapeHtml(a.date || '') + '</span>' +
+            '<a class="archive-item__title" href="' + escapeHtml(safeArticleHref(a.slug)) + '">' +
+              escapeHtml(a.title || '(제목 없음)') +
+            '</a>' +
+          '</li>';
+      }
+
+      function groupHtml(titleHtml, articles) {
+        var items = articles.map(itemHtml).join('');
+        return '' +
+          '<div class="archive-group">' +
+            '<h3 class="archive-group__title">' + titleHtml + '</h3>' +
+            '<ul class="archive-list">' + items + '</ul>' +
+          '</div>';
+      }
+
+      function renderByMonth(articles) {
+        if (articles.length === 0) {
+          monthRoot.innerHTML = '<p class="notice">등록된 기사가 없습니다.</p>';
+          return;
+        }
+
+        // 그룹화: YYYY-MM
+        var groups = Object.create(null);
+        articles.forEach(function (a) {
+          var ym = (a.date || '').slice(0, 7);
+          if (!ym) return;
+          if (!groups[ym]) groups[ym] = [];
+          groups[ym].push(a);
+        });
+
+        // 월 키 내림차순
+        var ymKeys = Object.keys(groups).sort(function (a, b) {
+          return b.localeCompare(a);
+        });
+
+        var html = ymKeys.map(function (ym) {
+          var sorted = groups[ym].slice().sort(function (a, b) {
+            return (b.date || '').localeCompare(a.date || '');
+          });
+          return groupHtml(escapeHtml(formatYearMonth(ym)), sorted);
+        }).join('');
+
+        monthRoot.innerHTML = html;
+      }
+
+      function renderByTag(articles) {
+        if (articles.length === 0) {
+          tagRoot.innerHTML = '<p class="notice">등록된 태그가 없습니다.</p>';
+          return;
+        }
+
+        var map = Object.create(null);
+        articles.forEach(function (a) {
+          (a.tags || []).forEach(function (t) {
+            if (!t) return;
+            if (!map[t]) map[t] = [];
+            map[t].push(a);
+          });
+        });
+
+        var entries = Object.keys(map).map(function (t) {
+          return { tag: t, items: map[t] };
+        });
+
+        if (entries.length === 0) {
+          tagRoot.innerHTML = '<p class="notice">등록된 태그가 없습니다.</p>';
+          return;
+        }
+
+        // 기사 수 내림차순, 동률은 가나다순
+        entries.sort(function (a, b) {
+          if (b.items.length !== a.items.length) {
+            return b.items.length - a.items.length;
+          }
+          return a.tag.localeCompare(b.tag, 'ko');
+        });
+
+        var html = entries.map(function (e) {
+          var sorted = e.items.slice().sort(function (a, b) {
+            return (b.date || '').localeCompare(a.date || '');
+          });
+          var title = escapeHtml(e.tag) +
+            ' <span class="archive-group__count">(' + e.items.length + ')</span>';
+          return groupHtml(title, sorted);
+        }).join('');
+
+        tagRoot.innerHTML = html;
+      }
+
+      fetch('./articles/index.json', { cache: 'no-cache' })
+        .then(function (res) {
+          if (!res.ok) throw new Error('index.json fetch 실패: ' + res.status);
+          return res.json();
+        })
+        .then(function (data) {
+          var list = (data && Array.isArray(data.articles)) ? data.articles : [];
+          renderByMonth(list);
+          renderByTag(list);
+        })
+        .catch(function (err) {
+          console.error(err);
+          monthRoot.innerHTML =
+            '<p class="notice">아카이브를 불러오지 못했습니다. 로컬에서 보고 있다면 정적 서버(예: <code>python -m http.server</code>)로 실행해주세요.</p>';
+          tagRoot.innerHTML = '';
+        });
+    })();
+  </script>
+</body>
+</html>

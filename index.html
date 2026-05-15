@@ -33,9 +33,36 @@
       <div class="site-header__main">
         <h1 class="site-title"><a href="./index.html">Weekly Tech Trend Analyst</a></h1>
         <p class="site-subtitle">주간 기술 트렌드 분석</p>
+        <nav class="site-nav" aria-label="사이트 네비게이션">
+          <a class="site-nav__link is-active" href="./index.html" aria-current="page">홈</a>
+          <span class="site-nav__sep" aria-hidden="true">·</span>
+          <a class="site-nav__link" href="./archive.html">아카이브</a>
+        </nav>
       </div>
       <button id="theme-toggle" class="theme-toggle" type="button" aria-label="테마 전환">🌙</button>
     </header>
+
+    <section class="filter-bar" aria-label="기사 필터">
+      <div class="filter-search" id="filter-search">
+        <input
+          type="search"
+          id="filter-search-input"
+          class="filter-search__input"
+          placeholder="기사 검색 (제목·요약·태그)"
+          autocomplete="off"
+          aria-label="기사 검색 (제목·요약·태그)"
+        />
+        <button
+          type="button"
+          id="filter-search-clear"
+          class="filter-search__clear"
+          aria-label="검색어 지우기"
+        >✕</button>
+      </div>
+      <div id="filter-tags" class="filter-tags" role="group" aria-label="태그 필터"></div>
+    </section>
+
+    <p id="filter-count" class="filter-count" hidden></p>
 
     <ul id="article-list" class="article-list">
       <li class="notice">기사를 불러오는 중입니다…</li>
@@ -72,16 +99,25 @@
   </script>
 
   <script>
+    /* 기사 목록 + 검색 + 태그 필터 */
     (function () {
       'use strict';
 
-      const listEl = document.getElementById('article-list');
+      var listEl = document.getElementById('article-list');
+      var searchWrapEl = document.getElementById('filter-search');
+      var searchInputEl = document.getElementById('filter-search-input');
+      var searchClearEl = document.getElementById('filter-search-clear');
+      var tagsEl = document.getElementById('filter-tags');
+      var countEl = document.getElementById('filter-count');
 
-      function formatDate(iso) {
-        // iso 예: "2026-05-15"
-        if (!iso) return '';
-        return iso;
-      }
+      var state = {
+        articles: [],
+        sortedArticles: [],
+        query: '',
+        tags: new Set()
+      };
+
+      var debounceTimer = null;
 
       function escapeHtml(s) {
         return String(s == null ? '' : s)
@@ -92,26 +128,101 @@
           .replace(/'/g, '&#39;');
       }
 
-      function renderList(articles) {
-        if (!articles || articles.length === 0) {
-          listEl.innerHTML = '<li class="notice">등록된 기사가 없습니다.</li>';
-          return;
-        }
+      function normalize(s) {
+        return String(s == null ? '' : s)
+          .toLowerCase()
+          .replace(/\s+/g, ' ')
+          .trim();
+      }
 
-        const sorted = articles.slice().sort(function (a, b) {
-          return (b.date || '').localeCompare(a.date || '');
+      function isFilterActive() {
+        return state.query !== '' || state.tags.size > 0;
+      }
+
+      function uniqueSortedTags(articles) {
+        var seen = Object.create(null);
+        articles.forEach(function (a) {
+          (a.tags || []).forEach(function (t) {
+            if (t) seen[t] = true;
+          });
         });
+        return Object.keys(seen).sort(function (a, b) {
+          return a.localeCompare(b, 'ko');
+        });
+      }
 
-        const html = sorted.map(function (a) {
-          const slug = encodeURIComponent(a.slug || '');
-          const tags = Array.isArray(a.tags) ? a.tags : [];
-          const tagHtml = tags.map(function (t) {
+      function renderTagChips(tags) {
+        var html = tags.map(function (t) {
+          var active = state.tags.has(t) ? ' is-active' : '';
+          var pressed = state.tags.has(t) ? 'true' : 'false';
+          return '<button type="button" class="tag-chip' + active +
+            '" data-tag="' + escapeHtml(t) +
+            '" aria-pressed="' + pressed + '">' +
+            escapeHtml(t) + '</button>';
+        }).join('');
+        tagsEl.innerHTML = html;
+      }
+
+      function refreshTagChipsActive() {
+        var nodes = tagsEl.querySelectorAll('.tag-chip');
+        nodes.forEach(function (n) {
+          var t = n.getAttribute('data-tag');
+          if (state.tags.has(t)) {
+            n.classList.add('is-active');
+            n.setAttribute('aria-pressed', 'true');
+          } else {
+            n.classList.remove('is-active');
+            n.setAttribute('aria-pressed', 'false');
+          }
+        });
+      }
+
+      function getFiltered() {
+        var q = normalize(state.query);
+        var anyTag = state.tags.size > 0;
+        return state.sortedArticles.filter(function (a) {
+          if (q) {
+            var hay = normalize(
+              (a.title || '') + ' ' +
+              (a.summary || '') + ' ' +
+              (Array.isArray(a.tags) ? a.tags.join(' ') : '')
+            );
+            if (hay.indexOf(q) === -1) return false;
+          }
+          if (anyTag) {
+            var tags = Array.isArray(a.tags) ? a.tags : [];
+            var matched = false;
+            for (var i = 0; i < tags.length; i++) {
+              if (state.tags.has(tags[i])) { matched = true; break; }
+            }
+            if (!matched) return false;
+          }
+          return true;
+        });
+      }
+
+      function renderEmpty() {
+        listEl.innerHTML =
+          '<li class="empty-results">' +
+            '<p class="empty-results__message">검색 결과가 없습니다</p>' +
+            '<button type="button" class="empty-results__reset" id="empty-results-reset">필터 초기화</button>' +
+          '</li>';
+        var btn = document.getElementById('empty-results-reset');
+        if (btn) btn.addEventListener('click', resetFilters);
+      }
+
+      function renderList(filtered) {
+        if (filtered.length === 0) { renderEmpty(); return; }
+
+        var html = filtered.map(function (a) {
+          var slug = encodeURIComponent(a.slug || '');
+          var tags = Array.isArray(a.tags) ? a.tags : [];
+          var tagHtml = tags.map(function (t) {
             return '<span>' + escapeHtml(t) + '</span>';
           }).join('');
-
           return '' +
             '<li class="article-card">' +
-              '<p class="article-card__date">' + escapeHtml(formatDate(a.date)) + '</p>' +
+              '<p class="article-card__date">' + escapeHtml(a.date || '') + '</p>' +
               '<h2 class="article-card__title">' +
                 '<a href="./article.html?slug=' + slug + '">' + escapeHtml(a.title || '(제목 없음)') + '</a>' +
               '</h2>' +
@@ -119,8 +230,91 @@
               (tagHtml ? '<p class="article-card__tags">' + tagHtml + '</p>' : '') +
             '</li>';
         }).join('');
-
         listEl.innerHTML = html;
+      }
+
+      function updateCount(filtered) {
+        if (!isFilterActive()) {
+          countEl.hidden = true;
+          countEl.textContent = '';
+          return;
+        }
+        countEl.hidden = false;
+        countEl.textContent =
+          '전체 ' + state.sortedArticles.length + '편 중 ' + filtered.length + '편 표시';
+      }
+
+      function updateClearVisibility() {
+        if (state.query) searchWrapEl.classList.add('is-active');
+        else searchWrapEl.classList.remove('is-active');
+      }
+
+      function render() {
+        var filtered = getFiltered();
+        updateClearVisibility();
+        updateCount(filtered);
+        renderList(filtered);
+      }
+
+      function resetFilters() {
+        state.query = '';
+        state.tags.clear();
+        searchInputEl.value = '';
+        refreshTagChipsActive();
+        render();
+        searchInputEl.focus();
+      }
+
+      function onSearchInput() {
+        if (debounceTimer) clearTimeout(debounceTimer);
+        var val = searchInputEl.value || '';
+        debounceTimer = setTimeout(function () {
+          state.query = val;
+          render();
+        }, 200);
+        // X 버튼 즉시 반영
+        if (val) searchWrapEl.classList.add('is-active');
+        else searchWrapEl.classList.remove('is-active');
+      }
+
+      function onSearchKeydown(e) {
+        if (e.key === 'Escape') {
+          e.preventDefault();
+          resetFilters();
+        }
+      }
+
+      function onTagClick(e) {
+        var btn = e.target.closest('.tag-chip');
+        if (!btn) return;
+        var tag = btn.getAttribute('data-tag');
+        if (!tag) return;
+        if (state.tags.has(tag)) state.tags.delete(tag);
+        else state.tags.add(tag);
+        refreshTagChipsActive();
+        render();
+      }
+
+      function onClearClick() {
+        state.query = '';
+        searchInputEl.value = '';
+        render();
+        searchInputEl.focus();
+      }
+
+      function init(articles) {
+        state.articles = articles || [];
+        state.sortedArticles = state.articles.slice().sort(function (a, b) {
+          return (b.date || '').localeCompare(a.date || '');
+        });
+
+        renderTagChips(uniqueSortedTags(state.sortedArticles));
+        render();
+
+        searchInputEl.addEventListener('input', onSearchInput);
+        searchInputEl.addEventListener('keydown', onSearchKeydown);
+        searchClearEl.addEventListener('click', onClearClick);
+        tagsEl.addEventListener('click', onTagClick);
       }
 
       fetch('./articles/index.json', { cache: 'no-cache' })
@@ -129,7 +323,12 @@
           return res.json();
         })
         .then(function (data) {
-          renderList(data && data.articles);
+          var list = (data && Array.isArray(data.articles)) ? data.articles : [];
+          if (list.length === 0) {
+            listEl.innerHTML = '<li class="notice">등록된 기사가 없습니다.</li>';
+            return;
+          }
+          init(list);
         })
         .catch(function (err) {
           console.error(err);
