@@ -5,6 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>기사 — Weekly Tech Trend Analyst</title>
 
+  <script>
+    /* FOUC 방지: 본문 렌더 이전에 테마 즉시 적용 */
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var theme = saved || (prefersDark ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    })();
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
@@ -15,21 +29,271 @@
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
-  <main class="wrap wrap--article">
-    <a class="back-link" href="./index.html">← 목록으로</a>
+  <div class="reading-progress" aria-hidden="true">
+    <div class="reading-progress__bar" id="reading-progress-bar"></div>
+  </div>
 
-    <article id="article-root">
-      <p class="notice">기사를 불러오는 중입니다…</p>
-    </article>
+  <main class="wrap wrap--article" id="article-wrap">
+    <header class="site-header">
+      <div class="site-header__main">
+        <h1 class="site-title"><a href="./index.html">Weekly Tech Trend Analyst</a></h1>
+        <p class="site-subtitle">주간 기술 트렌드 분석</p>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="테마 전환">🌙</button>
+    </header>
+
+    <div class="article-top">
+      <a class="back-link" href="./index.html">← 목록으로</a>
+      <button id="copy-link" class="copy-link" type="button" aria-label="현재 페이지 URL 복사">🔗 링크 복사</button>
+    </div>
+
+    <div class="article-layout" id="article-layout">
+      <div class="article-main">
+        <article id="article-root">
+          <p class="notice">기사를 불러오는 중입니다…</p>
+        </article>
+      </div>
+      <aside class="toc toc--side" id="toc-side" hidden>
+        <p class="toc__title">목차</p>
+        <ul class="toc__list" data-toc-list="side"></ul>
+      </aside>
+    </div>
 
     <footer class="site-footer">Powered by Claude × GitHub Pages</footer>
   </main>
 
   <script>
+    /* ========== 테마 토글 ========== */
+    (function () {
+      var btn = document.getElementById('theme-toggle');
+      if (!btn) return;
+
+      function updateIcon() {
+        var current = document.documentElement.getAttribute('data-theme') || 'light';
+        btn.textContent = current === 'dark' ? '☀' : '🌙';
+        btn.setAttribute(
+          'aria-label',
+          current === 'dark' ? '라이트 모드로 전환' : '다크 모드로 전환'
+        );
+      }
+
+      updateIcon();
+
+      btn.addEventListener('click', function () {
+        var current = document.documentElement.getAttribute('data-theme') || 'light';
+        var next = current === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme', next); } catch (e) {}
+        updateIcon();
+      });
+    })();
+
+    /* ========== URL 복사 버튼 ========== */
+    (function () {
+      var btn = document.getElementById('copy-link');
+      if (!btn) return;
+
+      var originalText = btn.textContent;
+      var resetTimer = null;
+
+      function flashCopied() {
+        btn.textContent = '✓ 복사됨';
+        btn.classList.add('is-copied');
+        if (resetTimer) clearTimeout(resetTimer);
+        resetTimer = setTimeout(function () {
+          btn.textContent = originalText;
+          btn.classList.remove('is-copied');
+        }, 2000);
+      }
+
+      function fallbackCopy(text) {
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        ta.setAttribute('readonly', '');
+        ta.style.position = 'fixed';
+        ta.style.top = '-1000px';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        try {
+          var ok = document.execCommand('copy');
+          if (ok) flashCopied();
+          else console.warn('execCommand copy returned false');
+        } catch (e) {
+          console.warn('복사 실패:', e);
+        }
+        document.body.removeChild(ta);
+      }
+
+      btn.addEventListener('click', function () {
+        var url = window.location.href;
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(url).then(flashCopied).catch(function (err) {
+            console.warn('clipboard API 실패, 폴백 사용:', err);
+            fallbackCopy(url);
+          });
+        } else {
+          fallbackCopy(url);
+        }
+      });
+    })();
+
+    /* ========== 읽기 진행률 바 ========== */
+    function setupReadingProgress(articleBodyEl) {
+      var bar = document.getElementById('reading-progress-bar');
+      if (!bar || !articleBodyEl) return;
+
+      var ticking = false;
+
+      function update() {
+        ticking = false;
+        var rect = articleBodyEl.getBoundingClientRect();
+        var winH = window.innerHeight;
+
+        if (rect.top > 0) {
+          bar.style.width = '0%';
+          return;
+        }
+        if (rect.bottom <= winH) {
+          bar.style.width = '100%';
+          return;
+        }
+        var totalDistance = rect.height - winH;
+        if (totalDistance <= 0) {
+          bar.style.width = '100%';
+          return;
+        }
+        var scrolled = -rect.top;
+        var progress = (scrolled / totalDistance) * 100;
+        if (progress < 0) progress = 0;
+        if (progress > 100) progress = 100;
+        bar.style.width = progress + '%';
+      }
+
+      function onScroll() {
+        if (!ticking) {
+          window.requestAnimationFrame(update);
+          ticking = true;
+        }
+      }
+
+      window.addEventListener('scroll', onScroll, { passive: true });
+      window.addEventListener('resize', onScroll);
+      update();
+    }
+
+    /* ========== 자동 TOC ========== */
+    function buildTOC(articleBodyEl) {
+      var headings = articleBodyEl.querySelectorAll('h2, h3');
+      if (!headings.length) return;
+
+      var items = [];
+      headings.forEach(function (h, idx) {
+        var id = 'heading-' + (idx + 1);
+        h.id = id;
+        items.push({
+          id: id,
+          text: h.textContent || '',
+          level: h.tagName.toLowerCase()
+        });
+      });
+
+      function escapeHtml(s) {
+        return String(s == null ? '' : s)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#39;');
+      }
+
+      var listHtml = items.map(function (it) {
+        var cls = 'toc__item' + (it.level === 'h3' ? ' toc__item--h3' : '');
+        return '<li class="' + cls + '"><a href="#' + it.id +
+          '" data-toc-target="' + it.id + '">' + escapeHtml(it.text) + '</a></li>';
+      }).join('');
+
+      /* 사이드바 TOC (≥1024px) */
+      var sideAside = document.getElementById('toc-side');
+      var sideList = sideAside && sideAside.querySelector('[data-toc-list="side"]');
+      if (sideList) {
+        sideList.innerHTML = listHtml;
+        sideAside.hidden = false;
+        document.getElementById('article-wrap').classList.add('has-toc');
+      }
+
+      /* 인라인 TOC (모바일) — article-header와 article-body 사이에 삽입 */
+      var details = document.createElement('details');
+      details.className = 'toc toc--inline';
+      details.innerHTML =
+        '<summary>📑 목차</summary>' +
+        '<ul class="toc__list" data-toc-list="inline">' + listHtml + '</ul>';
+
+      var bodyEl = document.querySelector('.article-body');
+      if (bodyEl && bodyEl.parentNode) {
+        bodyEl.parentNode.insertBefore(details, bodyEl);
+      }
+
+      /* TOC 링크 클릭 → smooth scroll */
+      var allTocLinks = document.querySelectorAll('[data-toc-target]');
+      allTocLinks.forEach(function (a) {
+        a.addEventListener('click', function (e) {
+          var targetId = a.getAttribute('data-toc-target');
+          var target = document.getElementById(targetId);
+          if (!target) return;
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          if (history && history.replaceState) {
+            history.replaceState(null, '', '#' + targetId);
+          }
+        });
+      });
+
+      /* 현재 화면에 보이는 헤더 추적 → active 클래스 */
+      if ('IntersectionObserver' in window) {
+        var visible = new Set();
+
+        function applyActive() {
+          var activeId = null;
+          var minTop = Infinity;
+          headings.forEach(function (h) {
+            if (visible.has(h.id)) {
+              var r = h.getBoundingClientRect();
+              if (r.top < minTop) {
+                minTop = r.top;
+                activeId = h.id;
+              }
+            }
+          });
+          allTocLinks.forEach(function (a) {
+            if (a.getAttribute('data-toc-target') === activeId) {
+              a.classList.add('active');
+            } else {
+              a.classList.remove('active');
+            }
+          });
+        }
+
+        var observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) visible.add(entry.target.id);
+            else visible.delete(entry.target.id);
+          });
+          applyActive();
+        }, {
+          rootMargin: '-80px 0px -60% 0px',
+          threshold: 0
+        });
+
+        headings.forEach(function (h) { observer.observe(h); });
+      }
+    }
+
+    /* ========== 기사 렌더링 ========== */
     (function () {
       'use strict';
 
-      const rootEl = document.getElementById('article-root');
+      var rootEl = document.getElementById('article-root');
 
       function escapeHtml(s) {
         return String(s == null ? '' : s)
@@ -41,9 +305,8 @@
       }
 
       function getSlug() {
-        const params = new URLSearchParams(window.location.search);
-        const slug = params.get('slug') || '';
-        // slug 안전성: 영문/숫자/하이픈/언더스코어만 허용
+        var params = new URLSearchParams(window.location.search);
+        var slug = params.get('slug') || '';
         if (!/^[A-Za-z0-9._-]+$/.test(slug)) return '';
         return slug;
       }
@@ -55,29 +318,26 @@
       }
 
       function stripFrontmatter(md) {
-        // 파일 맨 앞 --- ... --- 영역 제거
         if (!md) return '';
-        const trimmed = md.replace(/^﻿/, '');
+        var trimmed = md.replace(/^﻿/, '');
         if (!/^---\s*\r?\n/.test(trimmed)) return trimmed;
-        const end = trimmed.indexOf('\n---', 3);
+        var end = trimmed.indexOf('\n---', 3);
         if (end === -1) return trimmed;
-        // "\n---" 이후 라인 끝까지 잘라냄
-        const rest = trimmed.slice(end + 4);
+        var rest = trimmed.slice(end + 4);
         return rest.replace(/^\r?\n/, '');
       }
 
       function renderArticle(meta, markdown) {
-        const title = (meta && meta.title) || '(제목 없음)';
+        var title = (meta && meta.title) || '(제목 없음)';
         document.title = title + ' — Weekly Tech Trend Analyst';
 
-        const tags = Array.isArray(meta && meta.tags) ? meta.tags : [];
-        const tagHtml = tags.map(function (t) {
+        var tags = Array.isArray(meta && meta.tags) ? meta.tags : [];
+        var tagHtml = tags.map(function (t) {
           return '<span>' + escapeHtml(t) + '</span>';
         }).join('');
 
-        const body = stripFrontmatter(markdown);
+        var body = stripFrontmatter(markdown);
 
-        // marked 설정
         if (window.marked && marked.setOptions) {
           marked.setOptions({
             gfm: true,
@@ -87,7 +347,7 @@
           });
         }
 
-        const bodyHtml = window.marked ? marked.parse(body) : escapeHtml(body);
+        var bodyHtml = window.marked ? marked.parse(body) : escapeHtml(body);
 
         rootEl.innerHTML = '' +
           '<header class="article-header">' +
@@ -98,23 +358,26 @@
             '</div>' +
           '</header>' +
           '<div class="article-body">' + bodyHtml + '</div>';
+
+        var articleBody = rootEl.querySelector('.article-body');
+        buildTOC(articleBody);
+        setupReadingProgress(articleBody);
       }
 
-      const slug = getSlug();
+      var slug = getSlug();
       if (!slug) {
         showNotFound('기사를 찾을 수 없습니다.');
         return;
       }
 
-      // 1) 메타데이터 조회 → 2) 마크다운 fetch → 3) 렌더
       fetch('./articles/index.json', { cache: 'no-cache' })
         .then(function (res) {
           if (!res.ok) throw new Error('index.json fetch 실패');
           return res.json();
         })
         .then(function (data) {
-          const list = (data && Array.isArray(data.articles)) ? data.articles : [];
-          const meta = list.find(function (a) { return a.slug === slug; });
+          var list = (data && Array.isArray(data.articles)) ? data.articles : [];
+          var meta = list.find(function (a) { return a.slug === slug; });
           if (!meta) {
             showNotFound('기사를 찾을 수 없습니다.');
             return null;

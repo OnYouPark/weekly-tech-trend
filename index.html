@@ -6,6 +6,20 @@
   <title>Weekly Tech Trend Analyst</title>
   <meta name="description" content="주간 기술 트렌드 분석 — 제조업·생산기술 관점의 기술 동향 리포트">
 
+  <script>
+    /* FOUC 방지: 본문 렌더 이전에 테마 즉시 적용 */
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var theme = saved || (prefersDark ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    })();
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
@@ -16,8 +30,11 @@
 <body>
   <main class="wrap wrap--list">
     <header class="site-header">
-      <h1 class="site-title"><a href="./index.html">Weekly Tech Trend Analyst</a></h1>
-      <p class="site-subtitle">주간 기술 트렌드 분석</p>
+      <div class="site-header__main">
+        <h1 class="site-title"><a href="./index.html">Weekly Tech Trend Analyst</a></h1>
+        <p class="site-subtitle">주간 기술 트렌드 분석</p>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="테마 전환">🌙</button>
     </header>
 
     <ul id="article-list" class="article-list">
@@ -26,6 +43,33 @@
 
     <footer class="site-footer">Powered by Claude × GitHub Pages</footer>
   </main>
+
+  <script>
+    /* 테마 토글 */
+    (function () {
+      var btn = document.getElementById('theme-toggle');
+      if (!btn) return;
+
+      function updateIcon() {
+        var current = document.documentElement.getAttribute('data-theme') || 'light';
+        btn.textContent = current === 'dark' ? '☀' : '🌙';
+        btn.setAttribute(
+          'aria-label',
+          current === 'dark' ? '라이트 모드로 전환' : '다크 모드로 전환'
+        );
+      }
+
+      updateIcon();
+
+      btn.addEventListener('click', function () {
+        var current = document.documentElement.getAttribute('data-theme') || 'light';
+        var next = current === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme', next); } catch (e) {}
+        updateIcon();
+      });
+    })();
+  </script>
 
   <script>
     (function () {
