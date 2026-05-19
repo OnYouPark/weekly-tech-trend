@@ -450,6 +450,19 @@
             headerIds: false,
             mangle: false
           });
+          // 단일 ~ 가 strikethrough 로 잘못 해석되는 문제 보정
+          // (한국어 본문 숫자 범위 "3~8pt" 등이 취소선으로 표시되지 않도록 del 토큰을 텍스트로 환원)
+          if (marked.use) {
+            marked.use({
+              walkTokens: function (token) {
+                if (token.type === 'del' && token.raw && token.raw.substr(0, 2) !== '~~') {
+                  token.type = 'text';
+                  token.text = token.raw;
+                  if (token.tokens) { delete token.tokens; }
+                }
+              }
+            });
+          }
         }
 
         var bodyHtml = window.marked ? marked.parse(body) : escapeHtml(body);

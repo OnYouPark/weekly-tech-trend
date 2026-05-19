@@ -551,6 +551,13 @@ a:hover {
   text-decoration-thickness: 1px;
 }
 
+/* 단일 ~ 가 strikethrough 로 잘못 파싱되더라도 시각적으로 보이지 않도록 방어 처리 */
+/* (의도된 ~~text~~ 더블 틸데 strikethrough 도 함께 비활성화됨 — 본 사이트에서는 사용하지 않음) */
+.article-body del,
+.article-body s {
+  text-decoration: none;
+}
+
 .article-body strong {
   font-weight: 700;
 }
