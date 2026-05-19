@@ -1,6 +1,19 @@
 {
   "articles": [
     {
+      "slug": "2026-05-20-daily-brief",
+      "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 5월 20일",
+      "date": "2026-05-20",
+      "tags": [
+        "일일브리핑",
+        "스마트제조",
+        "로보틱스",
+        "AI",
+        "금형사출"
+      ],
+      "summary": "AVEVA-AWS 산업 AI 협력과 Figure F.03 8시간 무인 시연, Siemens Amberg 공장 디지털 트윈, Husky Chinaplas 통합 사출 셀이 동시에 부각된 한 주"
+    },
+    {
       "slug": "2026-05-19-daily-brief-2",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 5월 19일 (심층판)",
       "date": "2026-05-19",
