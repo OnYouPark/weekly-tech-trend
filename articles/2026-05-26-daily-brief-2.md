@@ -1,7 +1,7 @@
 ---
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 5월 26일
 date: 2026-05-26
-tags: [일일브리핑, 스마트제조, 로보틱스, AI, 금형사출]
+tags: [Rockwell, Siemens, NVIDIA, Kawasaki, Hexagon, Stellantis, Qualcomm, Nissha, Augury, IFR, 디지털트윈, 휴머노이드, PhysicalAI, 마이크로몰딩, 4D사출성형, 에이전틱AI, SDV, IndustrialAIOS]
 summary: Rockwell 2026 보고서가 운영 단계 도입률 59%를 보고하고 Kawasaki Physical AI Center 개소와 Hexagon AEON 휴머노이드 파일럿, Nissha 마이크로 몰딩 증설, Augury 산업 AI 워크포스 공개가 같은 주에 겹쳐 제조 AX 전환이 동시다발적으로 가속되고 있다.
 ---
 
