@@ -457,6 +457,54 @@
         return rest.replace(/^\r?\n/, '');
       }
 
+      /* 외부 링크 새 탭 + ↗ 아이콘 (본문 영역 한정) */
+      function decorateExternalLinks(rootElement) {
+        if (!rootElement) return;
+        var links = rootElement.querySelectorAll('a[href^="http"]');
+        var currentHost = window.location.hostname;
+        links.forEach(function (link) {
+          try {
+            var linkHost = new URL(link.href).hostname;
+            if (linkHost && linkHost !== currentHost) {
+              link.setAttribute('target', '_blank');
+              link.setAttribute('rel', 'noopener noreferrer');
+              if (!link.querySelector('.external-link-icon')) {
+                var icon = document.createElement('span');
+                icon.className = 'external-link-icon';
+                icon.setAttribute('aria-hidden', 'true');
+                icon.innerHTML =
+                  '<svg width="12" height="12" viewBox="0 0 12 12" fill="none" ' +
+                  'stroke="currentColor" stroke-width="1.5" stroke-linecap="round" ' +
+                  'stroke-linejoin="round">' +
+                  '<path d="M3 9 L9 3"/><path d="M5 3 H9 V7"/></svg>';
+                link.appendChild(icon);
+              }
+            }
+          } catch (e) { /* invalid URL skip */ }
+        });
+      }
+
+      /* 읽음 표시 — localStorage 기반 (시크릿 모드 안전) */
+      var READ_KEY = 'wtt:read-articles';
+      var READ_MAX = 200;
+
+      function getReadSlugs() {
+        try {
+          var v = JSON.parse(localStorage.getItem(READ_KEY) || '[]');
+          return Array.isArray(v) ? v : [];
+        } catch (e) { return []; }
+      }
+
+      function markAsRead(slug) {
+        if (!slug) return;
+        try {
+          var read = getReadSlugs().filter(function (s) { return s !== slug; });
+          read.unshift(slug);
+          if (read.length > READ_MAX) read = read.slice(0, READ_MAX);
+          localStorage.setItem(READ_KEY, JSON.stringify(read));
+        } catch (e) { /* ignore */ }
+      }
+
       function updateMetaTags(article) {
         if (!article) return;
         var title = article.title || '(제목 없음)';
@@ -525,10 +573,12 @@
           '<div class="article-body">' + bodyHtml + '</div>';
 
         var articleBody = rootEl.querySelector('.article-body');
+        decorateExternalLinks(articleBody);
         buildTOC(articleBody);
         setupReadingProgress(articleBody);
 
         try { initCusdis(slug, title); } catch (e) { console.warn('Cusdis init 예외:', e); }
+        try { markAsRead(slug); } catch (e) { console.warn('markAsRead 예외:', e); }
       }
 
       var slug = getSlug();

@@ -138,6 +138,18 @@
     (function () {
       'use strict';
 
+      /* 읽음 표시 — localStorage 기반 (시크릿 모드 안전) */
+      var READ_KEY = 'wtt:read-articles';
+      function getReadSlugs() {
+        try {
+          var v = JSON.parse(localStorage.getItem(READ_KEY) || '[]');
+          return Array.isArray(v) ? v : [];
+        } catch (e) { return []; }
+      }
+      function isRead(slug) {
+        return getReadSlugs().indexOf(slug) !== -1;
+      }
+
       var listEl = document.getElementById('article-list');
       var searchWrapEl = document.getElementById('filter-search');
       var searchInputEl = document.getElementById('filter-search-input');
@@ -255,8 +267,9 @@
           var tagHtml = tags.map(function (t) {
             return '<span>' + escapeHtml(t) + '</span>';
           }).join('');
+          var readClass = isRead(a.slug || '') ? ' is-read' : '';
           return '' +
-            '<li class="article-card">' +
+            '<li class="article-card' + readClass + '">' +
               '<p class="article-card__date">' + escapeHtml(a.date || '') + '</p>' +
               '<h2 class="article-card__title">' +
                 '<a href="./article.html?slug=' + slug + '">' + escapeHtml(a.title || '(제목 없음)') + '</a>' +

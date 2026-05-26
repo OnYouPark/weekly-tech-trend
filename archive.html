@@ -120,6 +120,18 @@
     (function () {
       'use strict';
 
+      /* 읽음 표시 — localStorage 기반 (시크릿 모드 안전) */
+      var READ_KEY = 'wtt:read-articles';
+      function getReadSlugs() {
+        try {
+          var v = JSON.parse(localStorage.getItem(READ_KEY) || '[]');
+          return Array.isArray(v) ? v : [];
+        } catch (e) { return []; }
+      }
+      function isRead(slug) {
+        return getReadSlugs().indexOf(slug) !== -1;
+      }
+
       var monthRoot = document.getElementById('archive-month-root');
       var tagRoot = document.getElementById('archive-tag-root');
 
@@ -149,8 +161,9 @@
       }
 
       function itemHtml(a) {
+        var readClass = isRead(a.slug || '') ? ' is-read' : '';
         return '' +
-          '<li class="archive-item">' +
+          '<li class="archive-item' + readClass + '">' +
             '<span class="archive-item__date">' + escapeHtml(a.date || '') + '</span>' +
             '<a class="archive-item__title" href="' + escapeHtml(safeArticleHref(a.slug)) + '">' +
               escapeHtml(a.title || '(제목 없음)') +
