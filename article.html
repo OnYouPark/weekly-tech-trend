@@ -52,6 +52,52 @@
   <link rel="stylesheet" href="./assets/style.css">
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <!-- Mermaid 11.x (ESM, on-demand 렌더) -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    window.mermaid = mermaid;
+
+    var initialTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default';
+    var themeVars = {
+      primaryColor: '#1a3a6b',
+      primaryTextColor: '#ffffff',
+      primaryBorderColor: '#1a3a6b',
+      lineColor: '#6b7280',
+      secondaryColor: '#f5f5f5',
+      tertiaryColor: '#ffffff',
+      fontFamily: '"Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, sans-serif'
+    };
+    mermaid.initialize({
+      startOnLoad: false,
+      theme: initialTheme,
+      securityLevel: 'strict',
+      themeVariables: themeVars
+    });
+
+    /* 다크모드 토글 시 재초기화 + 재렌더 */
+    window.refreshMermaidTheme = function (theme) {
+      try {
+        var nodes = document.querySelectorAll('.mermaid');
+        if (!nodes.length) return;
+        nodes.forEach(function (n) {
+          var src = n.getAttribute('data-source') || n.textContent.trim();
+          if (!n.getAttribute('data-source')) n.setAttribute('data-source', src);
+          n.removeAttribute('data-processed');
+          n.textContent = src;
+        });
+        mermaid.initialize({
+          startOnLoad: false,
+          theme: theme === 'dark' ? 'dark' : 'default',
+          securityLevel: 'strict',
+          themeVariables: themeVars
+        });
+        mermaid.run({ querySelector: '.mermaid' });
+      } catch (e) { console.warn('mermaid theme refresh failed:', e); }
+    };
+
+    window.dispatchEvent(new CustomEvent('mermaid-loaded'));
+  </script>
 </head>
 <body>
   <div class="reading-progress" aria-hidden="true">
@@ -135,6 +181,9 @@
         updateIcon();
         if (typeof window.updateCusdisTheme === 'function') {
           window.updateCusdisTheme(next);
+        }
+        if (typeof window.refreshMermaidTheme === 'function') {
+          window.refreshMermaidTheme(next);
         }
       });
     })();
@@ -495,6 +544,85 @@
         });
       }
 
+      /* Callout 박스 — blockquote 첫 줄 패턴 매칭으로 className 부여 */
+      function decorateCallouts(rootElement) {
+        if (!rootElement) return;
+        var quotes = rootElement.querySelectorAll('blockquote');
+        quotes.forEach(function (bq) {
+          var firstP = bq.querySelector('p');
+          if (!firstP) return;
+          var t = (firstP.textContent || '').trim();
+          if (t.indexOf('📌 핵심') === 0) {
+            bq.classList.add('callout-key');
+          } else if (t.indexOf('⚠️ 주의') === 0 || t.indexOf('⚠ 주의') === 0) {
+            bq.classList.add('callout-warn');
+          } else if (t.indexOf('💡 시사점') === 0) {
+            bq.classList.add('callout-implication');
+          }
+        });
+      }
+
+      /* 참고자료 섹션의 ul/ol → 카드 그리드 변환 */
+      function transformReferences(rootElement) {
+        if (!rootElement) return;
+        var REF_TITLES = ['참고자료', '출처', '원문 자료', '참고문헌', '출처 (통합)'];
+        var headings = rootElement.querySelectorAll('h2');
+        headings.forEach(function (h2) {
+          var t = (h2.textContent || '').trim();
+          if (REF_TITLES.indexOf(t) === -1) return;
+          var sib = h2.nextElementSibling;
+          while (sib && sib.tagName !== 'UL' && sib.tagName !== 'OL' && sib.tagName !== 'H2') {
+            sib = sib.nextElementSibling;
+          }
+          if (!sib || (sib.tagName !== 'UL' && sib.tagName !== 'OL')) return;
+          var items = sib.querySelectorAll(':scope > li');
+          if (!items.length) return;
+          var grid = document.createElement('div');
+          grid.className = 'reference-grid';
+          var anyCard = false;
+          items.forEach(function (li) {
+            var a = li.querySelector('a[href]');
+            if (!a) return;
+            var href = a.getAttribute('href');
+            var title = (a.textContent || '').trim();
+            var hostname = '';
+            try { hostname = new URL(href, window.location.href).hostname; } catch (e) {}
+            if (!hostname) return;
+            var card = document.createElement('a');
+            card.className = 'reference-card';
+            card.href = href;
+            card.target = '_blank';
+            card.rel = 'noopener noreferrer';
+            card.innerHTML =
+              '<img class="reference-card__favicon" ' +
+                'src="https://www.google.com/s2/favicons?domain=' + encodeURIComponent(hostname) + '&sz=32" ' +
+                'alt="" loading="lazy" ' +
+                'onerror="this.style.display=\'none\'">' +
+              '<div class="reference-card__content">' +
+                '<div class="reference-card__title">' + escapeHtml(title) + '</div>' +
+                '<div class="reference-card__domain">' + escapeHtml(hostname) + '</div>' +
+              '</div>';
+            grid.appendChild(card);
+            anyCard = true;
+          });
+          if (anyCard) {
+            sib.parentNode.replaceChild(grid, sib);
+          }
+        });
+      }
+
+      /* Mermaid 렌더 — ESM 모듈 로드 후 안전하게 호출 */
+      function runMermaid() {
+        if (!window.mermaid) {
+          window.addEventListener('mermaid-loaded', runMermaid, { once: true });
+          return;
+        }
+        var nodes = document.querySelectorAll('.mermaid:not([data-processed])');
+        if (!nodes.length) return;
+        try { window.mermaid.run({ nodes: nodes }); }
+        catch (e) { console.warn('mermaid render failed:', e); }
+      }
+
       /* 읽음 표시 — localStorage 기반 (시크릿 모드 안전) */
       var READ_KEY = 'wtt:read-articles';
       var READ_MAX = 200;
@@ -566,6 +694,16 @@
                   token.text = token.raw;
                   if (token.tokens) { delete token.tokens; }
                 }
+                // ```mermaid 코드블록 → <pre class="mermaid"> 로 변환 (원본은 data-source 에 보관)
+                if (token.type === 'code' && (token.lang || '').toLowerCase().trim() === 'mermaid') {
+                  var raw = token.text || '';
+                  token.type = 'html';
+                  token.pre = true;
+                  token.text =
+                    '<pre class="mermaid" data-source="' + escapeHtml(raw) + '">' +
+                    escapeHtml(raw) +
+                    '</pre>';
+                }
               }
             });
           }
@@ -585,8 +723,11 @@
 
         var articleBody = rootEl.querySelector('.article-body');
         decorateExternalLinks(articleBody);
+        decorateCallouts(articleBody);
+        transformReferences(articleBody);
         buildTOC(articleBody);
         setupReadingProgress(articleBody);
+        runMermaid();
 
         try { initCusdis(slug, title); } catch (e) { console.warn('Cusdis init 예외:', e); }
         try { markAsRead(slug); } catch (e) { console.warn('markAsRead 예외:', e); }

@@ -496,8 +496,15 @@ a:hover {
 .article-body {
   font-family: var(--font-serif);
   font-size: 17px;
-  line-height: 1.8;
+  line-height: 1.85;
+  letter-spacing: -0.005em;
   color: var(--text);
+}
+
+@media (max-width: 768px) {
+  .article-body {
+    font-size: 16px;
+  }
 }
 
 .article-body h1,
@@ -517,17 +524,39 @@ a:hover {
 }
 
 .article-body h2 {
-  font-size: 24px;
-  padding-bottom: 6px;
-  border-bottom: 1px solid var(--border);
+  margin-top: 3em;
+  padding-top: 1.5em;
+  border-top: 1px solid var(--border);
+  font-size: 1.55em;
+  letter-spacing: -0.02em;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.article-body h2:first-of-type {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 2em;
 }
 
 .article-body h3 {
-  font-size: 20px;
+  margin-top: 2.2em;
+  margin-bottom: 0.6em;
+  font-size: 1.18em;
+  letter-spacing: -0.015em;
+  font-weight: 600;
 }
 
 .article-body p {
   margin: 0 0 20px;
+}
+
+.article-body p + p,
+.article-body p + ul,
+.article-body p + ol,
+.article-body p + blockquote,
+.article-body p + table {
+  margin-top: 1.4em;
 }
 
 .article-body ul,
@@ -559,7 +588,8 @@ a:hover {
 }
 
 .article-body strong {
-  font-weight: 700;
+  font-weight: 600;
+  color: var(--text);
 }
 
 .article-body em {
@@ -580,10 +610,11 @@ a:hover {
 
 .article-body code {
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-  font-size: 0.92em;
+  font-size: 0.88em;
   background: var(--code-bg);
-  padding: 2px 6px;
-  border-radius: 4px;
+  border: 1px solid var(--border);
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
 }
 
 .article-body pre {
@@ -597,6 +628,7 @@ a:hover {
 
 .article-body pre code {
   background: transparent;
+  border: none;
   padding: 0;
   border-radius: 0;
   font-size: 0.92em;
@@ -618,20 +650,134 @@ a:hover {
 .article-body table {
   width: 100%;
   border-collapse: collapse;
-  margin: 24px 0;
-  font-size: 15px;
-}
-
-.article-body th,
-.article-body td {
-  text-align: left;
-  padding: 10px 12px;
-  border-bottom: 1px solid var(--border);
+  margin: 1.8em 0;
+  font-size: 0.94em;
 }
 
 .article-body th {
-  font-weight: 700;
+  text-align: left;
+  padding: 0.65em 0.85em;
+  border-bottom: 2px solid var(--text);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  background: transparent;
+}
+
+.article-body td {
+  padding: 0.65em 0.85em;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+  line-height: 1.6;
+}
+
+.article-body tbody tr:hover td {
   background: var(--code-bg);
+}
+
+/* ---------- Mermaid 다이어그램 (절제 톤) ---------- */
+.mermaid {
+  margin: 2.5em 0;
+  text-align: center;
+  background: transparent;
+  font-family: var(--font-sans);
+}
+
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---------- Callout (좌측 라인 한 줄, 배경 없음) ---------- */
+.callout-key,
+.callout-warn,
+.callout-implication {
+  margin: 1.8em 0;
+  padding: 0.2em 0 0.2em 1.2em;
+  border-left: 3px solid;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  font-style: normal;
+  color: var(--text);
+}
+
+.callout-key { border-left-color: var(--accent); }
+.callout-warn { border-left-color: #a0791f; }
+.callout-implication { border-left-color: var(--text-muted); }
+
+.callout-key > p:first-child,
+.callout-warn > p:first-child,
+.callout-implication > p:first-child {
+  font-weight: 600;
+  margin-bottom: 0.4em;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+
+[data-theme="dark"] .callout-warn {
+  border-left-color: #c19a3a;
+}
+
+/* ---------- 참고자료 카드 (정보 중심, 장식 최소) ---------- */
+.reference-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0.7em;
+  margin: 1.5em 0;
+  padding: 0;
+  list-style: none;
+}
+
+.reference-card {
+  display: flex;
+  gap: 0.7em;
+  padding: 0.8em 1em;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  text-decoration: none;
+  color: var(--text);
+  background: transparent;
+  transition: border-color 0.15s ease;
+}
+
+.reference-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+
+.reference-card__favicon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  margin-top: 3px;
+  border-radius: 3px;
+}
+
+.reference-card__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.reference-card__title {
+  font-size: 0.9em;
+  line-height: 1.45;
+  font-weight: 500;
+  margin-bottom: 0.25em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: var(--text);
+}
+
+.reference-card__domain {
+  font-size: 0.76em;
+  color: var(--text-muted);
+}
+
+/* 카드 내부 외부 링크 아이콘은 디자인 어수선 방지 차원에서 숨김 */
+.reference-card .external-link-icon {
+  display: none;
 }
 
 /* ---------- Comments (Cusdis) ---------- */
@@ -1293,6 +1439,50 @@ a:hover {
   .article-body pre code {
     background: transparent !important;
     border: none !important;
+  }
+
+  /* ---------- Callout 인쇄 보정 (좌측 라인 검정 유지) ---------- */
+  .callout-key,
+  .callout-warn,
+  .callout-implication {
+    border-left: 3px solid #000000 !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* ---------- 참고자료 카드 인쇄 보정 (단순 리스트 형태로 fallback) ---------- */
+  .reference-grid {
+    display: block !important;
+    grid-template-columns: none !important;
+    gap: 0 !important;
+  }
+
+  .reference-card {
+    display: block !important;
+    border: none !important;
+    border-bottom: 1px solid #cccccc !important;
+    padding: 0.4em 0 !important;
+    border-radius: 0 !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .reference-card__favicon {
+    display: none !important;
+  }
+
+  .reference-card__title {
+    display: block !important;
+    -webkit-line-clamp: none !important;
+    font-weight: 500 !important;
+    margin-bottom: 0.15em !important;
+  }
+
+  /* ---------- Mermaid 인쇄 보정 (흑백) ---------- */
+  .mermaid svg {
+    filter: grayscale(100%) contrast(1.1);
+    page-break-inside: avoid;
+    break-inside: avoid;
   }
 
   /* 페이지 마진 */
