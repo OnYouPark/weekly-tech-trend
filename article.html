@@ -484,6 +484,7 @@
       'use strict';
 
       var rootEl = document.getElementById('article-root');
+      var allArticles = [];  // index.json fetch 결과 캐시 (관련 기사·이전다음 네비에서 재사용)
 
       function escapeHtml(s) {
         return String(s == null ? '' : s)
@@ -644,6 +645,104 @@
         } catch (e) { /* ignore */ }
       }
 
+      /* 본문 종료 후 보조 섹션(.related-articles, .article-nav) 삽입 — 댓글 섹션 앞 */
+      function insertAuxSection(node) {
+        var comments = document.querySelector('.comments-section');
+        if (comments && comments.parentNode) {
+          comments.parentNode.insertBefore(node, comments);
+          return;
+        }
+        var main = document.querySelector('.article-main');
+        if (main) main.appendChild(node);
+      }
+
+      function relatedScore(current, candidate) {
+        if (!candidate || candidate.slug === current.slug) return -Infinity;
+        var tagSet = {};
+        (current.tags || []).forEach(function (t) { tagSet[t] = true; });
+        var overlap = 0;
+        (candidate.tags || []).forEach(function (t) { if (tagSet[t]) overlap++; });
+        if (overlap === 0) return -Infinity;
+        var d1 = new Date(current.date).getTime();
+        var d2 = new Date(candidate.date).getTime();
+        var dateDiff = isFinite(d1) && isFinite(d2) ? Math.abs(d1 - d2) / 86400000 : 0;
+        var freshness = Math.max(0, 1 - dateDiff / 365);
+        return overlap * 2 + freshness;
+      }
+
+      function renderRelatedArticles(current, all) {
+        if (!current || !Array.isArray(all) || all.length === 0) return;
+        var scored = all
+          .map(function (c) { return { article: c, score: relatedScore(current, c) }; })
+          .filter(function (x) { return x.score > -Infinity; })
+          .sort(function (a, b) { return b.score - a.score; })
+          .slice(0, 3);
+        if (scored.length === 0) return;
+
+        var cardsHtml = scored.map(function (x) {
+          var a = x.article;
+          var slug = encodeURIComponent(a.slug || '');
+          var readClass = isRead(a.slug || '') ? ' is-read' : '';
+          var tags = (Array.isArray(a.tags) ? a.tags : []).slice(0, 2);
+          var tagHtml = tags.map(function (t) {
+            return '<span class="related-card__tag">' + escapeHtml(t) + '</span>';
+          }).join('');
+          return '' +
+            '<a class="related-card' + readClass + '" href="./article.html?slug=' + slug + '">' +
+              '<div class="related-card__date">' + escapeHtml(a.date || '') + '</div>' +
+              '<div class="related-card__title">' + escapeHtml(a.title || '(제목 없음)') + '</div>' +
+              (tagHtml ? '<div class="related-card__tags">' + tagHtml + '</div>' : '') +
+            '</a>';
+        }).join('');
+
+        var section = document.createElement('section');
+        section.className = 'related-articles';
+        section.innerHTML =
+          '<h2 class="related-articles__title">관련 기사</h2>' +
+          '<div class="related-articles__grid">' + cardsHtml + '</div>';
+
+        insertAuxSection(section);
+      }
+
+      function renderArticleNav(current, all) {
+        if (!current || !Array.isArray(all) || all.length === 0) return;
+        var sorted = all.slice().sort(function (a, b) {
+          return (b.date || '').localeCompare(a.date || '');
+        });
+        var idx = -1;
+        for (var i = 0; i < sorted.length; i++) {
+          if (sorted[i].slug === current.slug) { idx = i; break; }
+        }
+        if (idx === -1) return;
+        var prev = sorted[idx + 1] || null;  // 더 오래된 글
+        var next = sorted[idx - 1] || null;  // 더 최신 글
+        if (!prev && !next) return;
+
+        function linkHtml(article, dirClass, label) {
+          var slug = encodeURIComponent(article.slug || '');
+          return '' +
+            '<a class="article-nav__link ' + dirClass + '" href="./article.html?slug=' + slug + '">' +
+              '<div class="article-nav__label">' + label + '</div>' +
+              '<div class="article-nav__date">' + escapeHtml(article.date || '') + '</div>' +
+              '<div class="article-nav__title">' + escapeHtml(article.title || '(제목 없음)') + '</div>' +
+            '</a>';
+        }
+
+        var prevHtml = prev
+          ? linkHtml(prev, 'article-nav__link--prev', '← 이전 기사')
+          : '<div class="article-nav__spacer" aria-hidden="true"></div>';
+        var nextHtml = next
+          ? linkHtml(next, 'article-nav__link--next', '다음 기사 →')
+          : '<div class="article-nav__spacer" aria-hidden="true"></div>';
+
+        var nav = document.createElement('nav');
+        nav.className = 'article-nav';
+        nav.setAttribute('aria-label', '이전·다음 기사');
+        nav.innerHTML = prevHtml + nextHtml;
+
+        insertAuxSection(nav);
+      }
+
       function updateMetaTags(article) {
         if (!article) return;
         var title = article.title || '(제목 없음)';
@@ -722,15 +821,17 @@
           '<div class="article-body">' + bodyHtml + '</div>';
 
         var articleBody = rootEl.querySelector('.article-body');
-        decorateExternalLinks(articleBody);
         decorateCallouts(articleBody);
         transformReferences(articleBody);
+        decorateExternalLinks(articleBody);
         buildTOC(articleBody);
         setupReadingProgress(articleBody);
         runMermaid();
 
-        try { initCusdis(slug, title); } catch (e) { console.warn('Cusdis init 예외:', e); }
         try { markAsRead(slug); } catch (e) { console.warn('markAsRead 예외:', e); }
+        try { renderRelatedArticles(meta, allArticles); } catch (e) { console.warn('related 렌더 예외:', e); }
+        try { renderArticleNav(meta, allArticles); } catch (e) { console.warn('nav 렌더 예외:', e); }
+        try { initCusdis(slug, title); } catch (e) { console.warn('Cusdis init 예외:', e); }
       }
 
       var slug = getSlug();
@@ -746,6 +847,7 @@
         })
         .then(function (data) {
           var list = (data && Array.isArray(data.articles)) ? data.articles : [];
+          allArticles = list;  // 관련 기사·이전다음 네비에서 재사용
           var meta = list.find(function (a) { return a.slug === slug; });
           if (!meta) {
             showNotFound('기사를 찾을 수 없습니다.');
