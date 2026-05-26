@@ -7,6 +7,16 @@ tags:
   - "로보틱스"
   - "AI"
   - "금형사출"
+  - "Shanghai Electric"
+  - "Rockwell Automation"
+  - "Seegrid"
+  - "Dell"
+  - "NVIDIA"
+  - "Kistler"
+  - "산업용AI"
+  - "AMR"
+  - "가상시운전"
+  - "MuCell"
 summary: 하노버메세 2026 이후 산업용 AI와 휴머노이드, 정밀 사출 공급망이 동시 가속 단계에 진입했다.
 ---
 

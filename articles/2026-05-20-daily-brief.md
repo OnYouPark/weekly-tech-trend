@@ -7,6 +7,15 @@ tags:
   - "로보틱스"
   - "AI"
   - "금형사출"
+  - "AVEVA"
+  - "AWS"
+  - "Figure AI"
+  - "Tesla"
+  - "Husky Technologies"
+  - "KraussMaffei"
+  - "디지털트윈"
+  - "휴머노이드"
+  - "IoT"
 summary: AVEVA-AWS 산업 AI 협력과 Figure F.03 8시간 무인 시연, Siemens Amberg 공장 디지털 트윈, Husky Chinaplas 통합 사출 셀이 동시에 부각된 한 주
 ---
 
