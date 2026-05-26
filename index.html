@@ -3,8 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weekly Tech Trend Analyst</title>
-  <meta name="description" content="주간 기술 트렌드 분석 — 제조업·생산기술 관점의 기술 동향 리포트">
+  <title>Weekly Tech Trend Analyst | 주간 기술 트렌드 분석</title>
+
+  <!-- SEO -->
+  <meta name="description" content="제조업·생산기술 관점의 기술 트렌드 분석 사보. 매일 오전 7시 일일 브리핑이 자동 게시됩니다." />
+  <meta name="keywords" content="제조업, 기술 트렌드, 스마트제조, 로보틱스, 디지털전환, 일일 브리핑" />
+  <meta name="author" content="Onyou Park" />
+  <link rel="canonical" href="https://onyoupark.github.io/weekly-tech-trend/" />
+  <meta name="theme-color" content="#1a3a6b" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Weekly Tech Trend Analyst" />
+  <meta property="og:locale" content="ko_KR" />
+  <meta property="og:title" content="Weekly Tech Trend Analyst | 주간 기술 트렌드 분석" />
+  <meta property="og:description" content="제조업·생산기술 관점의 기술 트렌드 분석 사보. 매일 오전 7시 일일 브리핑이 자동 게시됩니다." />
+  <meta property="og:url" content="https://onyoupark.github.io/weekly-tech-trend/" />
+  <meta property="og:image" content="https://onyoupark.github.io/weekly-tech-trend/assets/og-image.svg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:type" content="image/svg+xml" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Weekly Tech Trend Analyst | 주간 기술 트렌드 분석" />
+  <meta name="twitter:description" content="제조업·생산기술 관점의 기술 트렌드 분석 사보. 매일 오전 7시 일일 브리핑이 자동 게시됩니다." />
+  <meta name="twitter:image" content="https://onyoupark.github.io/weekly-tech-trend/assets/og-image.svg" />
 
   <script>
     /* FOUC 방지: 본문 렌더 이전에 테마 즉시 적용 */
@@ -59,7 +83,18 @@
           aria-label="검색어 지우기"
         >✕</button>
       </div>
-      <div id="filter-tags" class="filter-tags" role="group" aria-label="태그 필터"></div>
+      <div class="filter-tags" role="group" aria-label="태그 필터">
+        <div class="filter-tags__list" id="filterTagsList"></div>
+        <button
+          class="filter-tags__toggle"
+          id="filterTagsToggle"
+          type="button"
+          aria-label="모든 태그 보기"
+          aria-expanded="false"
+        >
+          <span class="filter-tags__toggle-icon" aria-hidden="true">▼</span>
+        </button>
+      </div>
     </section>
 
     <p id="filter-count" class="filter-count" hidden></p>
@@ -107,7 +142,7 @@
       var searchWrapEl = document.getElementById('filter-search');
       var searchInputEl = document.getElementById('filter-search-input');
       var searchClearEl = document.getElementById('filter-search-clear');
-      var tagsEl = document.getElementById('filter-tags');
+      var tagsEl = document.getElementById('filterTagsList');
       var countEl = document.getElementById('filter-count');
 
       var state = {
@@ -302,6 +337,29 @@
         searchInputEl.focus();
       }
 
+      function initFilterTagsToggle() {
+        var toggle = document.getElementById('filterTagsToggle');
+        var list = document.getElementById('filterTagsList');
+        if (!toggle || !list) return;
+
+        // 태그 수가 적어 1행에 다 들어가면 토글 자체를 숨김
+        // 페이지 로드 후 약간의 지연을 두고 측정 (폰트·태그 렌더 완료 후)
+        requestAnimationFrame(function () {
+          requestAnimationFrame(function () {
+            if (list.scrollHeight <= list.clientHeight + 2) {
+              toggle.style.display = 'none';
+            }
+          });
+        });
+
+        toggle.addEventListener('click', function () {
+          var expanded = toggle.getAttribute('aria-expanded') === 'true';
+          toggle.setAttribute('aria-expanded', String(!expanded));
+          toggle.setAttribute('aria-label', expanded ? '모든 태그 보기' : '태그 접기');
+          list.classList.toggle('is-expanded');
+        });
+      }
+
       function init(articles) {
         state.articles = articles || [];
         state.sortedArticles = state.articles.slice().sort(function (a, b) {
@@ -315,6 +373,8 @@
         searchInputEl.addEventListener('keydown', onSearchKeydown);
         searchClearEl.addEventListener('click', onClearClick);
         tagsEl.addEventListener('click', onTagClick);
+
+        initFilterTagsToggle();
       }
 
       fetch('./articles/index.json', { cache: 'no-cache' })
@@ -336,5 +396,7 @@
         });
     })();
   </script>
+
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="7d8b07b6-b3b4-4427-8046-96f30f6761b3"></script>
 </body>
 </html>

@@ -809,9 +809,63 @@ a:hover {
 }
 
 .filter-tags {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.filter-tags__list {
+  flex: 1;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  max-height: 38px;   /* 태그 칩 1행 높이 */
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.filter-tags__list.is-expanded {
+  max-height: 1000px;  /* 모든 태그 표시용 충분히 큰 값 */
+}
+
+.filter-tags__toggle {
+  flex-shrink: 0;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 12px;
+  transition: var(--transition);
+  padding: 0;
+}
+
+.filter-tags__toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--code-bg);
+}
+
+.filter-tags__toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.filter-tags__toggle-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  line-height: 1;
+}
+
+.filter-tags__toggle[aria-expanded="true"] .filter-tags__toggle-icon {
+  transform: rotate(180deg);
 }
 
 .tag-chip {
@@ -1005,5 +1059,189 @@ a:hover {
 
   .archive-item__date {
     flex: 0 0 auto;
+  }
+}
+
+/* =========================================
+   인쇄 스타일 (@media print)
+   다크모드 무효화 · 인터랙티브 UI 숨김 · 본문 가독성 최적화
+   ========================================= */
+@media print {
+  /* ---------- 숨김 처리 ---------- */
+  .site-nav,
+  .theme-toggle,
+  .filter-bar,
+  .filter-count,
+  .reading-progress,
+  .toc,
+  .toc--side,
+  .toc--inline,
+  .copy-link,
+  .back-link,
+  .article-top,
+  .comments-section,
+  .site-footer {
+    display: none !important;
+  }
+
+  /* ---------- 색상 강제 (라이트·다크 모두 흰 배경) ---------- */
+  html,
+  body,
+  * {
+    background: #ffffff !important;
+    color: #000000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  html[data-theme="dark"] body,
+  html[data-theme="dark"] * {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  /* 보더는 옅은 회색으로 통일 */
+  *,
+  *::before,
+  *::after {
+    border-color: #cccccc !important;
+  }
+
+  /* ---------- 레이아웃 ---------- */
+  .wrap,
+  .wrap--list,
+  .wrap--article,
+  .wrap--article.has-toc {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .article-layout {
+    display: block !important;
+    grid-template-columns: none !important;
+  }
+
+  .article-main {
+    width: 100% !important;
+  }
+
+  /* ---------- 폰트 ---------- */
+  body {
+    font-size: 11pt !important;
+    line-height: 1.5 !important;
+  }
+
+  h1,
+  .article-title {
+    font-size: 24pt !important;
+    line-height: 1.3 !important;
+  }
+
+  h2,
+  .article-body h2 {
+    font-size: 16pt !important;
+    line-height: 1.3 !important;
+    border-bottom: 1px solid #cccccc !important;
+  }
+
+  h3,
+  .article-body h3 {
+    font-size: 13pt !important;
+    line-height: 1.3 !important;
+  }
+
+  /* 사이트 헤더(브랜드명·서브타이틀)는 인쇄 시 작게 표시 */
+  .site-header {
+    border-bottom: 1px solid #cccccc !important;
+    margin-bottom: 16pt !important;
+    padding-bottom: 8pt !important;
+    display: block !important;
+  }
+
+  .site-title {
+    font-size: 14pt !important;
+    margin: 0 0 4pt !important;
+  }
+
+  .site-subtitle {
+    font-size: 10pt !important;
+  }
+
+  /* ---------- 링크 ---------- */
+  a[href] {
+    color: #000000 !important;
+    text-decoration: underline !important;
+  }
+
+  /* 외부 링크 뒤에 URL 표시 */
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: #555555 !important;
+    word-break: break-all;
+  }
+
+  /* 앵커 링크와 href 없는 링크는 URL 미표시 */
+  a[href^="#"]:after,
+  a:not([href]):after {
+    content: "" !important;
+  }
+
+  /* ---------- 페이지 나누기 ---------- */
+  .article-body h2 {
+    page-break-before: always;
+    break-before: page;
+  }
+
+  /* 첫 h2는 페이지 강제 분할 제외 (article-header 다음에 바로 오는 경우) */
+  .article-header + .article-body > h2:first-child,
+  .article-body > h2:first-child {
+    page-break-before: auto;
+    break-before: auto;
+  }
+
+  h2,
+  h3,
+  h4 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  p,
+  li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  table,
+  blockquote,
+  pre {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* ---------- 코드블록 ---------- */
+  .article-body code,
+  .article-body pre {
+    background: #f5f5f5 !important;
+    border: 1px solid #cccccc !important;
+  }
+
+  .article-body pre code {
+    background: transparent !important;
+    border: none !important;
+  }
+
+  /* 페이지 마진 */
+  @page {
+    margin: 18mm 16mm;
   }
 }
