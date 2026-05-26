@@ -743,6 +743,216 @@
         insertAuxSection(nav);
       }
 
+      /* ========== 빠른 인용 도구 (데스크탑 전용) ========== */
+      var quoteCtx = { title: '', date: '', bodyEl: null };
+
+      function initQuoteToolbar(opts) {
+        // 모바일 비활성 (pointer:coarse 또는 viewport < 768px)
+        try {
+          if (window.matchMedia && window.matchMedia('(pointer: coarse)').matches) return;
+        } catch (e) {}
+        if (window.innerWidth < 768) return;
+
+        quoteCtx.title = (opts && opts.title) || '';
+        quoteCtx.date = (opts && opts.date) || '';
+        quoteCtx.bodyEl = (opts && opts.bodyEl) || null;
+
+        if (window.__quoteToolbarInit) return;
+        window.__quoteToolbarInit = true;
+
+        var toolbar = document.createElement('div');
+        toolbar.className = 'quote-toolbar';
+        toolbar.id = 'quoteToolbar';
+        toolbar.setAttribute('role', 'toolbar');
+        toolbar.setAttribute('aria-label', '텍스트 인용 도구');
+        toolbar.hidden = true;
+        toolbar.innerHTML =
+          '<button type="button" class="quote-toolbar__btn" data-action="copy-quote">' +
+            '<span class="quote-toolbar__icon" aria-hidden="true">📋</span>' +
+            '<span class="quote-toolbar__label">인용 복사</span>' +
+          '</button>' +
+          '<button type="button" class="quote-toolbar__btn" data-action="copy-link">' +
+            '<span class="quote-toolbar__icon" aria-hidden="true">🔗</span>' +
+            '<span class="quote-toolbar__label">부분 링크</span>' +
+          '</button>' +
+          '<button type="button" class="quote-toolbar__btn" data-action="search-google">' +
+            '<span class="quote-toolbar__icon" aria-hidden="true">🔍</span>' +
+            '<span class="quote-toolbar__label">구글 검색</span>' +
+          '</button>';
+        document.body.appendChild(toolbar);
+
+        function getSelectionText() {
+          var sel = window.getSelection();
+          if (!sel || sel.rangeCount === 0) return '';
+          return sel.toString().trim();
+        }
+
+        function getSelectionRect() {
+          var sel = window.getSelection();
+          if (!sel || sel.rangeCount === 0) return null;
+          var range = sel.getRangeAt(0);
+          var rect = range.getBoundingClientRect();
+          if (rect.width === 0 && rect.height === 0) return null;
+          return rect;
+        }
+
+        function isInBody(node) {
+          if (!quoteCtx.bodyEl || !node) return false;
+          // anchorNode가 text node일 수 있어 parentNode로 올라가며 비교
+          while (node) {
+            if (node === quoteCtx.bodyEl) return true;
+            node = node.parentNode;
+          }
+          return false;
+        }
+
+        function positionToolbar(rect) {
+          toolbar.hidden = false;
+          var tbRect = toolbar.getBoundingClientRect();
+          var tbW = tbRect.width;
+          var tbH = tbRect.height;
+          var vpW = window.innerWidth;
+          var vpH = window.innerHeight;
+          var pad = 10;
+
+          var top = rect.top - tbH - 8;
+          if (top < pad) top = rect.bottom + 8;
+          if (top + tbH > vpH - pad) top = vpH - tbH - pad;
+
+          var left = rect.left + rect.width / 2 - tbW / 2;
+          if (left < pad) left = pad;
+          if (left + tbW > vpW - pad) left = vpW - tbW - pad;
+
+          toolbar.style.top = top + 'px';
+          toolbar.style.left = left + 'px';
+        }
+
+        function showToolbar() {
+          var sel = window.getSelection();
+          if (!sel || sel.rangeCount === 0) { hideToolbar(); return; }
+          var text = sel.toString().trim();
+          if (text.length < 2) { hideToolbar(); return; }
+          if (!isInBody(sel.anchorNode)) { hideToolbar(); return; }
+          var rect = getSelectionRect();
+          if (!rect) { hideToolbar(); return; }
+
+          positionToolbar(rect);
+          requestAnimationFrame(function () {
+            toolbar.classList.add('is-visible');
+          });
+        }
+
+        function hideToolbar() {
+          toolbar.classList.remove('is-visible');
+          toolbar.hidden = true;
+        }
+
+        function flashCopied(btn) {
+          var labelEl = btn.querySelector('.quote-toolbar__label');
+          var iconEl = btn.querySelector('.quote-toolbar__icon');
+          if (!labelEl) return;
+          var origLabel = labelEl.textContent;
+          var origIconDisplay = iconEl ? iconEl.style.display : '';
+          if (iconEl) iconEl.style.display = 'none';
+          labelEl.textContent = '✓ 복사됨';
+          setTimeout(function () {
+            labelEl.textContent = origLabel;
+            if (iconEl) iconEl.style.display = origIconDisplay;
+          }, 1200);
+        }
+
+        function copyText(text) {
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            return navigator.clipboard.writeText(text);
+          }
+          return new Promise(function (resolve, reject) {
+            try {
+              var ta = document.createElement('textarea');
+              ta.value = text;
+              ta.setAttribute('readonly', '');
+              ta.style.position = 'fixed';
+              ta.style.top = '-1000px';
+              ta.style.opacity = '0';
+              document.body.appendChild(ta);
+              ta.select();
+              var ok = document.execCommand('copy');
+              document.body.removeChild(ta);
+              if (ok) resolve(); else reject(new Error('execCommand copy failed'));
+            } catch (e) { reject(e); }
+          });
+        }
+
+        function doCopyQuote(btn) {
+          var text = getSelectionText();
+          if (text.length < 2) return;
+          var baseUrl = window.location.href.split('#')[0];
+          var cite = '"' + text + '"\n— ' + quoteCtx.title + ' (' + quoteCtx.date + ')\n' + baseUrl;
+          copyText(cite).then(function () { flashCopied(btn); }).catch(function (e) {
+            console.warn('인용 복사 실패:', e);
+          });
+        }
+
+        function doCopyLink(btn) {
+          var text = getSelectionText();
+          if (text.length < 2) return;
+          var fragment;
+          if (text.length <= 200) {
+            fragment = encodeURIComponent(text);
+          } else {
+            var words = text.split(/\s+/);
+            var start = words.slice(0, 8).join(' ');
+            var end = words.slice(-8).join(' ');
+            fragment = encodeURIComponent(start) + ',' + encodeURIComponent(end);
+          }
+          var baseUrl = window.location.href.split('#')[0];
+          var linkUrl = baseUrl + '#:~:text=' + fragment;
+          copyText(linkUrl).then(function () { flashCopied(btn); }).catch(function (e) {
+            console.warn('부분 링크 복사 실패:', e);
+          });
+        }
+
+        function doSearchGoogle() {
+          var text = getSelectionText();
+          if (text.length < 2) return;
+          var url = 'https://www.google.com/search?q=' + encodeURIComponent(text);
+          window.open(url, '_blank', 'noopener,noreferrer');
+          hideToolbar();
+        }
+
+        toolbar.addEventListener('click', function (e) {
+          var btn = e.target.closest('.quote-toolbar__btn');
+          if (!btn) return;
+          var action = btn.getAttribute('data-action');
+          if (action === 'copy-quote') doCopyQuote(btn);
+          else if (action === 'copy-link') doCopyLink(btn);
+          else if (action === 'search-google') doSearchGoogle();
+        });
+
+        document.addEventListener('mouseup', function () {
+          setTimeout(showToolbar, 10);
+        });
+
+        document.addEventListener('mousedown', function (e) {
+          if (toolbar.contains(e.target)) return;
+          hideToolbar();
+        });
+
+        document.addEventListener('keydown', function (e) {
+          if (e.key === 'Escape') hideToolbar();
+        });
+
+        window.addEventListener('scroll', function () {
+          if (toolbar.hidden) return;
+          var rect = getSelectionRect();
+          if (!rect) { hideToolbar(); return; }
+          if (rect.bottom < 0 || rect.top > window.innerHeight) {
+            hideToolbar();
+          } else {
+            positionToolbar(rect);
+          }
+        }, { passive: true });
+      }
+
       function updateMetaTags(article) {
         if (!article) return;
         var title = article.title || '(제목 없음)';
@@ -831,6 +1041,7 @@
         try { markAsRead(slug); } catch (e) { console.warn('markAsRead 예외:', e); }
         try { renderRelatedArticles(meta, allArticles); } catch (e) { console.warn('related 렌더 예외:', e); }
         try { renderArticleNav(meta, allArticles); } catch (e) { console.warn('nav 렌더 예외:', e); }
+        try { initQuoteToolbar({ title: title, date: (meta && meta.date) || '', bodyEl: articleBody }); } catch (e) { console.warn('quote toolbar init 예외:', e); }
         try { initCusdis(slug, title); } catch (e) { console.warn('Cusdis init 예외:', e); }
       }
 

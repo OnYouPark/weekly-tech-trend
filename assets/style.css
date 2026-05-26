@@ -939,6 +939,86 @@ a:hover {
   }
 }
 
+/* ---------- Quote toolbar (데스크탑 전용 미니 플로팅 툴바) ---------- */
+.quote-toolbar {
+  position: fixed;
+  z-index: 1000;
+  display: inline-flex;
+  align-items: center;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  padding: 2px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  opacity: 0;
+  transform: translateY(2px);
+  pointer-events: none;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+[data-theme="dark"] .quote-toolbar {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.quote-toolbar.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.quote-toolbar[hidden] {
+  display: none;
+}
+
+.quote-toolbar__btn {
+  background: transparent;
+  border: none;
+  padding: 6px 10px;
+  font-size: 13px;
+  color: var(--text);
+  cursor: pointer;
+  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+  transition: background 0.15s ease;
+  font-family: inherit;
+}
+
+.quote-toolbar__btn:hover {
+  background: var(--code-bg);
+}
+
+.quote-toolbar__btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.quote-toolbar__icon {
+  font-size: 12px;
+  line-height: 1;
+}
+
+.quote-toolbar__label {
+  font-size: 13px;
+}
+
+/* 버튼 사이 미세한 세로 구분선 */
+.quote-toolbar__btn + .quote-toolbar__btn {
+  border-left: 1px solid var(--border);
+  border-radius: 0;
+}
+
+/* 모바일 안전망 (JS init 비활성화와 별개로 한 번 더 막음) */
+@media (max-width: 767px) {
+  .quote-toolbar {
+    display: none !important;
+  }
+}
+
 /* ---------- Comments (Cusdis) ---------- */
 .comments-section {
   max-width: var(--width-content);
@@ -1442,7 +1522,8 @@ a:hover {
   .site-footer,
   .external-link-icon,
   .related-articles,
-  .article-nav {
+  .article-nav,
+  .quote-toolbar {
     display: none !important;
   }
 
