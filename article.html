@@ -3,7 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>기사 — Weekly Tech Trend Analyst</title>
+  <title>기사 | Weekly Tech Trend Analyst</title>
+
+  <!-- SEO (JS가 기사 로드 후 동적으로 갱신) -->
+  <meta name="description" content="주간 기술 트렌드 분석 기사." />
+  <meta name="keywords" content="제조업, 기술 트렌드, 스마트제조, 로보틱스, 디지털전환, 일일 브리핑" />
+  <meta name="author" content="Onyou Park" />
+  <link rel="canonical" href="https://onyoupark.github.io/weekly-tech-trend/article.html" />
+  <meta name="theme-color" content="#1a3a6b" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Weekly Tech Trend Analyst" />
+  <meta property="og:locale" content="ko_KR" />
+  <meta property="og:title" content="기사 | Weekly Tech Trend Analyst" />
+  <meta property="og:description" content="주간 기술 트렌드 분석 기사." />
+  <meta property="og:url" content="https://onyoupark.github.io/weekly-tech-trend/article.html" />
+  <meta property="og:image" content="https://onyoupark.github.io/weekly-tech-trend/assets/og-image.svg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:type" content="image/svg+xml" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="기사 | Weekly Tech Trend Analyst" />
+  <meta name="twitter:description" content="주간 기술 트렌드 분석 기사." />
+  <meta name="twitter:image" content="https://onyoupark.github.io/weekly-tech-trend/assets/og-image.svg" />
 
   <script>
     /* FOUC 방지: 본문 렌더 이전에 테마 즉시 적용 */
@@ -432,9 +457,31 @@
         return rest.replace(/^\r?\n/, '');
       }
 
+      function updateMetaTags(article) {
+        if (!article) return;
+        var title = article.title || '(제목 없음)';
+        var summary = article.summary || '주간 기술 트렌드 분석 기사.';
+        var url = window.location.href;
+
+        document.title = title + ' | Weekly Tech Trend Analyst';
+
+        function setAttr(selector, attr, value) {
+          var el = document.querySelector(selector);
+          if (el) el.setAttribute(attr, value);
+        }
+
+        setAttr('meta[name="description"]', 'content', summary);
+        setAttr('meta[property="og:title"]', 'content', title);
+        setAttr('meta[property="og:description"]', 'content', summary);
+        setAttr('meta[property="og:url"]', 'content', url);
+        setAttr('meta[name="twitter:title"]', 'content', title);
+        setAttr('meta[name="twitter:description"]', 'content', summary);
+        setAttr('link[rel="canonical"]', 'href', url);
+      }
+
       function renderArticle(meta, markdown) {
         var title = (meta && meta.title) || '(제목 없음)';
-        document.title = title + ' — Weekly Tech Trend Analyst';
+        updateMetaTags(meta);
 
         var tags = Array.isArray(meta && meta.tags) ? meta.tags : [];
         var tagHtml = tags.map(function (t) {
@@ -517,5 +564,7 @@
         });
     })();
   </script>
+
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="7d8b07b6-b3b4-4427-8046-96f30f6761b3"></script>
 </body>
 </html>
