@@ -2,11 +2,6 @@
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 5월 19일
 date: 2026-05-19
 tags:
-  - "일일브리핑"
-  - "스마트제조"
-  - "로보틱스"
-  - "AI"
-  - "금형사출"
   - "Rockwell Automation"
   - "Figure AI"
   - "Stellantis"
