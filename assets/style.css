@@ -699,6 +699,28 @@ a:hover {
   text-align: center;
 }
 
+.site-footer p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.footer-divider {
+  margin: 0 0.3em;
+  color: var(--text-muted);
+  opacity: 0.6;
+}
+
+.footer-stats-link {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-stats-link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
 /* ---------- Site navigation (홈 · 아카이브) ---------- */
 .site-nav {
   margin-top: 12px;
