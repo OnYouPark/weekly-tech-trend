@@ -1,6 +1,19 @@
 {
   "articles": [
     {
+      "slug": "2026-06-24-daily-brief-2",
+      "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 24일",
+      "date": "2026-06-24",
+      "tags": [
+        "일일브리핑",
+        "스마트제조",
+        "로보틱스",
+        "AI",
+        "금형사출"
+      ],
+      "summary": "Automate 2026 신규 발표 중심. 스마트제조는 미국 제조시설 80퍼센트 미자동화 배치 격차(MarketScale), 로보틱스는 Autobrains·Uber·Nvidia 뮌헨 유럽 최초 상용 로보택시 시범, AI는 Vention·Teradyne UR 디지털 트윈과 Yaskawa Motoman NEXT 출하. 금형·사출은 신규 동향 없음."
+    },
+    {
       "slug": "2026-06-24-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 24일",
       "date": "2026-06-24",
