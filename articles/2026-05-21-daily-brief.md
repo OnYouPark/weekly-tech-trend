@@ -1,17 +1,7 @@
 ---
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 5월 21일
 date: 2026-05-21
-tags:
-  - "Shanghai Electric"
-  - "Rockwell Automation"
-  - "Seegrid"
-  - "Dell"
-  - "NVIDIA"
-  - "Kistler"
-  - "산업용AI"
-  - "AMR"
-  - "가상시운전"
-  - "MuCell"
+tags: [Shanghai Electric, Rockwell Automation, Seegrid, Dell, NVIDIA, Kistler, 가상시운전, MuCell]
 summary: 하노버메세 2026 이후 산업용 AI와 휴머노이드, 정밀 사출 공급망이 동시 가속 단계에 진입했다.
 ---
 

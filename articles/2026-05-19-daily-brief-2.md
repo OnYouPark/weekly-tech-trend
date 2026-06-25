@@ -1,17 +1,7 @@
 ---
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 5월 19일
 date: 2026-05-19
-tags:
-  - "Rockwell Automation"
-  - "Figure AI"
-  - "Stellantis"
-  - "NVIDIA"
-  - "Kistler"
-  - "Husky Technologies"
-  - "KraussMaffei"
-  - "디지털트윈"
-  - "휴머노이드"
-  - "사이언티픽몰딩"
+tags: [Rockwell Automation, Figure AI, Stellantis, NVIDIA, Kistler, Husky Technologies, KraussMaffei, 사이언티픽몰딩]
 summary: 하노버 메세 2026을 기점으로 AI 오케스트레이션·휴머노이드 양산·디지털 트윈 OEM 표준화·사이언티픽 몰딩 교육이 동시에 가시화된 한 주
 ---
 

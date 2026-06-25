@@ -1,16 +1,7 @@
 ---
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 5월 22일
 date: 2026-05-22
-tags:
-  - "LG CNS"
-  - "Boston Dynamics"
-  - "현대자동차"
-  - "SAP"
-  - "ENGEL"
-  - "팩토바"
-  - "Atlas"
-  - "AutonomousEnterprise"
-  - "전동사출"
+tags: [LG CNS, 팩토바, Boston Dynamics, Atlas, 현대자동차, SAP, ENGEL, 전동사출]
 summary: 휴머노이드와 자율 에이전트의 양산 의제화, K-스마트팩토리의 북미 진출, 전동 사출과 래피드 툴링의 양산 진입이 같은 주에 맞물렸다.
 ---
 

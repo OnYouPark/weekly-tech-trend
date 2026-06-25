@@ -1,21 +1,7 @@
 ---
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 5월 26일
 date: 2026-05-26
-tags:
-  - "Siemens"
-  - "NVIDIA"
-  - "ABB"
-  - "Schneider Electric"
-  - "Nissha"
-  - "Kodiak AI"
-  - "Arburg"
-  - "디지털트윈"
-  - "협동로봇"
-  - "에이전틱매뉴팩처링"
-  - "마이크로몰딩"
-  - "4D사출성형"
-  - "가상시운전"
-  - "ISO22400"
+tags: [Siemens, NVIDIA, ABB, Schneider Electric, Nissha, Arburg, 마이크로몰딩, 4D사출성형]
 summary: Siemens-NVIDIA 산업 AI OS와 Schneider 에이전틱 매뉴팩처링이 운영 단계로 확산되며, ABB PoWa 코봇과 Nissha 마이크로 몰딩 증설, 4D 사출성형 논문 게재로 정밀 제조 패러다임이 동시 전환되고 있다.
 ---
 

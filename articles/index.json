@@ -385,15 +385,9 @@
         "ABB",
         "Schneider Electric",
         "Nissha",
-        "Kodiak AI",
         "Arburg",
-        "디지털트윈",
-        "협동로봇",
-        "에이전틱매뉴팩처링",
         "마이크로몰딩",
-        "4D사출성형",
-        "가상시운전",
-        "ISO22400"
+        "4D사출성형"
       ],
       "summary": "Siemens-NVIDIA 산업 AI OS와 Schneider 에이전틱 매뉴팩처링이 운영 단계로 확산되며, ABB PoWa 코봇과 Nissha 마이크로 몰딩 증설, 4D 사출성형 논문 게재로 정밀 제조 패러다임이 동시 전환되고 있다."
     },
@@ -403,13 +397,12 @@
       "date": "2026-05-22",
       "tags": [
         "LG CNS",
+        "팩토바",
         "Boston Dynamics",
+        "Atlas",
         "현대자동차",
         "SAP",
         "ENGEL",
-        "팩토바",
-        "Atlas",
-        "AutonomousEnterprise",
         "전동사출"
       ],
       "summary": "휴머노이드와 자율 에이전트의 양산 의제화, K-스마트팩토리의 북미 진출, 전동 사출과 래피드 툴링의 양산 진입이 같은 주에 맞물렸다."
@@ -425,8 +418,6 @@
         "Dell",
         "NVIDIA",
         "Kistler",
-        "산업용AI",
-        "AMR",
         "가상시운전",
         "MuCell"
       ],
@@ -441,11 +432,10 @@
         "AWS",
         "Figure AI",
         "Tesla",
+        "Siemens",
         "Husky Technologies",
         "KraussMaffei",
-        "디지털트윈",
-        "휴머노이드",
-        "IoT"
+        "디지털트윈"
       ],
       "summary": "AVEVA-AWS 산업 AI 협력과 Figure F.03 8시간 무인 시연, Siemens Amberg 공장 디지털 트윈, Husky Chinaplas 통합 사출 셀이 동시에 부각된 한 주"
     },
@@ -461,8 +451,6 @@
         "Kistler",
         "Husky Technologies",
         "KraussMaffei",
-        "디지털트윈",
-        "휴머노이드",
         "사이언티픽몰딩"
       ],
       "summary": "하노버 메세 2026을 기점으로 AI 오케스트레이션·휴머노이드 양산·디지털 트윈 OEM 표준화·사이언티픽 몰딩 교육이 동시에 가시화된 한 주"

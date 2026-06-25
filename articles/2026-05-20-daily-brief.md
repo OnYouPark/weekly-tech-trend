@@ -1,16 +1,7 @@
 ---
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 5월 20일
 date: 2026-05-20
-tags:
-  - "AVEVA"
-  - "AWS"
-  - "Figure AI"
-  - "Tesla"
-  - "Husky Technologies"
-  - "KraussMaffei"
-  - "디지털트윈"
-  - "휴머노이드"
-  - "IoT"
+tags: [AVEVA, AWS, Figure AI, Tesla, Siemens, Husky Technologies, KraussMaffei, 디지털트윈]
 summary: AVEVA-AWS 산업 AI 협력과 Figure F.03 8시간 무인 시연, Siemens Amberg 공장 디지털 트윈, Husky Chinaplas 통합 사출 셀이 동시에 부각된 한 주
 ---
 
