@@ -1,7 +1,7 @@
 ---
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 6월 8일
 date: 2026-06-08
-tags: [일일브리핑, 스마트제조, 로보틱스, AI, 금형사출]
+tags: [Siemens, Intelligence Center X, NVIDIA, Isaac GR00T, Unitree, 현대차그룹, ENGEL, 자율사출성형]
 summary: 지멘스 Intelligence Center X로 산업용 AI가 파일럿을 졸업하고, 엔비디아 Isaac GR00T 휴머노이드 레퍼런스 플랫폼이 공개되며, 디지털 트윈이 능동 지능으로 전환되고, Plast 2026을 앞두고 자율 사출성형 셀이 공개된 하루.
 ---
 

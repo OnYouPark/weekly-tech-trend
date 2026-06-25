@@ -1,7 +1,7 @@
 ---
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 6월 24일
 date: 2026-06-24
-tags: [일일브리핑, 스마트제조, 로보틱스, AI, 금형사출]
+tags: [Automate2026, Apera AI, 빈피킹, InOrbit, Robot.com, Rockwell Automation, PX5, AMR]
 summary: Automate 2026 후반부에 Apera AI 턴키 빈피킹 셀 VuePod, InOrbit 8개사 멀티벤더 AMR 오케스트레이션과 ISO 21423, Robot.com 바퀴형 휴머노이드 R-noid, 로크웰 FactoryTalk Orchestration이 공개됐고, 금형은 PX5 강 대 P20 비교 시험 데이터가 나왔다.
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 6월 1일
 date: 2026-06-01
-tags: [일일브리핑, 스마트제조, 로보틱스, AI, 금형사출]
+tags: [Rockwell Automation, Humanoid, Schaeffler, HD현대, 네이버랩스, 포스코DX, ENGEL, 자율사출성형]
 summary: 디지털 전환이 파일럿을 넘어 실행·확산 단계로 진입했음을 Rockwell 2026 보고서가 데이터로 확인했다.
 ---
 

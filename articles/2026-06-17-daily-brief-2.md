@@ -1,7 +1,7 @@
 ---
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 6월 17일
 date: 2026-06-17
-tags: [일일브리핑, 스마트제조, 로보틱스, AI, 금형사출]
+tags: [Teradyne, PolyScope X, 협동로봇, Faraday Future, NVIDIA, 유니레버, Accenture, 디지털트윈]
 summary: Teradyne PolyScope X가 협동로봇에 PLC 대체형 백그라운드 로직을 도입하고, Faraday Future가 EAI 로보틱스 교육 생태계를 공개. 유니레버는 액센츄어와 AI 디지털 트윈을 18개월간 40개 이상으로 확장. 금형·사출은 핵심 동향 없음(인접 영역 마이크로 사출 M&A 1건 포함).
 ---
 

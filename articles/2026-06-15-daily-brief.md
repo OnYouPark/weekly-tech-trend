@@ -1,7 +1,7 @@
 ---
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 6월 15일
 date: 2026-06-15
-tags: [일일브리핑, 스마트제조, 로보틱스, AI, 금형사출]
+tags: [MarketsandMarkets, OMRON, AMR, Siemens, Intelligence Center X, SIMCON, 콘포멀쿨링, DFM]
 summary: 스마트제조 시장 2032년 9,956.7억 달러 전망, OMRON 신형 AMR 공개, 지멘스 산업 AI 오케스트레이션 플랫폼 출시, 금형 분야 데이터 기반 DFM 확산
 ---
 

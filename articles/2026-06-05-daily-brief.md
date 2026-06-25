@@ -1,7 +1,7 @@
 ---
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 6월 5일
 date: 2026-06-05
-tags: [일일브리핑, 스마트제조, 로보틱스, AI, 금형사출]
+tags: [Siemens, Intelligence Center X, NVIDIA, VinDynamics, Schaeffler, ENGEL, 예지보전, 자율사출성형]
 summary: 에이전틱 AI가 스마트제조 현장의 자율 폐루프 운영으로, 지멘스 Intelligence Center X와 엔비디아 오픈소스 피지컬 AI 스킬이 제조 AI 양산 단계로, 휴머노이드 로봇이 셰플러 다년 배치 계약으로, 엥겔 자율 사출성형 셀이 공정 자기조절 단계로 이동한 하루.
 ---
 

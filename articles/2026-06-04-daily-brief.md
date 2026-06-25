@@ -1,7 +1,7 @@
 ---
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 6월 4일
 date: 2026-06-04
-tags: [일일브리핑, 스마트제조, 로보틱스, AI, 금형사출]
+tags: [VinDynamics, Siemens, ENGEL, Digital Twin Composer, Smart Manufacturing Week, RaaS, 휴머노이드, 자율사출성형]
 summary: 영국 Smart Manufacturing Week 2026 개막과 함께 자율 운영으로의 이동이 본격화됐다. 사출성형은 자기조정 셀, 휴머노이드는 RaaS 양산 배치, 디지털 트윈은 에이전틱 AI 결합으로 수렴한다.
 ---
 

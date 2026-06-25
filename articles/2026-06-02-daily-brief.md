@@ -1,7 +1,7 @@
 ---
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 6월 2일
 date: 2026-06-02
-tags: [일일브리핑, 스마트제조, 로보틱스, AI, 금형사출]
+tags: [BCG, Humanoid, Schaeffler, COMPUTEX2026, NEXCOM, ENGEL, 피지컬AI, RaaS]
 summary: BCG가 AI 기반 미래 공장이 제조 경쟁력 산정 논리를 바꾸고 있다는 보고서를 발표했다. 고비용 국가에서도 전환이 오프쇼어링보다 유리할 수 있다는 진단이다.
 ---
 

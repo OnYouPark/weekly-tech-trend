@@ -1,7 +1,7 @@
 ---
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 6월 23일
 date: 2026-06-23
-tags: [일일브리핑, 스마트제조, 로보틱스, AI, 금형사출]
+tags: [Kawasaki Robotics, Automate2026, RL030N, ABB, PoWa, Schneider Electric, 피지컬AI, SDA]
 summary: Automate 2026 개막일에 가와사키가 8축 피지컬 AI 로봇 RL030N과 Pulseboard 폐루프 검사를, ABB가 Physical AI Toolchain과 PoWa 협동로봇을 세계 최초 공개했고, 슈나이더는 개방형 소프트웨어 정의 자동화를 전면화. 금형·사출은 신규 동향 없음.
 ---
 

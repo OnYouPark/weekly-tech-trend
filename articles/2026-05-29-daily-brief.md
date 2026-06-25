@@ -1,7 +1,7 @@
 ---
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 5월 29일
 date: 2026-05-29
-tags: [일일브리핑, 스마트제조, 로보틱스, AI, 금형사출]
+tags: [Siemens, NVIDIA, Lenovo, Figure AI, Schaeffler, Waymo, 콘포멀쿨링, 디지털트윈]
 summary: 휴머노이드 양산·디지털 트윈 OS화·콘포멀 쿨링 양산 확산이 동시에 진행되며 제조업 AI 도입이 파일럿 단계를 넘어서고 있다.
 ---
 

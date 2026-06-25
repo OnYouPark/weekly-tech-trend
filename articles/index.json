@@ -5,11 +5,14 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 25일",
       "date": "2026-06-25",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "Automate2026",
+        "Siemens",
+        "Standard Bots",
+        "Engelberger",
+        "NVIDIA",
+        "Halos",
+        "디지털트윈",
+        "피지컬AI"
       ],
       "summary": "금일 신규 핵심 동향 한산. 스마트제조는 Automate 2026 6월 23-24일 키노트가 도입 준비성으로 무게중심 이동(결정론적 자동화 약 1퍼센트 대 physical AI 99퍼센트), 로보틱스는 Engelberger 어워드 시상식과 NVIDIA Halos 안전 인증 프레임, AI는 디지털 트윈 시장 2033년 3,285억 달러·CAGR 31.1퍼센트 전망. 금형·사출은 신규 동향 없음."
     },
@@ -18,11 +21,14 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 24일",
       "date": "2026-06-24",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "Automate2026",
+        "Autobrains",
+        "Uber",
+        "NVIDIA",
+        "Vention",
+        "Teradyne",
+        "Yaskawa",
+        "가상시운전"
       ],
       "summary": "Automate 2026 신규 발표 중심. 스마트제조는 미국 제조시설 80퍼센트 미자동화 배치 격차(MarketScale), 로보틱스는 Autobrains·Uber·Nvidia 뮌헨 유럽 최초 상용 로보택시 시범, AI는 Vention·Teradyne UR 디지털 트윈과 Yaskawa Motoman NEXT 출하. 금형·사출은 신규 동향 없음."
     },
@@ -31,11 +37,14 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 24일",
       "date": "2026-06-24",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "Automate2026",
+        "Apera AI",
+        "빈피킹",
+        "InOrbit",
+        "Robot.com",
+        "Rockwell Automation",
+        "PX5",
+        "AMR"
       ],
       "summary": "Automate 2026 후반부에 Apera AI 턴키 빈피킹 셀 VuePod, InOrbit 8개사 멀티벤더 AMR 오케스트레이션과 ISO 21423, Robot.com 바퀴형 휴머노이드 R-noid, 로크웰 FactoryTalk Orchestration이 공개됐고, 금형은 PX5 강 대 P20 비교 시험 데이터가 나왔다."
     },
@@ -44,11 +53,14 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 23일",
       "date": "2026-06-23",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "Kawasaki Robotics",
+        "Automate2026",
+        "RL030N",
+        "ABB",
+        "PoWa",
+        "Schneider Electric",
+        "피지컬AI",
+        "SDA"
       ],
       "summary": "Automate 2026 개막일에 가와사키가 8축 피지컬 AI 로봇 RL030N과 Pulseboard 폐루프 검사를, ABB가 Physical AI Toolchain과 PoWa 협동로봇을 세계 최초 공개했고, 슈나이더는 개방형 소프트웨어 정의 자동화를 전면화. 금형·사출은 신규 동향 없음."
     },
@@ -57,11 +69,13 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 22일",
       "date": "2026-06-22",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "RebuilderAI",
+        "VivaTech",
+        "VRING:ON",
+        "Automate2026",
+        "휴머노이드",
+        "다크팩토리",
+        "AI에이전트"
       ],
       "summary": "금일 신규 핵심 동향이 한산한 주말 구간. 리빌더에이아이가 비바테크 2026에서 디자인-제조 AI 에이전트 VRING:ON을 공개. 스마트제조·로보틱스·금형사출은 Automate 2026 개막 직전 발표 공백으로 신규 동향 없음."
     },
@@ -70,11 +84,14 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 19일",
       "date": "2026-06-19",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "ABB",
+        "Automate2026",
+        "Uber",
+        "Nuro",
+        "Lucid",
+        "Xometry",
+        "피지컬AI",
+        "로보택시"
       ],
       "summary": "ABB가 Automate 2026에서 산업용 피지컬 AI 학습 파이프라인을 툴체인으로 제품화하고, Uber·Nuro·Lucid가 휴스턴을 두 번째 로보택시 시장으로 지정했으며, Xometry가 사출성형 플랫폼에 소재·DFM·원클릭 재발주를 확장. AI·디지털전환은 48시간 윈도우 내 신규 핵심 동향 없음."
     },
@@ -83,11 +100,13 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 18일",
       "date": "2026-06-18",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "Foxconn",
+        "VivaTech",
+        "NVIDIA",
+        "Bull",
+        "MIT",
+        "피지컬AI",
+        "휴머노이드"
       ],
       "summary": "Foxconn이 VivaTech 2026에서 유럽 데뷔하며 AI 서버·휴머노이드·EV 수직 통합 피지컬 AI 스택과 Bull·NVIDIA 슈퍼컴퓨터 유럽 현지 제조 동맹을 발표. MIT INM은 출범 1주년에 공장 현장 AI 배치와 규제 환경 AI 에이전트를 핵심 의제로 제시. 스마트제조·금형 분야는 48시간 윈도우 내 신규 동향 없음."
     },
@@ -96,11 +115,14 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 17일",
       "date": "2026-06-17",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "Teradyne",
+        "PolyScope X",
+        "협동로봇",
+        "Faraday Future",
+        "NVIDIA",
+        "유니레버",
+        "Accenture",
+        "디지털트윈"
       ],
       "summary": "Teradyne PolyScope X가 협동로봇에 PLC 대체형 백그라운드 로직을 도입하고, Faraday Future가 EAI 로보틱스 교육 생태계를 공개. 유니레버는 액센츄어와 AI 디지털 트윈을 18개월간 40개 이상으로 확장. 금형·사출은 핵심 동향 없음(인접 영역 마이크로 사출 M&A 1건 포함)."
     },
@@ -109,11 +131,12 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 17일",
       "date": "2026-06-17",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "Rockwell Automation",
+        "CAR",
+        "Mobileye",
+        "로보택시",
+        "자율주행",
+        "스마트제조"
       ],
       "summary": "Rockwell·CAR 백서가 자동차 제조 AI·자동화를 가동중단 최대 50퍼센트 감소·OEE 약 5퍼센트 개선 등 정량 성과로 제시하고 도입 속도 격차를 경쟁 변수로 규정. Mobileye는 2027년 미국 로보택시 직접 운영(100대에서 5년 내 약 17,000대) 진출 발표. AI·금형 분야는 신규 동향 없음."
     },
@@ -122,11 +145,11 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 16일",
       "date": "2026-06-16",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "Honeywell",
+        "Honeywell Technologies",
+        "Honeywell Forge",
+        "Honeywell Aerospace",
+        "산업자동화"
       ],
       "summary": "Honeywell 이사회가 항공우주 부문 분사를 공식 승인하고 잔존 법인을 순수 자동화 기업 Honeywell Technologies로 재편. 로보틱스, AI, 금형 분야는 36시간 윈도우 내 신규 동향 없음."
     },
@@ -135,11 +158,12 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 15일",
       "date": "2026-06-15",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "Rivian",
+        "Mind Robotics",
+        "RJ스카린지",
+        "Tesla",
+        "Optimus",
+        "휴머노이드"
       ],
       "summary": "리비안 CEO RJ 스카린지가 휴머노이드 자회사 마인드 로보틱스의 사업 구조와 약 1년 내 첫 제품 공개 일정을 처음 구체화. 스마트제조, AI, 금형 분야는 36시간 윈도 내 신규 동향 없음."
     },
@@ -148,11 +172,14 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 15일",
       "date": "2026-06-15",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "MarketsandMarkets",
+        "OMRON",
+        "AMR",
+        "Siemens",
+        "Intelligence Center X",
+        "SIMCON",
+        "콘포멀쿨링",
+        "DFM"
       ],
       "summary": "스마트제조 시장 2032년 9,956.7억 달러 전망, OMRON 신형 AMR 공개, 지멘스 산업 AI 오케스트레이션 플랫폼 출시, 금형 분야 데이터 기반 DFM 확산"
     },
@@ -161,11 +188,14 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 12일",
       "date": "2026-06-12",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "MarketsandMarkets",
+        "OPmobility",
+        "Siemens",
+        "NVIDIA",
+        "Samsung",
+        "휴머노이드",
+        "콘포멀쿨링",
+        "에이전틱AI"
       ],
       "summary": "글로벌 스마트제조 시장 2032년 9,957억 달러 전망, 중국 휴머노이드 1만 대 상용화 정책, 제조 AI의 에이전틱 전환 정착기, OPmobility 사출 신공장 증설 등 4개 분야 핵심 동향 정리"
     },
@@ -174,11 +204,14 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 11일",
       "date": "2026-06-11",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "현대차",
+        "Boston Dynamics",
+        "Spot",
+        "Automate2026",
+        "Glass Futures",
+        "물리정보신경망",
+        "PTXPO",
+        "콘포멀쿨링"
       ],
       "summary": "현대차 월드컵 Spot 자율 순찰 배치, 글래스 퓨처스 물리정보 디지털 트윈 가동, Automate 2026 엣지 AI 신제품, PTXPO 컨포멀 쿨링 양산 적용 등 4개 분야 핵심 동향 정리"
     },
@@ -187,11 +220,14 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 10일",
       "date": "2026-06-10",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "Siemens",
+        "BMW",
+        "AEON",
+        "Humanoid",
+        "Schaeffler",
+        "Fraunhofer ILT",
+        "레이저소재증착",
+        "디지털트윈"
       ],
       "summary": "산업 AI가 엣지 정식 제품 단계로 진입하고, 휴머노이드가 양산 라인 통합 단계로 이행하며, 제조 품질 AI 사용률이 47퍼센트로 상승하고, 레이저 소재증착이 금형 수명을 최대 40배 끌어올린 하루."
     },
@@ -200,11 +236,14 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 9일",
       "date": "2026-06-09",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "NVIDIA",
+        "NAVER",
+        "Figure AI",
+        "Boston Dynamics",
+        "Google DeepMind",
+        "Siemens",
+        "Plast2026",
+        "자율사출성형"
       ],
       "summary": "산업용 AI가 예지보전과 디지털 트윈을 생산 규모로 끌어올리고, 휴머노이드 로봇이 시간당 1대 양산 체계에 진입하며, 지멘스 Intelligence Center X가 에이전트 오케스트레이션을 상용화하고, Plast 2026 개막과 함께 자율 사출성형 셀이 공개된 하루."
     },
@@ -213,11 +252,14 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 8일",
       "date": "2026-06-08",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "Siemens",
+        "Intelligence Center X",
+        "NVIDIA",
+        "Isaac GR00T",
+        "Unitree",
+        "현대차그룹",
+        "ENGEL",
+        "자율사출성형"
       ],
       "summary": "지멘스 Intelligence Center X로 산업용 AI가 파일럿을 졸업하고, 엔비디아 Isaac GR00T 휴머노이드 레퍼런스 플랫폼이 공개되며, 디지털 트윈이 능동 지능으로 전환되고, Plast 2026을 앞두고 자율 사출성형 셀이 공개된 하루."
     },
@@ -226,11 +268,14 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 5일",
       "date": "2026-06-05",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "Siemens",
+        "Intelligence Center X",
+        "NVIDIA",
+        "VinDynamics",
+        "Schaeffler",
+        "ENGEL",
+        "예지보전",
+        "자율사출성형"
       ],
       "summary": "에이전틱 AI가 스마트제조 자율 폐루프로, 지멘스 Intelligence Center X와 엔비디아 오픈소스 피지컬 AI 스킬이 제조 AI 양산 단계로, 휴머노이드 로봇이 셰플러 다년 배치 계약으로, 엥겔 자율 사출성형 셀이 공정 자기조절 단계로 이동한 하루."
     },
@@ -239,11 +284,14 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 4일",
       "date": "2026-06-04",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "VinDynamics",
+        "Siemens",
+        "ENGEL",
+        "Digital Twin Composer",
+        "Smart Manufacturing Week",
+        "RaaS",
+        "휴머노이드",
+        "자율사출성형"
       ],
       "summary": "영국 Smart Manufacturing Week 2026 개막과 함께 자율 운영으로의 이동이 본격화됐다. 사출성형은 자기조정 셀, 휴머노이드는 RaaS 양산 배치, 디지털 트윈은 에이전틱 AI 결합으로 수렴한다."
     },
@@ -252,11 +300,14 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 2일",
       "date": "2026-06-02",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "BCG",
+        "Humanoid",
+        "Schaeffler",
+        "COMPUTEX2026",
+        "NEXCOM",
+        "ENGEL",
+        "피지컬AI",
+        "RaaS"
       ],
       "summary": "BCG가 AI 기반 미래 공장이 제조 경쟁력 산정 논리를 바꾸고 있다는 보고서를 발표했다. 고비용 국가에서도 전환이 오프쇼어링보다 유리할 수 있다는 진단이다."
     },
@@ -265,11 +316,14 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 1일",
       "date": "2026-06-01",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "Rockwell Automation",
+        "Humanoid",
+        "Schaeffler",
+        "HD현대",
+        "네이버랩스",
+        "포스코DX",
+        "ENGEL",
+        "자율사출성형"
       ],
       "summary": "디지털 전환이 파일럿을 넘어 실행·확산 단계로 진입했음을 Rockwell 2026 보고서가 데이터로 확인했다."
     },
@@ -278,11 +332,14 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 5월 29일",
       "date": "2026-05-29",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "Siemens",
+        "NVIDIA",
+        "Lenovo",
+        "Figure AI",
+        "Schaeffler",
+        "Waymo",
+        "콘포멀쿨링",
+        "디지털트윈"
       ],
       "summary": "휴머노이드 양산·디지털 트윈 OS화·콘포멀 쿨링 양산 확산이 동시에 진행되며 제조업 AI 도입이 파일럿 단계를 넘어서고 있다."
     },
@@ -291,11 +348,14 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 5월 28일",
       "date": "2026-05-28",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "Bain & Company",
+        "Humanoid",
+        "Schaeffler",
+        "NIST",
+        "Plast2026",
+        "ENGEL",
+        "RaaS",
+        "에이전틱AI"
       ],
       "summary": "하노버메세 후속 인사이트와 NIST AI 워크숍, Schaeffler-Humanoid 본계약, Plast 2026 사전 발표가 한 주를 이끌었다."
     },
@@ -304,11 +364,14 @@
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 5월 27일",
       "date": "2026-05-27",
       "tags": [
-        "일일브리핑",
-        "스마트제조",
-        "로보틱스",
-        "AI",
-        "금형사출"
+        "Schneider Electric",
+        "Boston Dynamics",
+        "Atlas",
+        "Kawasaki Heavy Industries",
+        "NVIDIA",
+        "SPECTRIX",
+        "ARBURG",
+        "에이전틱매뉴팩처링"
       ],
       "summary": "Schneider 에이전틱 매뉴팩처링과 Siemens-NVIDIA Industrial AI OS가 운영 단계로 확산되고, Boston Dynamics 신형 Atlas와 SPECTRIX 출범, Stellantis-Qualcomm STLA Brain 통합으로 휴머노이드·SDV·정밀 사출 가치사슬이 동시에 재편되고 있다."
     },

@@ -1,7 +1,7 @@
 ---
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 6월 18일
 date: 2026-06-18
-tags: [일일브리핑, 스마트제조, 로보틱스, AI, 금형사출]
+tags: [Foxconn, VivaTech, NVIDIA, Bull, MIT, 피지컬AI, 휴머노이드]
 summary: Foxconn이 VivaTech 2026에서 유럽 데뷔하며 AI 서버·휴머노이드·EV 수직 통합 피지컬 AI 스택과 Bull·NVIDIA 슈퍼컴퓨터 유럽 현지 제조 동맹을 발표. MIT INM은 출범 1주년에 공장 현장 AI 배치와 규제 환경 AI 에이전트를 핵심 의제로 제시. 스마트제조·금형 분야는 48시간 윈도우 내 신규 동향 없음.
 ---
 

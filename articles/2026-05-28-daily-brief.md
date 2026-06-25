@@ -1,7 +1,7 @@
 ---
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 5월 28일
 date: 2026-05-28
-tags: [일일브리핑, 스마트제조, 로보틱스, AI, 금형사출]
+tags: [Bain & Company, Humanoid, Schaeffler, NIST, Plast2026, ENGEL, RaaS, 에이전틱AI]
 summary: 하노버메세 후속 인사이트와 NIST AI 워크숍, Schaeffler-Humanoid 본계약, Plast 2026 사전 발표가 한 주를 이끌었다.
 ---
 

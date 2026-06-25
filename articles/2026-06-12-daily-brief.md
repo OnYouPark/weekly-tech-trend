@@ -1,7 +1,7 @@
 ---
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 6월 12일
 date: 2026-06-12
-tags: [일일브리핑, 스마트제조, 로보틱스, AI, 금형사출]
+tags: [MarketsandMarkets, OPmobility, Siemens, NVIDIA, Samsung, 휴머노이드, 콘포멀쿨링, 에이전틱AI]
 summary: 글로벌 스마트제조 시장 2032년 9,957억 달러 전망, 중국 휴머노이드 1만 대 상용화 정책, 제조 AI의 에이전틱 전환 정착기, OPmobility 사출 신공장 증설 등 4개 분야 핵심 동향 정리
 ---
 

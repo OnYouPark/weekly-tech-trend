@@ -1,7 +1,7 @@
 ---
 title: 제조업 기술 트렌드 일일 브리핑 - 2026년 6월 19일
 date: 2026-06-19
-tags: [일일브리핑, 스마트제조, 로보틱스, AI, 금형사출]
+tags: [ABB, Automate2026, Uber, Nuro, Lucid, Xometry, 피지컬AI, 로보택시]
 summary: ABB가 Automate 2026에서 산업용 피지컬 AI 학습 파이프라인을 툴체인으로 제품화하고, Uber·Nuro·Lucid가 휴스턴을 두 번째 로보택시 시장으로 지정했으며, Xometry가 사출성형 플랫폼에 소재·DFM·원클릭 재발주를 확장. AI·디지털전환은 48시간 윈도우 내 신규 핵심 동향 없음.
 ---
 
