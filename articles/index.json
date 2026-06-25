@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "slug": "2026-06-26-daily-brief",
+      "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 26일",
+      "date": "2026-06-26",
+      "tags": [
+        "Automate2026",
+        "StandardBots",
+        "AgilityRobotics",
+        "휴머노이드",
+        "SKT",
+        "제조특화AI",
+        "CAE",
+        "워피지보상"
+      ],
+      "summary": "금일 신규 핵심 동향 한산(Short). 스마트제조는 Automate 2026 3일 키노트가 소프트웨어 정의 자동화·배포 후 학습으로 수렴, 로보틱스는 Agility Robotics SPAC 상장(프리머니 25억 달러·조달 6.2억 달러 이상), AI는 SKT 제조특화 AI 에이전트 KG스틸·코넥 실증 MOU, 금형은 CAE 워피지 보상 산출물 STL에서 NURBS 전환."
+    },
+    {
       "slug": "2026-06-25-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 6월 25일",
       "date": "2026-06-25",
