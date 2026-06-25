@@ -60,7 +60,7 @@
         <nav class="site-nav" aria-label="사이트 네비게이션">
           <a class="site-nav__link is-active" href="./index.html" aria-current="page">홈</a>
           <span class="site-nav__sep" aria-hidden="true">·</span>
-          <a class="site-nav__link" href="./archive.html">아카이브</a>
+          <a class="site-nav__link" href="./explore.html">탐색</a>
         </nav>
       </div>
       <button id="theme-toggle" class="theme-toggle" type="button" aria-label="테마 전환">🌙</button>
@@ -82,18 +82,6 @@
           class="filter-search__clear"
           aria-label="검색어 지우기"
         >✕</button>
-      </div>
-      <div class="filter-tags" role="group" aria-label="태그 필터">
-        <div class="filter-tags__list" id="filterTagsList"></div>
-        <button
-          class="filter-tags__toggle"
-          id="filterTagsToggle"
-          type="button"
-          aria-label="모든 태그 보기"
-          aria-expanded="false"
-        >
-          <span class="filter-tags__toggle-icon" aria-hidden="true">▼</span>
-        </button>
       </div>
     </section>
 
@@ -145,7 +133,7 @@
   </script>
 
   <script>
-    /* 기사 목록 + 검색 + 태그 필터 */
+    /* 기사 목록 + 검색 */
     (function () {
       'use strict';
 
@@ -165,14 +153,12 @@
       var searchWrapEl = document.getElementById('filter-search');
       var searchInputEl = document.getElementById('filter-search-input');
       var searchClearEl = document.getElementById('filter-search-clear');
-      var tagsEl = document.getElementById('filterTagsList');
       var countEl = document.getElementById('filter-count');
 
       var state = {
         articles: [],
         sortedArticles: [],
-        query: '',
-        tags: new Set()
+        query: ''
       };
 
       var debounceTimer = null;
@@ -194,68 +180,19 @@
       }
 
       function isFilterActive() {
-        return state.query !== '' || state.tags.size > 0;
-      }
-
-      function uniqueSortedTags(articles) {
-        var seen = Object.create(null);
-        articles.forEach(function (a) {
-          (a.tags || []).forEach(function (t) {
-            if (t) seen[t] = true;
-          });
-        });
-        return Object.keys(seen).sort(function (a, b) {
-          return a.localeCompare(b, 'ko');
-        });
-      }
-
-      function renderTagChips(tags) {
-        var html = tags.map(function (t) {
-          var active = state.tags.has(t) ? ' is-active' : '';
-          var pressed = state.tags.has(t) ? 'true' : 'false';
-          return '<button type="button" class="tag-chip' + active +
-            '" data-tag="' + escapeHtml(t) +
-            '" aria-pressed="' + pressed + '">' +
-            escapeHtml(t) + '</button>';
-        }).join('');
-        tagsEl.innerHTML = html;
-      }
-
-      function refreshTagChipsActive() {
-        var nodes = tagsEl.querySelectorAll('.tag-chip');
-        nodes.forEach(function (n) {
-          var t = n.getAttribute('data-tag');
-          if (state.tags.has(t)) {
-            n.classList.add('is-active');
-            n.setAttribute('aria-pressed', 'true');
-          } else {
-            n.classList.remove('is-active');
-            n.setAttribute('aria-pressed', 'false');
-          }
-        });
+        return state.query !== '';
       }
 
       function getFiltered() {
         var q = normalize(state.query);
-        var anyTag = state.tags.size > 0;
+        if (!q) return state.sortedArticles.slice();
         return state.sortedArticles.filter(function (a) {
-          if (q) {
-            var hay = normalize(
-              (a.title || '') + ' ' +
-              (a.summary || '') + ' ' +
-              (Array.isArray(a.tags) ? a.tags.join(' ') : '')
-            );
-            if (hay.indexOf(q) === -1) return false;
-          }
-          if (anyTag) {
-            var tags = Array.isArray(a.tags) ? a.tags : [];
-            var matched = false;
-            for (var i = 0; i < tags.length; i++) {
-              if (state.tags.has(tags[i])) { matched = true; break; }
-            }
-            if (!matched) return false;
-          }
-          return true;
+          var hay = normalize(
+            (a.title || '') + ' ' +
+            (a.summary || '') + ' ' +
+            (Array.isArray(a.tags) ? a.tags.join(' ') : '')
+          );
+          return hay.indexOf(q) !== -1;
         });
       }
 
@@ -317,9 +254,7 @@
 
       function resetFilters() {
         state.query = '';
-        state.tags.clear();
         searchInputEl.value = '';
-        refreshTagChipsActive();
         render();
         searchInputEl.focus();
       }
@@ -343,45 +278,11 @@
         }
       }
 
-      function onTagClick(e) {
-        var btn = e.target.closest('.tag-chip');
-        if (!btn) return;
-        var tag = btn.getAttribute('data-tag');
-        if (!tag) return;
-        if (state.tags.has(tag)) state.tags.delete(tag);
-        else state.tags.add(tag);
-        refreshTagChipsActive();
-        render();
-      }
-
       function onClearClick() {
         state.query = '';
         searchInputEl.value = '';
         render();
         searchInputEl.focus();
-      }
-
-      function initFilterTagsToggle() {
-        var toggle = document.getElementById('filterTagsToggle');
-        var list = document.getElementById('filterTagsList');
-        if (!toggle || !list) return;
-
-        // 태그 수가 적어 1행에 다 들어가면 토글 자체를 숨김
-        // 페이지 로드 후 약간의 지연을 두고 측정 (폰트·태그 렌더 완료 후)
-        requestAnimationFrame(function () {
-          requestAnimationFrame(function () {
-            if (list.scrollHeight <= list.clientHeight + 2) {
-              toggle.style.display = 'none';
-            }
-          });
-        });
-
-        toggle.addEventListener('click', function () {
-          var expanded = toggle.getAttribute('aria-expanded') === 'true';
-          toggle.setAttribute('aria-expanded', String(!expanded));
-          toggle.setAttribute('aria-label', expanded ? '모든 태그 보기' : '태그 접기');
-          list.classList.toggle('is-expanded');
-        });
       }
 
       function init(articles) {
@@ -390,15 +291,11 @@
           return (b.date || '').localeCompare(a.date || '');
         });
 
-        renderTagChips(uniqueSortedTags(state.sortedArticles));
         render();
 
         searchInputEl.addEventListener('input', onSearchInput);
         searchInputEl.addEventListener('keydown', onSearchKeydown);
         searchClearEl.addEventListener('click', onClearClick);
-        tagsEl.addEventListener('click', onTagClick);
-
-        initFilterTagsToggle();
       }
 
       fetch('./articles/index.json', { cache: 'no-cache' })
