@@ -1,43 +1,54 @@
 {
-  "date": "2026-06-25",
-  "slug": "2026-06-25-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-06-25",
+  "date": "2026-06-26",
+  "slug": "2026-06-26-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-06-26",
   "mode_notice": "금일 신규 핵심 동향이 한산하여 핵심과 인접 영역 위주로 정리했습니다.",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "2026-06-23 발행 후속",
-      "headline": "Automate 2026 6월 23-24일 키노트, 메시지가 기술 가용성에서 도입 준비성으로 이동. 기존 결정론적 자동화는 산업 작업 약 1%만 처리, 나머지 99%는 시연 기반 physical AI 영역으로 규정",
-      "source_label": "Tech Times, 2026-06-22",
-      "source_url": "https://www.techtimes.com/articles/318820/20260622/automate-2026-day-day-kawasaki-8-dof-premiere-abb-physical-ai-launch-humanoid-forum.htm",
-      "detail": "6월 23일 지멘스 키노트는 맥락·가드레일·오케스트레이션 없는 AI는 가치보다 복잡성을 더한다는 점을, 6월 24일 Standard Bots 키노트는 99% 문제를 제시했다. 같은 기간 산업 매체는 IIoT가 엣지 추론·OPC UA 기반 경계형 자율로 이행 중이라고 분석했다.",
-      "certainty": "[2차 인용]",
+      "field_note": "2026-06-25 발행 후속",
+      "headline": "Automate 2026 3일간 3개 키노트가 소프트웨어 정의 자동화와 배포 후 학습 비전으로 수렴",
+      "source_label": "Vision Systems Design, 2026-06-25",
+      "source_url": "https://www.vision-systems.com/factory/article/55386467/three-days-three-keynotes-trends-and-insights-from-automate-2026-in-chicago-june-22-25",
+      "detail": "FANUC·Schneider·Cognex·Intrinsic·Siemens 리더들이 결정론적 제어와 AI 오케스트레이션 결합을 공통 방향으로 제시했고, Standard Bots는 click-to-train 학습과 보증 기간 1년에서 3년 연장을 발표했다.",
+      "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "검증된 비전 검사·예지보전은 즉시 확대하되 physical AI·RaaS는 파일럿으로 두는 이원 전략의 적기."
+      "sl_text": "룰베이스 비전 검사를 배포 후 재학습형으로 단계 전환하면 고혼합 라인 셋업 부담을 줄일 수 있으나, 양산 성능은 자체 PoC로 검증해야 한다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "Automate 2026 행사 주간 연속",
-      "headline": "6월 24일 Engelberger 로보틱스 어워드 시상식 개최(엔드이펙터·JARA 수상), 기간 직전 NVIDIA Halos가 자율주행 안전 자산 18,600 엔지니어링 연수를 로봇 안전으로 이전",
-      "source_label": "NVIDIA, 2026-06-22",
-      "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-halos-for-robotics-the-industrys-first-full-stack-safety-system-for-physical-ai",
-      "detail": "48시간 구간은 신규 하드웨어 런칭보다 행사·인증·담론이 중심이었다. Engelberger 애플리케이션 부문이 그리퍼·F/T 센싱(ATI 로버트 리틀)에 수여돼 휴머노이드 시대 말단 기술의 중요성이 재조명됐다.",
+      "field_note": "",
+      "headline": "Agility Robotics, SPAC 합병으로 상장 발표 (프리머니 지분가치 25억 달러, 조달 6억 2,000만 달러 이상)",
+      "source_label": "Agility Robotics, 2026-06-24",
+      "source_url": "https://www.agilityrobotics.com/content/agility-robotics-to-go-public-through-merger-with-churchill-capital-corp-xi",
+      "detail": "Digit 휴머노이드가 9개 고객 시설에서 누적 6만 5,000시간 가동됐고, 차세대 Digit v5는 3억 달러 이상 복수연도 수주를 확보했다. PIPE 약 2억 달러는 Foxconn이 주도했다.",
       "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "무펜스 협동·휴머노이드 도입 시 안전 인증 경로가 특정 physical AI 스택(NVIDIA Halos 등)에 종속될 가능성에 사전 대비 필요."
+      "sl_label": "변곡점",
+      "sl_text": "Tier-1 부품사 Schaeffler가 Agility의 투자자이자 Digit 운영 고객으로, 휴머노이드의 제조라인 편입이 시범 단계를 넘어섰다."
     },
     {
       "field": "AI·디지털전환",
       "field_note": "",
-      "headline": "Grand View Research, 디지털 트윈 시장 2026년 495억 달러에서 2033년 3,285억 달러로 연평균 31.1퍼센트 성장 전망. 자동차·운송이 최대 수요처(2024년 22퍼센트 이상)",
-      "source_label": "PRNewswire / Grand View Research, 2026-06-24",
-      "source_url": "https://www.prnewswire.com/news-releases/digital-twin-market-expands-rapidly-with-ai-iot-and-smart-manufacturing-driving-31-1-cagr-through-2033--reports-grand-view-research-302806738.html",
-      "detail": "시스템 세그먼트가 40.9퍼센트로 우위를 점해, 개별 자산 모델링을 넘어 라인·공장 전체를 통합하는 시스템 레벨 디지털 트윈으로 수요가 이동했다. 온프레미스 배포가 여전히 최대 비중으로 데이터 보안·규제 요구를 반영한다.",
-      "certainty": "[업계 분석]",
+      "headline": "SKT, 제조 특화 AI 에이전트 실증 MOU 체결 (KG스틸·코넥, 2026년 하반기 현장 적용)",
+      "source_label": "이지경제, 2026-06-25",
+      "source_url": "https://www.ezyeconomy.com/news/articleView.html?idxno=236731",
+      "detail": "독자 파운데이션 모델 A.X K1 기반으로, 보안을 위해 클라우드 외 온프레미스 운영을 지원한다. 자동차 부품사 코넥의 주조·가공 공정이 첫 적용 대상에 포함됐다.",
+      "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "완성차·1차사가 디지털 트윈을 본격 운영함에 따라 부품 공급망에도 디지털 트윈 연동·데이터 협업 요구가 확산될 전망."
+      "sl_text": "숙련공 노하우의 디지털 자산화와 도면·공정 기밀 유지를 양립시키는 온프레미스 제조 AI 도입 경로로 검토 가치가 있다(관망)."
+    },
+    {
+      "field": "금형·사출 기술",
+      "field_note": "",
+      "headline": "CAE 워피지(휨) 보상 산출물이 STL 메시에서 NURBS 곡면 모델로 이동",
+      "source_label": "MoldMaking Technology, 2026-06-25",
+      "source_url": "https://www.moldmakingtechnology.com/articles/from-shrinkage-to-simulation-mastering-warpage-compensation-in-mold-design",
+      "detail": "Cimatron(CAMBRIO) 기술 해설로, 보상 형상에 원본 CAD 설계 의도를 보존해 언더컷·파팅 라인 비평탄 같은 2차 결함을 줄이는 워크플로가 핵심이다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "기회",
+      "sl_text": "램프류 대형 박육 부품의 금형 수정(T0-T1) 반복을 줄일 여지가 있으나, 정량 효과가 없어 자체 벤치마크 검증이 선행되어야 한다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-06-25-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-06-26-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
