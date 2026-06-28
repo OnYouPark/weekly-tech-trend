@@ -1,54 +1,32 @@
 {
-  "date": "2026-06-26",
-  "slug": "2026-06-26-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-06-26",
-  "mode_notice": "금일 신규 핵심 동향이 한산하여 핵심과 인접 영역 위주로 정리했습니다.",
+  "date": "2026-06-29",
+  "slug": "2026-06-29-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-06-29",
+  "mode_notice": "금일 신규 핵심 동향이 한산하여 핵심과 인접 영역 위주로 정리했습니다. AI·디지털전환과 금형·사출 분야는 조사 기간 내 신규 동향이 없었습니다.",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "2026-06-25 발행 후속",
-      "headline": "Automate 2026 3일간 3개 키노트가 소프트웨어 정의 자동화와 배포 후 학습 비전으로 수렴",
-      "source_label": "Vision Systems Design, 2026-06-25",
-      "source_url": "https://www.vision-systems.com/factory/article/55386467/three-days-three-keynotes-trends-and-insights-from-automate-2026-in-chicago-june-22-25",
-      "detail": "FANUC·Schneider·Cognex·Intrinsic·Siemens 리더들이 결정론적 제어와 AI 오케스트레이션 결합을 공통 방향으로 제시했고, Standard Bots는 click-to-train 학습과 보증 기간 1년에서 3년 연장을 발표했다.",
+      "field_note": "2026-06-16 발행 'Honeywell 항공우주 분사'의 후속",
+      "headline": "Honeywell이 6월 29일 0시 1분(뉴욕시간) 항공우주 부문(NASDAQ: HONA) 주식 배분을 실행해 3사 분할의 최종 단계를 완료, 잔존사가 순수 자동화 기업으로 재편",
+      "source_label": "SEC 정보설명서, 2026-06",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0002089271/000162828026043193/exhibit991-informationstat.htm",
+      "detail": "Honeywell 보통주 2주당 Aerospace 1주(기준일 6월 15일) 비율로 배분되며, 잔존 Honeywell은 공정 자동화·빌딩 자동화·에너지에 집중하는 순수 자동화 기업으로 남는다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "룰베이스 비전 검사를 배포 후 재학습형으로 단계 전환하면 고혼합 라인 셋업 부담을 줄일 수 있으나, 양산 성능은 자체 PoC로 검증해야 한다."
+      "sl_label": "리스크",
+      "sl_text": "Honeywell DCS·공정 자동화 운용 부품사는 분사 후 포트폴리오 통합·제품 EOL 변동 가능성에 대비해 차기 CAPEX·유지보수 계약 협상 시점으로 활용할 여지."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "Agility Robotics, SPAC 합병으로 상장 발표 (프리머니 지분가치 25억 달러, 조달 6억 2,000만 달러 이상)",
-      "source_label": "Agility Robotics, 2026-06-24",
-      "source_url": "https://www.agilityrobotics.com/content/agility-robotics-to-go-public-through-merger-with-churchill-capital-corp-xi",
-      "detail": "Digit 휴머노이드가 9개 고객 시설에서 누적 6만 5,000시간 가동됐고, 차세대 Digit v5는 3억 달러 이상 복수연도 수주를 확보했다. PIPE 약 2억 달러는 Foxconn이 주도했다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "Tier-1 부품사 Schaeffler가 Agility의 투자자이자 Digit 운영 고객으로, 휴머노이드의 제조라인 편입이 시범 단계를 넘어섰다."
-    },
-    {
-      "field": "AI·디지털전환",
-      "field_note": "",
-      "headline": "SKT, 제조 특화 AI 에이전트 실증 MOU 체결 (KG스틸·코넥, 2026년 하반기 현장 적용)",
-      "source_label": "이지경제, 2026-06-25",
-      "source_url": "https://www.ezyeconomy.com/news/articleView.html?idxno=236731",
-      "detail": "독자 파운데이션 모델 A.X K1 기반으로, 보안을 위해 클라우드 외 온프레미스 운영을 지원한다. 자동차 부품사 코넥의 주조·가공 공정이 첫 적용 대상에 포함됐다.",
+      "headline": "중국 AGIBOT(智元创新)이 6월 28일 누적 15,000번째 양산 로봇 출하를 발표, 5,000대에서 10,000대 구간을 3개월에 달성해 직전 대비 생산 속도 4배 이상",
+      "source_label": "PR Newswire APAC, 2026-06-28",
+      "source_url": "https://en.prnasia.com/releases/apac/agibot-s-15-000th-robot-rolls-off-the-production-line-marking-a-new-milestone-in-embodied-ai-deployment-538948.shtml",
+      "detail": "산업용 임바디드 로봇 G2가 6월 23일부터 28일까지 난창 Longcheer 공장 태블릿 품질검사 공정에서 약 100시간 누적 가동을 시연해, 데모 단계에서 실생산라인 배치로의 전환을 공개 검증했다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "숙련공 노하우의 디지털 자산화와 도면·공정 기밀 유지를 양립시키는 온프레미스 제조 AI 도입 경로로 검토 가치가 있다(관망)."
-    },
-    {
-      "field": "금형·사출 기술",
-      "field_note": "",
-      "headline": "CAE 워피지(휨) 보상 산출물이 STL 메시에서 NURBS 곡면 모델로 이동",
-      "source_label": "MoldMaking Technology, 2026-06-25",
-      "source_url": "https://www.moldmakingtechnology.com/articles/from-shrinkage-to-simulation-mastering-warpage-compensation-in-mold-design",
-      "detail": "Cimatron(CAMBRIO) 기술 해설로, 보상 형상에 원본 CAD 설계 의도를 보존해 언더컷·파팅 라인 비평탄 같은 2차 결함을 줄이는 워크플로가 핵심이다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "램프류 대형 박육 부품의 금형 수정(T0-T1) 반복을 줄일 여지가 있으나, 정량 효과가 없어 자체 벤치마크 검증이 선행되어야 한다."
+      "sl_text": "범용 임바디드 로봇의 공급가·납기 개선이 가속되면서, 외관·치수 검사 등 라인 보조 공정의 RaaS·외부 조달 옵션을 도입 로드맵에 반영할 시점이 가까워짐."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-06-26-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-06-29-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
