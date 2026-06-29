@@ -1,32 +1,32 @@
 {
-  "date": "2026-06-29",
-  "slug": "2026-06-29-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-06-29",
-  "mode_notice": "금일 신규 핵심 동향이 한산하여 핵심과 인접 영역 위주로 정리했습니다. AI·디지털전환과 금형·사출 분야는 조사 기간 내 신규 동향이 없었습니다.",
+  "date": "2026-06-30",
+  "slug": "2026-06-30-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-06-30",
+  "mode_notice": "금일 신규 핵심 동향이 한산하여 핵심과 인접 영역 위주로 정리했습니다. 검증된 핵심 신규 이슈는 AI·디지털전환 1건입니다.",
   "fields": [
     {
-      "field": "스마트제조·자동화",
-      "field_note": "2026-06-16 발행 'Honeywell 항공우주 분사'의 후속",
-      "headline": "Honeywell이 6월 29일 0시 1분(뉴욕시간) 항공우주 부문(NASDAQ: HONA) 주식 배분을 실행해 3사 분할의 최종 단계를 완료, 잔존사가 순수 자동화 기업으로 재편",
-      "source_label": "SEC 정보설명서, 2026-06",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0002089271/000162828026043193/exhibit991-informationstat.htm",
-      "detail": "Honeywell 보통주 2주당 Aerospace 1주(기준일 6월 15일) 비율로 배분되며, 잔존 Honeywell은 공정 자동화·빌딩 자동화·에너지에 집중하는 순수 자동화 기업으로 남는다.",
+      "field": "AI·디지털전환",
+      "field_note": "",
+      "headline": "정부 제조AI 2030 전략 발표, 2030년까지 민·관 20조원 투자로 100조원 이상 부가가치 창출 목표",
+      "source_label": "뉴스핌, 2026-06-29",
+      "source_url": "https://www.newspim.com/news/view/20260629001224",
+      "detail": "산업통상부·과기정통부가 6월 29일 국민보고회에서 국가 제조데이터 라이브러리, 제조AI 파운데이션 모델, 산업단지 중심 M.AX 클러스터의 3대 과제를 공개하고, 피지컬 AI를 국가전략산업으로 지정하는 3M 전략을 동시 발표했습니다. 자동차는 제조 휴머노이드 실증 7개 업종에 명시 포함됐습니다.",
       "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "Honeywell DCS·공정 자동화 운용 부품사는 분사 후 포트폴리오 통합·제품 EOL 변동 가능성에 대비해 차기 CAPEX·유지보수 계약 협상 시점으로 활용할 여지."
+      "sl_label": "변곡점",
+      "sl_text": "국가 제조데이터 라이브러리·상생형 AI 스마트공장은 부품사가 자체 데이터만으로 어려운 공정·품질 AI 학습 기반에 접근할 통로가 될 수 있으나, 데이터 표준·거버넌스 미확정이 단기 리스크입니다."
     },
     {
-      "field": "로보틱스·모빌리티",
+      "field": "스마트제조·자동화 (인접 영역)",
       "field_note": "",
-      "headline": "중국 AGIBOT(智元创新)이 6월 28일 누적 15,000번째 양산 로봇 출하를 발표, 5,000대에서 10,000대 구간을 3개월에 달성해 직전 대비 생산 속도 4배 이상",
-      "source_label": "PR Newswire APAC, 2026-06-28",
-      "source_url": "https://en.prnasia.com/releases/apac/agibot-s-15-000th-robot-rolls-off-the-production-line-marking-a-new-milestone-in-embodied-ai-deployment-538948.shtml",
-      "detail": "산업용 임바디드 로봇 G2가 6월 23일부터 28일까지 난창 Longcheer 공장 태블릿 품질검사 공정에서 약 100시간 누적 가동을 시연해, 데모 단계에서 실생산라인 배치로의 전환을 공개 검증했다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "범용 임바디드 로봇의 공급가·납기 개선이 가속되면서, 외관·치수 검사 등 라인 보조 공정의 RaaS·외부 조달 옵션을 도입 로드맵에 반영할 시점이 가까워짐."
+      "headline": "6월 29일 게시 MarketScale 6월 자동화 종합 1건 외 1차 신규 발표 없음",
+      "source_label": "MarketScale, 2026-06-29",
+      "source_url": "https://www.marketscale.com/industries/industrial-iot/automation-industry-roundup-sensors-software-and-ai-drive-june-2026-product-wave",
+      "detail": "Automate 2026 이후 발표 공백기로, 윈도우 내 게시 페이지는 6월 후반 제품 흐름(Rockwell·Beckhoff·OMRON 등)을 모은 2차 큐레이션 종합 기사가 유일했습니다. 신규 사건이 아닌 흐름 재확인 성격입니다.",
+      "certainty": "[업계 분석]",
+      "sl_label": "검토",
+      "sl_text": "자동화 경쟁축이 단품 하드웨어에서 오케스트레이션·벤더 중립 IT-OT 데이터 계층으로 이동 중이라는 신호로, 즉시 행동보다 중기 라인 설계 검토 사안입니다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-06-29-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-06-30-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
