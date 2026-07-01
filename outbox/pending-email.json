@@ -1,32 +1,32 @@
 {
-  "date": "2026-07-01",
-  "slug": "2026-07-01-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-01",
-  "mode_notice": "금일 신규 핵심 동향이 한산하여(Short) 핵심과 인접 영역 위주로 정리했습니다.",
+  "date": "2026-07-02",
+  "slug": "2026-07-02-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-02",
+  "mode_notice": "금일 신규 핵심 동향이 한산하여 핵심 위주로 정리했습니다(Short 모드). 스마트제조·자동화, 금형·사출 기술은 이번 기간 특이 동향이 없었습니다.",
   "fields": [
     {
-      "field": "스마트제조·자동화",
-      "field_note": "2026-06-26 발행 Automate 2026 소프트웨어 정의 자동화의 후속",
-      "headline": "기간 내 단독 신규 발표 없이 6월 말 출시 종합 1건만 게시, 자동화 소프트웨어 무게중심이 설비 제어에서 자재흐름 오케스트레이션으로 이동",
-      "source_label": "MarketScale, 2026-06-29",
-      "source_url": "https://www.marketscale.com/industries/industrial-iot/automation-industry-roundup-sensors-software-and-ai-drive-june-2026-product-wave",
-      "detail": "MarketScale이 6월 말 자동화 신제품을 묶은 종합 기사로, 개별 제품(Rockwell FactoryTalk Orchestration, Beckhoff Vision Unit Illuminated 등)은 원출처 확인 결과 대부분 6월 22일에서 24일 Automate 2026 주간 발표분이다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "검토",
-      "sl_text": "변곡점 없음. 기존 Automate 2026과 제조AI 2030 로드맵을 점검·내재화하는 관망 구간으로 활용."
+      "field": "로보틱스·모빌리티",
+      "field_note": "",
+      "headline": "Apptronik, 오스틴에 90,000평방피트 휴머노이드 데이터 팩토리 Robot Park 개소하고 Apollo 2 공개",
+      "source_label": "Forbes, 2026-06-30",
+      "source_url": "https://www.forbes.com/sites/johnkoetsier/2026/06/30/apptronik-announces-robot-park-a-90000-square-foot-humanoid-data-factory-teases-new-robot/",
+      "detail": "Apollo 2를 이족보행형과 바퀴형 두 구성으로 발표했고, 바퀴형은 산업용 AMR 안전기준에 맞춰 z축 신장 약 2.1m와 구동 약 4시간을 확보했다. 수집 데이터로 Google DeepMind Gemini Robotics를 학습하는 데이터 플라이휠 구조이며, 상용 제품은 내년 Apollo 3로 예고됐다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "기회",
+      "sl_text": "바퀴형이 기존 AMR 안전기준을 준수해 라인 안전 인프라 재구축 부담 없이 인간형 매니퓰레이터를 얹을 진입 경로가 열리며, 액추에이터·배터리 공급망 참여 여지가 있다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-06-30 발행 정부 제조AI 2030 전략의 후속",
-      "headline": "산업부가 광주를 미래 모빌리티 M.AX 클러스터로 육성, 비전검사·예지보전·무인물류 3개 공정을 우선 실증 대상으로 지정",
-      "source_label": "이투데이, 2026-06-30",
-      "source_url": "https://www.etoday.co.kr/news/view/2598670",
-      "detail": "2026년 6월 30일 김정관 산업부 장관 주재 간담회에서 GGM과 한국알프스 등 선도공장을 실증 거점으로, 첨단3지구 데이터센터를 제조데이터-AI 선순환 허브로 삼는 구상을 발표했다.",
+      "field_note": "2026-06-30 제조AI 2030 전략의 7/1 실행 후속",
+      "headline": "과기정통부 피지컬AI 핵심 경쟁력 확보 전략 발표, 국민성장펀드 30조 원 중 약 16조 원 피지컬AI 6개 분야 배정",
+      "source_label": "파이낸셜뉴스, 2026-07-01",
+      "source_url": "https://www.fnnews.com/news/202607011807584120",
+      "detail": "3대 기반기술(파운데이션 모델·월드모델·온디바이스 컴퓨팅)을 명시하고 경남 자율정밀 제조·전북 공장 OS 협업지능 팩토리를 실증 대상으로 지정했다. 첫 M.AX 투자로 LS전선 해저케이블 공장 증설에 800억 원 저리 대출이 승인됐다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "실증 공정 3종이 조명·전장 부품사 핵심 공정과 겹쳐, 광주권 자동차 부품 AX 실증 조기 참여 검토를 단기 의사결정 안건으로 끌어올릴 신호."
+      "sl_label": "변곡점",
+      "sl_text": "전략 선언이 실증·생산시설 자금 집행 단계로 넘어가, 부품사는 관망에서 비전검사·예지보전 실증 컨소시엄 편입으로 대응을 전환할 시점이다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-01-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-02-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
