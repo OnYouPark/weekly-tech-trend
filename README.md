@@ -32,7 +32,6 @@
 ├── articles/
 │   ├── index.json          # 기사 메타데이터 인덱스
 │   └── YYYY-MM-DD-slug.md  # 기사 본문 (frontmatter 포함)
-├── drafts/                 # 종합·중국 리포트 초안 (사이트 미노출)
 ├── outbox/                 # 발송 대기 데이터 (자동 생성)
 └── README.md
 ```
@@ -71,7 +70,7 @@ summary: 한 줄 요약
 ```
 
    - `type`·`period`는 선택 필드입니다. 일반 일일 브리핑은 둘 다 생략하면 됩니다(자동으로 `daily` 취급).
-   - 종합·중국 리포트 초안은 `drafts/`에서 검토·수정한 뒤 `articles/`로 옮기고 `index.json`에 등록합니다. 자세한 절차는 `drafts/README.md` 참고.
+   - 종합·중국 리포트도 동일하게 `articles/`에 파일을 추가하고 `index.json`에 등록하면 바로 게시됩니다. (`type`을 `weekly`/`monthly`/`china`로 지정)
 
    - `tags`는 그 기사에 실제 등장한 핵심 기업·기술을 기준으로 부여합니다 (예: `NVIDIA`, `디지털트윈`, `협동로봇`). 고유명사는 원문, 일반 기술어는 한글로 표기하며, 기사당 최대 8개를 권장합니다.
 
