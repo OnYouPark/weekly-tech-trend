@@ -21,17 +21,35 @@
 
 ```
 ./
-├── index.html              # 기사 목록 페이지 (검색)
+├── index.html              # 일일 브리핑 목록 (daily 기사만, 검색)
+├── weekly.html             # 주간 브리핑 종합 (type=weekly)
+├── monthly.html            # 월간 브리핑 종합 (type=monthly)
+├── china.html              # 중국 제조 동향 (type=china)
+├── explore.html            # 탐색 페이지 (주제별·날짜별 — daily 전용)
 ├── article.html            # 기사 상세 페이지 (?slug=... 로 호출)
-├── explore.html            # 탐색 페이지 (주제별·날짜별)
 ├── assets/
 │   └── style.css           # 전체 스타일시트
 ├── articles/
 │   ├── index.json          # 기사 메타데이터 인덱스
 │   └── YYYY-MM-DD-slug.md  # 기사 본문 (frontmatter 포함)
+├── drafts/                 # 종합·중국 리포트 초안 (사이트 미노출)
 ├── outbox/                 # 발송 대기 데이터 (자동 생성)
 └── README.md
 ```
+
+### 콘텐츠 유형과 네비게이션
+
+기사는 `type` 필드로 4종으로 구분되며, 네비게이션은 5개 탭으로 나뉩니다.
+
+| type | 탭 | 페이지 |
+| --- | --- | --- |
+| `daily` (또는 미지정) | 일일 브리핑 | `index.html` |
+| `weekly` | 주간 브리핑 | `weekly.html` |
+| `monthly` | 월간 브리핑 | `monthly.html` |
+| `china` | 중국 제조 동향 | `china.html` |
+
+- `type`이 없는 항목은 `daily`로 취급합니다(기존 기사 호환).
+- 탐색(`explore.html`)의 주제별 태그·날짜별 달력 집계는 **daily 기사만** 대상으로 합니다. 종합·중국 기사 태그는 탐색에 포함되지 않습니다.
 
 ## 새 기사 추가 절차
 
@@ -43,12 +61,17 @@
 ---
 title: 기사 제목
 date: 2026-06-26
+type: weekly          # daily / weekly / monthly / china. 없으면 daily로 간주
+period: 2026-06-4주    # 종합·중국 기사의 대상 기간 표시용 (daily는 생략)
 tags: [태그1, 태그2]
 summary: 한 줄 요약
 ---
 
 (이후 본문을 마크다운으로 작성)
 ```
+
+   - `type`·`period`는 선택 필드입니다. 일반 일일 브리핑은 둘 다 생략하면 됩니다(자동으로 `daily` 취급).
+   - 종합·중국 리포트 초안은 `drafts/`에서 검토·수정한 뒤 `articles/`로 옮기고 `index.json`에 등록합니다. 자세한 절차는 `drafts/README.md` 참고.
 
    - `tags`는 그 기사에 실제 등장한 핵심 기업·기술을 기준으로 부여합니다 (예: `NVIDIA`, `디지털트윈`, `협동로봇`). 고유명사는 원문, 일반 기술어는 한글로 표기하며, 기사당 최대 8개를 권장합니다.
 

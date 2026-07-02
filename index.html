@@ -56,9 +56,15 @@
         <h1 class="site-title"><a href="./index.html">Weekly Tech Trend Analyst</a></h1>
         <p class="site-subtitle">주간 기술 트렌드 분석</p>
         <nav class="site-nav" aria-label="사이트 네비게이션">
-          <a class="site-nav__link is-active" href="./index.html" aria-current="page">홈</a>
+          <a class="site-nav__link is-active" href="./index.html" aria-current="page">일일 브리핑</a>
+          <span class="site-nav__sep" aria-hidden="true">·</span>
+          <a class="site-nav__link" href="./weekly.html">주간 브리핑</a>
+          <span class="site-nav__sep" aria-hidden="true">·</span>
+          <a class="site-nav__link" href="./monthly.html">월간 브리핑</a>
           <span class="site-nav__sep" aria-hidden="true">·</span>
           <a class="site-nav__link" href="./explore.html">탐색</a>
+          <span class="site-nav__sep" aria-hidden="true">·</span>
+          <a class="site-nav__link" href="./china.html">중국 제조 동향</a>
         </nav>
       </div>
       <button id="theme-toggle" class="theme-toggle" type="button" aria-label="테마 전환">🌙</button>
@@ -146,6 +152,9 @@
       function isRead(slug) {
         return getReadSlugs().indexOf(slug) !== -1;
       }
+
+      /* type이 없는 기존 항목은 daily로 취급 */
+      function getType(a) { return (a && a.type) || 'daily'; }
 
       var listEl = document.getElementById('article-list');
       var searchWrapEl = document.getElementById('filter-search');
@@ -302,7 +311,9 @@
           return res.json();
         })
         .then(function (data) {
-          var list = (data && Array.isArray(data.articles)) ? data.articles : [];
+          var all = (data && Array.isArray(data.articles)) ? data.articles : [];
+          /* 일일 브리핑 탭 — daily 기사만 표시 (weekly/monthly/china 제외) */
+          var list = all.filter(function (a) { return getType(a) === 'daily'; });
           if (list.length === 0) {
             listEl.innerHTML = '<li class="notice">등록된 기사가 없습니다.</li>';
             return;

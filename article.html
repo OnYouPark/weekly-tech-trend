@@ -108,9 +108,15 @@
         <h1 class="site-title"><a href="./index.html">Weekly Tech Trend Analyst</a></h1>
         <p class="site-subtitle">주간 기술 트렌드 분석</p>
         <nav class="site-nav" aria-label="사이트 네비게이션">
-          <a class="site-nav__link" href="./index.html">홈</a>
+          <a class="site-nav__link" href="./index.html">일일 브리핑</a>
+          <span class="site-nav__sep" aria-hidden="true">·</span>
+          <a class="site-nav__link" href="./weekly.html">주간 브리핑</a>
+          <span class="site-nav__sep" aria-hidden="true">·</span>
+          <a class="site-nav__link" href="./monthly.html">월간 브리핑</a>
           <span class="site-nav__sep" aria-hidden="true">·</span>
           <a class="site-nav__link" href="./explore.html">탐색</a>
+          <span class="site-nav__sep" aria-hidden="true">·</span>
+          <a class="site-nav__link" href="./china.html">중국 제조 동향</a>
         </nav>
       </div>
       <button id="theme-toggle" class="theme-toggle" type="button" aria-label="테마 전환">🌙</button>
@@ -484,6 +490,24 @@
       var rootEl = document.getElementById('article-root');
       var allArticles = [];  // index.json fetch 결과 캐시 (관련 기사·이전다음 네비에서 재사용)
 
+      /* type이 없는 기존 항목은 daily로 취급 */
+      function getType(a) { return (a && a.type) || 'daily'; }
+
+      /* 유형 배지 라벨 (daily는 배지 미표시) */
+      var TYPE_LABELS = {
+        weekly: '주간 종합',
+        monthly: '월간 종합',
+        china: '중국 제조 동향'
+      };
+
+      /* 유형별 "목록으로" 돌아갈 페이지 */
+      var TYPE_BACK_HREF = {
+        daily: './index.html',
+        weekly: './weekly.html',
+        monthly: './monthly.html',
+        china: './china.html'
+      };
+
       function escapeHtml(s) {
         return String(s == null ? '' : s)
           .replace(/&/g, '&amp;')
@@ -670,7 +694,10 @@
 
       function renderRelatedArticles(current, all) {
         if (!current || !Array.isArray(all) || all.length === 0) return;
-        var scored = all
+        /* 같은 type 안에서만 추천 (일일 보는데 중국 리포트가 섞이지 않도록) */
+        var curType = getType(current);
+        var pool = all.filter(function (c) { return getType(c) === curType; });
+        var scored = pool
           .map(function (c) { return { article: c, score: relatedScore(current, c) }; })
           .filter(function (x) { return x.score > -Infinity; })
           .sort(function (a, b) { return b.score - a.score; })
@@ -704,7 +731,9 @@
 
       function renderArticleNav(current, all) {
         if (!current || !Array.isArray(all) || all.length === 0) return;
-        var sorted = all.slice().sort(function (a, b) {
+        /* 같은 type 안에서만 이전·다음 네비 (유형이 섞이지 않도록) */
+        var curType = getType(current);
+        var sorted = all.filter(function (a) { return getType(a) === curType; }).sort(function (a, b) {
           return (b.date || '').localeCompare(a.date || '');
         });
         var idx = -1;
@@ -982,6 +1011,24 @@
           return '<span>' + escapeHtml(t) + '</span>';
         }).join('');
 
+        /* 유형 배지 (daily가 아닐 때만) — 라벨 + period 함께 표시 */
+        var type = getType(meta);
+        var badgeHtml = '';
+        if (type !== 'daily') {
+          var label = TYPE_LABELS[type] || '';
+          var period = (meta && meta.period && String(meta.period).trim()) ? meta.period : '';
+          var badgeText = label + (period ? ' · ' + period : '');
+          if (badgeText) {
+            badgeHtml = '<div class="article-typebadge">' + escapeHtml(badgeText) + '</div>';
+          }
+        }
+
+        /* "목록으로" 링크를 유형에 맞는 목록 페이지로 */
+        try {
+          var backLink = document.querySelector('.back-link');
+          if (backLink) backLink.setAttribute('href', TYPE_BACK_HREF[type] || './index.html');
+        } catch (e) { /* ignore */ }
+
         var body = stripFrontmatter(markdown);
 
         if (window.marked && marked.setOptions) {
@@ -1020,6 +1067,7 @@
 
         rootEl.innerHTML = '' +
           '<header class="article-header">' +
+            badgeHtml +
             '<h1 class="article-title">' + escapeHtml(title) + '</h1>' +
             '<div class="article-meta">' +
               '<span class="article-meta__date">' + escapeHtml((meta && meta.date) || '') + '</span>' +
