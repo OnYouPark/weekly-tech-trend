@@ -1,54 +1,32 @@
 {
-  "date": "2026-07-03",
-  "slug": "2026-07-03-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-03",
-  "mode_notice": "금일 신규 핵심 동향이 한산하여 핵심과 인접 영역 위주로 정리했습니다(Short 모드).",
+  "date": "2026-07-06",
+  "slug": "2026-07-06-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-06",
+  "mode_notice": "금일 신규 핵심 동향이 한산하여(Short) 신규 동향이 확인된 분야 위주로 정리했습니다. 미국 독립기념일 연휴 주말과 겹쳐 서구권 공식 발표가 구조적으로 희소했습니다.",
   "fields": [
-    {
-      "field": "스마트제조·자동화",
-      "field_note": "",
-      "headline": "네덜란드 스히담 MICS에 유럽 최초 휴머노이드 응용센터(HAC) 7월 2일 개소, 창립 파트너 5개사 참여",
-      "source_label": "RoboticsTomorrow, 2026-07-02",
-      "source_url": "https://www.roboticstomorrow.com/news/2026/07/02/first-humanoid-application-centre-in-the-netherlands-opened-at-mics-humanoid-robots-from-demo-to-practical-application-/26800/",
-      "detail": "하드웨어 양산이 아니라 건설·물류·검사 등 현장 공정에 휴머노이드를 통합·검증하는 응용 인프라다. Dura Vermeer의 첫 유스케이스는 인프라 포장 작업 지원으로 제시됐다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "검사·물류 비정형 공정을 외부 실증센터에서 저위험으로 선행 검증하는 접근의 참고 사례. 유럽발 실증·통합 인프라 형성을 지켜볼 신호."
-    },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "UBTECH, 소비자용 풀사이즈 휴머노이드 UWORLD U1 출시, 발표 시점 누적 주문 13,361대",
-      "source_label": "TechNode, 2026-07-01",
-      "source_url": "https://technode.com/2026/07/01/ubtech-unveils-consumer-humanoid-robot-u1-says-orders-secure-11000-ahead-of-first-deliveries/",
-      "detail": "산업·물류용 흐름과 달리 가정 동반자·정서 케어를 정면 타깃한 소비자 대량 판매 시도다. 시작가 119,800위안, 88 자유도, 첫 배송 9월 16일 예정.",
-      "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "정밀 액추에이터·감속기·구동 모듈 공용 부품 물량이 산업용보다 빠르게 설 수 있다. 단품을 넘어 구동 모듈 서브시스템 공급자로의 포지셔닝 여지."
-    },
-    {
-      "field": "AI·디지털전환",
-      "field_note": "M.AX 전략 연속",
-      "headline": "부산 벡스코서 AI 자율제조혁신 컨퍼런스 개최(7/1-3), 5개국 363개 부스·8,352제곱미터 규모",
-      "source_label": "부산일보, 2026-06-30",
-      "source_url": "https://www.busan.com/view/busan/view.php?code=2026063010265595370",
-      "detail": "디지털 트윈·AI 3D 비전 검사 실증이 중심이며, 7월 2일 국제로보컵 첫 휴머노이드 제조 챌린지(부품 조립·휠 체결 미션)와 연계됐다. 산업부는 휴머노이드 특성화 대학원(연 30억 원)을 신설한다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "휠 체결·부품 조립 미션이 자동차 조립라인 가상 시운전·실증 레퍼런스로 직결. 대학·로봇기업과의 산학 컨소시엄 참여가 국책 과제 수주 경쟁력으로 연결될 수 있다."
-    },
-    {
-      "field": "금형·사출 기술",
-      "field_note": "",
-      "headline": "북미 Moldmaking Index 5월 판독 53.3, 확장 5개월 연속이나 4월 57.5 대비 4.1p 하락",
-      "source_label": "MoldMaking Technology, 2026-07-02",
-      "source_url": "https://www.moldmakingtechnology.com/articles/moldmaking-index-cools-to-533-as-expansion-enters-fifth-month",
-      "detail": "생산 -6.6p, 백로그 -5.9p 동반 하락으로 확장세가 둔화됐고 고용만 +0.9p 상승했다. 냉각·CAE·소재 신기술 발표는 이 기간 부재했다.",
+      "headline": "Tesla 로보택시가 텍사스·캘리포니아 밖 첫 완전 무인 운행으로 마이애미 상용 개시, 영국 Humanoid는 강화학습으로 조작 성공률 78%에서 99%로 개선",
+      "source_label": "Tech Times, 2026-07-04 / The Robot Report, 2026-07-05",
+      "source_url": "https://www.techtimes.com/articles/319711/20260704/tesla-robotaxi-arrives-miami-floridas-rain-hardest-test-yet-camera-only-fsd.htm",
+      "detail": "카메라 전용 FSD(라이다·레이더 미사용)가 열대성 우천 ODD에 처음 상용 투입됐고, 이는 NHTSA가 약 320만 대를 대상으로 격상한 공학적 분석의 초점과 겹칩니다. Humanoid사 KinetIQ Ascend는 양팔 토트 취급 성공률 78%에서 99%(실패 약 20분의 1), 빈피킹 처리량 42% 향상을 정량 제시했습니다.",
       "certainty": "[업계 분석]",
       "sl_label": "기회",
-      "sl_text": "북미 금형사 백로그 둔화 국면. 외주 대형 램프 금형·컨포멀 쿨링 인서트 견적·납기 협상 타이밍을 점검할 여지."
+      "sl_text": "악천후 ODD가 상용 검증의 핵심 관문으로 부상하면서 카메라 세척·발열 렌즈·저반사 광학 등 악천후 대응 램프·비전 부품이 신규 스펙 경쟁축으로 열립니다. 조작 로봇은 다품종 반복 공정 도입 리드타임을 수개월에서 수일로 단축."
+    },
+    {
+      "field": "스마트제조·자동화 / AI·디지털전환 / 금형·사출",
+      "field_note": "",
+      "headline": "3개 분야 모두 조사 기간(7월 4일부터 6일) 내 유의미한 신규 1차 출처 미확인",
+      "source_label": "",
+      "source_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-06-daily-brief",
+      "detail": "미국 독립기념일 연휴로 서구권 발표가 희소했습니다. 국내 AI는 현대차 남양연구소 가상 검증 프레스 투어(7월 1일 취재, 7월 2일부터 3일 게재)가 근접했으나 기간 밖, 금형·사출은 7월 1일 마이크로 사출 CAE 캘리브레이션 기고가 경계 직전 관찰 대상으로 기록됐습니다.",
+      "certainty": "[업계 분석]",
+      "sl_label": "검토",
+      "sl_text": "즉각 대응이 필요한 신규 변곡점은 없으며, 7월 7일 파리 MACHINA Summit 등 7월 첫째 주 후반 이벤트를 후속 확인합니다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-03-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-06-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
