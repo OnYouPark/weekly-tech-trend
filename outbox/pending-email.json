@@ -1,32 +1,43 @@
 {
-  "date": "2026-07-06",
-  "slug": "2026-07-06-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-06",
-  "mode_notice": "금일 신규 핵심 동향이 한산하여(Short) 신규 동향이 확인된 분야 위주로 정리했습니다. 미국 독립기념일 연휴 주말과 겹쳐 서구권 공식 발표가 구조적으로 희소했습니다.",
+  "date": "2026-07-07",
+  "slug": "2026-07-07-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-07",
+  "mode_notice": "금일 신규 핵심 동향이 한산하여 핵심과 인접 영역 위주로 정리했습니다.",
   "fields": [
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "",
-      "headline": "Tesla 로보택시가 텍사스·캘리포니아 밖 첫 완전 무인 운행으로 마이애미 상용 개시, 영국 Humanoid는 강화학습으로 조작 성공률 78%에서 99%로 개선",
-      "source_label": "Tech Times, 2026-07-04 / The Robot Report, 2026-07-05",
-      "source_url": "https://www.techtimes.com/articles/319711/20260704/tesla-robotaxi-arrives-miami-floridas-rain-hardest-test-yet-camera-only-fsd.htm",
-      "detail": "카메라 전용 FSD(라이다·레이더 미사용)가 열대성 우천 ODD에 처음 상용 투입됐고, 이는 NHTSA가 약 320만 대를 대상으로 격상한 공학적 분석의 초점과 겹칩니다. Humanoid사 KinetIQ Ascend는 양팔 토트 취급 성공률 78%에서 99%(실패 약 20분의 1), 빈피킹 처리량 42% 향상을 정량 제시했습니다.",
-      "certainty": "[업계 분석]",
+      "field_note": "2026-06-26 발행 Agility 상장의 후속",
+      "headline": "Agility Robotics가 SPAC 상장 후속 공시로 다년 수주 3억 달러, 9개 현장 65,000시간 이상 가동 실적을 처음 공개",
+      "source_label": "TechCrunch, 2026-07-05",
+      "source_url": "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/",
+      "detail": "CEO Peggy Johnson이 밸류에이션이 아닌 안전 인증과 실측 가동 데이터를 차별점으로 제시했고, Digit v5를 세계 최초 협조 안전(cooperatively safe) 휴머노이드로 규정했다. 고객사에 Schaeffler, Toyota, Amazon, GXO가 포함됐다.",
+      "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "악천후 ODD가 상용 검증의 핵심 관문으로 부상하면서 카메라 세척·발열 렌즈·저반사 광학 등 악천후 대응 램프·비전 부품이 신규 스펙 경쟁축으로 열립니다. 조작 로봇은 다품종 반복 공정 도입 리드타임을 수개월에서 수일로 단축."
+      "sl_text": "자동차 부품 공급망(Schaeffler, Toyota)이 휴머노이드 초기 수요처로 부상. 도입 판단 기준을 데모 영상이 아닌 안전 인증서와 실가동률로 재설정할 근거."
     },
     {
-      "field": "스마트제조·자동화 / AI·디지털전환 / 금형·사출",
+      "field": "AI·디지털전환",
       "field_note": "",
-      "headline": "3개 분야 모두 조사 기간(7월 4일부터 6일) 내 유의미한 신규 1차 출처 미확인",
-      "source_label": "",
-      "source_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-06-daily-brief",
-      "detail": "미국 독립기념일 연휴로 서구권 발표가 희소했습니다. 국내 AI는 현대차 남양연구소 가상 검증 프레스 투어(7월 1일 취재, 7월 2일부터 3일 게재)가 근접했으나 기간 밖, 금형·사출은 7월 1일 마이크로 사출 CAE 캘리브레이션 기고가 경계 직전 관찰 대상으로 기록됐습니다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "검토",
-      "sl_text": "즉각 대응이 필요한 신규 변곡점은 없으며, 7월 7일 파리 MACHINA Summit 등 7월 첫째 주 후반 이벤트를 후속 확인합니다."
+      "headline": "스카이인텔리전스가 로봇 합성데이터 매출 원년 진입과 ABB로보틱스 협력 프레임워크(CFA)를 공식화, 수억 원 규모 확정 매출 확보",
+      "source_label": "ZDNet, 2026-07-06",
+      "source_url": "https://zdnet.co.kr/view/?no=20260706102055",
+      "detail": "실물 CAD, 재질, 공차 기반 고정밀 디지털 트윈으로 합성데이터를 생성하는 Real2Sim2Real 폐쇄 루프를 양산 공정 원가 절감 증명에 우선 적용한다. 0.5-3mm 정밀 조립을 국내 역진입 시장으로 지목했다. 독파모 2차 검증 진입과 함께 SKT A.X K1의 하반기 생산라인 투입 계획도 확인됐다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "기회",
+      "sl_text": "로봇 비전, 파지 AI를 설비 도입 전 가상에서 검증하는 저비용 경로가 열리나, 특정 벤더 데이터 파이프라인 종속 리스크를 함께 점검해야 함."
+    },
+    {
+      "field": "스마트제조·자동화 (인접 영역)",
+      "field_note": "",
+      "headline": "현대차·Boston Dynamics 양산형 Atlas가 7월 5일 FIFA 월드컵 16강 하프타임에 첫 라이브 경기 환경 투입",
+      "source_label": "Hyundai Motor Group, 2026-07-06",
+      "source_url": "https://www.hyundaimotorgroup.com/en/news/hyundai-motor-brings-atlas-humanoid-robot-to-fifa-world-cup-2026-in-first-ever-live-match-environment-robotics-integration",
+      "detail": "Boston Dynamics는 경기 동작 훈련이 실제 산업 응용 훈련과 동일한 리타게팅, 강화학습, 전신제어 파이프라인을 공유한다고 밝혔다. 핵심 자동화(MES, 비전, OPC UA) 영역의 신규 발표는 부재했다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "리스크",
+      "sl_text": "현대차가 부품 시퀀싱을 휴머노이드 초기 적용처로 명시, 협력사 라인 사이드 도입 압력의 조기 관찰 포인트."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-06-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-07-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }

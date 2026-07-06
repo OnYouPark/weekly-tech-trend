@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "slug": "2026-07-07-daily-brief",
+      "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 7월 7일",
+      "date": "2026-07-07",
+      "tags": [
+        "BostonDynamics",
+        "AgilityRobotics",
+        "스카이인텔리전스",
+        "ABB로보틱스",
+        "휴머노이드",
+        "합성데이터",
+        "디지털트윈",
+        "SKT"
+      ],
+      "summary": "금일 신규 핵심 동향 한산(Short). 로보틱스는 Agility Robotics SPAC 상장 후속 공시(다년 수주 3억 달러·9개 현장 65,000시간 이상 가동), AI는 스카이인텔리전스 로봇 합성데이터 매출 원년·ABB로보틱스 CFA와 SKT A.X K1 하반기 생산라인 투입, 스마트제조는 현대차·Boston Dynamics Atlas 월드컵 라이브 투입(인접 영역). 금형사출은 특이 동향 없음."
+    },
+    {
       "slug": "2026-07-06-china",
       "title": "중국 제조 동향 주간 - 2026년 7월 1주",
       "date": "2026-07-06",
