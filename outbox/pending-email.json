@@ -1,43 +1,43 @@
 {
-  "date": "2026-07-07",
-  "slug": "2026-07-07-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-07",
-  "mode_notice": "금일 신규 핵심 동향이 한산하여 핵심과 인접 영역 위주로 정리했습니다.",
+  "date": "2026-07-08",
+  "slug": "2026-07-08-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-08",
+  "mode_notice": "금일 신규 핵심 동향이 한산하여 핵심과 인접 영역 위주로 정리했습니다. 금형·사출은 특이 동향이 없었습니다.",
   "fields": [
     {
+      "field": "스마트제조·자동화",
+      "field_note": "",
+      "headline": "Ency Software와 Staubli Robotics가 밀링·그라인딩·디버링 등 6개 가공공정 대상 로봇 오프라인 프로그래밍 글로벌 협약 체결",
+      "source_label": "Robotics & Automation News, 2026-07-07",
+      "source_url": "https://roboticsandautomationnews.com/2026/07/07/ency-software-and-staubli-robotics-sign-global-agreement-to-simplify-robot-programming/103085/",
+      "detail": "CAD/CAM 궤적을 로봇 경로로 오프라인 변환하고 충돌·특이점을 사전 시뮬레이션해 프로그래밍 단계의 로봇 다운타임을 줄이는 로보틱 머시닝 접근입니다. 생성형·에이전트형 자동화와 달리 결정론적 궤적 실행에 초점을 둡니다.",
+      "certainty": "[업계 분석]",
+      "sl_label": "기회",
+      "sl_text": "램프·부품의 디버링·폴리싱을 로보틱 머시닝으로 전환할 오프라인 프로그래밍 도입 기회. 단 Staubli 하드웨어 결합 협약이라 기존 로봇 자산과의 정합성·종속 여부를 함께 확인해야 합니다."
+    },
+    {
       "field": "로보틱스·모빌리티",
-      "field_note": "2026-06-26 발행 Agility 상장의 후속",
-      "headline": "Agility Robotics가 SPAC 상장 후속 공시로 다년 수주 3억 달러, 9개 현장 65,000시간 이상 가동 실적을 처음 공개",
-      "source_label": "TechCrunch, 2026-07-05",
-      "source_url": "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/",
-      "detail": "CEO Peggy Johnson이 밸류에이션이 아닌 안전 인증과 실측 가동 데이터를 차별점으로 제시했고, Digit v5를 세계 최초 협조 안전(cooperatively safe) 휴머노이드로 규정했다. 고객사에 Schaeffler, Toyota, Amazon, GXO가 포함됐다.",
+      "field_note": "",
+      "headline": "파리 UMA가 유럽발 휴머노이드 Northstar와 시연 기반 실시간 학습 아키텍처 공개, 잠재 고객 약 50곳과 도입 논의",
+      "source_label": "Electrek, 2026-07-07",
+      "source_url": "https://electrek.co/2026/07/07/tesla-optimus-scientist-uma-humanoid-robot/",
+      "detail": "테슬라 Optimus 신경망과 Hugging Face LeRobot을 이끈 Remi Cadene이 창업했습니다. 작업별 수작업 프로그래밍을 시연 학습으로 대체하는 구조를 내세웠고 연내 산업용 파일럿을 목표로 합니다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "자동차 부품 공급망(Schaeffler, Toyota)이 휴머노이드 초기 수요처로 부상. 도입 판단 기준을 데모 영상이 아닌 안전 인증서와 실가동률로 재설정할 근거."
+      "sl_text": "미국·중국 양강 구도에 유럽 벤더가 가세하는 휴머노이드 공급 다변화 초기 신호입니다. 다만 출하 제품이 없어 실증 성과 확인 전까지는 관망이 합리적입니다."
     },
     {
       "field": "AI·디지털전환",
       "field_note": "",
-      "headline": "스카이인텔리전스가 로봇 합성데이터 매출 원년 진입과 ABB로보틱스 협력 프레임워크(CFA)를 공식화, 수억 원 규모 확정 매출 확보",
-      "source_label": "ZDNet, 2026-07-06",
-      "source_url": "https://zdnet.co.kr/view/?no=20260706102055",
-      "detail": "실물 CAD, 재질, 공차 기반 고정밀 디지털 트윈으로 합성데이터를 생성하는 Real2Sim2Real 폐쇄 루프를 양산 공정 원가 절감 증명에 우선 적용한다. 0.5-3mm 정밀 조립을 국내 역진입 시장으로 지목했다. 독파모 2차 검증 진입과 함께 SKT A.X K1의 하반기 생산라인 투입 계획도 확인됐다.",
+      "headline": "한독이 중기부 지원사업 선정으로 2년간 42억원 투입, 6개 전문 에이전트와 슈퍼바이저로 구성된 멀티 AI 에이전트 오케스트레이션 지능형 공장 구축",
+      "source_label": "헬스경향, 2026-07-06",
+      "source_url": "https://www.k-health.com/news/articleView.html?idxno=93671",
+      "detail": "생산·품질·물류·예지보전·에너지·안전 6개 전문 에이전트와 슈퍼바이저 에이전트가 협업하며, GMP 대응을 위해 관리자 최종 승인(human-in-the-loop)을 아키텍처에 내장했습니다. 같은 기간 아시아경제는 K제조의 엔비디아 디지털트윈 플랫폼 종속 리스크를 제기했습니다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "로봇 비전, 파지 AI를 설비 도입 전 가상에서 검증하는 저비용 경로가 열리나, 특정 벤더 데이터 파이프라인 종속 리스크를 함께 점검해야 함."
-    },
-    {
-      "field": "스마트제조·자동화 (인접 영역)",
-      "field_note": "",
-      "headline": "현대차·Boston Dynamics 양산형 Atlas가 7월 5일 FIFA 월드컵 16강 하프타임에 첫 라이브 경기 환경 투입",
-      "source_label": "Hyundai Motor Group, 2026-07-06",
-      "source_url": "https://www.hyundaimotorgroup.com/en/news/hyundai-motor-brings-atlas-humanoid-robot-to-fifa-world-cup-2026-in-first-ever-live-match-environment-robotics-integration",
-      "detail": "Boston Dynamics는 경기 동작 훈련이 실제 산업 응용 훈련과 동일한 리타게팅, 강화학습, 전신제어 파이프라인을 공유한다고 밝혔다. 핵심 자동화(MES, 비전, OPC UA) 영역의 신규 발표는 부재했다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "현대차가 부품 시퀀싱을 휴머노이드 초기 적용처로 명시, 협력사 라인 사이드 도입 압력의 조기 관찰 포인트."
+      "sl_label": "변곡점",
+      "sl_text": "규제·품질 요구가 큰 라인에서 자율성과 규정 준수를 양립시키는 에이전트 운영 템플릿이 국내에서 실증된다는 점이 자율제조 도입의 참조 변곡점입니다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-07-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-08-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
