@@ -1,43 +1,43 @@
 {
-  "date": "2026-07-08",
-  "slug": "2026-07-08-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-08",
-  "mode_notice": "금일 신규 핵심 동향이 한산하여 핵심과 인접 영역 위주로 정리했습니다. 금형·사출은 특이 동향이 없었습니다.",
+  "date": "2026-07-09",
+  "slug": "2026-07-09-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-09",
+  "mode_notice": "금일 신규 핵심 동향이 한산하여 핵심과 인접 영역 위주로 정리했습니다.",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "",
-      "headline": "Ency Software와 Staubli Robotics가 밀링·그라인딩·디버링 등 6개 가공공정 대상 로봇 오프라인 프로그래밍 글로벌 협약 체결",
-      "source_label": "Robotics & Automation News, 2026-07-07",
-      "source_url": "https://roboticsandautomationnews.com/2026/07/07/ency-software-and-staubli-robotics-sign-global-agreement-to-simplify-robot-programming/103085/",
-      "detail": "CAD/CAM 궤적을 로봇 경로로 오프라인 변환하고 충돌·특이점을 사전 시뮬레이션해 프로그래밍 단계의 로봇 다운타임을 줄이는 로보틱 머시닝 접근입니다. 생성형·에이전트형 자동화와 달리 결정론적 궤적 실행에 초점을 둡니다.",
+      "field_note": "2026-07-06 발행 Automate 2026의 후속",
+      "headline": "ARC Advisory Group 설문에서 소프트웨어 정의 자동화 도입 24% 증가 수치 공개",
+      "source_label": "ARC Advisory Group, 2026-07-07",
+      "source_url": "https://www.arcweb.com/blog/what-i-saw-automate-2026-part-1-ai-automation-us-manufacturing-renaissance",
+      "detail": "ARC의 Automate 2026 현장 분석은 온쇼어링·노동력 부족·AI 실용화가 맞물려 소프트웨어 정의가 전시 핵심어로 부상했다고 정리했다. FANUC은 산업 AI가 결정론적 제어를 대체하지 않고 학습이 유효한 지점에만 결합한다고 발언했다.",
       "certainty": "[업계 분석]",
-      "sl_label": "기회",
-      "sl_text": "램프·부품의 디버링·폴리싱을 로보틱 머시닝으로 전환할 오프라인 프로그래밍 도입 기회. 단 Staubli 하드웨어 결합 협약이라 기존 로봇 자산과의 정합성·종속 여부를 함께 확인해야 합니다."
+      "sl_label": "검토",
+      "sl_text": "신규 트리거 부재의 관망 국면. 6월 말 벤더 발표군(Siemens·Rockwell)의 상용화 지표를 기다리는 편이 합리적이다."
     },
     {
-      "field": "로보틱스·모빌리티",
-      "field_note": "",
-      "headline": "파리 UMA가 유럽발 휴머노이드 Northstar와 시연 기반 실시간 학습 아키텍처 공개, 잠재 고객 약 50곳과 도입 논의",
-      "source_label": "Electrek, 2026-07-07",
-      "source_url": "https://electrek.co/2026/07/07/tesla-optimus-scientist-uma-humanoid-robot/",
-      "detail": "테슬라 Optimus 신경망과 Hugging Face LeRobot을 이끈 Remi Cadene이 창업했습니다. 작업별 수작업 프로그래밍을 시연 학습으로 대체하는 구조를 내세웠고 연내 산업용 파일럿을 목표로 합니다.",
+      "field": "로보틱스·모빌리티 (인접 영역)",
+      "field_note": "신규",
+      "headline": "JAIST 연구팀, 내장 어안 카메라 1대 기반 비전 촉각 소프트 그리퍼 EleTac 공개",
+      "source_label": "Mirage News / JAIST, 2026-07-07",
+      "source_url": "https://www.miragenews.com/eletac-elephant-inspired-soft-gripper-with-1705757/",
+      "detail": "핵심 자율주행·EV 소식은 모두 7월 5일자로 조사 기간 밖이어서 제외했다. 인접 영역에서 확인된 EleTac은 카메라 1대로 소프트 소재 변형을 관측해 촉각과 자기수용을 동시 추정하는 플러그앤플레이 엔드이펙터로, IEEE Transactions on Robotics에 게재됐다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "미국·중국 양강 구도에 유럽 벤더가 가세하는 휴머노이드 공급 다변화 초기 신호입니다. 다만 출하 제품이 없어 실증 성과 확인 전까지는 관망이 합리적입니다."
+      "sl_text": "램프렌즈·커넥터 등 형상 편차 큰 부품의 유연 파지 자동화 관점에서 관찰 가치가 있으나, 논문 단계라 도입보다 기술 모니터링 영역이다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "",
-      "headline": "한독이 중기부 지원사업 선정으로 2년간 42억원 투입, 6개 전문 에이전트와 슈퍼바이저로 구성된 멀티 AI 에이전트 오케스트레이션 지능형 공장 구축",
-      "source_label": "헬스경향, 2026-07-06",
-      "source_url": "https://www.k-health.com/news/articleView.html?idxno=93671",
-      "detail": "생산·품질·물류·예지보전·에너지·안전 6개 전문 에이전트와 슈퍼바이저 에이전트가 협업하며, GMP 대응을 위해 관리자 최종 승인(human-in-the-loop)을 아키텍처에 내장했습니다. 같은 기간 아시아경제는 K제조의 엔비디아 디지털트윈 플랫폼 종속 리스크를 제기했습니다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "규제·품질 요구가 큰 라인에서 자율성과 규정 준수를 양립시키는 에이전트 운영 템플릿이 국내에서 실증된다는 점이 자율제조 도입의 참조 변곡점입니다."
+      "field_note": "2026-07-06 발행 [AI로 읽는 경제] 시리즈의 후속 제3편",
+      "headline": "제조업 AI 활용률 23.8%로 서비스업 53.0%의 절반 이하, 격차 원인은 비용 아닌 데이터 정비",
+      "source_label": "뉴스핌, 2026-07-08",
+      "source_url": "https://www.newspim.com/news/view/20260707001259",
+      "detail": "뉴스핌 기획은 제조 AI의 실제 병목이 솔루션 비용이 아니라 AI가 읽을 수 있는 형태의 데이터·업무표준·전담 인력 부재라고 진단했다. 국내 500개사 중 AI 필요 인식 78.4%, 실제 활용 30.6%로 인식과 실행의 간극이 크다.",
+      "certainty": "[2차 인용]",
+      "sl_label": "리스크",
+      "sl_text": "원청의 실시간 품질·납기 데이터 요구가 강화되면 데이터 정비가 늦은 2·3차 협력사가 납품 리스크 업체로 분류될 수 있어, 협력사 데이터 표준화를 공급망 관리 항목으로 선제 편입할 필요가 있다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-08-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-09-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
