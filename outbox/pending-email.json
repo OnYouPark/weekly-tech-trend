@@ -1,54 +1,21 @@
 {
-  "date": "2026-07-10",
-  "slug": "2026-07-10-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-10",
-  "mode_notice": "",
+  "date": "2026-07-13",
+  "slug": "2026-07-13-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-13",
+  "mode_notice": "금일 신규 핵심 동향이 한산하여 핵심과 인접 영역 위주로 정리했습니다. 스마트제조·AI·금형사출은 이번 기간 특이 동향이 없었습니다.",
   "fields": [
-    {
-      "field": "스마트제조·자동화",
-      "field_note": "소프트웨어 정의 자동화 후속",
-      "headline": "MarketScale이 A3 회원사 2026년 기술 백서 약 20편을 고정 하드웨어에서 소프트웨어 정의 공장으로 전환 신호로 종합(7월 8일)",
-      "source_label": "MarketScale, 2026-07-08",
-      "source_url": "https://www.marketscale.com/industries/industrial-iot/a3s-2026-automation-whitepaper-wave-signals-a-shift-from-fixed-hardware-to-software-defined-factory-floors",
-      "detail": "Intel·Cognex·Bosch Rexroth 등 백서가 자동화 조달 기준을 개별 설비 성능에서 상호운용성·하드웨어와 소프트웨어의 분리·AI 거버넌스 문서화로 재정의한다는 분석이다. 개별 신규 발표가 아닌 2월에서 6월 축적분의 재종합이다.",
-      "certainty": "[2차 인용]",
-      "sl_label": "기회",
-      "sl_text": "자동화 설비 RFP 평가표에 상호운용성·AI 거버넌스 문서화를 명시 항목으로 넣어 단일 벤더 종속을 선제 차단할 조달 기준 개편 근거."
-    },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "Waymo가 4개 도시 완전 무인 운행을 개시해 무인 로보택시 도시를 10곳 이상으로 확대하고 6세대 Driver를 현대차 아이오닉 5에 적용 검증 착수(7월 8일)",
-      "source_label": "Waymo 공식 블로그, 2026-07-08",
-      "source_url": "https://waymo.com/blog/shorts/ro-den-lv-sd-tmpa/",
-      "detail": "샌디에이고·라스베이거스·탬파·덴버 4곳에서 안전요원 없는 운행을 시작하고, 기존 Jaguar I-PACE 중심 함대에서 아이오닉 5로 자율주행 스택 포팅 검증에 착수했다. 미국 로보택시 선두가 한국 완성차 플랫폼을 공식 검증 라인업에 편입한 첫 실증이다.",
-      "certainty": "[공식 발표]",
+      "headline": "개정 로봇 안전표준 ISO 10218:2025가 2027-01-20 발효 EU 기계규정(2023/1230)의 CE 의무요건으로 부상하며 공급사 준비도가 양극화되고 있다.",
+      "source_label": "The Robot Report, 2026-07-11",
+      "source_url": "https://www.therobotreport.com/are-suppliers-ready-for-new-robot-safety-standards/",
+      "detail": "Interact Analysis 분석에서 글로벌 대형 벤더는 대응을 마친 반면 중소·중국계 신규 진입 업체는 준비가 미흡해 표준 시행 시 시장 접근 차질이 예상된다. 같은 날 The Robot Report는 배치 전 가상 체육관 시뮬레이션 학습으로 지게차 인식 재현율을 49.4%에서 92.8%로 끌어올린 사례도 제시했다.",
+      "certainty": "[업계 분석]",
       "sl_label": "변곡점",
-      "sl_text": "자율주행 전용 램프·센서 일체형 신호 모듈 신규 수요가 열리는 기회이자, 소프트웨어 규격 종속·기능안전(FuSa) 검증 부담이 동반되는 전환점."
-    },
-    {
-      "field": "AI·디지털전환",
-      "field_note": "",
-      "headline": "SK AX가 로봇 투입 전 수천 건 시나리오를 가상 검증하는 디지털 트윈·VLA 피지컬 AI·이기종 로봇 통합 관제를 묶은 제조 RX 풀스택 서비스 출시(7월 8-9일)",
-      "source_label": "SK AX 뉴스룸, 2026-07-09",
-      "source_url": "https://www.skax.co.kr/company/news-room/sk-ax-%EB%A1%9C%EB%B4%87-%EB%8F%84%EC%9E%85%EB%B6%80%ED%84%B0-%EC%9E%90%EC%9C%A8-%EA%B3%B5%EC%9E%A5-%EC%9A%B4%EC%98%81%EA%B9%8C%EC%A7%80-%EC%A0%9C%EC%A1%B0%ED%98%84%EC%9E%A5-rx",
-      "detail": "반도체 현장 실증을 축적한 뒤 조선으로 확대하는 구상으로, 가상 시운전을 로봇 오퍼레이션까지 확장하고 규칙 기반 제어를 VLA 모델로 대체한 국내 SI 상용 레퍼런스다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "완성차 SDF 표준화 압력이 부품사로 전이되기 전 OPC UA·ISA-95 기반 벤더 중립적 데이터 계층을 선제 정의하면 종속 리스크를 편입 기회로 전환."
-    },
-    {
-      "field": "금형·사출 기술",
-      "field_note": "",
-      "headline": "Open Mind가 5축 레스트 가공·충돌 회피·자동 프로그래밍을 강화한 금형 CAD/CAM hyperMILL 2026 공개, 재활용 함량 25% BPA-free 금형 소재 전환 병행(7월 8일)",
-      "source_label": "MoldMaking Technology, 2026-07-08",
-      "source_url": "https://www.moldmakingtechnology.com/products/open-mind-introduces-hypermill-2026-with-enhanced-finishing-five-axis-programming-capabilities",
-      "detail": "hyperMILL 2026은 9월 IMTS 2026 출품 예정이며, 함께 Eastman Tritan Renew(재활용 함량 25%) BPA-free 식품접촉 금형 소재 전환과 핫러너 온도제어기 3단계 구조 해설이 게재됐다. 가공 개선율 수치는 미공개다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "복잡 형상 금형 가공 리드타임 단축 여지. 다만 IMTS 실물 검증 전까지 사내 CAM 로드맵 점검용 신호로 한정."
+      "sl_text": "유럽향 로봇 조달·수출 정합성이 갈리는 국면. 미대응 저가 로봇 도입은 CE·사고 리스크를, 표준 선제 대응은 중국계 대비 차별화 기회를 만든다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-10-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-13-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
