@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "slug": "2026-07-13-production-h1-2026",
+      "title": "생산기술 신규기술 브리핑 - 2026년 상반기 종합",
+      "date": "2026-07-13",
+      "type": "production",
+      "period": "2026년 상반기",
+      "tags": [
+        "ENGEL",
+        "Haitian",
+        "FANUC CRX",
+        "WITTMANN",
+        "Physical AI",
+        "휴머노이드",
+        "NVIDIA Isaac",
+        "PCR재생수지"
+      ],
+      "summary": "사출성형은 AI 자율 공정제어 실장과 기가몰딩·PCR 양산 진입, 로봇제조는 Physical AI 본류 진입과 휴머노이드의 공장 파일럿·상용 계약 전환이 상반기를 규정했다"
+    },
+    {
       "slug": "2026-07-13-china",
       "title": "중국 제조 동향 주간 - 2026년 7월 2주",
       "date": "2026-07-13",
