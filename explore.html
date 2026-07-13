@@ -65,6 +65,8 @@
           <a class="site-nav__link is-active" href="./explore.html" aria-current="page">탐색</a>
           <span class="site-nav__sep" aria-hidden="true">·</span>
           <a class="site-nav__link" href="./china.html">중국 제조 동향</a>
+          <span class="site-nav__sep" aria-hidden="true">·</span>
+          <a class="site-nav__link" href="./production.html">생산기술 브리핑</a>
         </nav>
       </div>
       <button id="theme-toggle" class="theme-toggle" type="button" aria-label="테마 전환">🌙</button>
@@ -561,8 +563,8 @@
         })
         .then(function (data) {
           var all = (data && Array.isArray(data.articles)) ? data.articles : [];
-          /* 탐색은 일일 브리핑(daily) 전용 — 태그·달력 집계에서 weekly/monthly/china 제외
-             (중국·종합 기사 태그가 일일 브리핑 탐색을 오염시키지 않도록) */
+          /* 탐색은 일일 브리핑(daily) 전용 — 태그·달력 집계에서 weekly/monthly/china/production 제외
+             (중국·종합·생산기술 기사 태그가 일일 브리핑 탐색을 오염시키지 않도록) */
           var list = all.filter(function (a) { return getType(a) === 'daily'; });
           if (list.length === 0) {
             taglistEl.innerHTML = '<li class="taglist__empty">등록된 기사가 없습니다.</li>';

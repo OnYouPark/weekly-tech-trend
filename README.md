@@ -25,6 +25,7 @@
 ├── weekly.html             # 주간 브리핑 종합 (type=weekly)
 ├── monthly.html            # 월간 브리핑 종합 (type=monthly)
 ├── china.html              # 중국 제조 동향 (type=china)
+├── production.html         # 생산기술 브리핑 (type=production)
 ├── explore.html            # 탐색 페이지 (주제별·날짜별 — daily 전용)
 ├── article.html            # 기사 상세 페이지 (?slug=... 로 호출)
 ├── assets/
@@ -38,7 +39,7 @@
 
 ### 콘텐츠 유형과 네비게이션
 
-기사는 `type` 필드로 4종으로 구분되며, 네비게이션은 5개 탭으로 나뉩니다.
+기사는 `type` 필드로 5종으로 구분되며, 네비게이션은 6개 탭으로 나뉩니다.
 
 | type | 탭 | 페이지 |
 | --- | --- | --- |
@@ -46,9 +47,11 @@
 | `weekly` | 주간 브리핑 | `weekly.html` |
 | `monthly` | 월간 브리핑 | `monthly.html` |
 | `china` | 중국 제조 동향 | `china.html` |
+| `production` | 생산기술 브리핑 | `production.html` |
 
 - `type`이 없는 항목은 `daily`로 취급합니다(기존 기사 호환).
-- 탐색(`explore.html`)의 주제별 태그·날짜별 달력 집계는 **daily 기사만** 대상으로 합니다. 종합·중국 기사 태그는 탐색에 포함되지 않습니다.
+- 탐색(`explore.html`)의 주제별 태그·날짜별 달력 집계는 **daily 기사만** 대상으로 합니다. 종합·중국·생산기술 기사 태그는 탐색에 포함되지 않습니다.
+- `production`은 사출성형·로봇제조 기술을 업체·기술 중심으로 심층 정리하는 주간 리포트입니다. `period`는 "2026년 7월 1주차" 형태가 기본이며, 상반기 통합 기사 등은 "2026년 상반기" 같은 자유 표기도 허용합니다.
 
 ## 새 기사 추가 절차
 
@@ -60,8 +63,8 @@
 ---
 title: 기사 제목
 date: 2026-06-26
-type: weekly          # daily / weekly / monthly / china. 없으면 daily로 간주
-period: 2026-06-4주    # 종합·중국 기사의 대상 기간 표시용 (daily는 생략)
+type: weekly          # daily / weekly / monthly / china / production. 없으면 daily로 간주
+period: 2026-06-4주    # 종합·중국·생산기술 기사의 대상 기간 표시용 (daily는 생략)
 tags: [태그1, 태그2]
 summary: 한 줄 요약
 ---
@@ -70,7 +73,7 @@ summary: 한 줄 요약
 ```
 
    - `type`·`period`는 선택 필드입니다. 일반 일일 브리핑은 둘 다 생략하면 됩니다(자동으로 `daily` 취급).
-   - 종합·중국 리포트도 동일하게 `articles/`에 파일을 추가하고 `index.json`에 등록하면 바로 게시됩니다. (`type`을 `weekly`/`monthly`/`china`로 지정)
+   - 종합·중국·생산기술 리포트도 동일하게 `articles/`에 파일을 추가하고 `index.json`에 등록하면 바로 게시됩니다. (`type`을 `weekly`/`monthly`/`china`/`production`으로 지정)
 
    - `tags`는 그 기사에 실제 등장한 핵심 기업·기술을 기준으로 부여합니다 (예: `NVIDIA`, `디지털트윈`, `협동로봇`). 고유명사는 원문, 일반 기술어는 한글로 표기하며, 기사당 최대 8개를 권장합니다.
 
