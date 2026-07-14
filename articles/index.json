@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "slug": "2026-07-15-production",
+      "title": "생산기술 신규기술 브리핑 - 2026년 7월 3주차",
+      "date": "2026-07-15",
+      "type": "production",
+      "period": "2026년 7월 3주차",
+      "tags": [
+        "ENGEL",
+        "clearmelt",
+        "WITTMANN",
+        "HASCO",
+        "Yaskawa",
+        "VLA",
+        "휴머노이드",
+        "ISO 10218"
+      ],
+      "summary": "ENGEL clearmelt 도장 대체 표면성형의 양산 성숙도 공개, Yaskawa–SoftBank VLA 와이어하니스 핸들링 실증, Mitsubishi Motors–Highlanders 휴머노이드 공동개발·양산 MOU 체결"
+    },
+    {
       "slug": "2026-07-15-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 7월 15일",
       "date": "2026-07-15",
