@@ -1,54 +1,54 @@
 {
-  "date": "2026-07-14",
-  "slug": "2026-07-14-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-14",
+  "date": "2026-07-15",
+  "slug": "2026-07-15-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-15",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "한국, IEC 신설 스마트제조 표준화위원회(SC65F) 간사국 수임 — SMB 최종투표 15개국 만장일치 승인",
-      "source_label": "파이낸셜뉴스, 2026-07-12",
-      "source_url": "https://www.fnnews.com/news/202607121325033437",
-      "detail": "TC65 회원국 투표(19개국 중 16개국 찬성)와 SMB 승인을 거쳐 확정됐다. SC65F는 디지털트윈 공장·자율제조·기업-제어 시스템 통합 등 12개 분야 국제표준 개발을 담당하며 한국이 임기 제한 없는 간사국으로 의제 설정권을 확보했다.",
+      "headline": "과기정통부 하이퍼 AI 네트워크 실증 착수, 총사업비 172억600만원으로 SKT·KT 2개 컨소시엄 선정",
+      "source_label": "SKT 뉴스룸, 2026-07-14",
+      "source_url": "https://news.sktelecom.com/227797",
+      "detail": "기지국이 통신과 AI 연산을 함께 수행하는 AI-RAN을 5G 단독모드 기반으로 구축해 SK인천석유화학, KG모빌리티 평택공장, HD현대삼호 조선소에서 검증한다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "ISA-95(IEC 62264) 계열 표준 개정 방향이 한국 간사국 체제에서 결정되므로, 공장 데이터 모델·예지보전 규격을 국제표준 제안으로 연결할 참여 창구가 열렸다."
+      "sl_text": "2차 연도 실증지가 자동차 공장으로 명시돼, 부품사도 공장 무선 인프라(AI-RAN·5G 특화망·유선) 로드맵을 실증 지표 기반으로 2027년 전에 선점 검토할 수 있다."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "XPeng L03, 전 트림 카메라 온리 VLA 2.0 표준 탑재로 7월 16일 중국 포함 64개 시장 동시 출시 확정",
-      "source_label": "Tech Times, 2026-07-13",
-      "source_url": "https://www.techtimes.com/articles/320319/20260713/xpeng-l03-debuts-munich-end-end-vla-ai-across-64-markets-once.htm",
-      "detail": "중국 시작가 143,800위안(약 21,200달러)에 자체 Turing 칩 750–1,500 TOPS와 end-to-end VLA 2.0을 표준 탑재한다. LiDAR·HD맵 없이 카메라만으로 인지에서 제어까지 단일 모델로 처리하는 구조를 2만 달러대 보급형에 실었다.",
+      "headline": "中 LimX Dynamics, 기업가치 150억 위안(22억 1,000만 달러)으로 2억 달러 프리IPO 마감",
+      "source_label": "The Next Web, 2026-07-14",
+      "source_url": "https://thenextweb.com/news/limx-dynamics-2-2-billion-humanoid-pre-ipo",
+      "detail": "2분기 중국 휴머노이드 투자는 470억 위안으로 전분기 대비 2배를 넘었고, 같은 날 JD.com은 광저우에 연면적 약 19만 제곱미터의 로봇 산업기지 RoboBase를 착공했다.",
       "certainty": "[2차 인용]",
-      "sl_label": "변곡점",
-      "sl_text": "보급형까지 카메라 온리 ADAS가 표준화되면 LiDAR 전제의 전방 모듈 설계는 축소되고, 저조도 인지를 보완하는 고기능 램프(ADB·고해상도)의 사양 협상력이 커지는 방향으로 부품 가치가 재배분된다."
+      "sl_label": "리스크",
+      "sl_text": "중국계 휴머노이드가 해외 수주 과반·자본 우위로 양산 단가를 굳히면 국내 자동화 장비 선택지가 중국산 중심으로 재편되고, 북미 고객향 공급망 컴플라이언스 부담이 병행한다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-07-08 발행 한독 건의 후속 포함",
-      "headline": "미라콤아이앤씨, 그린코스 김포 3공장 MES 약 8개월 구축 착수 — 제조 AX 전 단계 데이터 정비 사례",
-      "source_label": "지디넷코리아, 2026-07-13",
-      "source_url": "https://zdnet.co.kr/view/?no=20260713190210",
-      "detail": "연평균 53% 성장한 화장품 OEM의 신공장 가동(내년 1월) 전에 LOT 추적·전자 제조기록·데이터 무결성 계층을 먼저 구축하고 AI를 단계 적용하는 순서다. 한독 건은 6개 전문 에이전트 위 AI 슈퍼바이저와 GMP 관리자 승인 게이트 구조가 새로 확인됐다.",
+      "field_note": "2026-07-07 발행 A.X K1 생산라인 투입의 후속",
+      "headline": "SKT 독자 파운데이션 모델 컨소시엄, SK AX·테크노매트릭스 2개사 영입해 차기 모델 A.X K2 구축 공식화",
+      "source_label": "SKT 뉴스룸, 2026-07-14",
+      "source_url": "https://news.sktelecom.com/227799",
+      "detail": "AI 운영 최적화(FM-Ops) 전문기업 합류로 제조 AI의 무게중심이 모델 개발에서 현장 운영·재학습 체계로 이동했다. KG스틸 철강 AI 에이전트, 코넥 주조·가공 품질 개선으로 적용처가 뿌리공정까지 확장됐다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "신규 라인·신공장 투자 시점이 데이터 계층을 최저비용으로 구축할 기회이며, 규제 산업의 human-in-the-loop 에이전트 아키텍처는 안전부품 제조의 준거가 된다."
+      "sl_label": "변곡점",
+      "sl_text": "특정 벤더 풀스택 종속 대신 데이터 표준화·MLOps 내재화를 먼저 갖추고 모델은 교체 가능한 구조로 두는 도입 전략이 유효해졌다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "Haimer, 슈링크피트 척 통합 슬롯으로 절삭날 직접 냉각하는 Cool-Flash 공개 — IMTS 2026 출품 예고, 정량 수치 부재",
-      "source_label": "MoldMaking Technology, 2026-07-13",
-      "source_url": "https://www.moldmakingtechnology.com/products/haimer-cooling-system-improves-coolant-delivery-for-shrink-fit-chuck-applications-2",
-      "detail": "외부 노즐이나 절삭유 설비 개조 없이 척 형상 자체로 냉각유를 절삭날에 유도하는 방식이다. 이번 48시간은 금형·사출 분야 소강 국면으로, 성능 정량 지표는 미공개다.",
+      "headline": "Covestro-BYD 전기차 소재 전략 파트너십 MoU 체결, 대체 원료 최소 25%의 CQ 순환 소재 포함",
+      "source_label": "Plastics Today, 2026-07-14",
+      "source_url": "https://www.plasticstoday.com/automotive-mobility/covestro-and-byd-partner-on-advanced-ev-materials",
+      "detail": "라이팅 시스템·내외장·전장 부품용 PC·PU 소재를 공동 개발하고, BYD 기술 로드맵에 소재사가 조기 참여하는 공동설계 구조다.",
       "certainty": "[공식 발표]",
-      "sl_label": "검토",
-      "sl_text": "이 기간 신규 도입 판단 사안은 없으며, 하반기 IMTS(9월)·Fakuma(10월) 대비 금형 가공 냉각·CAE 정밀화 정보수집에 자원을 배분하는 편이 합리적이다."
+      "sl_label": "리스크",
+      "sl_text": "램프용 PC 핵심 공급사의 신소재 조기 접근권이 BYD로 기울어, 국내 램프·부품사는 소재 공동개발 계약의 조기 접근·공급 보장 조항 재점검이 필요하다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-14-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-15-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
