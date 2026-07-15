@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "slug": "2026-07-16-daily-brief",
+      "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 7월 16일",
+      "date": "2026-07-16",
+      "tags": [
+        "Rockwell Automation",
+        "MES",
+        "Walden Robotics",
+        "휴머노이드",
+        "OT보안",
+        "데이터거버넌스",
+        "사출성형",
+        "Siemens"
+      ],
+      "summary": "Rockwell 조사에서 MES 도입 93% 대비 완전 통합 23%의 확장 절벽이 정량화됐고, Toyota 분사 Walden Robotics가 시드 3억 달러·기업가치 11억 달러로 출범해 OEM 수직통합형 Physical AI 모델이 등장. 사출은 2단계 보압의 게이트 싱크 제거 실측 사례 확인."
+    },
+    {
       "slug": "2026-07-15-production",
       "title": "생산기술 신규기술 브리핑 - 2026년 7월 3주차",
       "date": "2026-07-15",
