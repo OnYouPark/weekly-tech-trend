@@ -1,54 +1,54 @@
 {
-  "date": "2026-07-16",
-  "slug": "2026-07-16-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-16",
+  "date": "2026-07-20",
+  "slug": "2026-07-20-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-20",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "2026-07-14 발행 데이터 우선 경로 논지의 후속",
-      "headline": "Rockwell Automation, 17개국 1,560명 조사에서 MES 도입률 93% 대비 전사 확장 28%·완전 통합 23%의 격차 정량화",
-      "source_label": "StockTitan(PR Newswire 전재), 2026-07-14",
-      "source_url": "https://www.stocktitan.net/news/ROK/93-of-manufacturers-have-mes-but-only-23-have-fully-integrated-it-dxgpnive69ri.html",
-      "detail": "자동차 사출 내장재 Tier 1인 Kumi North America의 Plex MES 다거점 확장 사례가 함께 공개됐고, 통합(44%)과 보안(43%)이 MES 구매 요건 1·2위로 확인됐다. 같은 주 ICS Patch Tuesday에서는 Siemens Opencenter X에 CVSS 10.0 취약점이 공개됐다.",
-      "certainty": "[공식 발표]",
+      "field_note": "",
+      "headline": "미국 제조 시설 80%가 자동화 미도입, 스마트제조 필수 인식 92% 대비 AI 광범위 배치 14%의 실행 격차 공론화",
+      "source_label": "MarketScale, 2026-07-17",
+      "source_url": "https://www.marketscale.com/industries/industrial-iot/80-of-us-factories-have-no-automation-heres-whats-changing-in-2026",
+      "detail": "Intrinsic CTO 발언과 Deloitte 조사를 종합한 분석으로, ABB의 외함 불요 드라이브 등 벤더들이 브라운필드 저비용 진입 제품으로 이동하는 흐름이 함께 확인됐다.",
+      "certainty": "[2차 인용]",
       "sl_label": "기회",
-      "sl_text": "경쟁 부품사 대부분이 멈춰 선 전사 통합 23% 구간을 먼저 통과하는 쪽이 AI 적용 속도에서 구조적 격차를 만든다."
+      "sl_text": "북미 법인의 자동화 품의를 인건비 절감이 아닌 채용 불가 인력의 캐파 대체(수주 방어)로 재구성하면 승인 논리와 선점 효과를 동시에 확보할 수 있다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "",
-      "headline": "Toyota 분사 Walden Robotics, 시드 3억 달러·기업가치 11억 달러로 출범 — 파일럿에서 실작업 전환 2개월 미만의 Toyota 북미 공장 배치 실적 공개",
-      "source_label": "Business Wire, 2026-07-15",
-      "source_url": "https://www.businesswire.com/news/home/20260715089377/en/Walden-Robotics-Launches-with-$300-Million-to-Put-General-Purpose-Robots-to-Work-Today",
-      "detail": "Diffusion Policy·Large Behavior Model 기반 범용 로봇이 부품 로딩·키팅·설비 청소를 수행 중이며, NVIDIA·Boeing·Samsung Ventures가 투자에 참여했다.",
+      "field_note": "2026-07-13 발행 中 휴머노이드 10만 대 목표의 후속",
+      "headline": "AGIBOT, WAIC 2026에서 산업용 G2 Max 등 4종 동시 발표 - 양산 검사 라인 64시간 연속 64,800건, 성공률 99.99%(자사 발표)",
+      "source_label": "RoboticsTomorrow, 2026-07-19",
+      "source_url": "https://www.roboticstomorrow.com/news/2026/07/19/agibot-unveils-four-new-products-at-waic-2026-showcasing-embodied-ai-in-real-world-operations/26859/",
+      "detail": "힘제어 기반 중량물 로봇 G2 Max와 완전 직접구동 핸드 OmniHand 3 Ultra-M이 공개됐고, 中 상반기 휴머노이드 생산 4만 대 돌파(전년 연간의 2배)가 공식화됐다.",
       "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "OEM이 Physical AI를 분사·수직통합해 자사 공장 학습 데이터를 독점하는 모델이 등장, 로봇 도입을 장비 구매가 아닌 데이터 주권 계약 관점에서 준비해야 한다."
+      "sl_label": "리스크",
+      "sl_text": "미국 조달 배제 입법과 중국 수출 드라이브가 동시 진행되며 거점별 도입 가능 자동화 기종이 갈라지는 장비 진영화를 다국적 공장 표준화 전략의 변수로 반영해야 한다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-07-09 발행 데이터 정비 병목 진단의 후속",
-      "headline": "인터엑스, 누적 지식재산권 158건 포트폴리오·제로샷 경량 이상탐지 공개하고 코스닥 기술특례상장 추진 공식화",
-      "source_label": "헬로티, 2026-07-15",
-      "source_url": "https://www.hellot.net/news/article.html?no=113800",
-      "detail": "같은 날 헬로티 분석 기사는 태그 명명·설비 계층·데이터 소유권 등 거버넌스 부재가 제조 AI 병목이며, 문제가 자동화 설계 단계에서 시작된다고 진단했다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "AI 에이전트 PoC 확대보다 신규 라인 설계 단계의 태그·데이터 표준화를 먼저 발주하는 쪽이 투자 회수가 빠르다."
+      "field_note": "",
+      "headline": "현대오토에버 SDF 상반기 해외 매출 비중 34.3% 등 K-디지털 트윈이 내부 도구에서 수출 플랫폼 상품으로 전환",
+      "source_label": "매일일보, 2026-07-19",
+      "source_url": "https://www.m-i.kr/news/articleView.html?idxno=1392381",
+      "detail": "삼성전기·LG이노텍의 FC-BGA 휨 가상 예측 양산 적용, SKT의 구독형(SaaS) 예지보전 등 전달 방식이 구축형에서 구독형으로 분화되고 있다.",
+      "certainty": "[업계 분석]",
+      "sl_label": "변곡점",
+      "sl_text": "완성차 해외 신공장이 SDF 표준 위에 세워지면 부품사의 라인 검증·품질 데이터 연동도 해당 플랫폼 문법을 따르라는 요구로 이어져, 디지털 트윈 도입이 고객사 생태계 호환성 문제로 바뀐다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "Plastics Technology 기고, 단일 보압 8,500psi 17초의 게이트 싱크를 8,500psi 8초 + 4,000psi 2초의 2단계 적용으로 제거한 실측 사례 제시",
-      "source_label": "Plastics Technology, 2026-07-15",
-      "source_url": "https://www.ptonline.com/articles/packing-pressure-and-time-vs-holding-pressure-and-time-are-we-using-the-right-terms",
-      "detail": "패킹(수축 보상)과 보압(역류 방지)을 물리적으로 분리 정의했고, 밸브게이트 금형에는 보압 단계 자체가 존재하지 않는다고 명시했다.",
+      "headline": "Mazak, ORNL 공동 개발 WAAM 하이브리드 셀(5축 VC-Ez 20X 2대 구성) 등 IMTS 2026 라인업 공개",
+      "source_label": "MoldMaking Technology, 2026-07-17",
+      "source_url": "https://www.moldmakingtechnology.com/products/mazak-advanced-machining-solutions-accelerate-production-output-2",
+      "detail": "와이어 아크 적층과 5축 마무리 절삭·계측을 한 셀로 묶은 구성이 대형 공작기계사의 정규 카탈로그 품목으로 편입됐다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "밸브게이트 비중이 높은 램프류 사출 조건표의 보압 정의를 재점검하면 무투자·저위험으로 게이트 싱크 불량을 줄일 여지가 있다."
+      "sl_text": "대형 사출금형 보수 육성·인서트 래피드 툴링의 내재화 투자 검토 시점이 IMTS 2026(9월) 전으로 앞당겨졌다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-16-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-20-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
