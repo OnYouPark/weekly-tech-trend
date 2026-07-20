@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "slug": "2026-07-21-daily-brief",
+      "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 7월 21일",
+      "date": "2026-07-21",
+      "tags": [
+        "MIIT",
+        "SAIC",
+        "로보택시",
+        "AGIBOT",
+        "MagicLab",
+        "반월시화AX",
+        "DiFeedWinV",
+        "5G팩토리"
+      ],
+      "summary": "中 MIIT 상반기 5G 전용망 8만 개·기업 AI 침투율 30% 공식화, SAIC 전용 설계 로보택시 2027년 데뷔 공식화, 반월·시화 제조 AX 거버넌스 출범(280억5000만원, 자동차 부품 실증 1호), Ingersoll 금형용 고이송 밀링 DiFeedWinV 공개."
+    },
+    {
       "slug": "2026-07-20-china",
       "title": "중국 제조 동향 주간 - 2026년 7월 3주",
       "date": "2026-07-20",
