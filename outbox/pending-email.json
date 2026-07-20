@@ -1,54 +1,54 @@
 {
-  "date": "2026-07-20",
-  "slug": "2026-07-20-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-20",
+  "date": "2026-07-21",
+  "slug": "2026-07-21-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-21",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "미국 제조 시설 80%가 자동화 미도입, 스마트제조 필수 인식 92% 대비 AI 광범위 배치 14%의 실행 격차 공론화",
-      "source_label": "MarketScale, 2026-07-17",
-      "source_url": "https://www.marketscale.com/industries/industrial-iot/80-of-us-factories-have-no-automation-heres-whats-changing-in-2026",
-      "detail": "Intrinsic CTO 발언과 Deloitte 조사를 종합한 분석으로, ABB의 외함 불요 드라이브 등 벤더들이 브라운필드 저비용 진입 제품으로 이동하는 흐름이 함께 확인됐다.",
-      "certainty": "[2차 인용]",
-      "sl_label": "기회",
-      "sl_text": "북미 법인의 자동화 품의를 인건비 절감이 아닌 채용 불가 인력의 캐파 대체(수주 방어)로 재구성하면 승인 논리와 선점 효과를 동시에 확보할 수 있다."
+      "headline": "中 MIIT 상반기 실적 발표 — 산업용 5G 전용망 8만 개·특색 5G 팩토리 1,260개, 규모이상 기업 AI 침투율 30% 돌파",
+      "source_label": "ECNS, 2026-07-20",
+      "source_url": "http://www.ecns.cn/cns-wire/2026-07-20/detail-ihfhkrtk6181742.shtml",
+      "detail": "지능형 컴퓨팅 용량 2,185 EFLOPS(전년 대비 +177%)와 함께 연결–컴퓨팅–AI 적용의 3층 인프라가 국가 단위 통계로 관리되는 단계에 진입했다. AGIBOT의 태블릿 검사라인 실증 KPI(라인 통합 36시간, 다운타임 손실 4% 미만)도 공개됐다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "리스크",
+      "sl_text": "중국 경쟁 부품사의 공정 지능화가 평균 30% 침투 단계로 올라서, 대중국 원가·품질 격차 방어선이 검사 자동화 도입 여부가 아닌 적용 밀도로 이동."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "2026-07-13 발행 中 휴머노이드 10만 대 목표의 후속",
-      "headline": "AGIBOT, WAIC 2026에서 산업용 G2 Max 등 4종 동시 발표 - 양산 검사 라인 64시간 연속 64,800건, 성공률 99.99%(자사 발표)",
-      "source_label": "RoboticsTomorrow, 2026-07-19",
-      "source_url": "https://www.roboticstomorrow.com/news/2026/07/19/agibot-unveils-four-new-products-at-waic-2026-showcasing-embodied-ai-in-real-world-operations/26859/",
-      "detail": "힘제어 기반 중량물 로봇 G2 Max와 완전 직접구동 핸드 OmniHand 3 Ultra-M이 공개됐고, 中 상반기 휴머노이드 생산 4만 대 돌파(전년 연간의 2배)가 공식화됐다.",
+      "field_note": "2026-07-20 발행 WAIC 커버리지 후속",
+      "headline": "SAIC, 전용 설계 양산형 로보택시 개발 착수·2027년 데뷔 목표 — 누적 승객 주문 35만 건·안전 운행 400만 km 데이터 설계 반영",
+      "source_label": "Gasgoo, 2026-07-20",
+      "source_url": "https://autonews.gasgoo.com/articles/news/saic-mobility-starts-purpose-built-robotaxi-project-targets-2027-debut-2079101347130482688",
+      "detail": "개조형이 아닌 공장 일체형 설계로 플릿 가동률·정비성을 초기 설계 요건화했다. MagicLab 휠형 휴머노이드 D1의 Dreame 공장 상시 가동도 확인됐다.",
       "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "미국 조달 배제 입법과 중국 수출 드라이브가 동시 진행되며 거점별 도입 가능 자동화 기종이 갈라지는 장비 진영화를 다국적 공장 표준화 전략의 변수로 반영해야 한다."
+      "sl_label": "기회",
+      "sl_text": "플릿용 램프·전장 부품의 고내구·모듈 교체형 설계 레퍼런스를 선점하면 중국 OEM 로보택시 플릿 시장 진입 창구가 된다."
     },
     {
       "field": "AI·디지털전환",
       "field_note": "",
-      "headline": "현대오토에버 SDF 상반기 해외 매출 비중 34.3% 등 K-디지털 트윈이 내부 도구에서 수출 플랫폼 상품으로 전환",
-      "source_label": "매일일보, 2026-07-19",
-      "source_url": "https://www.m-i.kr/news/articleView.html?idxno=1392381",
-      "detail": "삼성전기·LG이노텍의 FC-BGA 휨 가상 예측 양산 적용, SKT의 구독형(SaaS) 예지보전 등 전달 방식이 구축형에서 구독형으로 분화되고 있다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "변곡점",
-      "sl_text": "완성차 해외 신공장이 SDF 표준 위에 세워지면 부품사의 라인 검증·품질 데이터 연동도 해당 플랫폼 문법을 따르라는 요구로 이어져, 디지털 트윈 도입이 고객사 생태계 호환성 문제로 바뀐다."
+      "headline": "반월·시화 제조 AX 거버넌스 출범 — 2028년까지 총 280억5,000만 원(국비 140억 원) 투입, 자동차 부품이 실증 1호 업종",
+      "source_label": "이투데이, 2026-07-20",
+      "source_url": "https://www.etoday.co.kr/news/view/2605198",
+      "detail": "자동차 부품·PCB에 AX 대표 선도공장을 세우고 50인 미만 기업 대상 마이크로 AX 공장 모델을 전국 10개 M.AX 클러스터로 확산할 계획이다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "기회",
+      "sl_text": "여기서 만들어질 품질·공정 AI 참조 모델이 부품업계 표준이 될 공산이 커, 2·3차 협력사망의 실증 편입과 데이터 연계 표준 선점 여부를 지금 판단할 시점."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "Mazak, ORNL 공동 개발 WAAM 하이브리드 셀(5축 VC-Ez 20X 2대 구성) 등 IMTS 2026 라인업 공개",
-      "source_label": "MoldMaking Technology, 2026-07-17",
-      "source_url": "https://www.moldmakingtechnology.com/products/mazak-advanced-machining-solutions-accelerate-production-output-2",
-      "detail": "와이어 아크 적층과 5축 마무리 절삭·계측을 한 셀로 묶은 구성이 대형 공작기계사의 정규 카탈로그 품목으로 편입됐다.",
+      "headline": "Ingersoll, 금형용 고이송 밀링 시스템 DiFeedWinV 공개 — 이송 최대 0.090 in/tooth·램핑 각도 기존 대비 2–4배",
+      "source_label": "MoldMaking Technology, 2026-07-20",
+      "source_url": "https://www.moldmakingtechnology.com/products/ingersoll-cutting-tools-high-feed-milling-system-reduces-cycle-times-3",
+      "detail": "V-바텀 인서트 착좌 구조로 경화강 깊은 포켓 램핑 시 진동·처짐을 억제하며, 9월 IMTS 2026 출품 예정인 사전 발표다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "대형 사출금형 보수 육성·인서트 래피드 툴링의 내재화 투자 검토 시점이 IMTS 2026(9월) 전으로 앞당겨졌다."
+      "sl_text": "IMTS·Fakuma 전 발표 공백기인 지금 금형 황삭 공구·툴패스 벤치마크를 선행하면 4분기 공구 구매 협상력을 확보할 수 있다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-20-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-21-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
