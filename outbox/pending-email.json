@@ -1,54 +1,54 @@
 {
-  "date": "2026-07-21",
-  "slug": "2026-07-21-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-21",
+  "date": "2026-07-22",
+  "slug": "2026-07-22-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-22",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "",
-      "headline": "中 MIIT 상반기 실적 발표 — 산업용 5G 전용망 8만 개·특색 5G 팩토리 1,260개, 규모이상 기업 AI 침투율 30% 돌파",
-      "source_label": "ECNS, 2026-07-20",
-      "source_url": "http://www.ecns.cn/cns-wire/2026-07-20/detail-ihfhkrtk6181742.shtml",
-      "detail": "지능형 컴퓨팅 용량 2,185 EFLOPS(전년 대비 +177%)와 함께 연결–컴퓨팅–AI 적용의 3층 인프라가 국가 단위 통계로 관리되는 단계에 진입했다. AGIBOT의 태블릿 검사라인 실증 KPI(라인 통합 36시간, 다운타임 손실 4% 미만)도 공개됐다.",
-      "certainty": "[공식 발표]",
+      "field_note": "2026-07-20/21 발행 中 MIIT 상반기 통계·WAIC 2026 보도의 후속",
+      "headline": "中 MIIT, 휴머노이드 모델 400종(세계 절반 초과)·사족로봇 글로벌 판매 70% 점유 공식화",
+      "source_label": "Gasgoo, 2026-07-20",
+      "source_url": "https://autonews.gasgoo.com/articles/news/chinas-humanoid-robot-models-exceed-400-surpassing-half-of-global-total-2079209427142934529",
+      "detail": "생산량 중심이던 중국 로봇 공식 통계가 기종 수·세계 판매 점유율 지표로 확장됐고, NDRC는 WAIC 기간 AI 협력발전 행동계획(8대 행동)을 병행 발표해 로봇·AI 스택의 국제 규범 수출 구조를 갖췄다.",
+      "certainty": "[2차 인용]",
       "sl_label": "리스크",
-      "sl_text": "중국 경쟁 부품사의 공정 지능화가 평균 30% 침투 단계로 올라서, 대중국 원가·품질 격차 방어선이 검사 자동화 도입 여부가 아닌 적용 밀도로 이동."
+      "sl_text": "순찰·검사용 사족로봇과 공장용 휴머노이드의 공급 표준이 중국산으로 굳어지면 도입 단가는 낮아지되 라인 데이터·유지보수의 대중국 종속이 계약 리스크로 전환된다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "2026-07-20 발행 WAIC 커버리지 후속",
-      "headline": "SAIC, 전용 설계 양산형 로보택시 개발 착수·2027년 데뷔 목표 — 누적 승객 주문 35만 건·안전 운행 400만 km 데이터 설계 반영",
-      "source_label": "Gasgoo, 2026-07-20",
-      "source_url": "https://autonews.gasgoo.com/articles/news/saic-mobility-starts-purpose-built-robotaxi-project-targets-2027-debut-2079101347130482688",
-      "detail": "개조형이 아닌 공장 일체형 설계로 플릿 가동률·정비성을 초기 설계 요건화했다. MagicLab 휠형 휴머노이드 D1의 Dreame 공장 상시 가동도 확인됐다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "플릿용 램프·전장 부품의 고내구·모듈 교체형 설계 레퍼런스를 선점하면 중국 OEM 로보택시 플릿 시장 진입 창구가 된다."
+      "field_note": "",
+      "headline": "Unitree H1 Pro, 7월 22일 유럽 상업 출시 개시 — 3주 내 3개 대륙 순차 진입, 2025년 출하 5,500대 이상",
+      "source_label": "Tech Times, 2026-07-20",
+      "source_url": "https://www.techtimes.com/articles/321011/20260720/unitree-humanoid-robot-enters-europe-days-after-pentagon-flags-it-chinese-military-tech.htm",
+      "detail": "중국산 휴머노이드가 상업 배치 목적으로 서방 시장에 진입하는 첫 사례다. 미 국방부 1260H 목록 등재(6월 8일)와 EU AI Act 고위험 시스템 의무 발효(8월 2일) 직전이라는 규제 변수가 겹쳐 있다.",
+      "certainty": "[2차 인용]",
+      "sl_label": "변곡점",
+      "sl_text": "1만 달러대 휴머노이드의 서방 공장 진입으로 자동화 원가 기준선이 내려가는 동시에, 로봇 도입 심사축이 가격에서 데이터 보안·EU AI Act 적합성으로 이동해 해외 공장 자동화 조달 기준 재정의가 필요하다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "",
-      "headline": "반월·시화 제조 AX 거버넌스 출범 — 2028년까지 총 280억5,000만 원(국비 140억 원) 투입, 자동차 부품이 실증 1호 업종",
-      "source_label": "이투데이, 2026-07-20",
-      "source_url": "https://www.etoday.co.kr/news/view/2605198",
-      "detail": "자동차 부품·PCB에 AX 대표 선도공장을 세우고 50인 미만 기업 대상 마이크로 AX 공장 모델을 전국 10개 M.AX 클러스터로 확산할 계획이다.",
+      "field_note": "2026-07-08 발행 엔비디아 디지털트윈 종속 논쟁의 후속",
+      "headline": "유니티, 차세대 엔진 유니티7 공개 — 프리뷰 2026년 12월·정식 2027년 1분기, 산업용 AI 시뮬레이션 플랫폼 전환 선언",
+      "source_label": "이데일리, 2026-07-21",
+      "source_url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=05021686645516816",
+      "detail": "7월 21일 유나이트 서울 2026에서 산업용 3D 제작 도구 유니티 스튜디오와 추론 엔진 센티스 기반 심투리얼 스택을 함께 공개, 옴니버스 중심 산업 시뮬레이션 시장에 제3 축이 등장했다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "여기서 만들어질 품질·공정 AI 참조 모델이 부품업계 표준이 될 공산이 커, 2·3차 협력사망의 실증 편입과 데이터 연계 표준 선점 여부를 지금 판단할 시점."
+      "sl_text": "디지털 트윈·가상 시운전 플랫폼에 유니티라는 대안이 생겨, 엔비디아 종속 리스크를 지렛대로 도입 조건 협상과 USD 표준 기반 이중화 설계가 가능해졌다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "Ingersoll, 금형용 고이송 밀링 시스템 DiFeedWinV 공개 — 이송 최대 0.090 in/tooth·램핑 각도 기존 대비 2–4배",
-      "source_label": "MoldMaking Technology, 2026-07-20",
-      "source_url": "https://www.moldmakingtechnology.com/products/ingersoll-cutting-tools-high-feed-milling-system-reduces-cycle-times-3",
-      "detail": "V-바텀 인서트 착좌 구조로 경화강 깊은 포켓 램핑 시 진동·처짐을 억제하며, 9월 IMTS 2026 출품 예정인 사전 발표다.",
-      "certainty": "[공식 발표]",
+      "headline": "OEM 77%가 경량화·소재 저감을 최우선 과제로 요구(PMMI 2026), POE 인조가죽은 PVC 대비 25–40% 경량",
+      "source_label": "Plastics Today, 2026-07-21",
+      "source_url": "https://www.plasticstoday.com/injection-molding/lightweighting-strategies-across-industries-engineering-solutions-for-material-reductions",
+      "detail": "발포(MuCell)·분자배향·기능성 필러·사슬 개질을 아우르는 경량화 전략 종합과 함께, 미국의 캐나다산 플라스틱·자동차 50% 관세(서명 후 30일 내 발효)가 같은 기간 발표돼 북미 금형·사출 공급망 변수가 겹쳤다.",
+      "certainty": "[업계 분석]",
       "sl_label": "기회",
-      "sl_text": "IMTS·Fakuma 전 발표 공백기인 지금 금형 황삭 공구·툴패스 벤치마크를 선행하면 4분기 공구 구매 협상력을 확보할 수 있다."
+      "sl_text": "발포·필러 박육화가 램프 하우징·브래킷의 중량·원가 동시 저감 수단으로 부상하나, 캐나다발 50% 관세로 북미 조달 재설계가 같은 분기 안에 겹치는 이중 과제다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-21-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-22-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
