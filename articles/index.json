@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "slug": "2026-07-22-production",
+      "title": "생산기술 신규기술 브리핑 - 2026년 7월 4주차",
+      "date": "2026-07-22",
+      "type": "production",
+      "period": "2026년 7월 4주차",
+      "tags": [
+        "WITTMANN",
+        "Sigmasoft",
+        "SABIC",
+        "KUKA AMP",
+        "FANUC",
+        "AgiBot",
+        "Atlas",
+        "Agility Robotics"
+      ],
+      "summary": "WITTMANN 포장 통합 자동화 셀 FlexCell plus 공개, KUKA AMP 북미 차체공장 실가동, 현대차그룹 Atlas 공장 투입 로드맵 확정, FANUC–Fujitsu Physical AI 협력 개시"
+    },
+    {
       "slug": "2026-07-22-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 7월 22일",
       "date": "2026-07-22",
