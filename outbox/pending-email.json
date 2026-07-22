@@ -1,54 +1,54 @@
 {
-  "date": "2026-07-22",
-  "slug": "2026-07-22-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-22",
+  "date": "2026-07-23",
+  "slug": "2026-07-23-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-23",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "2026-07-20/21 발행 中 MIIT 상반기 통계·WAIC 2026 보도의 후속",
-      "headline": "中 MIIT, 휴머노이드 모델 400종(세계 절반 초과)·사족로봇 글로벌 판매 70% 점유 공식화",
-      "source_label": "Gasgoo, 2026-07-20",
-      "source_url": "https://autonews.gasgoo.com/articles/news/chinas-humanoid-robot-models-exceed-400-surpassing-half-of-global-total-2079209427142934529",
-      "detail": "생산량 중심이던 중국 로봇 공식 통계가 기종 수·세계 판매 점유율 지표로 확장됐고, NDRC는 WAIC 기간 AI 협력발전 행동계획(8대 행동)을 병행 발표해 로봇·AI 스택의 국제 규범 수출 구조를 갖췄다.",
-      "certainty": "[2차 인용]",
-      "sl_label": "리스크",
-      "sl_text": "순찰·검사용 사족로봇과 공장용 휴머노이드의 공급 표준이 중국산으로 굳어지면 도입 단가는 낮아지되 라인 데이터·유지보수의 대중국 종속이 계약 리스크로 전환된다."
+      "field_note": "",
+      "headline": "미쓰비시전기·소니, 제조용 AI 비전센서 합작사 설립 계약 체결(지분 60:40, 2026년 10월 영업 개시 목표)",
+      "source_label": "Business Wire, 2026-07-22",
+      "source_url": "https://aijourn.com/mitsubishi-electric-and-sony-semiconductor-solutions-agree-to-establish-a-joint-venture-to-build-ai-vision-sensor-solutions-for-manufacturing-applications-2/",
+      "detail": "이미지센서 위에서 직접 AI 분석을 수행하는 온센서 방식으로 검사와 설비 제어를 직결하며, 미쓰비시전기 디지털 제조 플랫폼 Serendie와 연계된다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "변곡점",
+      "sl_text": "외장 PC 기반 비전검사 아키텍처와 비전 SI 계약이 센서 내장형 검사–제어 직결 구조로 재설계 대상이 된다."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "Unitree H1 Pro, 7월 22일 유럽 상업 출시 개시 — 3주 내 3개 대륙 순차 진입, 2025년 출하 5,500대 이상",
-      "source_label": "Tech Times, 2026-07-20",
-      "source_url": "https://www.techtimes.com/articles/321011/20260720/unitree-humanoid-robot-enters-europe-days-after-pentagon-flags-it-chinese-military-tech.htm",
-      "detail": "중국산 휴머노이드가 상업 배치 목적으로 서방 시장에 진입하는 첫 사례다. 미 국방부 1260H 목록 등재(6월 8일)와 EU AI Act 고위험 시스템 의무 발효(8월 2일) 직전이라는 규제 변수가 겹쳐 있다.",
-      "certainty": "[2차 인용]",
+      "headline": "英 Humanoid 시리즈A 1억 5,200만 달러 조달, 기업가치 13억 5,000만 달러로 유럽 첫 휴머노이드 전업 유니콘",
+      "source_label": "Humanoid 보도자료, 2026-07-21",
+      "source_url": "https://thehumanoid.ai/humanoid-raises-152-million-at-1-35-billion-post-money-valuation-becoming-europes-first-pure-play-humanoid-robotics-unicorn/",
+      "detail": "Bosch 자회사가 위탁생산을 맡고 Schaeffler는 투자자 겸 수천 대 규모 도입 고객으로 참여해, 팹리스–파운드리형 분업이 휴머노이드 하드웨어에서 공식화됐다.",
+      "certainty": "[공식 발표]",
       "sl_label": "변곡점",
-      "sl_text": "1만 달러대 휴머노이드의 서방 공장 진입으로 자동화 원가 기준선이 내려가는 동시에, 로봇 도입 심사축이 가격에서 데이터 보안·EU AI Act 적합성으로 이동해 해외 공장 자동화 조달 기준 재정의가 필요하다."
+      "sl_text": "부품사가 유휴 정밀가공·조립 캐파로 로봇 위탁생산을 수주하는 새 사업모델의 선례가 유럽 티어1에서 등장했다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-07-08 발행 엔비디아 디지털트윈 종속 논쟁의 후속",
-      "headline": "유니티, 차세대 엔진 유니티7 공개 — 프리뷰 2026년 12월·정식 2027년 1분기, 산업용 AI 시뮬레이션 플랫폼 전환 선언",
-      "source_label": "이데일리, 2026-07-21",
-      "source_url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=05021686645516816",
-      "detail": "7월 21일 유나이트 서울 2026에서 산업용 3D 제작 도구 유니티 스튜디오와 추론 엔진 센티스 기반 심투리얼 스택을 함께 공개, 옴니버스 중심 산업 시뮬레이션 시장에 제3 축이 등장했다.",
+      "field_note": "2026-07-20 발행 K-디지털 트윈 플랫폼 전환의 후속",
+      "headline": "삼성디스플레이, 디지털 트윈 기반 자율공장 전환 공식 선언(2026-07-22 기조연설)",
+      "source_label": "디지털데일리, 2026-07-22",
+      "source_url": "https://www.ddaily.co.kr/page/view/2026072213290830645",
+      "detail": "AI 비전 O.P.E.N.과 디지털 쓰레드 구축, 진공 챔버 등 계측 불가 공정의 가상 계측 적용, 엔비디아 협력을 공식 확인했다. 정량 목표치는 미공개다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "디지털 트윈·가상 시운전 플랫폼에 유니티라는 대안이 생겨, 엔비디아 종속 리스크를 지렛대로 도입 조건 협상과 USD 표준 기반 이중화 설계가 가능해졌다."
+      "sl_text": "계측 불가 공정의 가상 계측은 도장·증착·사출 공정에 이식 가능한 저비용 디지털 트윈 진입점이다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "OEM 77%가 경량화·소재 저감을 최우선 과제로 요구(PMMI 2026), POE 인조가죽은 PVC 대비 25–40% 경량",
-      "source_label": "Plastics Today, 2026-07-21",
-      "source_url": "https://www.plasticstoday.com/injection-molding/lightweighting-strategies-across-industries-engineering-solutions-for-material-reductions",
-      "detail": "발포(MuCell)·분자배향·기능성 필러·사슬 개질을 아우르는 경량화 전략 종합과 함께, 미국의 캐나다산 플라스틱·자동차 50% 관세(서명 후 30일 내 발효)가 같은 기간 발표돼 북미 금형·사출 공급망 변수가 겹쳤다.",
+      "headline": "사출 기반 Tier 1 Grupo Antolin, 미국 Chapter 15 신청(23개국 111개 공장·종업원 2만 명 이상 구조조정)",
+      "source_label": "Plastics Today, 2026-07-22",
+      "source_url": "https://www.plasticstoday.com/automotive-mobility/grupo-antolin-files-chapter-15-bankruptcy-protection",
+      "detail": "조명·스마트 서페이스·내장재 포트폴리오를 가진 스페인 부품사가 대미 관세·원가 상승을 사유로 국제도산 절차에 들어갔다. 회생계획 승인은 2026년 10월 예상.",
       "certainty": "[업계 분석]",
       "sl_label": "기회",
-      "sl_text": "발포·필러 박육화가 램프 하우징·브래킷의 중량·원가 동시 저감 수단으로 부상하나, 캐나다발 50% 관세로 북미 조달 재설계가 같은 분기 안에 겹치는 이중 과제다."
+      "sl_text": "10월 회생계획 전후 Antolin의 조명·스마트 서페이스 프로그램 재배분 가능성은 유럽·북미 OEM 수주 기회이자 동일 원가압박 구조의 경고다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-22-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-23-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
