@@ -1,54 +1,43 @@
 {
-  "date": "2026-07-23",
-  "slug": "2026-07-23-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-23",
+  "date": "2026-07-27",
+  "slug": "2026-07-27-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-27",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "미쓰비시전기·소니, 제조용 AI 비전센서 합작사 설립 계약 체결(지분 60:40, 2026년 10월 영업 개시 목표)",
-      "source_label": "Business Wire, 2026-07-22",
-      "source_url": "https://aijourn.com/mitsubishi-electric-and-sony-semiconductor-solutions-agree-to-establish-a-joint-venture-to-build-ai-vision-sensor-solutions-for-manufacturing-applications-2/",
-      "detail": "이미지센서 위에서 직접 AI 분석을 수행하는 온센서 방식으로 검사와 설비 제어를 직결하며, 미쓰비시전기 디지털 제조 플랫폼 Serendie와 연계된다.",
+      "headline": "국내 최초 스마트제조기술산업 특수분류 7월 24일 시행, 4대 대분류·7개 중분류·34개 소분류 확정",
+      "source_label": "헬로티, 2026-07-26",
+      "source_url": "https://www.hellot.net/news/article.html?no=113986",
+      "detail": "중소벤처기업부와 국가데이터처가 MES·비전검사·산업용 IoT 등 스마트제조 공급산업을 처음으로 산업분류 체계에 편입했다. 정기 실태조사·전문기업 지정·2026년 하반기 스마트제조혁신법 전면개정이 후속 예고됐다.",
       "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "외장 PC 기반 비전검사 아키텍처와 비전 SI 계약이 센서 내장형 검사–제어 직결 구조로 재설계 대상이 된다."
+      "sl_label": "기회",
+      "sl_text": "전문기업 지정과 법 전면개정으로 스마트공장 조달·지원 구조가 재편되므로, 하반기 개정 방향을 MES·비전검사 투자 일정과 연동해 선점 검토할 시점."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "英 Humanoid 시리즈A 1억 5,200만 달러 조달, 기업가치 13억 5,000만 달러로 유럽 첫 휴머노이드 전업 유니콘",
-      "source_label": "Humanoid 보도자료, 2026-07-21",
-      "source_url": "https://thehumanoid.ai/humanoid-raises-152-million-at-1-35-billion-post-money-valuation-becoming-europes-first-pure-play-humanoid-robotics-unicorn/",
-      "detail": "Bosch 자회사가 위탁생산을 맡고 Schaeffler는 투자자 겸 수천 대 규모 도입 고객으로 참여해, 팹리스–파운드리형 분업이 휴머노이드 하드웨어에서 공식화됐다.",
+      "headline": "Generalist GEN-1, 실데이터 50만 시간·그리퍼 변형 약 9,000종 학습으로 멀티 엔드이펙터 일반화 공개",
+      "source_label": "The Robot Report, 2026-07-24",
+      "source_url": "https://www.therobotreport.com/generalists-gen-1-foundation-model-now-supports-a-range-of-robot-end-effectors/",
+      "detail": "작업 도중 엔드이펙터를 교체해도 단일 모델이 재적응하는 시연과, 파인튜닝 가중치 이동을 태스크 벡터로 계측해 데이터 수집을 역설계하는 방법론이 함께 제시됐다.",
       "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "부품사가 유휴 정밀가공·조립 캐파로 로봇 위탁생산을 수주하는 새 사업모델의 선례가 유럽 티어1에서 등장했다."
+      "sl_label": "기회",
+      "sl_text": "그리퍼가 소프트웨어로 흡수되면 다품종 조립셀의 경쟁력 원천이 로봇 하드웨어에서 공정 상호작용 데이터 자산으로 이동하므로, 자사 공정 데이터의 수집·표준화 체계를 선점할 가치가 있다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-07-20 발행 K-디지털 트윈 플랫폼 전환의 후속",
-      "headline": "삼성디스플레이, 디지털 트윈 기반 자율공장 전환 공식 선언(2026-07-22 기조연설)",
-      "source_label": "디지털데일리, 2026-07-22",
-      "source_url": "https://www.ddaily.co.kr/page/view/2026072213290830645",
-      "detail": "AI 비전 O.P.E.N.과 디지털 쓰레드 구축, 진공 챔버 등 계측 불가 공정의 가상 계측 적용, 엔비디아 협력을 공식 확인했다. 정량 목표치는 미공개다.",
+      "field_note": "이슈 일부는 2026-07-20 발행 WAIC 2026의 후속",
+      "headline": "현대차그룹, 엔비디아 블랙웰 GPU 5만 장·새만금 9조 원 투자와 함께 AI Defined Factory 전환 공식화",
+      "source_label": "현대차그룹 뉴스룸, 2026-07-25",
+      "source_url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001238",
+      "detail": "정의선 회장이 7월 24일 샌프란시스코 AI 서밋에서 디바이스 지능화–AI 팩토리–도시 단위 통합의 3단계 피지컬 AI 전략과 2028년 미국 내 연 3만 대 로봇 생산체계를 발표했다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "계측 불가 공정의 가상 계측은 도장·증착·사출 공정에 이식 가능한 저비용 디지털 트윈 진입점이다."
-    },
-    {
-      "field": "금형·사출 기술",
-      "field_note": "",
-      "headline": "사출 기반 Tier 1 Grupo Antolin, 미국 Chapter 15 신청(23개국 111개 공장·종업원 2만 명 이상 구조조정)",
-      "source_label": "Plastics Today, 2026-07-22",
-      "source_url": "https://www.plasticstoday.com/automotive-mobility/grupo-antolin-files-chapter-15-bankruptcy-protection",
-      "detail": "조명·스마트 서페이스·내장재 포트폴리오를 가진 스페인 부품사가 대미 관세·원가 상승을 사유로 국제도산 절차에 들어갔다. 회생계획 승인은 2026년 10월 예상.",
-      "certainty": "[업계 분석]",
-      "sl_label": "기회",
-      "sl_text": "10월 회생계획 전후 Antolin의 조명·스마트 서페이스 프로그램 재배분 가능성은 유럽·북미 OEM 수주 기회이자 동일 원가압박 구조의 경고다."
+      "sl_label": "변곡점",
+      "sl_text": "OEM이 디지털 트윈·AI 에이전트 기준 아키텍처를 확정하면서, 부품사의 공정 데이터 표준화와 가상 검증 산출물 공유 능력이 향후 수주 조건으로 편입될 가능성이 커졌다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-23-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-27-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
