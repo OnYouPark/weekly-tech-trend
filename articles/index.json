@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "slug": "2026-07-27-weekly",
+      "title": "주간 기술 트렌드 종합 - 2026년 7월 4주",
+      "date": "2026-07-27",
+      "type": "weekly",
+      "period": "2026년 7월 4주",
+      "tags": [
+        "WAIC2026",
+        "Unitree",
+        "Humanoid",
+        "Bosch",
+        "Grupo Antolin",
+        "관세",
+        "가상계측",
+        "미쓰비시전기"
+      ],
+      "summary": "WAIC 2026을 기점으로 중국산 휴머노이드가 유럽 상업 시장에 진입하고, 유럽은 Humanoid–Bosch–Schaeffler의 위탁생산 분업으로 대응하며 공급 경로가 둘로 갈렸다. 관세는 Grupo Antolin의 Chapter 15로 Tier 1 재무구조까지 도달했고, 디지털 트윈의 병목은 계측 공백 구간의 데이터화로 좁혀졌다."
+    },
+    {
       "slug": "2026-07-27-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 7월 27일",
       "date": "2026-07-27",
