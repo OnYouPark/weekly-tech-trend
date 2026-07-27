@@ -1,43 +1,54 @@
 {
-  "date": "2026-07-27",
-  "slug": "2026-07-27-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-27",
+  "date": "2026-07-28",
+  "slug": "2026-07-28-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-28",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "국내 최초 스마트제조기술산업 특수분류 7월 24일 시행, 4대 대분류·7개 중분류·34개 소분류 확정",
-      "source_label": "헬로티, 2026-07-26",
-      "source_url": "https://www.hellot.net/news/article.html?no=113986",
-      "detail": "중소벤처기업부와 국가데이터처가 MES·비전검사·산업용 IoT 등 스마트제조 공급산업을 처음으로 산업분류 체계에 편입했다. 정기 실태조사·전문기업 지정·2026년 하반기 스마트제조혁신법 전면개정이 후속 예고됐다.",
+      "headline": "지멘스가 7월 26일 NVIDIA와 협력을 확대해 AI 에이전트 판단을 물리 엔진으로 상시 대조하는 자기검증 워크플로를 도입, 라이브러리 특성화 턴어라운드를 10배 이상 단축하고 토큰 비용을 5배에서 10배 줄였다고 밝혔다.",
+      "source_label": "PR Newswire, 2026-07-26",
+      "source_url": "https://www.prnewswire.com/news-releases/siemens-advances-self-verifying-agentic-ai-workflows-for-semiconductor-and-pcb-design-302834767.html",
+      "detail": "Fuse EDA AI Agent에 NVIDIA NeMo Gym, OpenShell 보안 런타임, Nemotron 3 Ultra를 결합하고 이를 설계·제조·공급망을 관통하는 Intelligence Center X에 통합했다. 검증이 설계 시간·복잡도의 최대 70퍼센트를 차지한다는 진단이 근거다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "전문기업 지정과 법 전면개정으로 스마트공장 조달·지원 구조가 재편되므로, 하반기 개정 방향을 MES·비전검사 투자 일정과 연동해 선점 검토할 시점."
+      "sl_text": "공정 AI 도입 스펙에 물리모델 대조 기반 자기검증 루프와 감사 이력을 요구사항으로 선반영하면 IATF 16949 변경점 관리 부담을 사전에 줄일 수 있다."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "Generalist GEN-1, 실데이터 50만 시간·그리퍼 변형 약 9,000종 학습으로 멀티 엔드이펙터 일반화 공개",
-      "source_label": "The Robot Report, 2026-07-24",
-      "source_url": "https://www.therobotreport.com/generalists-gen-1-foundation-model-now-supports-a-range-of-robot-end-effectors/",
-      "detail": "작업 도중 엔드이펙터를 교체해도 단일 모델이 재적응하는 시연과, 파인튜닝 가중치 이동을 태스크 벡터로 계측해 데이터 수집을 역설계하는 방법론이 함께 제시됐다.",
-      "certainty": "[공식 발표]",
+      "headline": "BYD가 8월 초 첫 휴머노이드 실물 공개를 예고했고, 부회장 발언 기준 매장당 2대에서 3대 배치와 상용화 1년에서 2년 목표가 제시됐다.",
+      "source_label": "CnEVPost, 2026-07-26",
+      "source_url": "https://cnevpost.com/2026/07/26/byd-may-unveil-humanoid-robot-aug/",
+      "detail": "같은 48시간에 AgiBot 홍콩 IPO 상세가 공개돼 2025년 출하 5,168대와 매출 10.5억 위안이 확인됐고, 매출 주력이 이족 휴머노이드가 아니라 자동차 부품 로딩·조립용 휠형 양팔 로봇 精靈 G2 계열임이 드러났다.",
+      "certainty": "[업계 분석]",
       "sl_label": "기회",
-      "sl_text": "그리퍼가 소프트웨어로 흡수되면 다품종 조립셀의 경쟁력 원천이 로봇 하드웨어에서 공정 상호작용 데이터 자산으로 이동하므로, 자사 공정 데이터의 수집·표준화 체계를 선점할 가치가 있다."
+      "sl_text": "첫 대량 수요가 생산 라인이 아니라 판매·서비스 접점에서 열리는 구조여서, 관절 모듈과 다지 그리퍼 단가 인하 경로를 부품 진입 창구로 검토할 여지가 있다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "이슈 일부는 2026-07-20 발행 WAIC 2026의 후속",
-      "headline": "현대차그룹, 엔비디아 블랙웰 GPU 5만 장·새만금 9조 원 투자와 함께 AI Defined Factory 전환 공식화",
-      "source_label": "현대차그룹 뉴스룸, 2026-07-25",
-      "source_url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001238",
-      "detail": "정의선 회장이 7월 24일 샌프란시스코 AI 서밋에서 디바이스 지능화–AI 팩토리–도시 단위 통합의 3단계 피지컬 AI 전략과 2028년 미국 내 연 3만 대 로봇 생산체계를 발표했다.",
+      "field_note": "2026-07-27 발행 디지털 트윈 병목 건의 후속",
+      "headline": "Digital Twin Consortium이 7월 27일 다중 에이전트 기반 Front-Running Simulation을 탄화수소 처리 플랜트 1건에서 실운전 전환하고, 액션 판정을 자율 실행·운전자 권고·보류 3단계 게이트로 규정했다.",
+      "source_label": "Digital Twin Consortium, 2026-07-27",
+      "source_url": "https://www.digitaltwinconsortium.org/press-room/digital-twin-consortium-takes-front-running-simulation-from-concept-to-real-world-operation-using-multi-agents-to-turn-digital-twin-predictions-into-navigable-actions-boston-ma-july-27/",
+      "detail": "물리 기반 인과 모델과 데이터 상관을 Simulation Integration Engine에서 융합하고, 그 뒤에 결정론적 안전 가디언과 신뢰도 계층을 배치해 에이전트 비결정성을 안전 경계 밖으로 밀어냈다. 같은 기간 Silvaco는 NVIDIA와 32억 메시 노드 3D FDTD를 GPU 32장에서 4시간 미만에 완료한 실증치를 공개했다.",
       "certainty": "[공식 발표]",
       "sl_label": "변곡점",
-      "sl_text": "OEM이 디지털 트윈·AI 에이전트 기준 아키텍처를 확정하면서, 부품사의 공정 데이터 표준화와 가상 검증 산출물 공유 능력이 향후 수주 조건으로 편입될 가능성이 커졌다."
+      "sl_text": "디지털 트윈 병목이 입력측 계측 공백에서 출력측 실행 권한으로 확장됐고, 예측정비 PoC가 멈춰 있는 국내 라인에 인용 가능한 승인 게이트 설계도가 처음 표준 형태로 제시됐다."
+    },
+    {
+      "field": "금형·사출 기술",
+      "field_note": "",
+      "headline": "7월 27일 MoldMaking Technology 인터뷰에서 금형 문제의 발생 지점을 현장이 아닌 상류 제품 설계로 규정하고, 설계 후반에 추가된 파팅라인 라운드가 금형 복잡도 증가와 수명 단축을 유발한다고 지적했다.",
+      "source_label": "Manufacturing Connected, 2026-07-27",
+      "source_url": "https://www.mfgconnected.com/articles/mmt-chats-catching-problems-early-building-better-engineers",
+      "detail": "냉각 도달성, 이젝션 접근성, 파팅라인을 부품 형상 자체의 평가 항목으로 끌어올리는 접근이다. 인터뷰 형식이어서 절감액이나 사이클타임 등 정량 수치는 제시되지 않았고, 이번 48시간은 금형·사출 신규 발표가 부재한 저강도 구간이었다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "기회",
+      "sl_text": "램프 금형 수명·복잡도 이력을 OEM 형상 변경 요구의 협상 근거로 전환할 수 있는지가 관건이며, 사내 변경 이력 DB 없이는 이 관점은 구호로 남는다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-27-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-28-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
