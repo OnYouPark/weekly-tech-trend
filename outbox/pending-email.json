@@ -1,54 +1,54 @@
 {
-  "date": "2026-07-28",
-  "slug": "2026-07-28-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-28",
+  "date": "2026-07-29",
+  "slug": "2026-07-29-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-29",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "지멘스가 7월 26일 NVIDIA와 협력을 확대해 AI 에이전트 판단을 물리 엔진으로 상시 대조하는 자기검증 워크플로를 도입, 라이브러리 특성화 턴어라운드를 10배 이상 단축하고 토큰 비용을 5배에서 10배 줄였다고 밝혔다.",
-      "source_label": "PR Newswire, 2026-07-26",
-      "source_url": "https://www.prnewswire.com/news-releases/siemens-advances-self-verifying-agentic-ai-workflows-for-semiconductor-and-pcb-design-302834767.html",
-      "detail": "Fuse EDA AI Agent에 NVIDIA NeMo Gym, OpenShell 보안 런타임, Nemotron 3 Ultra를 결합하고 이를 설계·제조·공급망을 관통하는 Intelligence Center X에 통합했다. 검증이 설계 시간·복잡도의 최대 70퍼센트를 차지한다는 진단이 근거다.",
-      "certainty": "[공식 발표]",
+      "headline": "지브라-옥스퍼드 이코노믹스 조사에서 제조업체 56%가 생산라인 현대화로 생산성 향상을 확인, 기대 이익은 유지보수 워크플로 620만 달러가 생산라인 고도화 350만 달러를 상회",
+      "source_label": "헬로티, 2026-07-28",
+      "source_url": "https://m.hellot.net/news/article.html?no=114045",
+      "detail": "8개국 임원 1,000명 설문에 계량경제 분석을 병행한 결과로, 공급망·재고 관리 개선 기대 이익은 660만 달러로 가장 컸다. 같은 기간 KIRIA는 안산 로봇직업교육센터를 제조 AX 거점으로 지정하고 AI 로봇 인력 1만 명 양성 목표를 제시했다.",
+      "certainty": "[업계 분석]",
       "sl_label": "기회",
-      "sl_text": "공정 AI 도입 스펙에 물리모델 대조 기반 자기검증 루프와 감사 이력을 요구사항으로 선반영하면 IATF 16949 변경점 관리 부담을 사전에 줄일 수 있다."
+      "sl_text": "설비 증설 중심의 예산 배분을 운영 워크플로 개선 쪽으로 재검토할 기회로, 동일 예산 대비 회수 효과가 역전될 수 있다."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "BYD가 8월 초 첫 휴머노이드 실물 공개를 예고했고, 부회장 발언 기준 매장당 2대에서 3대 배치와 상용화 1년에서 2년 목표가 제시됐다.",
-      "source_label": "CnEVPost, 2026-07-26",
-      "source_url": "https://cnevpost.com/2026/07/26/byd-may-unveil-humanoid-robot-aug/",
-      "detail": "같은 48시간에 AgiBot 홍콩 IPO 상세가 공개돼 2025년 출하 5,168대와 매출 10.5억 위안이 확인됐고, 매출 주력이 이족 휴머노이드가 아니라 자동차 부품 로딩·조립용 휠형 양팔 로봇 精靈 G2 계열임이 드러났다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "기회",
-      "sl_text": "첫 대량 수요가 생산 라인이 아니라 판매·서비스 접점에서 열리는 구조여서, 관절 모듈과 다지 그리퍼 단가 인하 경로를 부품 진입 창구로 검토할 여지가 있다."
+      "headline": "두산로보틱스가 현대차 국내외 공장 조립 라인 협동로봇 지속 납품과 자동차 부품사 광진그룹 100대 공급을 공식 확인",
+      "source_label": "헤럴드경제, 2026-07-28",
+      "source_url": "https://biz.heraldcorp.com/article/10822366",
+      "detail": "2분기 실적 컨퍼런스콜에서 밝힌 내용으로, 태국 로봇 SI VRNJ 300대 공급 건도 함께 공개됐다. 회사는 2027년 에이전틱 로봇 운영체제, 2028년 산업용 휴머노이드 공개 로드맵을 제시했다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "변곡점",
+      "sl_text": "부품사 단위 100대급 발주는 협동로봇이 자율 판단 투자에서 완성차 공정 표준 연동 항목으로 이동하는 신호다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-07-27 발행 디지털 트윈 병목 건의 후속",
-      "headline": "Digital Twin Consortium이 7월 27일 다중 에이전트 기반 Front-Running Simulation을 탄화수소 처리 플랜트 1건에서 실운전 전환하고, 액션 판정을 자율 실행·운전자 권고·보류 3단계 게이트로 규정했다.",
-      "source_label": "Digital Twin Consortium, 2026-07-27",
-      "source_url": "https://www.digitaltwinconsortium.org/press-room/digital-twin-consortium-takes-front-running-simulation-from-concept-to-real-world-operation-using-multi-agents-to-turn-digital-twin-predictions-into-navigable-actions-boston-ma-july-27/",
-      "detail": "물리 기반 인과 모델과 데이터 상관을 Simulation Integration Engine에서 융합하고, 그 뒤에 결정론적 안전 가디언과 신뢰도 계층을 배치해 에이전트 비결정성을 안전 경계 밖으로 밀어냈다. 같은 기간 Silvaco는 NVIDIA와 32억 메시 노드 3D FDTD를 GPU 32장에서 4시간 미만에 완료한 실증치를 공개했다.",
+      "field_note": "",
+      "headline": "Silvaco-NVIDIA 협업에서 CPU로는 수렴하지 않던 32억 메시 노드 3D FDTD 해석을 32장 GPU로 4시간 이내 완료, 실측 오차 0.15dB 미만 제시",
+      "source_label": "GlobeNewswire, 2026-07-27",
+      "source_url": "https://www.globenewswire.com/news-release/2026/07/27/3333238/0/en/Silvaco-to-Accelerate-Physics-Based-Digital-Twins-for-Semiconductor-Design-and-Manufacturing-Using-NVIDIA-AI-and-Accelerated-Computing.html",
+      "detail": "CUDA-X, PhysicsNeMo, Omniverse 라이브러리를 물리 기반 시뮬레이션 포트폴리오에 통합한 결과다. 다쏘시스템은 7월 27일 국내에 버추얼 동반자 3종과 버추얼 트윈 팩토리를 소개했다.",
       "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "디지털 트윈 병목이 입력측 계측 공백에서 출력측 실행 권한으로 확장됐고, 예측정비 PoC가 멈춰 있는 국내 라인에 인용 가능한 승인 게이트 설계도가 처음 표준 형태로 제시됐다."
+      "sl_label": "리스크",
+      "sl_text": "CAE 제약이 인력이 아닌 연산량이었다면, 경쟁사의 GPU 트윈 전환은 조직 개선으로 좁히기 어려운 개발 리드타임 격차를 만든다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "7월 27일 MoldMaking Technology 인터뷰에서 금형 문제의 발생 지점을 현장이 아닌 상류 제품 설계로 규정하고, 설계 후반에 추가된 파팅라인 라운드가 금형 복잡도 증가와 수명 단축을 유발한다고 지적했다.",
-      "source_label": "Manufacturing Connected, 2026-07-27",
-      "source_url": "https://www.mfgconnected.com/articles/mmt-chats-catching-problems-early-building-better-engineers",
-      "detail": "냉각 도달성, 이젝션 접근성, 파팅라인을 부품 형상 자체의 평가 항목으로 끌어올리는 접근이다. 인터뷰 형식이어서 절감액이나 사이클타임 등 정량 수치는 제시되지 않았고, 이번 48시간은 금형·사출 신규 발표가 부재한 저강도 구간이었다.",
+      "headline": "EDM Network가 LPBF 빌드 플레이트 분리 전용 수평형 고속 와이어 방전가공기를 공개, 최대 650 × 1,000 mm·높이 1,250 mm 플레이트를 치구 없이 처리",
+      "source_label": "MoldMaking Technology, 2026-07-28",
+      "source_url": "https://www.moldmakingtechnology.com/products/edm-network-horizontal-fast-wire-edm-complements-large-lpbf-3d-printers-2",
+      "detail": "난삭재 두꺼운 단면 절단 시 와이어 수명은 80–100시간으로 제시됐고, 워크피스 전체가 아닌 와이어 주변만 침지하는 부분 침지 방식으로 유전액 소모를 억제한다. IMTS 2026 출품 예정이다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "램프 금형 수명·복잡도 이력을 OEM 형상 변경 요구의 협상 근거로 전환할 수 있는지가 관건이며, 사내 변경 이력 DB 없이는 이 관점은 구호로 남는다."
+      "sl_text": "컨포멀 쿨링 인서트 내재화의 실제 병목이 프린팅이 아니라 후공정 분리 공정임을 확인시켜, 투자 순서를 재정렬할 근거가 된다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-28-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-29-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
