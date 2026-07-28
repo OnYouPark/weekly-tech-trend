@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "slug": "2026-07-29-production",
+      "title": "생산기술 신규기술 브리핑 - 2026년 7월 5주차",
+      "date": "2026-07-29",
+      "type": "production",
+      "period": "2026년 7월 5주차",
+      "tags": [
+        "우진플라임",
+        "PLAIMM-X",
+        "Meusburger",
+        "WITTMANN",
+        "HiQ Packing",
+        "EcoPrimus",
+        "Unitree",
+        "RobotStudio HyperReality"
+      ],
+      "summary": "우진플라임 PLAIMM-X의 플래시 감지·형체력 자동 최적화 판정 원리 공개, Meusburger 이젝터 컨피규레이터 절단 특주 통합, WITTMANN Fakuma 2026 생산셀 3종 구성 특정. 로봇 축은 기간 내 신규 공개 없음"
+    },
+    {
       "slug": "2026-07-29-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 7월 29일",
       "date": "2026-07-29",
