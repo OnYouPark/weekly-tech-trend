@@ -1,54 +1,54 @@
 {
-  "date": "2026-07-29",
-  "slug": "2026-07-29-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-29",
+  "date": "2026-07-30",
+  "slug": "2026-07-30-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-30",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "",
-      "headline": "지브라-옥스퍼드 이코노믹스 조사에서 제조업체 56%가 생산라인 현대화로 생산성 향상을 확인, 기대 이익은 유지보수 워크플로 620만 달러가 생산라인 고도화 350만 달러를 상회",
-      "source_label": "헬로티, 2026-07-28",
-      "source_url": "https://m.hellot.net/news/article.html?no=114045",
-      "detail": "8개국 임원 1,000명 설문에 계량경제 분석을 병행한 결과로, 공급망·재고 관리 개선 기대 이익은 660만 달러로 가장 컸다. 같은 기간 KIRIA는 안산 로봇직업교육센터를 제조 AX 거점으로 지정하고 AI 로봇 인력 1만 명 양성 목표를 제시했다.",
-      "certainty": "[업계 분석]",
+      "field_note": "2026-07-22 발행 KUKA AMP 실가동의 후속",
+      "headline": "KUKA AMP의 Jeep 차체 라인 적용 규모가 로봇 285대·연결 디바이스 6만 대·일 차체 300대로 특정, 현 단계는 알파 버전·AMR 한정",
+      "source_label": "RoboticsTomorrow, 2026-07-29",
+      "source_url": "https://www.roboticstomorrow.com/news/2026/07/29/kuka-amp-goes-live-in-north-america-automotive-production/26896/",
+      "detail": "기존 설비를 교체하지 않고 로봇 컨트롤러 상위에 공유 컨텍스트 레이어를 얹어 고객 자체 AI 모델을 일반화하는 구조다. 초기 적용 범위는 자율이동로봇에 한정되며 용접·접합 등 핵심 공정 판단까지 확장된 것은 아니다. 별건으로 Basler가 저가형 3D 스테레오 카메라 Stereo mini를 출시했다.",
+      "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "설비 증설 중심의 예산 배분을 운영 워크플로 개선 쪽으로 재검토할 기회로, 동일 예산 대비 회수 효과가 역전될 수 있다."
+      "sl_text": "노후 설비 교체 예산 없이 데이터·오케스트레이션 계층부터 착수하는 리트로핏 경로가 차체 라인에서 실증 단계에 진입했으므로, 공정 데이터 표준화를 선제 정비하면 벤더 협상에서 우위를 확보할 구간이다."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "두산로보틱스가 현대차 국내외 공장 조립 라인 협동로봇 지속 납품과 자동차 부품사 광진그룹 100대 공급을 공식 확인",
-      "source_label": "헤럴드경제, 2026-07-28",
-      "source_url": "https://biz.heraldcorp.com/article/10822366",
-      "detail": "2분기 실적 컨퍼런스콜에서 밝힌 내용으로, 태국 로봇 SI VRNJ 300대 공급 건도 함께 공개됐다. 회사는 2027년 에이전틱 로봇 운영체제, 2028년 산업용 휴머노이드 공개 로드맵을 제시했다.",
+      "headline": "미국 FCC가 7월 28일 Covered List에 외국산 이동형 로봇과 연결형 전력 인버터를 등재해 기기 인증 경로 자체를 봉쇄, 휴머노이드 누적 출하의 80에서 90퍼센트가 중국산",
+      "source_label": "FCC Fact Sheet, 2026-07-28",
+      "source_url": "https://docs.fcc.gov/public/attachments/DOC-423682A1.pdf",
+      "detail": "관세가 아니라 FCC equipment authorization을 차단하는 방식이라 우회가 어렵다. 소급 적용은 없고 기존 승인 모델·기구매 제품·연방정부 조달은 제외되지만, 신규 모델의 미국 내 수입·판매가 사실상 막힌다. 액추에이터·감속기·희토류 영구자석의 중국 의존은 그대로 남는다.",
       "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "부품사 단위 100대급 발주는 협동로봇이 자율 판단 투자에서 완성차 공정 표준 연동 항목으로 이동하는 신호다."
+      "sl_label": "리스크",
+      "sl_text": "미국 현지 공장 자동화 발주 시 중국산 AMR 신규 모델은 인증 자체가 불가하므로, 진행 중 견적·사양서에 FCC 인증 확약 조항을 삽입하고 승인 이력 보유 모델로 대체 검토가 필요하다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "",
-      "headline": "Silvaco-NVIDIA 협업에서 CPU로는 수렴하지 않던 32억 메시 노드 3D FDTD 해석을 32장 GPU로 4시간 이내 완료, 실측 오차 0.15dB 미만 제시",
-      "source_label": "GlobeNewswire, 2026-07-27",
-      "source_url": "https://www.globenewswire.com/news-release/2026/07/27/3333238/0/en/Silvaco-to-Accelerate-Physics-Based-Digital-Twins-for-Semiconductor-Design-and-Manufacturing-Using-NVIDIA-AI-and-Accelerated-Computing.html",
-      "detail": "CUDA-X, PhysicsNeMo, Omniverse 라이브러리를 물리 기반 시뮬레이션 포트폴리오에 통합한 결과다. 다쏘시스템은 7월 27일 국내에 버추얼 동반자 3종과 버추얼 트윈 팩토리를 소개했다.",
+      "field_note": "2026-07-27 발행 데이터화 병목 논의의 후속",
+      "headline": "포스코퓨처엠이 2028년 상반기 완료 목표로 제조 생산성 30퍼센트 향상·제품개발 기간 50퍼센트 단축 KPI를 담은 전사 AX 로드맵 공개",
+      "source_label": "ZDNet Korea, 2026-07-28",
+      "source_url": "https://zdnet.co.kr/view/?no=20260728083616",
+      "detail": "신규 개발 시스템에 AI 에이전트를 기본 적용하고 통합 데이터 허브를 선행 조건으로 배치했다. 같은 기간 부품사 서연이화는 AX 1차 투자를 설비나 디지털 트윈이 아니라 비정형 사내 문서의 데이터화에 배정했으며, 중첩 표·병합 셀을 HTML로 변환해 구조를 보존하는 Parser가 핵심이다.",
       "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "CAE 제약이 인력이 아닌 연산량이었다면, 경쟁사의 GPU 트윈 전환은 조직 개선으로 좁히기 어려운 개발 리드타임 격차를 만든다."
+      "sl_label": "기회",
+      "sl_text": "동종 티어 부품사의 선행 투자 순서가 문서에서 데이터 허브, 그다음 에이전트로 굳어지는 신호이므로 트윈 논의보다 4M 변경 이력·품질기준서 계층 정리를 앞순위로 재배치할 여지가 있다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "EDM Network가 LPBF 빌드 플레이트 분리 전용 수평형 고속 와이어 방전가공기를 공개, 최대 650 × 1,000 mm·높이 1,250 mm 플레이트를 치구 없이 처리",
-      "source_label": "MoldMaking Technology, 2026-07-28",
-      "source_url": "https://www.moldmakingtechnology.com/products/edm-network-horizontal-fast-wire-edm-complements-large-lpbf-3d-printers-2",
-      "detail": "난삭재 두꺼운 단면 절단 시 와이어 수명은 80–100시간으로 제시됐고, 워크피스 전체가 아닌 와이어 주변만 침지하는 부분 침지 방식으로 유전액 소모를 억제한다. IMTS 2026 출품 예정이다.",
+      "headline": "Mold-Masters 글로벌 사장이 향후 5년 기술 축을 공개, 소형부품 생산셀 Integra 설치면적을 재래식 사출성형기 대비 최대 80퍼센트 축소로 제시",
+      "source_label": "Plastics Machinery & Manufacturing, 2026-07-28",
+      "source_url": "https://www.plasticsmachinerymanufacturing.com/molds-tooling/article/55385231/hans-hagelstein-guides-innovation-at-mold-masters",
+      "detail": "핫러너 경쟁 축이 노즐 단품에서 매니폴드 유로 설계 Iflow, 컨트롤러 기반 캐비티 개별 차단 DeXa, 코인젝션 PCR 함량 확대로 이동했다. Integra는 형체력 자체를 설계에서 제거해 사이클 단축이 기구 동작 시간 삭제에서 나온다. 별건으로 Okamoto가 대화형 제어 자동 평면연삭기 ACC-818SA-iQ를 공개했다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "컨포멀 쿨링 인서트 내재화의 실제 병목이 프린팅이 아니라 후공정 분리 공정임을 확인시켜, 투자 순서를 재정렬할 근거가 된다."
+      "sl_text": "컨트롤러 측 캐비티 개별 차단은 다캐비티 램프 부품 양산 초기에 금형 분해 없이 불량 캐비티를 격리할 수단이므로, 신규 핫러너 발주 사양서에 요구항목으로 넣을 협상 카드가 된다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-29-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-30-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
