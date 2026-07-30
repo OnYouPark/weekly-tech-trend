@@ -1,54 +1,54 @@
 {
-  "date": "2026-07-30",
-  "slug": "2026-07-30-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-30",
+  "date": "2026-07-31",
+  "slug": "2026-07-31-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-31",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "2026-07-22 발행 KUKA AMP 실가동의 후속",
-      "headline": "KUKA AMP의 Jeep 차체 라인 적용 규모가 로봇 285대·연결 디바이스 6만 대·일 차체 300대로 특정, 현 단계는 알파 버전·AMR 한정",
-      "source_label": "RoboticsTomorrow, 2026-07-29",
-      "source_url": "https://www.roboticstomorrow.com/news/2026/07/29/kuka-amp-goes-live-in-north-america-automotive-production/26896/",
-      "detail": "기존 설비를 교체하지 않고 로봇 컨트롤러 상위에 공유 컨텍스트 레이어를 얹어 고객 자체 AI 모델을 일반화하는 구조다. 초기 적용 범위는 자율이동로봇에 한정되며 용접·접합 등 핵심 공정 판단까지 확장된 것은 아니다. 별건으로 Basler가 저가형 3D 스테레오 카메라 Stereo mini를 출시했다.",
+      "field_note": "",
+      "headline": "씨메스로보틱스와 엔씨에이아이가 피지컬 AI 공동 R&D에 착수, 현장 운용 데이터를 월드 모델 학습으로 되돌리는 양방향 구조를 제시",
+      "source_label": "헬로티, 2026-07-30",
+      "source_url": "https://m.hellot.net/news/article.html?no=114087",
+      "detail": "씨메스로보틱스의 비전 파운데이션 모델과 로봇 정밀 제어 데이터 파이프라인을 엔씨에이아이의 월드 모델·로봇 파운데이션 모델 기반 가상 시뮬레이션에 연동한다. 같은 날 하이크비전은 광섬유 분산온도측정 최대 10 km 구간 미터 단위 감시와 열화상 ±2°C 정밀도를 묶은 산업안전 솔루션을 공개했다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "노후 설비 교체 예산 없이 데이터·오케스트레이션 계층부터 착수하는 리트로핏 경로가 차체 라인에서 실증 단계에 진입했으므로, 공정 데이터 표준화를 선제 정비하면 벤더 협상에서 우위를 확보할 구간이다."
+      "sl_text": "랜덤 빈피킹·유연 부품 조립처럼 티칭 기반으로 막혀 있던 비정형 공정의 데이터 수집 규격을 국내 파트너와 먼저 정의할 진입 시점이다."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "미국 FCC가 7월 28일 Covered List에 외국산 이동형 로봇과 연결형 전력 인버터를 등재해 기기 인증 경로 자체를 봉쇄, 휴머노이드 누적 출하의 80에서 90퍼센트가 중국산",
-      "source_label": "FCC Fact Sheet, 2026-07-28",
-      "source_url": "https://docs.fcc.gov/public/attachments/DOC-423682A1.pdf",
-      "detail": "관세가 아니라 FCC equipment authorization을 차단하는 방식이라 우회가 어렵다. 소급 적용은 없고 기존 승인 모델·기구매 제품·연방정부 조달은 제외되지만, 신규 모델의 미국 내 수입·판매가 사실상 막힌다. 액추에이터·감속기·희토류 영구자석의 중국 의존은 그대로 남는다.",
+      "headline": "NHTSA가 Zoox에 연방자동차안전기준 8개 항목 면제를 부여해 조향휠 없는 전용 설계 로보택시의 유료 운행을 연 2,500대·2년 상한으로 승인",
+      "source_label": "TechCrunch, 2026-07-30",
+      "source_url": "https://techcrunch.com/2026/07/30/zoox-clears-final-federal-hurdle-to-launch-paid-robotaxi-service/",
+      "detail": "같은 날 NHTSA는 SAE ITC와 3년·500만 달러 규모 컨소시엄을 구성해 자율주행 성능 기준의 단일 국가 표준 제정에 착수한다고 밝혔다. 유니트리는 상하이 STAR 마켓에서 42억 위안 조달·420억 위안 기업가치로 공모를 개시했다.",
       "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "미국 현지 공장 자동화 발주 시 중국산 AMR 신규 모델은 인증 자체가 불가하므로, 진행 중 견적·사양서에 FCC 인증 확약 조항을 삽입하고 승인 이력 보유 모델로 대체 검토가 필요하다."
+      "sl_label": "기회",
+      "sl_text": "조향휠 삭제로 eHMI 조명·리던던트 시그널링의 기능 부담이 커져 조명 수요가 확대되나, 표준 제정 참여가 늦으면 검증 요건을 사후 수용하는 위치에 놓인다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-07-27 발행 데이터화 병목 논의의 후속",
-      "headline": "포스코퓨처엠이 2028년 상반기 완료 목표로 제조 생산성 30퍼센트 향상·제품개발 기간 50퍼센트 단축 KPI를 담은 전사 AX 로드맵 공개",
-      "source_label": "ZDNet Korea, 2026-07-28",
-      "source_url": "https://zdnet.co.kr/view/?no=20260728083616",
-      "detail": "신규 개발 시스템에 AI 에이전트를 기본 적용하고 통합 데이터 허브를 선행 조건으로 배치했다. 같은 기간 부품사 서연이화는 AX 1차 투자를 설비나 디지털 트윈이 아니라 비정형 사내 문서의 데이터화에 배정했으며, 중첩 표·병합 셀을 HTML로 변환해 구조를 보존하는 Parser가 핵심이다.",
+      "field_note": "2026-07-27 발행 현대차그룹 AI Defined Factory의 후속",
+      "headline": "현대오토에버가 현대차와 3,985억 8,880만 원 규모 AWS 5년 약정을 공시하며 그룹 AI 인프라가 선언 단계에서 자금 집행 단계로 이동",
+      "source_label": "ZDNet Korea, 2026-07-29",
+      "source_url": "https://zdnet.co.kr/view/?no=20260729135340",
+      "detail": "2025년 h클라우드 계약 1,255억 원의 3배 이상이며, 7월 24일 GPU 서버 통합 구매 3,043억 5,090만 원과 합산하면 5영업일 사이 7,000억 원대 조달이다. PTC는 Kepware·ThingWorx 매각 후 고정환율 ARR 9.1퍼센트 성장으로 PLM 기반 인텔리전스 레이어 전환을 수치로 확인했다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "동종 티어 부품사의 선행 투자 순서가 문서에서 데이터 허브, 그다음 에이전트로 굳어지는 신호이므로 트윈 논의보다 4M 변경 이력·품질기준서 계층 정리를 앞순위로 재배치할 여지가 있다."
+      "sl_label": "변곡점",
+      "sl_text": "계약 개시일인 2026년 10월 1일 이후 협력사 데이터 연계 규격이 이 인프라 위에서 규정될 가능성이 높아, PLM·공정 데이터 정합성 확보 시한이 4분기로 앞당겨졌다."
     },
     {
       "field": "금형·사출 기술",
-      "field_note": "",
-      "headline": "Mold-Masters 글로벌 사장이 향후 5년 기술 축을 공개, 소형부품 생산셀 Integra 설치면적을 재래식 사출성형기 대비 최대 80퍼센트 축소로 제시",
-      "source_label": "Plastics Machinery & Manufacturing, 2026-07-28",
-      "source_url": "https://www.plasticsmachinerymanufacturing.com/molds-tooling/article/55385231/hans-hagelstein-guides-innovation-at-mold-masters",
-      "detail": "핫러너 경쟁 축이 노즐 단품에서 매니폴드 유로 설계 Iflow, 컨트롤러 기반 캐비티 개별 차단 DeXa, 코인젝션 PCR 함량 확대로 이동했다. Integra는 형체력 자체를 설계에서 제거해 사이클 단축이 기구 동작 시간 삭제에서 나온다. 별건으로 Okamoto가 대화형 제어 자동 평면연삭기 ACC-818SA-iQ를 공개했다.",
-      "certainty": "[공식 발표]",
+      "field_note": "2026-07-30 발행 Mold-Masters 핫러너 건의 후속",
+      "headline": "핫러너 온도 컨트롤러 사양이 모듈러·GUI·어드밴스드 GUI 3계층으로 정리되고 PID 제어 편차 ±1°F와 GUI 계층 5–120존 수용이 기준으로 제시",
+      "source_label": "MoldMaking Technology, 2026-07-29",
+      "source_url": "https://www.moldmakingtechnology.com/articles/understanding-hot-runner-temperature-controllers-2",
+      "detail": "열전대 고장 시 범프리스 전환, 매니폴드와 노즐의 승온·냉각 동기화, 소비전력 패턴 기반 누유 조기 감지가 공통 기능으로 정리됐고, 상위 계층은 OPC-UA(Euromap 82.2) 연동이 요건으로 명시됐다.",
+      "certainty": "[업계 분석]",
       "sl_label": "기회",
-      "sl_text": "컨트롤러 측 캐비티 개별 차단은 다캐비티 램프 부품 양산 초기에 금형 분해 없이 불량 캐비티를 격리할 수단이므로, 신규 핫러너 발주 사양서에 요구항목으로 넣을 협상 카드가 된다."
+      "sl_text": "북미에서만 컨트롤러 판매사 25개사 이상이 경쟁하므로 위 4개 항목을 발주 사양 필수 요건으로 승격하면 원가를 유지한 채 사양을 상향할 수 있다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-30-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-31-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
