@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "slug": "2026-08-10-production",
+      "title": "생산기술 신규기술 브리핑 - 2026년 8월 2주차",
+      "date": "2026-08-10",
+      "type": "production",
+      "period": "2026년 8월 2주차",
+      "tags": [
+        "Sumitomo Demag",
+        "Oerlikon HRS Flow",
+        "WITTMANN",
+        "Variotherm",
+        "FCC Covered List",
+        "Path Robotics",
+        "Kistler",
+        "AMR"
+      ],
+      "summary": "사출은 Fakuma 2026 사전 발표가 시작되며 투명·후육 부품의 광학품질을 온도제어 계통으로 푸는 접근이 사출기·핫러너 양쪽에서 동시 제시. 로봇은 대형 메이커 신규 발표가 없는 대신 미국 FCC의 외국산 이동로봇 규제와 물리 AI 용접의 생산 계약 전환이 확인됨"
+    },
+    {
       "slug": "2026-08-10-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 8월 10일",
       "date": "2026-08-10",
