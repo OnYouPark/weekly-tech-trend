@@ -1,54 +1,54 @@
 {
-  "date": "2026-07-31",
-  "slug": "2026-07-31-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-07-31",
+  "date": "2026-08-10",
+  "slug": "2026-08-10-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-08-10",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "씨메스로보틱스와 엔씨에이아이가 피지컬 AI 공동 R&D에 착수, 현장 운용 데이터를 월드 모델 학습으로 되돌리는 양방향 구조를 제시",
-      "source_label": "헬로티, 2026-07-30",
-      "source_url": "https://m.hellot.net/news/article.html?no=114087",
-      "detail": "씨메스로보틱스의 비전 파운데이션 모델과 로봇 정밀 제어 데이터 파이프라인을 엔씨에이아이의 월드 모델·로봇 파운데이션 모델 기반 가상 시뮬레이션에 연동한다. 같은 날 하이크비전은 광섬유 분산온도측정 최대 10 km 구간 미터 단위 감시와 열화상 ±2°C 정밀도를 묶은 산업안전 솔루션을 공개했다.",
+      "headline": "정부, 자동차·부품 제조 전 과정 AI 팩토리 전환 공식화 — 2027년 전기차 제조 AI 공통 플랫폼 개발, AI 로봇 연 1,000대 보급",
+      "source_label": "뉴스핌, 2026-08-06",
+      "source_url": "https://www.newspim.com/news/view/20260806000120",
+      "detail": "구윤철 부총리 주재 경제·구조혁신 관계장관회의에서 완성차와 부품사가 AI 제조기술을 공동 활용하는 얼라이언스 구축이 명시됐다. 10대 주력산업 특화 휴머노이드와 액추에이터·센서·로봇손 3대 핵심부품 전용 R&D가 신설되며, 2030년까지 AI팩토리 500개 구축이 목표로 제시됐다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "랜덤 빈피킹·유연 부품 조립처럼 티칭 기반으로 막혀 있던 비정형 공정의 데이터 수집 규격을 국내 파트너와 먼저 정의할 진입 시점이다."
+      "sl_text": "공통 플랫폼 스키마 확정 전에 설비 태그 체계와 품질 판정 기준을 문서화한 부품사가 얼라이언스 초기 참여 지위를 선점한다."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "NHTSA가 Zoox에 연방자동차안전기준 8개 항목 면제를 부여해 조향휠 없는 전용 설계 로보택시의 유료 운행을 연 2,500대·2년 상한으로 승인",
-      "source_label": "TechCrunch, 2026-07-30",
-      "source_url": "https://techcrunch.com/2026/07/30/zoox-clears-final-federal-hurdle-to-launch-paid-robotaxi-service/",
-      "detail": "같은 날 NHTSA는 SAE ITC와 3년·500만 달러 규모 컨소시엄을 구성해 자율주행 성능 기준의 단일 국가 표준 제정에 착수한다고 밝혔다. 유니트리는 상하이 STAR 마켓에서 42억 위안 조달·420억 위안 기업가치로 공모를 개시했다.",
+      "headline": "HII, Path Robotics·GrayMatter Robotics와 7년 최대 9억 달러 성과 연동형 생산 계약 — 로봇 구매 대신 용접·표면처리 공정 자체를 외주",
+      "source_label": "HII Newsroom, 2026-08-06",
+      "source_url": "https://www.hii.com/news/hii-signs-performance-based-production-agreements-with-path-robotics-and-graymatter-robotics",
+      "detail": "HII는 2026년 조선 작업 250만 시간 이상을 외주할 계획으로 전년 대비 30% 늘렸다. Path Robotics는 4족 보행 플랫폼에 용접 물리 AI 모델을 얹은 이동형 용접 시스템을 투입하며, GrayMatter는 에어갭·엣지 배포로 학습 데이터를 외부로 내보내지 않는 구조를 채택했다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "조향휠 삭제로 eHMI 조명·리던던트 시그널링의 기능 부담이 커져 조명 수요가 확대되나, 표준 제정 참여가 늦으면 검증 요건을 사후 수용하는 위치에 놓인다."
+      "sl_label": "리스크",
+      "sl_text": "자동화 조달이 설비 구매에서 공정 외주로 이동하면 Tier-1이 담당하던 중간 가공 부가가치가 물리 AI 운영사로 이전될 수 있다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-07-27 발행 현대차그룹 AI Defined Factory의 후속",
-      "headline": "현대오토에버가 현대차와 3,985억 8,880만 원 규모 AWS 5년 약정을 공시하며 그룹 AI 인프라가 선언 단계에서 자금 집행 단계로 이동",
-      "source_label": "ZDNet Korea, 2026-07-29",
-      "source_url": "https://zdnet.co.kr/view/?no=20260729135340",
-      "detail": "2025년 h클라우드 계약 1,255억 원의 3배 이상이며, 7월 24일 GPU 서버 통합 구매 3,043억 5,090만 원과 합산하면 5영업일 사이 7,000억 원대 조달이다. PTC는 Kepware·ThingWorx 매각 후 고정환율 ARR 9.1퍼센트 성장으로 PLM 기반 인텔리전스 레이어 전환을 수치로 확인했다.",
+      "field_note": "",
+      "headline": "NVIDIA, 개방형 월드 모델을 물리 AI 필수 요건으로 규정 — Cosmos 3를 Super 64B·Nano 16B·Edge 4B로 사후학습 허용 라이선스 공개",
+      "source_label": "NVIDIA Blog, 2026-08-06",
+      "source_url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
+      "detail": "물리 AI 배포는 본질적으로 특화 문제이므로 가중치 접근과 수정 허용 라이선스가 기술적 요건이라는 논지다. Linux Foundation OpenMDW 1.1로 제공되며 두산로보틱스·LG전자·삼성전자가 Cosmos 기반 개발사로 명시됐다.",
       "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "계약 개시일인 2026년 10월 1일 이후 협력사 데이터 연계 규격이 이 인프라 위에서 규정될 가능성이 높아, PLM·공정 데이터 정합성 확보 시한이 4분기로 앞당겨졌다."
+      "sl_label": "기회",
+      "sl_text": "결함 샘플이 부족한 검사 공정에서 합성 데이터로 학습셋을 보강하고 Edge 4B를 라인 옆 엣지 추론에 배치하는 구성이 사양상 성립한다."
     },
     {
       "field": "금형·사출 기술",
-      "field_note": "2026-07-30 발행 Mold-Masters 핫러너 건의 후속",
-      "headline": "핫러너 온도 컨트롤러 사양이 모듈러·GUI·어드밴스드 GUI 3계층으로 정리되고 PID 제어 편차 ±1°F와 GUI 계층 5–120존 수용이 기준으로 제시",
-      "source_label": "MoldMaking Technology, 2026-07-29",
-      "source_url": "https://www.moldmakingtechnology.com/articles/understanding-hot-runner-temperature-controllers-2",
-      "detail": "열전대 고장 시 범프리스 전환, 매니폴드와 노즐의 승온·냉각 동기화, 소비전력 패턴 기반 누유 조기 감지가 공통 기능으로 정리됐고, 상위 계층은 OPC-UA(Euromap 82.2) 연동이 요건으로 명시됐다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "기회",
-      "sl_text": "북미에서만 컨트롤러 판매사 25개사 이상이 경쟁하므로 위 4개 항목을 발주 사양 필수 요건으로 승격하면 원가를 유지한 채 사양을 상향할 수 있다."
+      "field_note": "",
+      "headline": "SABIC 엔지니어링 열가소성수지 사업, NexPoint Materials로 분리 독립 — 임직원 약 2,800명, Lexan PC·Cycolac ABS·Valox PBT 이관",
+      "source_label": "Plastics Technology, 2026-08-05",
+      "source_url": "https://www.ptonline.com/news/nexpoint-materials-launches-as-standalone-engineering-thermoplastics-company",
+      "detail": "인수 주체는 독일 사모펀드 Mutares SE & Co. KGaA이며, 램프 렌즈·하우징·커넥터 도면에 브랜드명이 직접 지정된 그레이드의 소유 구조가 바뀌었다. 같은 기간 Progressive Components는 OPC UA·EUROMAP 82.1을 지원하는 2–12존 금형 냉각 컨트롤러를 출시했다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "리스크",
+      "sl_text": "사모펀드 인수 후 통상 저수익 그레이드 단종과 거점 통폐합이 뒤따르므로, 승인 재료 목록 전수 조사와 2nd 소스 물성 검증을 선제 착수해야 한다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-07-31-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-08-10-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
