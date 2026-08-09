@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "slug": "2026-08-10-daily-brief",
+      "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 8월 10일",
+      "date": "2026-08-10",
+      "tags": [
+        "AI팩토리",
+        "NVIDIA",
+        "Siemens",
+        "HII",
+        "NexPoint",
+        "Cognex",
+        "물리AI",
+        "금형냉각"
+      ],
+      "summary": "정부가 8월 6일 자동차·부품 제조 전 과정의 AI 팩토리 전환과 2027년 전기차 제조 AI 공통 플랫폼 개발을 공식화하고 AI 로봇 연 1,000대 보급·2030년 AI팩토리 500개 목표를 제시했다. HII는 Path Robotics·GrayMatter Robotics와 7년 최대 9억 달러 규모 성과 연동형 생산 계약을 체결해 로봇 구매 대신 용접·표면처리 공정 자체를 외주하는 구조를 상용화했고, NVIDIA는 Cosmos 3를 Super 64B·Nano 16B·Edge 4B 3종으로 OpenMDW 1.1 라이선스 하에 사후학습 허용 형태로 공개했다. SABIC 엔지니어링 열가소성수지 사업부는 NexPoint Materials로 분리 독립해 Lexan PC·Valox PBT 포트폴리오가 사모펀드 산하로 이관됐다."
+    },
+    {
       "slug": "2026-08-10-china",
       "title": "중국 제조 동향 주간 - 2026년 8월 1주",
       "date": "2026-08-10",
