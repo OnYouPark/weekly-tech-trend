@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "slug": "2026-08-12-production",
+      "title": "생산기술 신규기술 브리핑 - 2026년 8월 2주차",
+      "date": "2026-08-12",
+      "type": "production",
+      "period": "2026년 8월 2주차",
+      "tags": [
+        "ONI",
+        "Covestro",
+        "Kollekt",
+        "MTF Technik",
+        "FANUC M-810",
+        "ROBOGUIDE",
+        "KUKA iiQKA.OS2",
+        "FlexLink RC20"
+      ],
+      "summary": "사출은 Fakuma 2026 사전 발표가 사출기 본체가 아닌 냉각수 수질·유량계측·다회로 온조 계통과 취출 후 분리 공정으로 이동. 로봇은 FANUC이 절삭력 적응제어형 대형 가공로봇 M-810과 ROBOGUIDE–Isaac Sim 통합을 동시 공개하고, KUKA는 컨트롤러 OS를 iiQKA.OS2로 통합"
+    },
+    {
       "slug": "2026-08-12-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 8월 12일",
       "date": "2026-08-12",
