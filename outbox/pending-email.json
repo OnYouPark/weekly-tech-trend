@@ -1,54 +1,54 @@
 {
-  "date": "2026-08-13",
-  "slug": "2026-08-13-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-08-13",
+  "date": "2026-08-14",
+  "slug": "2026-08-14-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-08-14",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "",
-      "headline": "로크웰오토메이션이 8월 11일 AI 외관검사 엔진 VisionAI를 클라우드 QMS인 Plex QMS에 RESTful API로 통합해 즉시 공급을 개시했다",
-      "source_label": "PR Newswire, 2026-08-11",
-      "source_url": "https://www.prnewswire.com/news-releases/rockwell-automation-integrates-plex-qms-with-factorytalk-analytics-visionai-to-advance-ai-driven-quality-continues-ai-expansion-302848558.html",
-      "detail": "검사 Pass/Fail 판정과 메타데이터가 제품 시리얼에 묶인 QMS 레코드로 직접 적재된다. 로크웰은 근거로 전통적 육안검사 유효성 80%와 향후 1년 내 제조 공정의 42%가 AI 지원 공정으로 전환된다는 자사 조사를 제시했다. 같은 날 에머슨은 엣지 AI 컨테이너를 플릿 단위로 원격 관리하는 PACEdge 3.0을 공개했다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "검사기 교체가 아니라 검사기에서 QMS로 이어지는 데이터 경로 확보가 IATF 16949·PPAP 대응과 필드 클레임 범위 산정 비용을 직접 낮추는 우선 과제로 재정의된다."
+      "field_note": "2026-08-13 발행 로크웰 VisionAI 이슈의 후속",
+      "headline": "머신비전이 북미 1분기 7억 8,900만 달러(전년 대비 6.8퍼센트 성장) 규모로 성장했으나, 머신러닝 기반 비전 프로젝트의 약 77퍼센트가 프로토타입·시범 단계에 정체된 것으로 진단됐다",
+      "source_label": "헬로티, 2026-08-13",
+      "source_url": "https://www.hellot.net/news/article.html?no=114343",
+      "detail": "적절히 적용된 AI 비전의 결함 탐지율은 95에서 99퍼센트 수준으로 이미 벤더 간 변별력을 잃었다. 병목은 모델 성능이 아니라 MES·SPC·품질문서·OT 보안과의 통합, 그리고 제품 변경에 따른 모델 재학습·검증 운영 체계로 이동했다.",
+      "certainty": "[업계 분석]",
+      "sl_label": "리스크",
+      "sl_text": "비전 검사 PoC를 늘려도 MES 연계 사양과 모델 재학습 주체·주기를 계약 단계에서 못 박지 않으면 투자비만 소진하고 양산 불량률 지표는 개선되지 않는다."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "뉴로메카 자회사 로볼루션이 8월 11일 차체부품사 KSM과 노후 산업용 로봇을 재제조해 서브프레임 용접 라인에 재투입하는 정부 실증에 착수했다. 목표는 생산성 40% 향상과 제조원가 25% 절감이다",
-      "source_label": "로봇신문, 2026-08-11",
-      "source_url": "https://www.irobotnews.com/news/articleView.html?idxno=47855",
-      "detail": "재제조 로봇의 성능 복원 목표는 신품 대비 약 95% 수준이며, 로봇 본체뿐 아니라 공정 전용 그리퍼와 용접 지그를 함께 개발해 시스템 단위로 성능을 회복시키는 구조다. 같은 날 애질리티 로보틱스는 안전 펜스 없이 작업자와 동일 공간에서 운용하는 Digit V5를 12월 초기 고객 배치한다고 밝혔다.",
+      "headline": "국토교통부가 8월 13일 판교에서 이동로봇 특별법안 업계 설명회를 열고 삼성전자·현대차 등 43개 기업(현장 50여 곳·100여 명)을 대상으로 건축·주차장·철도·항공 전반의 공간별 규제특례안을 제시했다",
+      "source_label": "철도경제신문, 2026-08-13",
+      "source_url": "https://www.redaily.co.kr/news/articleView.html?idxno=17325",
+      "detail": "철도안전법 제26조에서 제27조의2에도 불구하고 점검·정비용 이동로봇을 철도차량으로 보지 않고 별도 형식승인 기준을 적용하는 조문이 구체적으로 공개됐다. 기존 규제 샌드박스가 개별 실증 단위로 운영된 것과 달리 국토부 소관 법령 전반의 특례를 단일 특별법에 담는 구조다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "실증이 신품 대비 95% 성능을 입증하면 라인 증설·이설 시 로봇 CAPEX를 신품 구매 대신 재제조로 대체하는 조달 선택지가 국내에 처음 생긴다."
+      "sl_text": "옥외 야드·주차장·사업장 간 구간까지 AMR 운영 근거가 열려 다공장 무인 이송 투자 기획의 전제가 바뀌나, 시행령 확정 전까지는 설비 사양 확정을 유보하는 편이 안전하다."
     },
     {
       "field": "AI·디지털전환",
       "field_note": "",
-      "headline": "현대차그룹이 8월 12일 AX 성과 발표회에서 제조 AI 에이전트 플랫폼 E-FOREST POLARIS를 공개하고, 비전 AI 기반 자동 인식 서비스를 국내외 약 70개 생산거점에 적용해 연간 52억 4,000만 원을 절감했다고 밝혔다",
-      "source_label": "이데일리, 2026-08-12",
-      "source_url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03814646645546664",
-      "detail": "대차 이동경로 AI 최적화로 생산 중단 시간이 약 86% 감소했고, 사내 생성형 AI 플랫폼 H Chat Pro 이용자는 7월 기준 3만 명을 넘어 현대차·기아 일반·연구직의 약 80%에 달한다. 에이전트 생성 주체를 데이터 사이언티스트가 아닌 품질·생산·설비·물류 현업 엔지니어로 옮긴 점이 구조적 차이다.",
+      "headline": "아치시스템즈와 삼성전자 자회사 하만이 에이전틱 AI 기반 공장 인텔리전스로 2026 Automotive News PACE Award 최종후보에 올랐고, 4개 사업장에서 총 실장수 약 30퍼센트 증가, DPMU 37퍼센트 개선, OEE 6에서 8퍼센트포인트 향상을 공개했다",
+      "source_label": "Arch Systems 보도자료, 2026-08-12",
+      "source_url": "https://www.manufacturingdive.com/press-release/20260812-arch-systems-and-harman-named-2026-automotive-news-pace-award-finalist/",
+      "detail": "중국 쑤저우 라이트하우스에서 검증한 뒤 하만 글로벌 전자 제조 네트워크로 표준 전개하는 순서를 택했으며, 성과 지표를 SMT 라인의 기존 KPI로 측정했다. 신규 라인 증설 없이 기존 설비 가동률 개선으로 캐파를 확보한 구조다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "OEM이 제조 AI 에이전트를 표준화하고 중소기업 확산까지 명시한 만큼, 지금 공정·품질 데이터 표준화와 이력 추적 체계를 정비한 부품사는 향후 데이터 연계 요구 대응 비용을 크게 줄일 수 있다."
+      "sl_text": "다거점 전장 제조라는 동일 구조에서 라인 증설 없이 기존 KPI만으로 회수 검증이 가능한 도입 경로가 실증돼, 전사 일괄 도입 대신 단일 거점 선검증 방식을 채택할 근거가 된다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "북미 금형 경기지수가 7월 56.2로 반등해 7개월 연속 확장을 기록했고, 생산 지수는 약 7포인트 급등한 61.1에 도달했다",
-      "source_label": "MoldMaking Technology, 2026-08-12",
-      "source_url": "https://www.moldmakingtechnology.com/articles/moldmaking-index-rebounds-in-july-on-a-strong-production-gain",
-      "detail": "수주잔고가 50선 위로 복귀해 유입 속도가 소화 속도를 앞섰고, 소재 가격 지수는 3포인트 이상 하락한 80.6을 기록해 공구강 투입원가 상승 기울기가 완만해졌다. 수출 항목만 유일하게 50 미만에 머물러 회복이 내수 주도임을 시사한다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "리스크",
-      "sl_text": "생산과 수주잔고 동반 상승은 하반기 툴링 발주 시 납기 장기화와 견적 협상력 약화로 직결되므로, 신모델 금형 발주 시점 선행과 협력사 캐파 선점 계약이 필요하다."
+      "headline": "폭스바겐 ID. Buzz가 길이 1,222mm·최대 두께 44mm 리어 스포일러를 착색 PMMA 몰드인컬러로 무도장 양산했고, 도장 공정이 볼프스부르크 차량 생산 에너지 소비의 약 40퍼센트를 차지한다는 근거를 함께 제시했다",
+      "source_label": "ETMM, 2026-08-13",
+      "source_url": "https://www.etmm-online.com/vw-id-buzz-coloured-pmma-replaces-coating-a-edb9c0689542fdc92beadba84a9cafeb/",
+      "detail": "PC 기재에 PMMA 표층을 얹는 2색 사출을 3분할 큐브 금형과 유압 램 사출압축으로 구현해 후육부 수축을 캐비티 내에서 물리적으로 보상했다. 스프루는 레이저로 제거하고 노즐 개구부는 후가공 밀링해 Class A 면의 무결성을 유지했다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "기회",
+      "sl_text": "흑색 고광택 램프 가니시·트림에서 도장 라인을 제거할 수 있는 공법이 OEM 양산으로 검증돼, 금형 사양 고도화를 선행 투자하면 VOC 규제·도장 외주 리스크를 구조적으로 줄일 수 있다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-08-13-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-08-14-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
