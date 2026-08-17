@@ -1,54 +1,54 @@
 {
-  "date": "2026-08-14",
-  "slug": "2026-08-14-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-08-14",
+  "date": "2026-08-18",
+  "slug": "2026-08-18-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-08-18",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "2026-08-13 발행 로크웰 VisionAI 이슈의 후속",
-      "headline": "머신비전이 북미 1분기 7억 8,900만 달러(전년 대비 6.8퍼센트 성장) 규모로 성장했으나, 머신러닝 기반 비전 프로젝트의 약 77퍼센트가 프로토타입·시범 단계에 정체된 것으로 진단됐다",
-      "source_label": "헬로티, 2026-08-13",
-      "source_url": "https://www.hellot.net/news/article.html?no=114343",
-      "detail": "적절히 적용된 AI 비전의 결함 탐지율은 95에서 99퍼센트 수준으로 이미 벤더 간 변별력을 잃었다. 병목은 모델 성능이 아니라 MES·SPC·품질문서·OT 보안과의 통합, 그리고 제품 변경에 따른 모델 재학습·검증 운영 체계로 이동했다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "리스크",
-      "sl_text": "비전 검사 PoC를 늘려도 MES 연계 사양과 모델 재학습 주체·주기를 계약 단계에서 못 박지 않으면 투자비만 소진하고 양산 불량률 지표는 개선되지 않는다."
+      "field_note": "",
+      "headline": "콴타컴퓨터·테크맨로봇·지멘스, EBOM-MBOM-BOP 단일 디지털 백본으로 현장 시운전 30% 단축·종단간 효율 15% 향상 공개",
+      "source_label": "Automation World, 2026-08-17",
+      "source_url": "https://www.automationworld.com/sponsored/article/55396800/how-quanta-a-leading-electronics-manufacturer-is-using-digitalization-and-intelligent-automation-to-reduce-risk-and-accelerate-production-readiness",
+      "detail": "설계변경이 작업지시서까지 자동 전파되는 디지털 스레드 위에 Process Simulate 공정 검증과 Workflow Canvas 로우코드 오케스트레이션을 얹어, 검사 카메라 시야 간섭까지 설비 반입 전에 판정하는 구조다. 설계변경과 작업지시 간 데이터 일관성은 최대 95%로 제시됐다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "기회",
+      "sl_text": "신차 프로그램의 라인 개조·시운전 구간이 SOP 지연 리스크의 집중 구간이므로, BOP 표준화와 PLM·MES 스택 통일을 차기 투자 우선순위로 재배치할 근거가 된다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "",
-      "headline": "국토교통부가 8월 13일 판교에서 이동로봇 특별법안 업계 설명회를 열고 삼성전자·현대차 등 43개 기업(현장 50여 곳·100여 명)을 대상으로 건축·주차장·철도·항공 전반의 공간별 규제특례안을 제시했다",
-      "source_label": "철도경제신문, 2026-08-13",
-      "source_url": "https://www.redaily.co.kr/news/articleView.html?idxno=17325",
-      "detail": "철도안전법 제26조에서 제27조의2에도 불구하고 점검·정비용 이동로봇을 철도차량으로 보지 않고 별도 형식승인 기준을 적용하는 조문이 구체적으로 공개됐다. 기존 규제 샌드박스가 개별 실증 단위로 운영된 것과 달리 국토부 소관 법령 전반의 특례를 단일 특별법에 담는 구조다.",
+      "field_note": "2026-08-11 발행 유니트리 청약 건의 후속",
+      "headline": "유니트리, 신형 휴머노이드 초인 공개하며 제자리 높이뛰기 2m·최고속도 12.66m/s 제시하고 8월 19일 커촹반 상장 확정",
+      "source_label": "ECNS, 2026-08-17",
+      "source_url": "http://www.ecns.cn/cns-wire/2026-08-17/detail-ihfifqmx7366398.shtml",
+      "detail": "다리 길이 0.85m 조건의 기록이며 신규 완성기 개발에 3개월여가 걸렸다고 밝혔다. 상장 시 시가총액은 약 609.93억 위안, 조달 예정액은 약 60.99억 위안이다. 다만 2026년 1분기 매출 증가율은 332.64%에서 68.49%로 하락했다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "옥외 야드·주차장·사업장 간 구간까지 AMR 운영 근거가 열려 다공장 무인 이송 투자 기획의 전제가 바뀌나, 시행령 확정 전까지는 설비 사양 확정을 유보하는 편이 안전하다."
+      "sl_text": "관절 액추에이터 하우징·유성감속기 부품·경량 구조재는 자동차 부품사의 정밀가공·내구검증 역량과 직접 겹치므로, 물량이 작은 지금 시제품 트랙 진입이 유리하다."
     },
     {
       "field": "AI·디지털전환",
       "field_note": "",
-      "headline": "아치시스템즈와 삼성전자 자회사 하만이 에이전틱 AI 기반 공장 인텔리전스로 2026 Automotive News PACE Award 최종후보에 올랐고, 4개 사업장에서 총 실장수 약 30퍼센트 증가, DPMU 37퍼센트 개선, OEE 6에서 8퍼센트포인트 향상을 공개했다",
-      "source_label": "Arch Systems 보도자료, 2026-08-12",
-      "source_url": "https://www.manufacturingdive.com/press-release/20260812-arch-systems-and-harman-named-2026-automotive-news-pace-award-finalist/",
-      "detail": "중국 쑤저우 라이트하우스에서 검증한 뒤 하만 글로벌 전자 제조 네트워크로 표준 전개하는 순서를 택했으며, 성과 지표를 SMT 라인의 기존 KPI로 측정했다. 신규 라인 증설 없이 기존 설비 가동률 개선으로 캐파를 확보한 구조다.",
+      "headline": "아바코, 산업AI 실증에서 AMR과 4방향 셔틀을 단일 관제로 묶어 공정·물류 다운타임 20% 감소·물류 자동화율 90% 이상 달성",
+      "source_label": "헬로티, 2026-08-17",
+      "source_url": "https://www.hellot.net/news/article.html?no=114393",
+      "detail": "설비 설치 전 디지털 트윈에서 물류 동선과 장비 작동을 사전 검증하는 체계를 함께 구축했다. 다임리서치·경북테크노파크·KAIST·서울대·POSTECH이 참여기관으로 들어갔고, 반도체·디스플레이·태양전지로 확산할 방침이다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "다거점 전장 제조라는 동일 구조에서 라인 증설 없이 기존 KPI만으로 회수 검증이 가능한 도입 경로가 실증돼, 전사 일괄 도입 대신 단일 거점 선검증 방식을 채택할 근거가 된다."
+      "sl_text": "완전 자율 공장이 아니라 구내 물류 동선이라는 좁은 범위를 단일 KPI로 검증한 국내 모델이므로, 증설·레이아웃 변경 구간을 첫 적용 대상으로 삼으면 검증 리스크를 낮출 수 있다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "폭스바겐 ID. Buzz가 길이 1,222mm·최대 두께 44mm 리어 스포일러를 착색 PMMA 몰드인컬러로 무도장 양산했고, 도장 공정이 볼프스부르크 차량 생산 에너지 소비의 약 40퍼센트를 차지한다는 근거를 함께 제시했다",
-      "source_label": "ETMM, 2026-08-13",
-      "source_url": "https://www.etmm-online.com/vw-id-buzz-coloured-pmma-replaces-coating-a-edb9c0689542fdc92beadba84a9cafeb/",
-      "detail": "PC 기재에 PMMA 표층을 얹는 2색 사출을 3분할 큐브 금형과 유압 램 사출압축으로 구현해 후육부 수축을 캐비티 내에서 물리적으로 보상했다. 스프루는 레이저로 제거하고 노즐 개구부는 후가공 밀링해 Class A 면의 무결성을 유지했다.",
-      "certainty": "[공식 발표]",
+      "headline": "사출 외관검사 AI 비전 전환이 스크랩 70-90% 저감·직접노무 약 80% 저감 실적과 함께 제시, Celanese-VIGOR는 관절 모듈 중량 30% 초과 저감 목표로 제휴",
+      "source_label": "Plastics Today, 2026-08-17",
+      "source_url": "https://www.plasticstoday.com/injection-molding/ai-powered-vision-systems-transform-plastics-quality-control",
+      "detail": "룰 기반 비전이 플래시·쇼트샷·번마크를 안정적으로 판별하지 못해 약 2주 주기 재캘리브레이션이 필요했던 구조적 한계를 벤더가 공개 인정했다. Cognex는 룰 기반 툴과 AI 툴을 단일 셀에서 혼용하는 하이브리드 검사 구조를 제시했다.",
+      "certainty": "[업계 분석]",
       "sl_label": "기회",
-      "sl_text": "흑색 고광택 램프 가니시·트림에서 도장 라인을 제거할 수 있는 공법이 OEM 양산으로 검증돼, 금형 사양 고도화를 선행 투자하면 VOC 규제·도장 외주 리스크를 구조적으로 줄일 수 있다."
+      "sl_text": "반사·텍스처·착색 표면은 룰 기반 비전이 가장 취약한 조건이자 램프·내외장 부품의 기본 조건이므로, 외관 클레임 상위 품번에 한정해 오검출률·재검 공수로 ROI를 실측할 시점이다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-08-14-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-08-18-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
