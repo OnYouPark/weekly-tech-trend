@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "slug": "2026-08-20-production",
+      "title": "생산기술 신규기술 브리핑 - 2026년 8월 3주차",
+      "date": "2026-08-20",
+      "type": "production",
+      "period": "2026년 8월 3주차",
+      "tags": [
+        "WITTMANN",
+        "Ingrinder",
+        "Braunform",
+        "ROBOSHOT",
+        "EUROMAP 82",
+        "SABIC Ultem",
+        "Pudu MP2000",
+        "FactoryTalk Orchestration"
+      ],
+      "summary": "사출은 Fakuma 2026 사전 발표가 절정에 들어 WITTMANN이 취출·분쇄·재투입을 셀 내부에서 닫는 폐루프 구성을, FANUC은 전 캐비티 압력 계측과 EUROMAP 82.x 기반 주변장치 연계를 셀 표준 사양으로 제시. 로봇은 주요 산업용·협동로봇 메이커의 신규 발표가 한 건도 없었고, 대신 AMR 오케스트레이션과 촉각센서 공급망 쪽에서 변화가 확인됨"
+    },
+    {
       "slug": "2026-08-20-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 8월 20일",
       "date": "2026-08-20",
