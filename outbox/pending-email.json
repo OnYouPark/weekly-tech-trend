@@ -1,54 +1,54 @@
 {
-  "date": "2026-08-18",
-  "slug": "2026-08-18-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-08-18",
+  "date": "2026-08-20",
+  "slug": "2026-08-20-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-08-20",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "",
-      "headline": "콴타컴퓨터·테크맨로봇·지멘스, EBOM-MBOM-BOP 단일 디지털 백본으로 현장 시운전 30% 단축·종단간 효율 15% 향상 공개",
-      "source_label": "Automation World, 2026-08-17",
-      "source_url": "https://www.automationworld.com/sponsored/article/55396800/how-quanta-a-leading-electronics-manufacturer-is-using-digitalization-and-intelligent-automation-to-reduce-risk-and-accelerate-production-readiness",
-      "detail": "설계변경이 작업지시서까지 자동 전파되는 디지털 스레드 위에 Process Simulate 공정 검증과 Workflow Canvas 로우코드 오케스트레이션을 얹어, 검사 카메라 시야 간섭까지 설비 반입 전에 판정하는 구조다. 설계변경과 작업지시 간 데이터 일관성은 최대 95%로 제시됐다.",
+      "field_note": "2026-08-18 발행 '제조 AI 승인 책임' 후속",
+      "headline": "엠아이큐브솔루션, 팔도 나주공장에 총사업비 23억 7,000만 원 규모 AI 자율제조 플랫폼 5개 시스템 구축",
+      "source_label": "헬로티, 2026-08-19",
+      "source_url": "https://www.hellot.net/news/article.html?no=114455",
+      "detail": "AI 이상탐지와 성분 예측 결과가 통합 운영·제어 포털을 거쳐 PLC 등 기존 설비 제어로 직결되는 폐루프 구조를 정부 지원 상용 계약으로 구현한다. 같은 날 3D 비전 기업 클레로보틱스가 글로벌 팁스에 선정돼 4년 62억 원 과제에 착수했다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "신차 프로그램의 라인 개조·시운전 구간이 SOP 지연 리스크의 집중 구간이므로, BOP 표준화와 PLM·MES 스택 통일을 차기 투자 우선순위로 재배치할 근거가 된다."
+      "sl_label": "변곡점",
+      "sl_text": "AI 출력이 권고에서 제어로 넘어간 국내 첫 상용 계약이므로, 자동화 사양서에 제어 권한 범위·폴백 로직·변경 이력 책임 조항을 지금 표준화해야 한다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "2026-08-11 발행 유니트리 청약 건의 후속",
-      "headline": "유니트리, 신형 휴머노이드 초인 공개하며 제자리 높이뛰기 2m·최고속도 12.66m/s 제시하고 8월 19일 커촹반 상장 확정",
-      "source_label": "ECNS, 2026-08-17",
-      "source_url": "http://www.ecns.cn/cns-wire/2026-08-17/detail-ihfifqmx7366398.shtml",
-      "detail": "다리 길이 0.85m 조건의 기록이며 신규 완성기 개발에 3개월여가 걸렸다고 밝혔다. 상장 시 시가총액은 약 609.93억 위안, 조달 예정액은 약 60.99억 위안이다. 다만 2026년 1분기 매출 증가율은 332.64%에서 68.49%로 하락했다.",
+      "field_note": "",
+      "headline": "유니켐, 미국 유연전자 기업 루미아 지분 100퍼센트를 약 86억 원(600만 달러)에 인수해 휴머노이드 전자피부 시장 진입",
+      "source_label": "The Robot Report, 2026-08-18",
+      "source_url": "https://www.therobotreport.com/unichem-acquires-loomia-accelerate-entry-humanoid-skin-market/",
+      "detail": "자동차 내장 가죽 50년 인프라에 LEL 유연회로 IP를 결합하는 구조다. 글로벌 Tier 1 R&Y와 수직 압력·전단력을 동시 검출하는 센서를 공동개발해 2027년 1월 첫 엔지니어링 샘플을 목표한다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "관절 액추에이터 하우징·유성감속기 부품·경량 구조재는 자동차 부품사의 정밀가공·내구검증 역량과 직접 겹치므로, 물량이 작은 지금 시제품 트랙 진입이 유리하다."
+      "sl_text": "자동차 부품사가 완성 로봇이 아닌 소재·부품 계층에서 로봇 공급망에 진입한 국내 첫 사례로, 램프·전장의 차량급 신뢰성 자산을 이식하는 M&A형 경로를 검증한다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "",
-      "headline": "아바코, 산업AI 실증에서 AMR과 4방향 셔틀을 단일 관제로 묶어 공정·물류 다운타임 20% 감소·물류 자동화율 90% 이상 달성",
-      "source_label": "헬로티, 2026-08-17",
-      "source_url": "https://www.hellot.net/news/article.html?no=114393",
-      "detail": "설비 설치 전 디지털 트윈에서 물류 동선과 장비 작동을 사전 검증하는 체계를 함께 구축했다. 다임리서치·경북테크노파크·KAIST·서울대·POSTECH이 참여기관으로 들어갔고, 반도체·디스플레이·태양전지로 확산할 방침이다.",
+      "field_note": "2026-08-10 발행 NVIDIA Cosmos 3 공개의 후속",
+      "headline": "델타일렉트로닉스, 합성 결함 데이터로 신제품 AOI 검사 모델 준비 기간 3개월에서 2주로 단축, 인식률 17퍼센트 향상",
+      "source_label": "PR Newswire, 2026-08-19",
+      "source_url": "http://www.prnewswire.com/news-releases/delta-showcases-embodied-ai-dual-arm-robot-platform-and-ai-enhanced-production-line-digital-twin-at-automation-taipei-2026-302855258.html",
+      "detail": "NVIDIA Cosmos로 결함 이미지를 합성하고 DIATwin과 Omniverse 코시뮬레이션 결과를 설비 레시피로 직접 변환하는 구조이며, 태국 AI 서버 전원장치 라인에 이미 적용됐다. 같은 날 NVIDIA는 대만 상장사 16곳을 피지컬 AI 파트너로 지목했다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "완전 자율 공장이 아니라 구내 물류 동선이라는 좁은 범위를 단일 KPI로 검증한 국내 모델이므로, 증설·레이아웃 변경 구간을 첫 적용 대상으로 삼으면 검증 리스크를 낮출 수 있다."
+      "sl_text": "램프 사출 초도 양산의 검사 모델 공백을 신차 개발 일정 안으로 흡수할 수 있으나, 합성 데이터 모델의 IATF·PPAP 검증 절차를 선제 설계해야 실효가 난다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "사출 외관검사 AI 비전 전환이 스크랩 70-90% 저감·직접노무 약 80% 저감 실적과 함께 제시, Celanese-VIGOR는 관절 모듈 중량 30% 초과 저감 목표로 제휴",
-      "source_label": "Plastics Today, 2026-08-17",
-      "source_url": "https://www.plasticstoday.com/injection-molding/ai-powered-vision-systems-transform-plastics-quality-control",
-      "detail": "룰 기반 비전이 플래시·쇼트샷·번마크를 안정적으로 판별하지 못해 약 2주 주기 재캘리브레이션이 필요했던 구조적 한계를 벤더가 공개 인정했다. Cognex는 룰 기반 툴과 AI 툴을 단일 셀에서 혼용하는 하이브리드 검사 구조를 제시했다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "기회",
-      "sl_text": "반사·텍스처·착색 표면은 룰 기반 비전이 가장 취약한 조건이자 램프·내외장 부품의 기본 조건이므로, 외관 클레임 상위 품번에 한정해 오검출률·재검 공수로 ROI를 실측할 시점이다."
+      "headline": "Forvia Hella, BMW·Covestro 등 10개 기관과 헤드램프 순환설계 연구과제 Kollekt를 2029년 5월까지 3년간 수행",
+      "source_label": "PlasticsToday, 2026-08-18",
+      "source_url": "https://www.plasticstoday.com/automotive-mobility/german-research-project-aims-to-develop-circular-vehicle-components",
+      "detail": "헤드램프를 설계 단계부터 수리·재사용·재제조·재활용이 가능하도록 재설계하고, 로봇·AI 기반 유연 해체 셀과 디지털 제품 트윈으로 소재별 분리를 자동화한다. EU 폐차 규정 강화가 동인으로 명시됐다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "리스크",
+      "sl_text": "경쟁사 주도 순환설계 표준이 EU 폐차 규정 대응 수주 자격 요건으로 굳기 전에 램프 재질 구성·해체성 자체 진단을 착수해야 한다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-08-18-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-08-20-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
