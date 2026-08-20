@@ -1,54 +1,43 @@
 {
-  "date": "2026-08-20",
-  "slug": "2026-08-20-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-08-20",
-  "mode_notice": "",
+  "date": "2026-08-21",
+  "slug": "2026-08-21-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-08-21",
+  "mode_notice": "금일 신규 핵심 동향이 한산하여 핵심과 인접 영역 위주로 정리했습니다. 스마트제조·자동화 분야는 조사 기간 내 신규 동향이 확인되지 않았습니다.",
   "fields": [
     {
-      "field": "스마트제조·자동화",
-      "field_note": "2026-08-18 발행 '제조 AI 승인 책임' 후속",
-      "headline": "엠아이큐브솔루션, 팔도 나주공장에 총사업비 23억 7,000만 원 규모 AI 자율제조 플랫폼 5개 시스템 구축",
-      "source_label": "헬로티, 2026-08-19",
-      "source_url": "https://www.hellot.net/news/article.html?no=114455",
-      "detail": "AI 이상탐지와 성분 예측 결과가 통합 운영·제어 포털을 거쳐 PLC 등 기존 설비 제어로 직결되는 폐루프 구조를 정부 지원 상용 계약으로 구현한다. 같은 날 3D 비전 기업 클레로보틱스가 글로벌 팁스에 선정돼 4년 62억 원 과제에 착수했다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "AI 출력이 권고에서 제어로 넘어간 국내 첫 상용 계약이므로, 자동화 사양서에 제어 권한 범위·폴백 로직·변경 이력 책임 조항을 지금 표준화해야 한다."
-    },
-    {
       "field": "로보틱스·모빌리티",
-      "field_note": "",
-      "headline": "유니켐, 미국 유연전자 기업 루미아 지분 100퍼센트를 약 86억 원(600만 달러)에 인수해 휴머노이드 전자피부 시장 진입",
-      "source_label": "The Robot Report, 2026-08-18",
-      "source_url": "https://www.therobotreport.com/unichem-acquires-loomia-accelerate-entry-humanoid-skin-market/",
-      "detail": "자동차 내장 가죽 50년 인프라에 LEL 유연회로 IP를 결합하는 구조다. 글로벌 Tier 1 R&Y와 수직 압력·전단력을 동시 검출하는 센서를 공동개발해 2027년 1월 첫 엔지니어링 샘플을 목표한다.",
+      "field_note": "2026-08-18 발행 유니트리 상장 건의 후속",
+      "headline": "2026 세계로봇대회 8월 19일 베이징 개막, 300여 기업 2,000여 전시품 중 신제품 150여 건 공개, 유니트리 상장 첫날 종가 845.00위안으로 460.34퍼센트 상승",
+      "source_label": "中国新闻网, 2026-08-20",
+      "source_url": "https://www.chinanews.com.cn/cj/2026/08-20/10681138.shtml",
+      "detail": "발표 축이 단일 로봇 성능에서 플랫폼·데이터·생태계로 이동했다. SynapX가 세계 기반모델 SYNWorld와 다자유도 인간형 손 OctoH-Hand, 데이터수집 솔루션 OctoSense를 묶은 뇌·손·데이터 체계를 공개했고, 징둥은 2028년까지 로봇 분야 100억 위안 투자와 향후 2년간 실사용 데이터 1,000만 시간 수집 계획을 제시했다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "자동차 부품사가 완성 로봇이 아닌 소재·부품 계층에서 로봇 공급망에 진입한 국내 첫 사례로, 램프·전장의 차량급 신뢰성 자산을 이식하는 M&A형 경로를 검증한다."
+      "sl_text": "로봇 공급사 평가축이 하드웨어 스펙에서 조작 데이터 확보량과 인터페이스 표준으로 넘어가는 구간이므로, 발주 사양서에 통신 프로토콜 개방 범위와 데이터 반출 조건을 명시할 근거가 생겼다."
     },
     {
-      "field": "AI·디지털전환",
-      "field_note": "2026-08-10 발행 NVIDIA Cosmos 3 공개의 후속",
-      "headline": "델타일렉트로닉스, 합성 결함 데이터로 신제품 AOI 검사 모델 준비 기간 3개월에서 2주로 단축, 인식률 17퍼센트 향상",
-      "source_label": "PR Newswire, 2026-08-19",
-      "source_url": "http://www.prnewswire.com/news-releases/delta-showcases-embodied-ai-dual-arm-robot-platform-and-ai-enhanced-production-line-digital-twin-at-automation-taipei-2026-302855258.html",
-      "detail": "NVIDIA Cosmos로 결함 이미지를 합성하고 DIATwin과 Omniverse 코시뮬레이션 결과를 설비 레시피로 직접 변환하는 구조이며, 태국 AI 서버 전원장치 라인에 이미 적용됐다. 같은 날 NVIDIA는 대만 상장사 16곳을 피지컬 AI 파트너로 지목했다.",
-      "certainty": "[공식 발표]",
+      "field": "AI·디지털전환 (인접 영역)",
+      "field_note": "",
+      "headline": "제조 엣지용 소형언어모델 하드웨어·양자화 종합 비교 가이드 8월 19일 발행, Q4_K_M 양자화가 F16 대비 VRAM 72퍼센트 절감(70억 파라미터 기준 14GB에서 3.9GB)",
+      "source_label": "IIoT World, 2026-08-19",
+      "source_url": "https://www.iiot-world.com/artificial-intelligence-ml/slm-factory-edge-hardware-2026/",
+      "detail": "로크웰 FactoryTalk Design Studio Copilot의 Nemotron-Nano-9B-v2 탑재 사례와 엣지 하드웨어 3계층인 Jetson Orin NX, Intel Core Ultra 7 155H, AMD Ryzen AI Embedded X100의 TOPS·전력 20에서 35W·가용시기를 처음으로 한 표에 정리했다. 10ms 미만 안전 인터록은 결정론적 PLC가 전담하고 sLM은 어드바이저리 계층에 한정된다는 역할 분리도 명시됐다.",
+      "certainty": "[업계 분석]",
       "sl_label": "기회",
-      "sl_text": "램프 사출 초도 양산의 검사 모델 공백을 신차 개발 일정 안으로 흡수할 수 있으나, 합성 데이터 모델의 IATF·PPAP 검증 절차를 선제 설계해야 실효가 난다."
+      "sl_text": "사외 데이터 유출 없이 에어갭 환경에서 돌아가는 검사·진단 보조 AI의 하드웨어 예산이 수치로 확정되어, 라인 단위 파일럿 견적을 직접 산출할 수 있는 단계가 됐다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "Forvia Hella, BMW·Covestro 등 10개 기관과 헤드램프 순환설계 연구과제 Kollekt를 2029년 5월까지 3년간 수행",
-      "source_label": "PlasticsToday, 2026-08-18",
-      "source_url": "https://www.plasticstoday.com/automotive-mobility/german-research-project-aims-to-develop-circular-vehicle-components",
-      "detail": "헤드램프를 설계 단계부터 수리·재사용·재제조·재활용이 가능하도록 재설계하고, 로봇·AI 기반 유연 해체 셀과 디지털 제품 트윈으로 소재별 분리를 자동화한다. EU 폐차 규정 강화가 동인으로 명시됐다.",
+      "headline": "Cimatron이 8월 19일 에이전틱 AI 기반 CAM Agent를 공개하고 3축 툴패스 전자동 생성 기능을 9월 14일부터 19일까지 IMTS 2026에서 시연한다고 발표",
+      "source_label": "DailyCADCAM, 2026-08-19",
+      "source_url": "https://dailycadcam.com/cimatron-2027-ai-powered-cam-agent-to-be-debuted-at-imts-2026/",
+      "detail": "파트 형상과 보유 공구 라이브러리를 자동 분석해 가공 전략까지 추천하는 구조이며, 메시 근사 없이 표면 형상에서 직접 마감 툴패스를 계산하는 SuperFinish와 이송속도 최적화 도구 FeedOptimizer가 함께 공개된다. 별개로 사출금형 급속 교체 동향에서 타이바 리트랙터가 원터치 약 60초 사이클로 크레인 없는 측면 투입을 구현한 사례가 보도됐다.",
       "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "경쟁사 주도 순환설계 표준이 EU 폐차 규정 대응 수주 자격 요건으로 굳기 전에 램프 재질 구성·해체성 자체 진단을 착수해야 한다."
+      "sl_label": "기회",
+      "sl_text": "CNC 프로그래밍 공수와 숙련 인력 의존도를 낮출 여지가 있으나 3축 한정·Sandvik 생태계 종속이 걸려, IMTS 시연 실측치 확보 전 도입 결정은 유보가 타당하다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-08-20-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-08-21-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
