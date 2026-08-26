@@ -1,54 +1,32 @@
 {
-  "date": "2026-08-26",
-  "slug": "2026-08-26-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-08-26",
-  "mode_notice": "",
+  "date": "2026-08-27",
+  "slug": "2026-08-27-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-08-27",
+  "mode_notice": "금일 신규 핵심 동향이 한산하여 핵심과 인접 영역 위주로 정리했습니다. 스마트제조·자동화와 금형·사출 기술은 조사 기간 내 검증 가능한 신규 발표가 확인되지 않았습니다.",
   "fields": [
-    {
-      "field": "스마트제조·자동화",
-      "field_note": "2026-08-25 발행 M.AX 표준·인증센터 건의 후속",
-      "headline": "ASTM International이 핵심·신흥기술(CET) 사업부를 출범시키고, 제조시스템 AI를 다루는 신설 F50 위원회에 초기 수개월 만에 20개국 이상 100개 이상 기관이 결집했다.",
-      "source_label": "i4.0 Today, 2026-08-25",
-      "source_url": "https://www.i40today.com/astm-international-launches-cet-division-to-accelerate-standards-for-rapidly-converging-technologies/",
-      "detail": "CET 사업부는 약 10개 ASTM 위원회와 약 25개국 협력 체계를 묶는 구조이며, 제조 AI가 벤더 마케팅 영역에서 인증·검증 체계로 넘어가는 국면을 보여준다. 같은 날 Critical Manufacturing은 MES를 플랫폼의 실행 코어로 재정의하고 자연어 인터페이스 AI Copilot을 MES에 내장한 구성을 공개했다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "제조 AI 판정이 표준·인증 대상이 되면 완성차 공급업체 감사 항목에 모델 버전·판정 로그·재학습 이력이 편입될 개연성이 높아, 소급 정비 비용이 발생하기 전에 기록 체계를 확보해야 한다."
-    },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "미국 네바다주 교통당국이 클라크 카운티에서 향후 1년간 최대 8,000대 규모의 유상 로보택시 운행을 승인했고, 이 중 테슬라 몫이 5,000대다.",
-      "source_label": "로봇신문, 2026-08-24",
-      "source_url": "https://www.irobotnews.com/news/articleView.html?idxno=48069",
-      "detail": "웨이모와 우버가 각 최대 1,000대이며, 테슬라 사이버캡 수석 엔지니어는 5,000대가 상한선이고 1년 내 실제 목표는 2,500대 안팎이라고 밝혔다. 국내에서는 알에스오토메이션이 총 53억 7,300만 원 규모 피지컬 AI 구동플랫폼 국책과제에 선정돼 45개월간 수행한다.",
-      "certainty": "[2차 인용]",
-      "sl_label": "기회",
-      "sl_text": "24시간 무인 운행 차량은 개인 소유 차량 대비 duty cycle이 크게 높아 램프·센서 클리닝·열관리 부품의 내구 사양이 상향되며, 고온·고분진 환경 선제 검증 시 신규 공급 포지션 확보가 가능하다."
+      "headline": "현대차그룹이 2028년 가동 목표로 미국에 연산 3만 대 규모 상업용 로봇 생산시설을 구축하고 초기 사용 물량 2만 5,000대를 확보했다고 발표했다",
+      "source_label": "헤럴드경제, 2026-08-26",
+      "source_url": "https://biz.heraldcorp.com/article/10853076",
+      "detail": "8월 26일 CEO 인베스터 데이에서 회사를 피지컬 AI 기업으로 규정하고, 보스턴다이내믹스 아틀라스를 2028년부터 조지아 메타플랜트 아메리카 생산라인에 투입한다고 밝혔다. 로봇 메타플랜트 응용센터는 현재 5개 차종 67개 작업 항목을 시험 중이며 연말까지 부지를 10배로 확장한다. 같은 날 웨이모는 독일 뮌헨 진출과 2027년 말 완전자율 상용화 목표를 제시했다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "변곡점",
+      "sl_text": "완성차 라인에 휴머노이드가 편성되면 서열 공급 타이밍과 로봇 작업 반경을 전제로 한 라인 레이아웃 조건이 협력사 납입 사양으로 내려온다."
     },
     {
       "field": "AI·디지털전환",
       "field_note": "",
-      "headline": "한국요꼬가와전기가 부산 IFAC 2026 세계대회에서 강화학습 자율제어 AI FKDPP와 KBC Digital Twin, Visual MESA 3종을 단일 운영 스택으로 공개했다.",
-      "source_label": "헬로티, 2026-08-25",
-      "source_url": "https://www.hellot.net/news/article.html?no=114533",
-      "detail": "디지털 트윈이 시각화 도구가 아니라 제어 정책의 학습·안전성 검증 환경으로 재배치된 구성이다. 같은 날 노타는 MoE 양자화 논문 2편의 EMNLP 2026 채택과 함께 1조 파라미터급 모델 구동 GPU를 B300 24장에서 4장으로 줄인 결과를 제시했다.",
+      "headline": "LS ITC와 모티프테크놀로지스가 8월 24일 제조 현장 맞춤형 AI 적용 업무협약을 체결하고 과제 발굴에서 현장 효과 검증까지 3단계 절차를 전제로 착수했다",
+      "source_label": "인사이트코리아, 2026-08-25",
+      "source_url": "https://www.insightkorea.co.kr/news/articleView.html?idxno=253098",
+      "detail": "범용 대규모 언어모델의 일괄 도입 대신 IT·OT 구축 경험을 보유한 시스템통합사와 특화 모델 개발사가 짝을 이뤄 적용성 검증을 선행 조건으로 뒀다. LS그룹은 사무 부문 LS GPT와 생산 부문 AI 불량 검사·설비 자동화, LS MnM 온산제련소 공정 최적화를 병행 중이다. 대상 공정과 파일럿 규모, 정량 성과 지표는 아직 공개되지 않았다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "도장 건조로·열처리로·유틸리티처럼 연속 물리량을 다루는 설비 구간에 한해 가상 검증 후 자율제어를 적용하는 소규모 PoC가 가능하고, MoE 경량화는 사내 폐쇄망 LLM의 온프레미스 손익분기를 앞당긴다."
-    },
-    {
-      "field": "금형·사출 기술",
-      "field_note": "",
-      "headline": "GUNTHER BlueFlow 핫러너의 실공정 비교 시험에서 시스템 총 소비전력이 1시간 기준 576Wh로 계측돼 경쟁 시스템 764Wh 대비 24.6퍼센트 낮았다.",
-      "source_label": "Interplas Insights, 2026-08-25",
-      "source_url": "https://interplasinsights.com/plastics-machinery/ancillary-machine-and-materials-handling-news/powering-down-hot-runners-energy-with/",
-      "detail": "동일 사출기·동일 PP 캡·살두께 약 1.6mm·사이클 14.8초 조건에서 매니폴드를 포함한 시스템 단위로 계측한 값이다. 같은 기간 RWTH 아헨 IKV는 열수지 최적화 결과에서 냉각채널을 역방향으로 자동 도출하는 설계 기법을 공개했다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "기회",
-      "sl_text": "핫러너 구매 사양을 노즐 단품 스펙에서 매니폴드 포함 시스템 실측 전력(Wh/h)으로 전환하면 에너지비와 공급사 선정 기준을 동시에 재정의할 수 있다."
+      "sl_text": "부품사가 자체 모델을 개발하지 않고도 검증된 SI사·AI 전문사 조합을 도입 경로로 쓸 수 있으나, 현재는 정량 성과 미공개 단계다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-08-26-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-08-27-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
