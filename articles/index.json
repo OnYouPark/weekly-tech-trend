@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "slug": "2026-08-26-production",
+      "title": "생산기술 신규기술 브리핑 - 2026년 8월 4주차",
+      "date": "2026-08-26",
+      "type": "production",
+      "period": "2026년 8월 4주차",
+      "tags": [
+        "Schaeffler",
+        "스트레인웨이브 감속기",
+        "Techman TM45S",
+        "Jetson Orin Nano 2",
+        "Negri Bossi",
+        "Tempro primus",
+        "FSoE",
+        "DYNA-2"
+      ],
+      "summary": "사출은 Fakuma 2026 사전 발표가 상위 신기종에서 보급형 주변기기 계열과 셀 통합 운용 데이터로 이동. 로봇은 Schaeffler가 휴머노이드용 스트레인웨이브 감속기를 절삭에서 성형 공법으로 전환해 2027년 양산을 확정하고, 모바일 매니퓰레이터 제어를 EtherCAT·FSoE 표준 위에 올린 아키텍처가 공개됨"
+    },
+    {
       "slug": "2026-08-26-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 8월 26일",
       "date": "2026-08-26",
