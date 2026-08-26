@@ -1,54 +1,54 @@
 {
-  "date": "2026-08-25",
-  "slug": "2026-08-25-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-08-25",
+  "date": "2026-08-26",
+  "slug": "2026-08-26-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-08-26",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "",
-      "headline": "디지털 트윈의 적용 시점이 도입 후 운영 최적화에서 자본 집행 전 타당성 검증으로 이동, 로봇 암 1,400종·제조사 80개사 라이브러리가 벤더 종속 회피 근거로 제시",
-      "source_label": "The Robot Report, 2026-08-23",
-      "source_url": "https://www.therobotreport.com/use-digital-twin-explore-automation-before-committing-capital/",
-      "detail": "로봇 브랜드·페이로드·그리퍼·레이아웃 확정 전에 가상 셀에서 도달성, 충돌 위험, 사이클 타임, 정비 공간을 먼저 검증하라는 실무론이다. CNC 머신텐딩에서 척 사이클과 부품 안착 유휴 시간이 시뮬레이션에서만 사전 노출된다는 지적이 핵심이다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "기회",
-      "sl_text": "자동화 품의에 트윈 사전 검증 리포트를 게이트로 넣으면 통합사 견적의 이론 택트와 실제 택트 괴리를 발주 전에 잡아 협상 우위를 확보할 수 있다."
+      "field_note": "2026-08-25 발행 M.AX 표준·인증센터 건의 후속",
+      "headline": "ASTM International이 핵심·신흥기술(CET) 사업부를 출범시키고, 제조시스템 AI를 다루는 신설 F50 위원회에 초기 수개월 만에 20개국 이상 100개 이상 기관이 결집했다.",
+      "source_label": "i4.0 Today, 2026-08-25",
+      "source_url": "https://www.i40today.com/astm-international-launches-cet-division-to-accelerate-standards-for-rapidly-converging-technologies/",
+      "detail": "CET 사업부는 약 10개 ASTM 위원회와 약 25개국 협력 체계를 묶는 구조이며, 제조 AI가 벤더 마케팅 영역에서 인증·검증 체계로 넘어가는 국면을 보여준다. 같은 날 Critical Manufacturing은 MES를 플랫폼의 실행 코어로 재정의하고 자연어 인터페이스 AI Copilot을 MES에 내장한 구성을 공개했다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "리스크",
+      "sl_text": "제조 AI 판정이 표준·인증 대상이 되면 완성차 공급업체 감사 항목에 모델 버전·판정 로그·재학습 이력이 편입될 개연성이 높아, 소급 정비 비용이 발생하기 전에 기록 체계를 확보해야 한다."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "샤오펑 로보틱스 사업부가 9억 달러 이상 조달, 조달 후 기업가치 63억 달러 초과. 휴머노이드 IRON은 전신 76 자유도·온보드 2,250 TOPS로 2026년 말 양산 진입 제시",
-      "source_label": "PR Newswire, 2026-08-24",
-      "source_url": "https://www.prnewswire.com/news-releases/xpeng-robotics-business-raises-over-us900-million-at-a-post-money-valuation-of-over-us6-3-billion-accelerating-physical-ai-deployment-302858203.html",
-      "detail": "IDG Capital 주도에 Tencent와 Alibaba가 전략 투자로 참여했고, 회사는 칩·컨트롤러·모션모듈·덱스트러스 핸드를 내부 개발한다고 명시했다. 스마트 EV의 공급망과 자동차급 품질 기준을 휴머노이드로 이식한다는 것이 조달 근거다.",
-      "certainty": "[공식 발표]",
+      "headline": "미국 네바다주 교통당국이 클라크 카운티에서 향후 1년간 최대 8,000대 규모의 유상 로보택시 운행을 승인했고, 이 중 테슬라 몫이 5,000대다.",
+      "source_label": "로봇신문, 2026-08-24",
+      "source_url": "https://www.irobotnews.com/news/articleView.html?idxno=48069",
+      "detail": "웨이모와 우버가 각 최대 1,000대이며, 테슬라 사이버캡 수석 엔지니어는 5,000대가 상한선이고 1년 내 실제 목표는 2,500대 안팎이라고 밝혔다. 국내에서는 알에스오토메이션이 총 53억 7,300만 원 규모 피지컬 AI 구동플랫폼 국책과제에 선정돼 45개월간 수행한다.",
+      "certainty": "[2차 인용]",
       "sl_label": "기회",
-      "sl_text": "완성차 OEM의 로봇 코어 부품 인소싱이 확인됐으므로, 코어 액추에이터 경쟁이 아닌 감속 부품·하네스·열관리·촉각센서·외피 실링 등 기존 자동차 공정 자산 전용 영역으로 진입 축을 잡을 시점이다."
+      "sl_text": "24시간 무인 운행 차량은 개인 소유 차량 대비 duty cycle이 크게 높아 램프·센서 클리닝·열관리 부품의 내구 사양이 상향되며, 고온·고분진 환경 선제 검증 시 신규 공급 포지션 확보가 가능하다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-08-11 발행 M.AX 정책 실증 성과의 후속",
-      "headline": "한국산업단지공단이 8월 24일 M.AX 표준·인증센터를 가동해 제조데이터·AI 인프라·솔루션 3개 분야 인증 체계 착수, IEC TC65 SC65F 산하 12개 작업반 국제표준 업무 병행",
-      "source_label": "헤럴드경제, 2026-08-24",
-      "source_url": "https://biz.heraldcorp.com/article/10850054",
-      "detail": "정책이 실증 지원에서 적합성 판정 조직으로 넘어간 단계다. 초대 센터장은 국가 단위 인증제도 설계 경력을 가진 이헌중 전 한국지능정보사회진흥원 공공데이터본부장이며 외부 개방형 직위로 채용됐다.",
+      "field_note": "",
+      "headline": "한국요꼬가와전기가 부산 IFAC 2026 세계대회에서 강화학습 자율제어 AI FKDPP와 KBC Digital Twin, Visual MESA 3종을 단일 운영 스택으로 공개했다.",
+      "source_label": "헬로티, 2026-08-25",
+      "source_url": "https://www.hellot.net/news/article.html?no=114533",
+      "detail": "디지털 트윈이 시각화 도구가 아니라 제어 정책의 학습·안전성 검증 환경으로 재배치된 구성이다. 같은 날 노타는 MoE 양자화 논문 2편의 EMNLP 2026 채택과 함께 1조 파라미터급 모델 구동 GPU를 B300 24장에서 4장으로 줄인 결과를 제시했다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "인증 기준이 확정되기 전 구간이므로, 신규 MES·품질 데이터 플랫폼 발주 사양서에 표준 준수 조항을 선제 반영해 이후 재구축 비용을 회피할 수 있다."
+      "sl_text": "도장 건조로·열처리로·유틸리티처럼 연속 물리량을 다루는 설비 구간에 한해 가상 검증 후 자율제어를 적용하는 소규모 PoC가 가능하고, MoE 경량화는 사내 폐쇄망 LLM의 온프레미스 손익분기를 앞당긴다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "데이터시트 등가 수지의 드롭인 대체 검증 프레임워크 제시. 실온 대비 25도 상승 시 동일 응력에서 목표 변형 도달 시간이 수 자릿수 단축된다는 크리프 데이터가 근거",
-      "source_label": "Plastics Technology, 2026-08-24",
-      "source_url": "https://www.ptonline.com/articles/drop-in-materials-a-strategic-approach-temperature-effects",
-      "detail": "HDT 표기는 단시간 굽힘 시험값이어서 실사용 하중과 무관하고, DSC로 측정한 Tg는 DMA 값보다 낮게 나온다는 지적이 핵심이다. 23도 인장탄성률이 거의 같은 두 등급이 저온 전이 차이로 극한 조건에서 갈린다는 사례도 함께 제시됐다.",
+      "headline": "GUNTHER BlueFlow 핫러너의 실공정 비교 시험에서 시스템 총 소비전력이 1시간 기준 576Wh로 계측돼 경쟁 시스템 764Wh 대비 24.6퍼센트 낮았다.",
+      "source_label": "Interplas Insights, 2026-08-25",
+      "source_url": "https://interplasinsights.com/plastics-machinery/ancillary-machine-and-materials-handling-news/powering-down-hot-runners-energy-with/",
+      "detail": "동일 사출기·동일 PP 캡·살두께 약 1.6mm·사이클 14.8초 조건에서 매니폴드를 포함한 시스템 단위로 계측한 값이다. 같은 기간 RWTH 아헨 IKV는 열수지 최적화 결과에서 냉각채널을 역방향으로 자동 도출하는 설계 기법을 공개했다.",
       "certainty": "[업계 분석]",
-      "sl_label": "리스크",
-      "sl_text": "재생수지 혼입률 상향이나 저가 대체 그레이드 승인을 상온 데이터시트 등가만으로 판정하면 램프류 열노출 부품에서 크리프·취화 필드 불량이 발생한다."
+      "sl_label": "기회",
+      "sl_text": "핫러너 구매 사양을 노즐 단품 스펙에서 매니폴드 포함 시스템 실측 전력(Wh/h)으로 전환하면 에너지비와 공급사 선정 기준을 동시에 재정의할 수 있다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-08-25-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-08-26-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
