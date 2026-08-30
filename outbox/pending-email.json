@@ -1,32 +1,54 @@
 {
-  "date": "2026-08-27",
-  "slug": "2026-08-27-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-08-27",
-  "mode_notice": "금일 신규 핵심 동향이 한산하여 핵심과 인접 영역 위주로 정리했습니다. 스마트제조·자동화와 금형·사출 기술은 조사 기간 내 검증 가능한 신규 발표가 확인되지 않았습니다.",
+  "date": "2026-08-31",
+  "slug": "2026-08-31-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-08-31",
+  "mode_notice": "",
   "fields": [
+    {
+      "field": "스마트제조·자동화",
+      "field_note": "",
+      "headline": "LG CNS, 국내 운영 중 물류·제조 센터의 실제 평균 자동화율 30퍼센트로 진단, 시험 중인 휴머노이드 15종 중 당장 ROI 나오는 과제 거의 없음",
+      "source_label": "인더스트리뉴스, 2026-08-28",
+      "source_url": "https://www.industrynews.co.kr/news/articleView.html?idxno=85133",
+      "detail": "협동로봇 취출 테스트는 숙련공 시간당 600개, 고객사 도입 기준 300개에 대해 로봇이 200에서 230개에 머문다는 실측치가 함께 공개됐다. 반면 르노 물류창고는 로봇 191대와 피킹 스테이션 14대 구성으로 평균 출하시간을 120분에서 15분으로 줄였다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "기회",
+      "sl_text": "휴머노이드를 숙련 공정 대체가 아니라 설비 사이의 이송·정렬·적재 회색지대에 배치하면 현 성능 수준에서도 회수 계산이 성립한다."
+    },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "현대차그룹이 2028년 가동 목표로 미국에 연산 3만 대 규모 상업용 로봇 생산시설을 구축하고 초기 사용 물량 2만 5,000대를 확보했다고 발표했다",
-      "source_label": "헤럴드경제, 2026-08-26",
-      "source_url": "https://biz.heraldcorp.com/article/10853076",
-      "detail": "8월 26일 CEO 인베스터 데이에서 회사를 피지컬 AI 기업으로 규정하고, 보스턴다이내믹스 아틀라스를 2028년부터 조지아 메타플랜트 아메리카 생산라인에 투입한다고 밝혔다. 로봇 메타플랜트 응용센터는 현재 5개 차종 67개 작업 항목을 시험 중이며 연말까지 부지를 10배로 확장한다. 같은 날 웨이모는 독일 뮌헨 진출과 2027년 말 완전자율 상용화 목표를 제시했다.",
+      "headline": "BYD, 8월 28일 1만 번째 플래시 충전소 개소, 커넥터당 최대 1,500kW 충전망을 중국 325개 도시로 확대",
+      "source_label": "CnEVPost, 2026-08-28",
+      "source_url": "https://cnevpost.com/2026/08/28/byd-flash-charging-10000-stations/",
+      "detail": "4월 1일 5,000개소에서 5개월 미만 만에 2배가 됐고 등록 사용자 183만 명 중 약 3분의 1이 타사 브랜드 차주다. 스테이션에 배터리 에너지저장을 내장해 계통 이용률을 끌어올린 구조가 배포 속도의 근거다.",
       "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "완성차 라인에 휴머노이드가 편성되면 서열 공급 타이밍과 로봇 작업 반경을 전제로 한 라인 레이아웃 조건이 협력사 납입 사양으로 내려온다."
+      "sl_label": "리스크",
+      "sl_text": "커넥터당 1,500kW가 중국 내 기준선이 되면 고전압 절연·열관리·커넥터 사양이 상향 재정의되어 기존 검증 설비로는 중국계 완성차 신규 프로그램 진입이 어려워진다."
     },
     {
       "field": "AI·디지털전환",
       "field_note": "",
-      "headline": "LS ITC와 모티프테크놀로지스가 8월 24일 제조 현장 맞춤형 AI 적용 업무협약을 체결하고 과제 발굴에서 현장 효과 검증까지 3단계 절차를 전제로 착수했다",
-      "source_label": "인사이트코리아, 2026-08-25",
-      "source_url": "https://www.insightkorea.co.kr/news/articleView.html?idxno=253098",
-      "detail": "범용 대규모 언어모델의 일괄 도입 대신 IT·OT 구축 경험을 보유한 시스템통합사와 특화 모델 개발사가 짝을 이뤄 적용성 검증을 선행 조건으로 뒀다. LS그룹은 사무 부문 LS GPT와 생산 부문 AI 불량 검사·설비 자동화, LS MnM 온산제련소 공정 최적화를 병행 중이다. 대상 공정과 파일럿 규모, 정량 성과 지표는 아직 공개되지 않았다.",
-      "certainty": "[공식 발표]",
+      "headline": "알바레즈앤마살, 숙련자 암묵지 학습 제조 AX 모델로 목표 품질 대비 오차 약 50퍼센트 감축, 공정 불량률 0.5퍼센트포인트 개선 제시",
+      "source_label": "헬로티, 2026-08-30",
+      "source_url": "https://www.hellot.net/news/article.html?no=114630",
+      "detail": "현장 인터뷰로 추출한 숙련자 판단 로직과 과거 생산 데이터를 결합해 실시간 운전조건을 추천하는 구조로, 이상 탐지형 제조 AI와 대상 문제가 다르다. 다만 대상 공정과 기저 불량률이 비공개인 단일 시범 사례다.",
+      "certainty": "[2차 인용]",
       "sl_label": "기회",
-      "sl_text": "부품사가 자체 모델을 개발하지 않고도 검증된 SI사·AI 전문사 조합을 도입 경로로 쓸 수 있으나, 현재는 정량 성과 미공개 단계다."
+      "sl_text": "베테랑 은퇴가 임박한 사출·도장·열처리 라인의 조건 노하우를 사내 IP로 자산화할 시점이며, 모델과 원천 데이터 소유권 조항이 계약 전제다."
+    },
+    {
+      "field": "금형·사출 기술",
+      "field_note": "",
+      "headline": "캐나다, 미국산 플라스틱·금속·고무 금형에 15퍼센트, 플라스틱 완제품에 50퍼센트 보복관세를 2026년 9월 8일부터 부과",
+      "source_label": "Plastics Today, 2026-08-28",
+      "source_url": "https://www.plasticstoday.com/legislation-regulations/canada-imposes-tariffs-on-us-molds-plastic-products",
+      "detail": "금형은 소비재가 아닌 자본재이므로 관세가 부품 단가가 아니라 금형 1식 개발비 전체에 얹힌다. 발표 이틀 만에 목록이 수정됐으나 금형 항목은 유지됐다. 같은 기간 HASCO는 Fakuma 2026 출품 라인업으로 온조 오염물 포집 필터와 저전단 용융 필터를 공개했다.",
+      "certainty": "[2차 인용]",
+      "sl_label": "리스크",
+      "sl_text": "온타리오 금형 클러스터가 미국산 몰드베이스·핫러너 표준부품을 조달하는 경로에서 2차 전가가 발생할 수 있어, 9월 8일 이전 HS 분류와 툴링 소싱 경로 재점검이 필요하다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-08-27-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-08-31-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
