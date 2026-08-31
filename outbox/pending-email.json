@@ -1,54 +1,54 @@
 {
-  "date": "2026-08-31",
-  "slug": "2026-08-31-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-08-31",
+  "date": "2026-09-01",
+  "slug": "2026-09-01-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-01",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "LG CNS, 국내 운영 중 물류·제조 센터의 실제 평균 자동화율 30퍼센트로 진단, 시험 중인 휴머노이드 15종 중 당장 ROI 나오는 과제 거의 없음",
-      "source_label": "인더스트리뉴스, 2026-08-28",
-      "source_url": "https://www.industrynews.co.kr/news/articleView.html?idxno=85133",
-      "detail": "협동로봇 취출 테스트는 숙련공 시간당 600개, 고객사 도입 기준 300개에 대해 로봇이 200에서 230개에 머문다는 실측치가 함께 공개됐다. 반면 르노 물류창고는 로봇 191대와 피킹 스테이션 14대 구성으로 평균 출하시간을 120분에서 15분으로 줄였다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "휴머노이드를 숙련 공정 대체가 아니라 설비 사이의 이송·정렬·적재 회색지대에 배치하면 현 성능 수준에서도 회수 계산이 성립한다."
+      "headline": "카스퍼스키·VDC 스트래티지 조사, 제조업체 약 60퍼센트가 사이버 사고 1건당 100만 달러 초과 피해 추산하고 평균 운영 중단 15.3시간",
+      "source_label": "헬로티, 2026-08-31",
+      "source_url": "https://www.hellot.net/mobile/article.html?no=114643",
+      "detail": "MES·SCADA·히스토리언 연결이 넓어지면서 사고 영향이 데이터 손실을 넘어 라인 정지와 추적성 기록 무효화로 전이된다는 진단이다. 완전 디지털화를 자평한 기업은 9퍼센트에 그친 반면 2년 내 달성을 예상한 비율은 60퍼센트였고, IT 부서 보안정책이 현장을 반영하지 못한다는 응답이 59퍼센트로 가장 높았다.",
+      "certainty": "[업계 분석]",
+      "sl_label": "리스크",
+      "sl_text": "사고 1건 평균 15.3시간을 자사 라인 시간당 기여이익으로 환산하면 OT 보안 예산을 회피 손실 기준으로 기안할 수 있다."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "BYD, 8월 28일 1만 번째 플래시 충전소 개소, 커넥터당 최대 1,500kW 충전망을 중국 325개 도시로 확대",
-      "source_label": "CnEVPost, 2026-08-28",
-      "source_url": "https://cnevpost.com/2026/08/28/byd-flash-charging-10000-stations/",
-      "detail": "4월 1일 5,000개소에서 5개월 미만 만에 2배가 됐고 등록 사용자 183만 명 중 약 3분의 1이 타사 브랜드 차주다. 스테이션에 배터리 에너지저장을 내장해 계통 이용률을 끌어올린 구조가 배포 속도의 근거다.",
+      "headline": "닛산·혼다, 8월 31일 차세대 SDV용 고성능 메인 ECU·존 ECU와 차량 OS 표준화 공동개발계약 체결. 합산 연 720만 대 기반, 2029 회계연도부터 적용",
+      "source_label": "Honda Global Newsroom, 2026-08-31",
+      "source_url": "https://global.honda/en/newsroom/news/2026/c260831beng.html",
+      "detail": "지분 교환이나 합작법인 없이 컴퓨팅 계층과 미들웨어 핵심부만 공유하고 애플리케이션 계층은 각사가 보유하는 구조다. 기능별로 흩어진 70에서 100개 ECU를 물리적 구역 단위 컨트롤러로 묶는 존 아키텍처 전환을 전제하며, 미쓰비시자동차는 참여를 검토 중이다.",
       "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "커넥터당 1,500kW가 중국 내 기준선이 되면 고전압 절연·열관리·커넥터 사양이 상향 재정의되어 기존 검증 설비로는 중국계 완성차 신규 프로그램 진입이 어려워진다."
+      "sl_label": "변곡점",
+      "sl_text": "존 ECU가 액추에이터·센서 제어를 흡수하면 램프·모터류의 내장 지능이 상위로 이전되므로, 2027년 사양 협의 창구 진입이 부가가치 방어선이다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "",
-      "headline": "알바레즈앤마살, 숙련자 암묵지 학습 제조 AX 모델로 목표 품질 대비 오차 약 50퍼센트 감축, 공정 불량률 0.5퍼센트포인트 개선 제시",
-      "source_label": "헬로티, 2026-08-30",
-      "source_url": "https://www.hellot.net/news/article.html?no=114630",
-      "detail": "현장 인터뷰로 추출한 숙련자 판단 로직과 과거 생산 데이터를 결합해 실시간 운전조건을 추천하는 구조로, 이상 탐지형 제조 AI와 대상 문제가 다르다. 다만 대상 공정과 기저 불량률이 비공개인 단일 시범 사례다.",
-      "certainty": "[2차 인용]",
+      "field_note": "2026-08-31 주간 종합 제조 AI 표준·인증의 후속",
+      "headline": "이정준 IEC 이사, 제조 현장 AI 도입 공수의 약 80퍼센트가 데이터 정리·변환에 소모된다며 AAS와 데이터 스페이스 기반 공통 인프라를 선행 조건으로 제시",
+      "source_label": "헬로티, 2026-08-31",
+      "source_url": "https://www.hellot.net/news/article.html?no=114659",
+      "detail": "ROI 실패 원인을 모델 성능이 아닌 데이터 파이프라인 구조에 귀속시킨 진단이며, 디지털 트윈도 3D 시각화가 아닌 자산 정보 모델로 재정의했다. 설비 발생 데이터의 소유권이 구매기업과 장비 제조사 중 누구에게 있는지는 미해결 과제로 지목됐다.",
+      "certainty": "[업계 분석]",
       "sl_label": "기회",
-      "sl_text": "베테랑 은퇴가 임박한 사출·도장·열처리 라인의 조건 노하우를 사내 IP로 자산화할 시점이며, 모델과 원천 데이터 소유권 조항이 계약 전제다."
+      "sl_text": "AI 과제 착수 전 설비 데이터 인터페이스를 표준 자산 모델로 정리해두면 솔루션 도입마다 반복되는 변환 비용을 구조적으로 제거할 수 있다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "캐나다, 미국산 플라스틱·금속·고무 금형에 15퍼센트, 플라스틱 완제품에 50퍼센트 보복관세를 2026년 9월 8일부터 부과",
-      "source_label": "Plastics Today, 2026-08-28",
-      "source_url": "https://www.plasticstoday.com/legislation-regulations/canada-imposes-tariffs-on-us-molds-plastic-products",
-      "detail": "금형은 소비재가 아닌 자본재이므로 관세가 부품 단가가 아니라 금형 1식 개발비 전체에 얹힌다. 발표 이틀 만에 목록이 수정됐으나 금형 항목은 유지됐다. 같은 기간 HASCO는 Fakuma 2026 출품 라인업으로 온조 오염물 포집 필터와 저전단 용융 필터를 공개했다.",
+      "headline": "YIZUMI, 14그램 ABS 휠 스피드 센서 대상으로 수직형 사출기 2대를 단일 셀로 묶어 인서트 성형부터 100퍼센트 온라인 비전 검사까지 무인 연결하는 일체형 솔루션 공개",
+      "source_label": "Adsale CPRJ, 2026-08-31",
+      "source_url": "https://www.adsalecprj.com/en/news/article_details/89450.html",
+      "detail": "기존 인서트 성형기와 하우징 인캡슐레이션 기 사이의 수작업 이송을 제거하고 전수 검사 결과를 생산 기록으로 남기는 구성이다. 다만 사이클 타임과 불량률 등 정량 검증치는 공개되지 않았다.",
       "certainty": "[2차 인용]",
-      "sl_label": "리스크",
-      "sl_text": "온타리오 금형 클러스터가 미국산 몰드베이스·핫러너 표준부품을 조달하는 경로에서 2차 전가가 발생할 수 있어, 9월 8일 이전 HS 분류와 툴링 소싱 경로 재점검이 필요하다."
+      "sl_label": "기회",
+      "sl_text": "전장 인서트 성형의 3단 분리 구조를 셀로 묶어 취급 손상과 검사 누락을 줄일 수 있으나, 두 공정 간 냉각 시간 불일치와 단일 고장점 검증이 전제다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-08-31-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-01-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
