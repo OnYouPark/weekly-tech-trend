@@ -1,54 +1,54 @@
 {
-  "date": "2026-09-01",
-  "slug": "2026-09-01-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-01",
+  "date": "2026-09-02",
+  "slug": "2026-09-02-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-02",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "카스퍼스키·VDC 스트래티지 조사, 제조업체 약 60퍼센트가 사이버 사고 1건당 100만 달러 초과 피해 추산하고 평균 운영 중단 15.3시간",
-      "source_label": "헬로티, 2026-08-31",
-      "source_url": "https://www.hellot.net/mobile/article.html?no=114643",
-      "detail": "MES·SCADA·히스토리언 연결이 넓어지면서 사고 영향이 데이터 손실을 넘어 라인 정지와 추적성 기록 무효화로 전이된다는 진단이다. 완전 디지털화를 자평한 기업은 9퍼센트에 그친 반면 2년 내 달성을 예상한 비율은 60퍼센트였고, IT 부서 보안정책이 현장을 반영하지 못한다는 응답이 59퍼센트로 가장 높았다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "리스크",
-      "sl_text": "사고 1건 평균 15.3시간을 자사 라인 시간당 기여이익으로 환산하면 OT 보안 예산을 회피 손실 기준으로 기안할 수 있다."
+      "headline": "아이브이웍스, 9개월 국비 포함 약 29억 원 투입해 설비 가동률 84퍼센트를 89퍼센트로 올리는 자율공정 전환 착수",
+      "source_label": "헬로티, 2026-09-01",
+      "source_url": "https://www.hellot.net/news/article.html?no=114694",
+      "detail": "생산 조건과 입력값에 대한 엔지니어 직접 승인 비율은 이미 3퍼센트 미만이나, 액체질소 밸브와 관찰창 셔터 같은 부대설비의 수동 조작이 야간과 주말 무인운전을 막는 병목으로 지목됐다. 회사는 예측을 출력하던 분석형 AI와 교체 시점까지 역산해 제안하는 에이전트형 AI를 기능적으로 분리했다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "기회",
+      "sl_text": "자동화율 대신 판단 개입률을 자율화 계측 지표로 세우면 설비 CAPEX와 AI 투자의 기여도를 분리 검증할 수 있어 라인별 투자 우선순위의 근거가 생긴다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "",
-      "headline": "닛산·혼다, 8월 31일 차세대 SDV용 고성능 메인 ECU·존 ECU와 차량 OS 표준화 공동개발계약 체결. 합산 연 720만 대 기반, 2029 회계연도부터 적용",
-      "source_label": "Honda Global Newsroom, 2026-08-31",
-      "source_url": "https://global.honda/en/newsroom/news/2026/c260831beng.html",
-      "detail": "지분 교환이나 합작법인 없이 컴퓨팅 계층과 미들웨어 핵심부만 공유하고 애플리케이션 계층은 각사가 보유하는 구조다. 기능별로 흩어진 70에서 100개 ECU를 물리적 구역 단위 컨트롤러로 묶는 존 아키텍처 전환을 전제하며, 미쓰비시자동차는 참여를 검토 중이다.",
+      "field_note": "2026-08-26 발행 네바다주 로보택시 승인의 후속",
+      "headline": "9월 1일 하루에 로보택시 3사 동시 확장, Waymo 미국 14개 도시와 차량 4,000대 이상, Zoox 12개 거점 도달",
+      "source_label": "TechCrunch, 2026-09-01",
+      "source_url": "https://techcrunch.com/2026/09/01/waymo-accelerates-robotaxi-expansion-with-launches-in-denver-san-diego-and-tampa/",
+      "detail": "Waymo는 덴버와 샌디에이고에 Jaguar I-Pace가 아닌 Zeekr 생산 6세대 미니밴 Ojai만 투입했고, 같은 날 XPeng은 광저우시에서 차내 안전요원 없는 원격 시험운행 허가를 취득했다고 공시했다. BYD는 8월 NEV 440,293대 중 해외 189,466대로 해외 비중 43.03퍼센트를 기록했다.",
       "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "존 ECU가 액추에이터·센서 제어를 흡수하면 램프·모터류의 내장 지능이 상위로 이전되므로, 2027년 사양 협의 창구 진입이 부가가치 방어선이다."
+      "sl_label": "리스크",
+      "sl_text": "로보택시 전용 차체가 중국 완성차 생산으로 굳어지면 램프와 센서 통합 프런트엔드 모듈의 수주 창구가 중국 Tier-1 공급망에 선점되어 물량이 아니라 사업 정의 자체를 잃는다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-08-31 주간 종합 제조 AI 표준·인증의 후속",
-      "headline": "이정준 IEC 이사, 제조 현장 AI 도입 공수의 약 80퍼센트가 데이터 정리·변환에 소모된다며 AAS와 데이터 스페이스 기반 공통 인프라를 선행 조건으로 제시",
+      "field_note": "",
+      "headline": "코난테크놀로지·영풍전자 컨소시엄, 총사업비 18억 8,000만 원으로 방산 PBA 고장진단 지식자산화 착수",
       "source_label": "헬로티, 2026-08-31",
-      "source_url": "https://www.hellot.net/news/article.html?no=114659",
-      "detail": "ROI 실패 원인을 모델 성능이 아닌 데이터 파이프라인 구조에 귀속시킨 진단이며, 디지털 트윈도 3D 시각화가 아닌 자산 정보 모델로 재정의했다. 설비 발생 데이터의 소유권이 구매기업과 장비 제조사 중 누구에게 있는지는 미해결 과제로 지목됐다.",
-      "certainty": "[업계 분석]",
+      "source_url": "https://www.hellot.net/news/article.html?no=114640",
+      "detail": "고장 원인 분석 시간 50퍼센트 이상, 보고서 작성 시간 70퍼센트 이상 단축을 목표로 제시했다. 숙련자 노하우를 온톨로지 기반 지식그래프로 구조화한 뒤 LLM과 RAG, Graph-RAG를 결합하는 구조로, 다품종 소량생산의 학습 데이터 부족을 통계적 학습이 아니라 관계 구조로 우회한다.",
+      "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "AI 과제 착수 전 설비 데이터 인터페이스를 표준 자산 모델로 정리해두면 솔루션 도입마다 반복되는 변환 비용을 구조적으로 제거할 수 있다."
+      "sl_text": "완성차 품질 감사에서 AI 판정 근거 제시가 요구되는 흐름상, 추론 경로가 그래프로 읽히는 방식이 블랙박스형 모델보다 승인 문턱이 낮다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "YIZUMI, 14그램 ABS 휠 스피드 센서 대상으로 수직형 사출기 2대를 단일 셀로 묶어 인서트 성형부터 100퍼센트 온라인 비전 검사까지 무인 연결하는 일체형 솔루션 공개",
-      "source_label": "Adsale CPRJ, 2026-08-31",
-      "source_url": "https://www.adsalecprj.com/en/news/article_details/89450.html",
-      "detail": "기존 인서트 성형기와 하우징 인캡슐레이션 기 사이의 수작업 이송을 제거하고 전수 검사 결과를 생산 기록으로 남기는 구성이다. 다만 사이클 타임과 불량률 등 정량 검증치는 공개되지 않았다.",
-      "certainty": "[2차 인용]",
+      "headline": "ENGEL과 프랑스 Billion SAS, 9월 1일 즉시 발효 제휴로 형체력 40에서 1100톤 Billion 설비 고객의 기존 금형을 ENGEL 기계에 그대로 사용 가능하다고 공표",
+      "source_label": "Plastics Today, 2026-09-01",
+      "source_url": "https://www.plasticstoday.com/injection-molding/engel-billion-sas-form-strategic-injection-molding-partnership",
+      "detail": "Billion은 독립 법인과 기존 설비 서비스를 유지한 채 신규 설비에서 ENGEL을 우선 공급사로 추천하며, 양사는 기계 콘셉트의 상보성을 근거로 들었다. 같은 기간 북미 ABS는 7월과 8월 합계 파운드당 11에서 12센트 인하됐으나 이는 공표가가 아닌 구매자 서면 요청 기반 협상 결과다.",
+      "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "전장 인서트 성형의 3단 분리 구조를 셀로 묶어 취급 손상과 검사 누락을 줄일 수 있으나, 두 공정 간 냉각 시간 불일치와 단일 고장점 검증이 전제다."
+      "sl_text": "사출기 교체의 최대 전환 장벽인 금형 개조비를 공급사가 스스로 부인했으므로, 설비 갱신 협상에서 금형 이식 비용을 공급사 부담으로 돌릴 근거가 된다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-01-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-02-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
