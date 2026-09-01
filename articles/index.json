@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "slug": "2026-09-02-production",
+      "title": "생산기술 신규기술 브리핑 - 2026년 9월 1주차",
+      "date": "2026-09-02",
+      "type": "production",
+      "period": "2026년 9월 1주차",
+      "tags": [
+        "KraussMaffei",
+        "LRXplus Twin",
+        "HASCO",
+        "FCS",
+        "Yaskawa HC12",
+        "Feedmax Clean",
+        "Locus Array",
+        "하이젠알앤엠"
+      ],
+      "summary": "사출은 취출로봇이 단일 기구학에서 24축 통합제어 다중 기구학으로 확장되고, 금형 냉각회로 오염·유량을 제어 대상으로 끌어올린 구성이 사출기·표준부품 양쪽에서 제시. 로봇은 Yaskawa가 협동로봇 후속기에서 가반 확대 대신 설치 풋프린트 38% 축소를 택했고, EOAT 축은 흡착 단독에서 흡착·핀치 병용과 접촉 센싱 요건 정의로 이동"
+    },
+    {
       "slug": "2026-09-02-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 9월 2일",
       "date": "2026-09-02",
