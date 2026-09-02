@@ -1,54 +1,54 @@
 {
-  "date": "2026-09-02",
-  "slug": "2026-09-02-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-02",
+  "date": "2026-09-03",
+  "slug": "2026-09-03-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-03",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "",
-      "headline": "아이브이웍스, 9개월 국비 포함 약 29억 원 투입해 설비 가동률 84퍼센트를 89퍼센트로 올리는 자율공정 전환 착수",
-      "source_label": "헬로티, 2026-09-01",
-      "source_url": "https://www.hellot.net/news/article.html?no=114694",
-      "detail": "생산 조건과 입력값에 대한 엔지니어 직접 승인 비율은 이미 3퍼센트 미만이나, 액체질소 밸브와 관찰창 셔터 같은 부대설비의 수동 조작이 야간과 주말 무인운전을 막는 병목으로 지목됐다. 회사는 예측을 출력하던 분석형 AI와 교체 시점까지 역산해 제안하는 에이전트형 AI를 기능적으로 분리했다.",
+      "field_note": "2026-08-25 발행 M.AX 표준·인증센터의 후속",
+      "headline": "산업단지 M.AX 혁신 서밋이 9월 14-16일 대구 EXCO에서 제조 파운데이션 모델(MFM)을 정식 의제로 올리고, 10월 21-23일 킨텍스 AMXPO 2026이 50년 된 한국기계전을 자율제조·피지컬 AI 전시로 리브랜딩했다.",
+      "source_label": "헬로티, 2026-09-02",
+      "source_url": "https://www.hellot.net/news/article.html?no=114726",
+      "detail": "같은 기간 한국후지쯔가 MasterControl Ax를 국내 출시해 품질(Qx)·제조(Mx)에 설비자산(Ax)을 더한 3축을 완성했다. 그동안 MES·QMS 밖 엑셀에 남아 있던 설비 교정·예방정비 이력을 단일 데이터 모델로 편입한 것이 핵심이다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "자동화율 대신 판단 개입률을 자율화 계측 지표로 세우면 설비 CAPEX와 AI 투자의 기여도를 분리 검증할 수 있어 라인별 투자 우선순위의 근거가 생긴다."
+      "sl_text": "9월 대구와 10월 킨텍스 두 행사가 6주 간격으로 같은 벤더군을 노출하므로, 개별 참관이 아니라 단일 벤더 스크리닝 사이클로 묶어 설계할 수 있다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "2026-08-26 발행 네바다주 로보택시 승인의 후속",
-      "headline": "9월 1일 하루에 로보택시 3사 동시 확장, Waymo 미국 14개 도시와 차량 4,000대 이상, Zoox 12개 거점 도달",
-      "source_label": "TechCrunch, 2026-09-01",
-      "source_url": "https://techcrunch.com/2026/09/01/waymo-accelerates-robotaxi-expansion-with-launches-in-denver-san-diego-and-tampa/",
-      "detail": "Waymo는 덴버와 샌디에이고에 Jaguar I-Pace가 아닌 Zeekr 생산 6세대 미니밴 Ojai만 투입했고, 같은 날 XPeng은 광저우시에서 차내 안전요원 없는 원격 시험운행 허가를 취득했다고 공시했다. BYD는 8월 NEV 440,293대 중 해외 189,466대로 해외 비중 43.03퍼센트를 기록했다.",
+      "field_note": "",
+      "headline": "TPC로보틱스가 9월 2일 휴머노이드용 액추에이터 7종(로터리 3종·리니어 3종·핑거 관절모듈 1종)을 자체 브랜드로 출시하고, 동시 진행 중인 리니어모터 프로젝트 규모를 약 50억 원으로 공개했다.",
+      "source_label": "아시아경제, 2026-09-02",
+      "source_url": "https://view.asiae.co.kr/article/2026090209250245273",
+      "detail": "같은 날 KGM과 SWM.ai는 2세대 로보택시 토레스 EVX를 투입하며 센서를 40여 개에서 20여 개로 줄였고, 시선AI·유온로보틱스·한화로보틱스는 비정형·난공정 로봇 자동화 공동 사업화 MOU를 체결했다.",
       "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "로보택시 전용 차체가 중국 완성차 생산으로 굳어지면 램프와 센서 통합 프런트엔드 모듈의 수주 창구가 중국 Tier-1 공급망에 선점되어 물량이 아니라 사업 정의 자체를 잃는다."
+      "sl_label": "변곡점",
+      "sl_text": "자율주행 센서 수가 절반으로 줄면 개당 사양·신뢰성 요구가 올라가고 램프·미러 등 외장 모듈에 센서를 통합 패키징하라는 압력이 커지므로, 센서 개수 기반 매출 가정은 재검토 대상이다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "",
-      "headline": "코난테크놀로지·영풍전자 컨소시엄, 총사업비 18억 8,000만 원으로 방산 PBA 고장진단 지식자산화 착수",
-      "source_label": "헬로티, 2026-08-31",
-      "source_url": "https://www.hellot.net/news/article.html?no=114640",
-      "detail": "고장 원인 분석 시간 50퍼센트 이상, 보고서 작성 시간 70퍼센트 이상 단축을 목표로 제시했다. 숙련자 노하우를 온톨로지 기반 지식그래프로 구조화한 뒤 LLM과 RAG, Graph-RAG를 결합하는 구조로, 다품종 소량생산의 학습 데이터 부족을 통계적 학습이 아니라 관계 구조로 우회한다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "완성차 품질 감사에서 AI 판정 근거 제시가 요구되는 흐름상, 추론 경로가 그래프로 읽히는 방식이 블랙박스형 모델보다 승인 문턱이 낮다."
+      "field_note": "2026-09-01 발행 AAS·데이터 스페이스 논의의 후속",
+      "headline": "과기정통부·NIA가 총사업비 약 172억 원 규모 고성능 AI 네트워크 사업에서 단말-코어망 16ms·지연변동 1ms를 목표로 조선소 용접 로봇을 검증하고, 2027년 2차년도에 KG모빌리티 평택 공장 물류로 확대한다.",
+      "source_label": "헬로티, 2026-09-03",
+      "source_url": "https://www.hellot.net/news/article.html?no=114727",
+      "detail": "KT는 피지컬 AI 통신의 지표를 평균 속도가 아닌 지연 변동(지터)으로 재정의했고, 한국피지컬AI협회는 작업·동작·대상·공간·시간·사건 6요소 행동 데이터 표준을 제안했다.",
+      "certainty": "[업계 분석]",
+      "sl_label": "리스크",
+      "sl_text": "완성차 공장 물류가 디지털 트윈 원격제어 실증 대상으로 지정된 만큼, 확정적 전송 대응 사내망 투자 여부가 2027-2028년 설비 계획에 선반영되지 않으면 완성차발 요구를 후행 대응하게 된다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "ENGEL과 프랑스 Billion SAS, 9월 1일 즉시 발효 제휴로 형체력 40에서 1100톤 Billion 설비 고객의 기존 금형을 ENGEL 기계에 그대로 사용 가능하다고 공표",
-      "source_label": "Plastics Today, 2026-09-01",
-      "source_url": "https://www.plasticstoday.com/injection-molding/engel-billion-sas-form-strategic-injection-molding-partnership",
-      "detail": "Billion은 독립 법인과 기존 설비 서비스를 유지한 채 신규 설비에서 ENGEL을 우선 공급사로 추천하며, 양사는 기계 콘셉트의 상보성을 근거로 들었다. 같은 기간 북미 ABS는 7월과 8월 합계 파운드당 11에서 12센트 인하됐으나 이는 공표가가 아닌 구매자 서면 요청 기반 협상 결과다.",
+      "headline": "Susonity·Toyota Motor Europe·Plastivaloire 3사가 3년 공동개발한 특허 질량 착색 기법이 신형 Toyota Aygo X Hybrid 에어벤트·센터콘솔에 색상 5종으로 양산 적용돼, 마블 외관 구현에서 도장 후공정을 제거했다.",
+      "source_label": "PlasticsToday, 2026-09-01",
+      "source_url": "https://www.plasticstoday.com/automotive-mobility/susonity-toyota-pioneer-sustainable-marble-effect-for-interiors",
+      "detail": "미국에서는 Kreate가 1억 달러 규모 오하이오 사출 공장에 Engel 사출기 32대와 사내 금형 유지보수 조직을 통합 배치한다고 발표했다. 2026년 2분기 미국 사출기 출하는 전분기 대비 16퍼센트 감소했으나 전년 동기 대비로는 4.5퍼센트 증가했다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "사출기 교체의 최대 전환 장벽인 금형 개조비를 공급사가 스스로 부인했으므로, 설비 갱신 협상에서 금형 이식 비용을 공급사 부담으로 돌릴 근거가 된다."
+      "sl_text": "외관 품질을 도장 라인이 아닌 금형·소재 설계로 흡수한 사례이므로, 베젤·가니시 등 외관 부품에서 소재사를 디자인 초기 단계로 끌어들이면 후공정 라인 자체가 원가 협상 카드가 된다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-02-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-03-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
