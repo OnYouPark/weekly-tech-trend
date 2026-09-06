@@ -1,54 +1,54 @@
 {
-  "date": "2026-09-03",
-  "slug": "2026-09-03-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-03",
+  "date": "2026-09-07",
+  "slug": "2026-09-07-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-07",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "2026-08-25 발행 M.AX 표준·인증센터의 후속",
-      "headline": "산업단지 M.AX 혁신 서밋이 9월 14-16일 대구 EXCO에서 제조 파운데이션 모델(MFM)을 정식 의제로 올리고, 10월 21-23일 킨텍스 AMXPO 2026이 50년 된 한국기계전을 자율제조·피지컬 AI 전시로 리브랜딩했다.",
-      "source_label": "헬로티, 2026-09-02",
-      "source_url": "https://www.hellot.net/news/article.html?no=114726",
-      "detail": "같은 기간 한국후지쯔가 MasterControl Ax를 국내 출시해 품질(Qx)·제조(Mx)에 설비자산(Ax)을 더한 3축을 완성했다. 그동안 MES·QMS 밖 엑셀에 남아 있던 설비 교정·예방정비 이력을 단일 데이터 모델로 편입한 것이 핵심이다.",
+      "field_note": "",
+      "headline": "한국전기연구원, 시간당 100m 이송 초전도 선재를 절단 없이 3차원 측정해 오차 ±1.5μm 이하 인라인 검사 시스템 공개",
+      "source_label": "인더스트리뉴스, 2026-09-06",
+      "source_url": "https://www.industrynews.co.kr/news/articleView.html?idxno=85568",
+      "detail": "릴투릴 이송 경로에 상하 대향형 색채 공초점 레이저 센서를 배치해 이동 중 소재 양면을 동시 측정하고, 실시간 장력 제어와 속도 자동 보정으로 진동 오차를 억제했다. 미국 특허 US 12,487,078 등록을 마쳤고 이차전지용 동박·알루미늄박, 금속 압연재로 확장 가능하다고 밝혔다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "9월 대구와 10월 킨텍스 두 행사가 6주 간격으로 같은 벤더군을 노출하므로, 개별 참관이 아니라 단일 벤더 스크리닝 사이클로 묶어 설계할 수 있다."
+      "sl_text": "코일 전장 두께 프로파일을 절단 없이 확보하면 프레스·스탬핑 치수 산포의 귀책을 소재 편차와 금형 편차로 분리할 수 있어 입고 스펙 협상 근거가 바뀐다."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "TPC로보틱스가 9월 2일 휴머노이드용 액추에이터 7종(로터리 3종·리니어 3종·핑거 관절모듈 1종)을 자체 브랜드로 출시하고, 동시 진행 중인 리니어모터 프로젝트 규모를 약 50억 원으로 공개했다.",
-      "source_label": "아시아경제, 2026-09-02",
-      "source_url": "https://view.asiae.co.kr/article/2026090209250245273",
-      "detail": "같은 날 KGM과 SWM.ai는 2세대 로보택시 토레스 EVX를 투입하며 센서를 40여 개에서 20여 개로 줄였고, 시선AI·유온로보틱스·한화로보틱스는 비정형·난공정 로봇 자동화 공동 사업화 MOU를 체결했다.",
+      "headline": "Lyte AI, 시리즈 C 1억 6,500만 달러 조달로 기업가치 16억 달러 확보하고 로봇 인지 실리콘 수직계열화 선언",
+      "source_label": "The Robot Report, 2026-09-04",
+      "source_url": "https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/",
+      "detail": "플랫폼 LyteVision은 4D coherent vision과 고해상 이미징, 관성 센싱을 자체 실리콘 위 단일 동기화 타임라인에 올려 위치·운동을 소프트웨어 재구성 없이 네이티브 측정한다. 2021년 설립 이후 누적 조달은 2억 7,200만 달러다.",
       "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "자율주행 센서 수가 절반으로 줄면 개당 사양·신뢰성 요구가 올라가고 램프·미러 등 외장 모듈에 센서를 통합 패키징하라는 압력이 커지므로, 센서 개수 기반 매출 가정은 재검토 대상이다."
+      "sl_label": "리스크",
+      "sl_text": "인지 스택 수직계열화가 진행되면 센서·램프 단품 공급의 부가가치가 축소되므로 광학·실장 역량을 센싱 모듈 통합 조립 포지션으로 전환할 필요가 있다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-09-01 발행 AAS·데이터 스페이스 논의의 후속",
-      "headline": "과기정통부·NIA가 총사업비 약 172억 원 규모 고성능 AI 네트워크 사업에서 단말-코어망 16ms·지연변동 1ms를 목표로 조선소 용접 로봇을 검증하고, 2027년 2차년도에 KG모빌리티 평택 공장 물류로 확대한다.",
-      "source_label": "헬로티, 2026-09-03",
-      "source_url": "https://www.hellot.net/news/article.html?no=114727",
-      "detail": "KT는 피지컬 AI 통신의 지표를 평균 속도가 아닌 지연 변동(지터)으로 재정의했고, 한국피지컬AI협회는 작업·동작·대상·공간·시간·사건 6요소 행동 데이터 표준을 제안했다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "리스크",
-      "sl_text": "완성차 공장 물류가 디지털 트윈 원격제어 실증 대상으로 지정된 만큼, 확정적 전송 대응 사내망 투자 여부가 2027-2028년 설비 계획에 선반영되지 않으면 완성차발 요구를 후행 대응하게 된다."
+      "field_note": "",
+      "headline": "미시간대·애리조나주립대, NSF 5년간 150만 달러와 회원사 연회비 9만 달러 구조의 제조 디지털 트윈 산학센터 초기 연구 4개 과제 공개",
+      "source_label": "Michigan Engineering News, 2026-09-04",
+      "source_url": "https://news.engin.umich.edu/2026/09/academic-and-industry-center-to-solve-digital-twin-challenges-for-manufacturing/",
+      "detail": "GM·Honeywell·Intel·Applied Materials와 미 육군 지상차량시스템센터가 창립 회원으로 참여했다. 과제는 물리·시뮬레이션 모델 동기화 기반 설비 고장 식별, 금속 적층제조 결함 검출, 파운데이션 모델, 작업자 디지털 트윈 4종이며 밀링 머신 트윈의 0.1초 주기 동기화 검증을 예시로 제시했다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "기회",
+      "sl_text": "트윈 기반 기술 상당수가 사전경쟁 공유 영역으로 재분류되는 만큼, 자체 개발 대상과 외부 조달 대상을 나누는 R&D 포트폴리오 재정의가 필요하다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "Susonity·Toyota Motor Europe·Plastivaloire 3사가 3년 공동개발한 특허 질량 착색 기법이 신형 Toyota Aygo X Hybrid 에어벤트·센터콘솔에 색상 5종으로 양산 적용돼, 마블 외관 구현에서 도장 후공정을 제거했다.",
-      "source_label": "PlasticsToday, 2026-09-01",
-      "source_url": "https://www.plasticstoday.com/automotive-mobility/susonity-toyota-pioneer-sustainable-marble-effect-for-interiors",
-      "detail": "미국에서는 Kreate가 1억 달러 규모 오하이오 사출 공장에 Engel 사출기 32대와 사내 금형 유지보수 조직을 통합 배치한다고 발표했다. 2026년 2분기 미국 사출기 출하는 전분기 대비 16퍼센트 감소했으나 전년 동기 대비로는 4.5퍼센트 증가했다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "외관 품질을 도장 라인이 아닌 금형·소재 설계로 흡수한 사례이므로, 베젤·가니시 등 외관 부품에서 소재사를 디자인 초기 단계로 끌어들이면 후공정 라인 자체가 원가 협상 카드가 된다."
+      "headline": "재생 수지 확산으로 향후 5년 내 DLC·고급 PVD 코팅이 특수 옵션에서 금형 기본 사양으로 이동한다는 진단 제시",
+      "source_label": "Plastics Today, 2026-09-04",
+      "source_url": "https://www.plasticstoday.com/injection-molding/strategic-material-selection-transforms-injection-mold-performance",
+      "detail": "MISUMI Americas는 유리섬유가 투입되는 순간 P20은 계획 대비 조기 마모된다고 지적하며 강종 선정을 직전 프로젝트 관행이 아닌 DFM 단계의 데이터 기반 결정으로 옮길 것을 제시했다. 소비후 재생 수지는 버진 대비 마모성이 크고 균질성이 낮으며 캐비티 표면을 공격하는 오염물을 동반한다.",
+      "certainty": "[업계 분석]",
+      "sl_label": "변곡점",
+      "sl_text": "재생 함량 요구가 부품 사양에서 금형 사양서로 전이되므로, 신규 프로그램부터 강종 상향과 코팅 기본 반영을 견적 단계에 포함해야 한다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-03-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-07-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
