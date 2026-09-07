@@ -1,54 +1,32 @@
 {
-  "date": "2026-09-07",
-  "slug": "2026-09-07-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-07",
-  "mode_notice": "",
+  "date": "2026-09-08",
+  "slug": "2026-09-08-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-08",
+  "mode_notice": "금일 신규 핵심 동향이 한산하여 핵심과 인접 영역 위주로 정리했습니다. 조사 윈도우는 주말을 포함한 48시간 구간입니다.",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "한국전기연구원, 시간당 100m 이송 초전도 선재를 절단 없이 3차원 측정해 오차 ±1.5μm 이하 인라인 검사 시스템 공개",
-      "source_label": "인더스트리뉴스, 2026-09-06",
-      "source_url": "https://www.industrynews.co.kr/news/articleView.html?idxno=85568",
-      "detail": "릴투릴 이송 경로에 상하 대향형 색채 공초점 레이저 센서를 배치해 이동 중 소재 양면을 동시 측정하고, 실시간 장력 제어와 속도 자동 보정으로 진동 오차를 억제했다. 미국 특허 US 12,487,078 등록을 마쳤고 이차전지용 동박·알루미늄박, 금속 압연재로 확장 가능하다고 밝혔다.",
+      "headline": "한국요꼬가와전기, 배선 절단 없이 정확도 ±0.09% rdg·최대 1MHz 대역폭을 확보한 스플릿 코어 전류센서 CT500SA(500A)·CT200SA(200A) 출시",
+      "source_label": "헬로티, 2026-09-07",
+      "source_url": "https://www.hellot.net/news/article.html?no=114808",
+      "detail": "플럭스게이트 구조로 클램프온 방식에서 스루홀 센서급 정밀도를 구현했고, 전용 변환 커넥터 없이 요꼬가와 전력분석기·스코프코더·오실로스코프에 직결된다. 전기차 인버터 효율 분석과 태양광 출력 모니터링이 적용 대상으로 제시됐다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "코일 전장 두께 프로파일을 절단 없이 확보하면 프레스·스탬핑 치수 산포의 귀책을 소재 편차와 금형 편차로 분리할 수 있어 입고 스펙 협상 근거가 바뀐다."
+      "sl_text": "인버터 스위칭 고조파까지 라인 정지 없이 계측할 수 있어 전동화 부품 신뢰성 시험의 지그 제작·배선 공수를 줄일 여지가 있다."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "Lyte AI, 시리즈 C 1억 6,500만 달러 조달로 기업가치 16억 달러 확보하고 로봇 인지 실리콘 수직계열화 선언",
-      "source_label": "The Robot Report, 2026-09-04",
-      "source_url": "https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/",
-      "detail": "플랫폼 LyteVision은 4D coherent vision과 고해상 이미징, 관성 센싱을 자체 실리콘 위 단일 동기화 타임라인에 올려 위치·운동을 소프트웨어 재구성 없이 네이티브 측정한다. 2021년 설립 이후 누적 조달은 2억 7,200만 달러다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "인지 스택 수직계열화가 진행되면 센서·램프 단품 공급의 부가가치가 축소되므로 광학·실장 역량을 센싱 모듈 통합 조립 포지션으로 전환할 필요가 있다."
-    },
-    {
-      "field": "AI·디지털전환",
-      "field_note": "",
-      "headline": "미시간대·애리조나주립대, NSF 5년간 150만 달러와 회원사 연회비 9만 달러 구조의 제조 디지털 트윈 산학센터 초기 연구 4개 과제 공개",
-      "source_label": "Michigan Engineering News, 2026-09-04",
-      "source_url": "https://news.engin.umich.edu/2026/09/academic-and-industry-center-to-solve-digital-twin-challenges-for-manufacturing/",
-      "detail": "GM·Honeywell·Intel·Applied Materials와 미 육군 지상차량시스템센터가 창립 회원으로 참여했다. 과제는 물리·시뮬레이션 모델 동기화 기반 설비 고장 식별, 금속 적층제조 결함 검출, 파운데이션 모델, 작업자 디지털 트윈 4종이며 밀링 머신 트윈의 0.1초 주기 동기화 검증을 예시로 제시했다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "트윈 기반 기술 상당수가 사전경쟁 공유 영역으로 재분류되는 만큼, 자체 개발 대상과 외부 조달 대상을 나누는 R&D 포트폴리오 재정의가 필요하다."
-    },
-    {
-      "field": "금형·사출 기술",
-      "field_note": "",
-      "headline": "재생 수지 확산으로 향후 5년 내 DLC·고급 PVD 코팅이 특수 옵션에서 금형 기본 사양으로 이동한다는 진단 제시",
-      "source_label": "Plastics Today, 2026-09-04",
-      "source_url": "https://www.plasticstoday.com/injection-molding/strategic-material-selection-transforms-injection-mold-performance",
-      "detail": "MISUMI Americas는 유리섬유가 투입되는 순간 P20은 계획 대비 조기 마모된다고 지적하며 강종 선정을 직전 프로젝트 관행이 아닌 DFM 단계의 데이터 기반 결정으로 옮길 것을 제시했다. 소비후 재생 수지는 버진 대비 마모성이 크고 균질성이 낮으며 캐비티 표면을 공격하는 오염물을 동반한다.",
-      "certainty": "[업계 분석]",
+      "headline": "서울시 자율주행 운송플랫폼 사업자에 카카오모빌리티·현대차·티머니 3곳 선정, 강남 심야 자율주행 택시 7대에서 19대로 확대",
+      "source_label": "머니투데이, 2026-09-07",
+      "source_url": "https://www.mt.co.kr/tech/2026/09/07/2026090710530472531",
+      "detail": "2년간 이어진 카카오모빌리티 단독 운영이 3사 경쟁 체제로 바뀌며, 완성차가 서울 로보택시의 호출·배차·결제를 직접 운영하는 첫 사례가 된다. 같은 날 국토부·ITF 콘퍼런스에서 BCG는 로보택시 운영비를 현재 km당 4에서 8달러 수준에서 대량 보급 시 80센트로 전망했다.",
+      "certainty": "[2차 인용]",
       "sl_label": "변곡점",
-      "sl_text": "재생 함량 요구가 부품 사양에서 금형 사양서로 전이되므로, 신규 프로그램부터 강종 상향과 코팅 기본 반영을 견적 단계에 포함해야 한다."
+      "sl_text": "램프·센서 장착부·열관리 등 자율주행 전용 사양의 요구 정의와 발주 결정권이 완성차 계열 모빌리티 조직으로 이동하는 국면의 시작이다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-07-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-08-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
