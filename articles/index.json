@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "slug": "2026-09-09-production",
+      "title": "생산기술 신규기술 브리핑 - 2026년 9월 2주차",
+      "date": "2026-09-09",
+      "type": "production",
+      "period": "2026년 9월 2주차",
+      "tags": [
+        "ARBURG",
+        "KraussMaffei",
+        "AQC Plus",
+        "Elmet SMARTshot",
+        "HB-Therm Flow-6",
+        "FANUC R-50iA",
+        "Palladyne AI",
+        "SMW Autoblok"
+      ],
+      "summary": "사출은 Fakuma 2026 사전 발표가 공정 제어 파라미터 자체로 이동해 KraussMaffei가 점도 대신 부품중량으로 보압을 자율 보정하는 AQC Plus를, Elmet은 캐비티 압력 센서 없이 콜드러너 신호만으로 캐비티를 자동 밸런싱하는 SMARTshot i를 공개. 로봇은 IMTS 2026 직전 FANUC 단독 발표로 CRX용 DC 직결 컨트롤러와 외부 힘센서 없는 조립 힘제어가 제시되고, EOAT 축에서는 툴체인저 접점을 비접촉 유도 커플링으로 대체한 구성이 확인됨"
+    },
+    {
       "slug": "2026-09-09-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 9월 9일",
       "date": "2026-09-09",
