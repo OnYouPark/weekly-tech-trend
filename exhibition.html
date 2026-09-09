@@ -3,22 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>생산기술 브리핑 | Weekly Tech Trend Analyst</title>
+  <title>글로벌 전시회 리포트 | Weekly Tech Trend Analyst</title>
 
   <!-- SEO -->
-  <meta name="description" content="사출성형·로봇제조 기술의 업체·기술 동향을 심층 정리합니다." />
-  <meta name="keywords" content="생산기술, 사출성형, 로봇제조, 제조업, 자동화, 스마트제조" />
+  <meta name="description" content="국내외 주요 전시회를 조사해 제조·생산기술 동향을 정리합니다." />
+  <meta name="keywords" content="전시회, 글로벌 전시회, 제조업, 생산기술, 사출성형, 로봇, 스마트제조" />
   <meta name="author" content="Onyou Park" />
-  <link rel="canonical" href="https://onyoupark.github.io/weekly-tech-trend/production.html" />
+  <link rel="canonical" href="https://onyoupark.github.io/weekly-tech-trend/exhibition.html" />
   <meta name="theme-color" content="#1a3a6b" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Weekly Tech Trend Analyst" />
   <meta property="og:locale" content="ko_KR" />
-  <meta property="og:title" content="생산기술 브리핑 | Weekly Tech Trend Analyst" />
-  <meta property="og:description" content="사출성형·로봇제조 기술의 업체·기술 동향을 심층 정리합니다." />
-  <meta property="og:url" content="https://onyoupark.github.io/weekly-tech-trend/production.html" />
+  <meta property="og:title" content="글로벌 전시회 리포트 | Weekly Tech Trend Analyst" />
+  <meta property="og:description" content="국내외 주요 전시회를 조사해 제조·생산기술 동향을 정리합니다." />
+  <meta property="og:url" content="https://onyoupark.github.io/weekly-tech-trend/exhibition.html" />
   <meta property="og:image" content="https://onyoupark.github.io/weekly-tech-trend/assets/og-image.svg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -26,8 +26,8 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="생산기술 브리핑 | Weekly Tech Trend Analyst" />
-  <meta name="twitter:description" content="사출성형·로봇제조 기술의 업체·기술 동향을 심층 정리합니다." />
+  <meta name="twitter:title" content="글로벌 전시회 리포트 | Weekly Tech Trend Analyst" />
+  <meta name="twitter:description" content="국내외 주요 전시회를 조사해 제조·생산기술 동향을 정리합니다." />
   <meta name="twitter:image" content="https://onyoupark.github.io/weekly-tech-trend/assets/og-image.svg" />
 
   <script>
@@ -68,8 +68,8 @@
             <button class="site-nav__link nav-dropdown__trigger is-active" type="button" id="nav-dropdown-trigger" aria-haspopup="true" aria-expanded="false" aria-controls="nav-dropdown-panel">심층 리포트<span class="nav-dropdown__caret" aria-hidden="true">▾</span></button>
             <ul class="nav-dropdown__panel" id="nav-dropdown-panel">
               <li><a class="nav-dropdown__item" href="./china.html">중국 제조 동향</a></li>
-              <li><a class="nav-dropdown__item is-active" href="./production.html" aria-current="page">생산기술 브리핑</a></li>
-              <li><a class="nav-dropdown__item" href="./exhibition.html">글로벌 전시회 리포트</a></li>
+              <li><a class="nav-dropdown__item" href="./production.html">생산기술 브리핑</a></li>
+              <li><a class="nav-dropdown__item is-active" href="./exhibition.html" aria-current="page">글로벌 전시회 리포트</a></li>
             </ul>
           </div>
         </nav>
@@ -78,8 +78,8 @@
     </header>
 
     <header class="list-intro">
-      <h1 class="list-intro__title">생산기술 브리핑</h1>
-      <p class="list-intro__subtitle">사출성형·로봇제조 기술 업체·기술 동향 심층 정리</p>
+      <h1 class="list-intro__title">글로벌 전시회 리포트</h1>
+      <p class="list-intro__subtitle">국내외 주요 전시회를 조사해 기술 동향을 정리</p>
     </header>
 
     <ul id="brief-list" class="brief-list">
@@ -128,12 +128,12 @@
   </script>
 
   <script>
-    /* 생산기술 브리핑 목록 (type === 'production') */
+    /* 글로벌 전시회 리포트 목록 (type === 'exhibition') — 제목(전시회명) + 개최기간 + 장소 카드 */
     (function () {
       'use strict';
 
-      var TYPE = 'production';
-      var EMPTY_MSG = '아직 게시된 생산기술 브리핑이 없습니다.';
+      var TYPE = 'exhibition';
+      var EMPTY_MSG = '아직 게시된 전시회 리포트가 없습니다.';
       var SHOW_TAGS = true;
 
       /* 읽음 표시 — localStorage 기반 (시크릿 모드 안전) */
@@ -171,10 +171,14 @@
 
       var listEl = document.getElementById('brief-list');
 
+      /* 전시회 카드 — 다른 유형과 달리 제목(전시회명)을 전면에, 개최기간(period)을 우측에.
+         venue(장소)는 있을 때만 한 줄 표시. 게시일(date)은 정렬 기준으로만 사용하고 표시하지 않음 */
       function cardHtml(a) {
         var readClass = isRead(a.slug || '') ? ' is-read' : '';
         var href = safeArticleHref(a.slug);
-        var period = (a.period && String(a.period).trim()) ? a.period : (a.date || '');
+        var title = (a.title && String(a.title).trim()) ? String(a.title).trim() : '(제목 없음)';
+        var period = (a.period && String(a.period).trim()) ? String(a.period).trim() : '';
+        var venue = (a.venue && String(a.venue).trim()) ? String(a.venue).trim() : '';
         var tagHtml = '';
         if (SHOW_TAGS) {
           var tags = Array.isArray(a.tags) ? a.tags.slice(0, 5) : [];
@@ -183,10 +187,13 @@
           }).join('');
         }
         return '' +
-          '<li class="brief-card' + readClass + '">' +
+          '<li class="brief-card brief-card--exhibition' + readClass + '">' +
             '<a class="brief-card__link" href="' + escapeHtml(href) + '">' +
-              '<p class="brief-card__period">' + escapeHtml(period) + '</p>' +
-              '<p class="brief-card__date">' + escapeHtml(a.date || '') + '</p>' +
+              '<div class="brief-card__head">' +
+                '<p class="brief-card__title">' + escapeHtml(title) + '</p>' +
+                (period ? '<p class="brief-card__period">' + escapeHtml(period) + '</p>' : '') +
+              '</div>' +
+              (venue ? '<p class="brief-card__venue">' + escapeHtml(venue) + '</p>' : '') +
               '<p class="brief-card__summary">' + escapeHtml(a.summary || '') + '</p>' +
               (tagHtml ? '<p class="brief-card__tags">' + tagHtml + '</p>' : '') +
             '</a>' +

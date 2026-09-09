@@ -64,9 +64,14 @@
           <span class="site-nav__sep" aria-hidden="true">·</span>
           <a class="site-nav__link" href="./explore.html">탐색</a>
           <span class="site-nav__sep" aria-hidden="true">·</span>
-          <a class="site-nav__link is-active" href="./china.html" aria-current="page">중국 제조 동향</a>
-          <span class="site-nav__sep" aria-hidden="true">·</span>
-          <a class="site-nav__link" href="./production.html">생산기술 브리핑</a>
+          <div class="nav-dropdown" data-nav-dropdown>
+            <button class="site-nav__link nav-dropdown__trigger is-active" type="button" id="nav-dropdown-trigger" aria-haspopup="true" aria-expanded="false" aria-controls="nav-dropdown-panel">심층 리포트<span class="nav-dropdown__caret" aria-hidden="true">▾</span></button>
+            <ul class="nav-dropdown__panel" id="nav-dropdown-panel">
+              <li><a class="nav-dropdown__item is-active" href="./china.html" aria-current="page">중국 제조 동향</a></li>
+              <li><a class="nav-dropdown__item" href="./production.html">생산기술 브리핑</a></li>
+              <li><a class="nav-dropdown__item" href="./exhibition.html">글로벌 전시회 리포트</a></li>
+            </ul>
+          </div>
         </nav>
       </div>
       <button id="theme-toggle" class="theme-toggle" type="button" aria-label="테마 전환">🌙</button>
@@ -212,6 +217,7 @@
     })();
   </script>
 
+  <script src="./assets/nav.js"></script>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="7d8b07b6-b3b4-4427-8046-96f30f6761b3"></script>
 </body>
 </html>

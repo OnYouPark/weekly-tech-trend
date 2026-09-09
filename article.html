@@ -116,9 +116,14 @@
           <span class="site-nav__sep" aria-hidden="true">·</span>
           <a class="site-nav__link" href="./explore.html">탐색</a>
           <span class="site-nav__sep" aria-hidden="true">·</span>
-          <a class="site-nav__link" href="./china.html">중국 제조 동향</a>
-          <span class="site-nav__sep" aria-hidden="true">·</span>
-          <a class="site-nav__link" href="./production.html">생산기술 브리핑</a>
+          <div class="nav-dropdown" data-nav-dropdown>
+            <button class="site-nav__link nav-dropdown__trigger" type="button" id="nav-dropdown-trigger" aria-haspopup="true" aria-expanded="false" aria-controls="nav-dropdown-panel">심층 리포트<span class="nav-dropdown__caret" aria-hidden="true">▾</span></button>
+            <ul class="nav-dropdown__panel" id="nav-dropdown-panel">
+              <li><a class="nav-dropdown__item" href="./china.html">중국 제조 동향</a></li>
+              <li><a class="nav-dropdown__item" href="./production.html">생산기술 브리핑</a></li>
+              <li><a class="nav-dropdown__item" href="./exhibition.html">글로벌 전시회 리포트</a></li>
+            </ul>
+          </div>
         </nav>
       </div>
       <button id="theme-toggle" class="theme-toggle" type="button" aria-label="테마 전환">🌙</button>
@@ -500,7 +505,8 @@
         weekly: '주간 종합',
         monthly: '월간 종합',
         china: '중국 제조 동향',
-        production: '생산기술 브리핑'
+        production: '생산기술 브리핑',
+        exhibition: '글로벌 전시회 리포트'
       };
 
       /* 유형별 "목록으로" 돌아갈 페이지 */
@@ -509,8 +515,12 @@
         weekly: './weekly.html',
         monthly: './monthly.html',
         china: './china.html',
-        production: './production.html'
+        production: './production.html',
+        exhibition: './exhibition.html'
       };
+
+      /* 심층 리포트 드롭다운에 속한 유형 — 해당 기사를 볼 때 네비의 "심층 리포트"를 active 표시 */
+      var DEEP_REPORT_TYPES = { china: true, production: true, exhibition: true };
 
       function escapeHtml(s) {
         return String(s == null ? '' : s)
@@ -659,6 +669,11 @@
           var v = JSON.parse(localStorage.getItem(READ_KEY) || '[]');
           return Array.isArray(v) ? v : [];
         } catch (e) { return []; }
+      }
+
+      /* 관련 기사 카드 읽음 표시용 (기존에 정의가 빠져 renderRelatedArticles가 예외로 중단되던 버그 수정) */
+      function isRead(slug) {
+        return getReadSlugs().indexOf(slug) !== -1;
       }
 
       function markAsRead(slug) {
@@ -1015,15 +1030,30 @@
           return '<span>' + escapeHtml(t) + '</span>';
         }).join('');
 
-        /* 유형 배지 (daily가 아닐 때만) — 라벨 + period 함께 표시 */
+        /* 유형 배지 (daily가 아닐 때만) — 라벨 + period 함께 표시
+           (exhibition은 period를 배지 대신 제목 아래 "개최" 줄에 표시) */
         var type = getType(meta);
         var badgeHtml = '';
+        var eventHtml = '';
+        var period = (meta && meta.period && String(meta.period).trim()) ? String(meta.period).trim() : '';
         if (type !== 'daily') {
           var label = TYPE_LABELS[type] || '';
-          var period = (meta && meta.period && String(meta.period).trim()) ? meta.period : '';
-          var badgeText = label + (period ? ' · ' + period : '');
+          var badgeText = label + ((period && type !== 'exhibition') ? ' · ' + period : '');
           if (badgeText) {
             badgeHtml = '<div class="article-typebadge">' + escapeHtml(badgeText) + '</div>';
+          }
+        }
+        if (type === 'exhibition') {
+          /* 전시회: 제목(전시회명) 바로 아래 "개최: {period} · {venue}" — venue는 있을 때만 */
+          var venue = (meta && meta.venue && String(meta.venue).trim()) ? String(meta.venue).trim() : '';
+          var eventParts = [];
+          if (period) eventParts.push(escapeHtml(period));
+          if (venue) eventParts.push(escapeHtml(venue));
+          if (eventParts.length) {
+            eventHtml = '<p class="article-event">' +
+              '<span class="article-event__label">개최:</span> ' +
+              eventParts.join(' · ') +
+            '</p>';
           }
         }
 
@@ -1031,6 +1061,14 @@
         try {
           var backLink = document.querySelector('.back-link');
           if (backLink) backLink.setAttribute('href', TYPE_BACK_HREF[type] || './index.html');
+        } catch (e) { /* ignore */ }
+
+        /* 심층 리포트(china/production/exhibition) 기사면 네비의 "심층 리포트" + 해당 항목 active
+           (기사 상세는 목록 페이지 자체가 아니므로 aria-current="page"는 붙이지 않음) */
+        try {
+          if (DEEP_REPORT_TYPES[type] && window.wttNav && window.wttNav.setActive) {
+            window.wttNav.setActive(TYPE_BACK_HREF[type], false);
+          }
         } catch (e) { /* ignore */ }
 
         var body = stripFrontmatter(markdown);
@@ -1073,6 +1111,7 @@
           '<header class="article-header">' +
             badgeHtml +
             '<h1 class="article-title">' + escapeHtml(title) + '</h1>' +
+            eventHtml +
             '<div class="article-meta">' +
               '<span class="article-meta__date">' + escapeHtml((meta && meta.date) || '') + '</span>' +
               (tagHtml ? '<span class="article-meta__tags">' + tagHtml + '</span>' : '') +
@@ -1130,6 +1169,7 @@
     })();
   </script>
 
+  <script src="./assets/nav.js"></script>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="7d8b07b6-b3b4-4427-8046-96f30f6761b3"></script>
 </body>
 </html>
