@@ -1,54 +1,43 @@
 {
-  "date": "2026-09-10",
-  "slug": "2026-09-10-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-10",
+  "date": "2026-09-11",
+  "slug": "2026-09-11-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-11",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "코엑스 AW 베트남 2026이 145개사 327부스로 개막, 전년 101개사 208부스 대비 57퍼센트 확대되고 개최지를 하노이로 이전",
-      "source_label": "에너지타임뉴스, 2026-09-09",
-      "source_url": "http://www.enertopianews.co.kr/news/articleView.html?idxno=59673",
-      "detail": "전시 구성이 스마트 팩토리 자동화, 스마트 비전, 스마트 로보틱스 모빌리티, 스마트 물류, 전자제조 스마트부품, AI Connect 6개 축으로 재편돼 비전 검사가 설비 부착 옵션에서 독립 조달 계층으로 분리됐다. 같은 기간 슈투트가르트 Vision 2026은 약 500개사 출품으로 최다 기록을 세우고 Fraunhofer ITWM 공동 주관 Synthetic Data Symposium을 신설했다.",
+      "headline": "엘디티가 9월 10일 엠폴과 산업안전 통합관리플랫폼 협약을 맺고, 전국에 이미 설치된 감지기 6만 8,000대 이상의 센서망을 3D 디지털트윈 관제 화면으로 옮기는 구조를 제시했다",
+      "source_label": "아시아경제, 2026-09-10",
+      "source_url": "https://view.asiae.co.kr/article/2026091014540936912",
+      "detail": "엘디티가 화재·온도·습도·가스 복합센서와 LoRa 게이트웨이를, 엠폴이 3D 디지털트윈 관제 소프트웨어와 시각화를 맡는 역할 분담이다. 센서 수치를 대시보드에 나열하던 기존 방식에서 이상 징후의 발생 위치를 3차원 공간정보에 직접 매핑하는 방식으로 옮겨간다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "베트남 현지 라인의 자동화·검사 설비를 하노이에서 직접 비교 조달할 창구가 열려, 본사 발주 후 이식하던 방식의 리드타임과 현지 A/S 조건을 재협상할 여지가 생겼다."
+      "sl_text": "안전관리 예산으로 확보한 센서망이 예지보전 데이터 인프라로 재사용될 수 있어, 안전 투자와 설비 데이터 투자를 하나의 예산선에서 묶는 근거가 된다."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "Vention이 9월 9일 몬트리올에 제조 매니퓰레이션 전용 피지컬 AI 랩을 개소, 누적 28,000대 장비와 6,000개 공장 데이터를 파운데이션 모델 후속학습에 투입",
-      "source_label": "The Robot Report, 2026-09-09",
-      "source_url": "https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/",
-      "detail": "최우선 응용 과제로 지정한 공정은 키팅이며, 회사가 든 예시가 헤드램프에 하네스와 마운팅 브래킷, 스크루를 묶어 라인 지정 위치에 차종별 키트를 놓는 작업이다. 피지컬 AI 관련 매출이 1년간 400퍼센트 증가했다고 밝혔고, 파이프라인 GRIIP를 오픈소스화해 IMTS에서 시연할 계획이다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "램프 서브어셈블리 키팅이 파운데이션 모델 기반 자동화의 첫 상용 타깃으로 지목됐으므로, GRIIP SDK 공개 시점이 파일럿 셀 벤치마킹의 선점 구간이다."
+      "headline": "현대모비스가 9월 9일 개막한 R&D 테크데이에서 신기술 60여 종과 함께 휴머노이드용 로봇 액추에이터 2종의 실물을 처음 공개하고, 전시 동선을 자동차 부품에서 로보틱스 부품으로 이어지도록 구성했다",
+      "source_label": "이데일리, 2026-09-10",
+      "source_url": "https://www.edaily.co.kr/News/Read?newsId=03316086645578808",
+      "detail": "보스턴다이내믹스 5세대 양산형 아틀라스에 들어가는 바디 액추에이터 31개, 2개 종류가 대외 실물 전시 대상이 됐다. 증권가는 액추에이터 매출이 2027년부터 반영돼 2030년 1조 2,000억 원 규모에 이를 것으로 추정한다.",
+      "certainty": "[업계 분석]",
+      "sl_label": "변곡점",
+      "sl_text": "완성차 1차 부품사가 자동차 부품 양산 역량을 로봇 관절 부품으로 직접 전용한 첫 공식 사례로, 국내 부품사의 로보틱스 진입 경로가 신규 R&D가 아닌 기존 양산 라인 전용으로 굳어진다."
     },
     {
       "field": "AI·디지털전환",
       "field_note": "",
-      "headline": "KT와 KAIST, 다임리서치가 9월 7일 다크팩토리 플랫폼 3자 협약을 체결하고 과기정통부 협업지능 피지컬 AI SW플랫폼 사업에 5년간 공동 참여",
-      "source_label": "머니투데이, 2026-09-08",
-      "source_url": "https://www.mt.co.kr/tech/2026/09/08/2026090809161790562",
-      "detail": "KAIST와 다임리서치가 물류·제조 로봇 관제 플랫폼과 공정 자율화 기술을, KT가 엣지 AI와 초저지연 네트워크, 다종 로봇 통합 운영 플랫폼을 맡는 분업 구조다. 통신사가 네트워크와 엣지 인프라를 들고 자율제조 플랫폼 계층에 진입한 구도다. 목표 가동률과 불량률 등 정량 지표는 공개되지 않았다.",
+      "headline": "9월 9일 AI월드 2026에서 HD현대와 포스코DX, 과기정통부가 제조 AI를 대중국 초격차 수단으로 재정의하고, 정부는 2027년 상반기 국제기구 9곳의 AI 기능을 모은 글로벌 허브 캠퍼스 개관 계획을 제시했다",
+      "source_label": "파이낸셜뉴스, 2026-09-09",
+      "source_url": "https://www.fnnews.com/news/202609091833273996",
+      "detail": "HD현대 김영옥 CAIO는 조선과 반도체를 한국이 남긴 초격차 산업으로 지목했고, 포스코DX는 작업을 자동화하는 AI 에이전트와 업무 자체를 위임받는 AI 직원을 개념적으로 분리했다.",
       "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "자율제조 플랫폼 주도권이 SI·자동화 벤더에서 통신사·연구기관 컨소시엄으로 이동하는 국면이므로, 실증 수요기업으로 참여할 때 공정 데이터 소유권 조항을 협약 단계에서 확보해야 한다."
-    },
-    {
-      "field": "금형·사출 기술",
-      "field_note": "",
-      "headline": "핫러너 지능화의 실체가 금형 본체가 아니라 온도제어기 계층에 있으며 실제 유용 데이터는 7개 항목으로 압축된다는 진단",
-      "source_label": "K-Zeitung, 2026-09-09",
-      "source_url": "https://k-zeitung.de/der-neue-heisskanal-ist-smart-und-vernetzt",
-      "detail": "Günther Heißkanaltechnik과 Ewikon 두 업체 모두 핫러너 자체는 센서와 디지털 제어, 통신 인터페이스가 없는 기계 부품이라고 명시하고, 목표·실제 온도, 히팅 출력, 제어 편차, 승온 시간, 알람 이력, 에너지 소비, 히팅존 상태를 우선 데이터로 제시했다. 필수 통신 규격은 OPC UA와 Euromap이다. 같은 기간 Haitian과 Hennecke는 PC/ABS와 PUR 조합 인몰드 코팅 통합 솔루션 공동개발에 합의했다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "기회",
-      "sl_text": "신규 금형 투자 없이 기존 다캐비티 금형의 온도제어기 데이터를 OPC UA로 MES에 올리는 것만으로 히터·열전대 고장 조기검출과 초기가동 불량 저감을 확보할 저비용 진입점이 확인됐다."
+      "sl_label": "리스크",
+      "sl_text": "정부 AX 자원이 조선·반도체에 우선 배분되면 부품 협력사는 현장 노하우 데이터화 단계에서부터 격차가 벌어져 완성차 주도 AX 생태계에 종속될 여지가 커진다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-10-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-11-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
