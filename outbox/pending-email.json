@@ -1,54 +1,54 @@
 {
-  "date": "2026-09-14",
-  "slug": "2026-09-14-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-14",
+  "date": "2026-09-15",
+  "slug": "2026-09-15-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-15",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "2026-09-09 발행 산업부 M.AX 전문기업 지정의 후속",
-      "headline": "산업통상부, 제1회 M.AX 지역 확산 컨퍼런스 창원 개최. AI팩토리 선도프로젝트 170여 개 사업장에서 생산성 30퍼센트 개선, 불량률 15퍼센트 감소 실적 제시",
-      "source_label": "산업통상부 보도자료, 2026-09-12 조간",
-      "source_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172187/view?mno=&pageIndex=1",
-      "detail": "경남을 시작으로 충북·경북·광주전남 순차 개최가 예고됐고 협업지원센터는 전국 6개소로 운영된다. 2027년 정부예산안에는 풀스택 AI팩토리, 제조AI 파운데이션 모델 개발, 제조 암묵지 활용 AI솔루션, M.AX 자율제조 생태계 구축 4개 신규사업이 반영됐다. 자동차·방산·로봇용 모션 컨트롤 기업 삼현은 생산·품질·물류 데이터 분산을 문제로 지목하고 설계-생산-물류-품질 실시간 연계 체계로 전환 중이다.",
-      "certainty": "[공식 발표]",
+      "field_note": "2026-09-14 발행 IMTS 2026 개막 이슈의 후속",
+      "headline": "미국 1-7월 공작기계 누계 수주 40억 3,000만 달러로 전년 동기 대비 37.1퍼센트 증가, IMTS 2026 개막장에서 설비 수요와 물리 AI 시연이 동시 확인",
+      "source_label": "RoboticsTomorrow, 2026-09-14",
+      "source_url": "https://www.roboticstomorrow.com/news/2026/09/14/imts-2026-opens-in-chicago-as-manufacturing-takes-center-stage-in-reindustrializing-the-united-states/27090/",
+      "detail": "FANUC 아메리카는 이동 중인 엔진 블록을 CRX 협동로봇이 실시간 추적하며 볼트를 체결하는 시연을 공개했다. 전시 규모는 참가 1,788개사, 117만 제곱피트로 집계됐고 7월 단월 신규 수주는 6억 580만 달러다.",
+      "certainty": "[업계 분석]",
       "sl_label": "기회",
-      "sl_text": "정책 수혜 창구가 중앙 공모에서 권역 거점 1:1 매칭으로 내려온 지금, 공정 단위로 특정한 AX 과제를 준비한 부품사가 2027년 예산사업에 선점 진입할 수 있다."
+      "sl_text": "컨베이어 정지 없이 작업하는 추종형 협동로봇은 다품종 라인의 지그 투자와 전환시간을 줄일 파일럿 후보이나, 양산 신뢰성 데이터는 아직 없다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "2026-08-31 발행 UBTECH 매출 104.2퍼센트 증가의 후속",
-      "headline": "UBTECH, 중국 류저우에 연산 1만 대·택트타임 10분 대 규모 공업용 휴머노이드 전용 공장 9월 12일 가동",
-      "source_label": "신화통신, 2026-09-13",
-      "source_url": "https://english.news.cn/20260913/38e927b804ea444cbb800443644794db/c.html",
-      "detail": "14,000제곱미터 층고 13.8미터 혼류 라인에서 이족 Walker S와 휠형 Cruzr를 동시 생산하며, 섀시 1대당 나사 2,000여 개를 토크-각도 곡선까지 기록하는 자동차급 체결 관리를 적용했다. 착공 전 Siemens Plant Simulation 기반 1:1 디지털 트윈으로 10분 택트 성립 여부를 사전 검증했다. 같은 기간 현대차그룹은 자체 AI 아트리아 기반 레벨2++ 양산 시점을 2029년 하반기로 제시했다.",
-      "certainty": "[공식 발표]",
+      "field_note": "",
+      "headline": "현대차그룹 고위 임원이 보스턴다이내믹스의 2027년 미국 상장이 어렵다고 확인, 2025년 손실 5,284억 원과 2021-2025년 누적 손실 약 1조 7,000억 원 공개",
+      "source_label": "The Star(로이터 전재), 2026-09-14",
+      "source_url": "https://www.thestar.com.my/tech/tech-news/2026/09/14/exclusive-ipo-for-humanoid-robot-maker-boston-dynamics-unlikely-in-2027-executive-says",
+      "detail": "아틀라스가 대규모 실전 배치에 이르지 못한 점이 근거로 제시됐다. 연산 3만 대 규모 로봇 공장은 2028년 구축, 애널리스트 IPO 전망은 2029-2030년으로 제시됐다. 같은 기간 중국 NeodraDynamics는 양팔 500kg 페이로드와 손끝 반복정밀도 ±0.05mm를 주장하는 4미터급 유압-전기 하이브리드 휴머노이드 Neo1을 발표했다.",
+      "certainty": "[업계 분석]",
       "sl_label": "변곡점",
-      "sl_text": "휴머노이드 병목이 설계에서 양산 공정으로 넘어가면서, 토크 관리·혼류 생산·전수검사 자산을 보유한 국내 부품사에 액추에이터·센서·모듈 공급 트랙이 열렸다."
+      "sl_text": "완성차 계열 휴머노이드의 라인 투입 시점이 2028년 이후로 재확인된 만큼, 향후 2-3년 자동화 예산은 협동로봇과 AMR에 집중하는 편이 회수 확률이 높다."
     },
     {
       "field": "AI·디지털전환",
       "field_note": "",
-      "headline": "IMTS 2026 시카고 개막. 서반구 최대 생산기술 전시회 사상 처음으로 산업 AI 독립 섹터 신설, AI 전업 공급사 32개사와 샌디아국립연구소 배치",
-      "source_label": "IMTS/AMT 보도자료",
-      "source_url": "https://www.imts.com/read/article-details/IMTS-2026-Spotlights-the-Technologies-Powering-Manufacturing-s-Next-Leap/2390/type/Press-Release/5?page=1",
-      "detail": "신설 Industrial AI Conference의 4대 의제가 예지보전·품질·엣지 대 클라우드·데이터 준비도로 구성돼, 병목이 모델 성능이 아니라 데이터 운영 설계임을 주최 측이 공식 의제로 인정했다. AMT는 ABI Research를 인용해 제조기업 85퍼센트가 AI 파일럿 단계에 정체돼 있다고 밝혔다. AI 적용점도 기계 제어에서 조립지시서 생성, RFQ 정규화 등 엔지니어링·영업 워크플로로 이동 중이다.",
+      "headline": "정부가 2027년 피지컬 AI 예산을 3조 1,000억 원으로 확대 편성하고, 제조 현장 행동데이터 표준화와 합성데이터용 월드모델 개발을 국가 전략 축으로 제시",
+      "source_label": "디지털타임스, 2026-09-14",
+      "source_url": "https://www.dt.co.kr/article/12083905",
+      "detail": "9월 14일 서울 은행회관 AI포럼에서 과기정통부 2차관이 밝힌 내용이며, 지난 8월 전북·경남 제조 현장 실증 착수가 함께 공개됐다. 참석 규모는 500여 명이고, 모건스탠리 기준 중국이 휴머노이드 부품 공급망의 63퍼센트를 장악했다는 진단도 제시됐다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "산업 AI 공급사 평가 기준이 표준화되는 국면이므로, 태그·재학습 주체·모델 소유권을 담은 자체 AI 도입 RFP 체크리스트를 지금 확정하면 협상 우위를 확보할 수 있다."
+      "sl_label": "리스크",
+      "sl_text": "제조데이터 표준화가 국가 어젠다로 올라선 만큼, 공정·품질 데이터의 공개 범위와 영업기밀 경계를 먼저 정리하지 않으면 표준 확정 국면에서 협상력을 잃는다."
     },
     {
       "field": "금형·사출 기술",
-      "field_note": "2026-09-11 신규 동향 없음 보고에 이어 기술 공백 2일째",
-      "headline": "요소 기술 신규 발표 0건. 기간 내 확인된 유일한 항목은 클린룸 사출·사내 금형 업체 Velosity가 설계·시작 전문사를 인수해 엔지니어 20명 이상을 편입한 건",
-      "source_label": "PlasticsToday, 2026-09-12",
-      "source_url": "https://www.plasticstoday.com/medical/velosity-acquires-lucid-labs-to-expand-medtech-capabilities",
-      "detail": "냉각·핫러너·CAE·공구강 영역의 유망 후보 6건은 모두 원문 게시일이 9월 11일 이전으로 확인돼 제외됐다. 발표의 논리는 설계·개발 역량을 금형·양산 라인에 근접시켜 DFM을 금형 설계 착수 이전으로 앞당긴다는 것이다. 업계 발표 사이클이 10월 12일부터 16일까지 열리는 Fakuma 2026 사전 발표로 이동 중이어서 9월 하순부터 모니터링 밀도를 높일 필요가 있다.",
-      "certainty": "[공식 발표]",
+      "field_note": "",
+      "headline": "금속 적층제조 컨포멀 쿨링 인서트 적용 사례에서 냉각 사이클 1분에서 40초 단축과 금형 내 온도 편차 86퍼센트 감소 보고",
+      "source_label": "Plastics Today, 2026-09-14",
+      "source_url": "https://www.plasticstoday.com/injection-molding/advanced-3d-printing-revolutionizes-conformal-cooling-channels",
+      "detail": "Mantle 3D Systems는 금속 페이스트 적층 후 CNC 마무리 공정으로 클린룸 요건을 없앴고, Bastech은 인서트를 2일 만에 출력해 방전가공과 드릴링을 제거하며 사이클타임을 22퍼센트 줄였다. 같은 날 Husky Technologies는 코어 간 강-강 접촉을 폴리머 부싱으로 대체한 클로저 툴링 HyCAP 4.0을 공개했다.",
+      "certainty": "[2차 인용]",
       "sl_label": "기회",
-      "sl_text": "금형 내재화의 다음 단계는 설비 증설이 아니라 DFM·시작 조직을 개발 초기 단계에 배치하는 조직 설계라는 신호다."
+      "sl_text": "램프 하우징이나 렌즈 홀더처럼 냉각 불균형이 휨과 싱크마크로 직결되는 부품에 우선 검토 대상이나, 인용 수치가 모두 벤더 자체 사례라 자사 조건 파일럿이 선행돼야 한다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-14-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-15-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
