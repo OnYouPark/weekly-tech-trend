@@ -1,54 +1,54 @@
 {
-  "date": "2026-09-15",
-  "slug": "2026-09-15-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-15",
+  "date": "2026-09-16",
+  "slug": "2026-09-16-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-16",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "2026-09-14 발행 IMTS 2026 개막 이슈의 후속",
-      "headline": "미국 1-7월 공작기계 누계 수주 40억 3,000만 달러로 전년 동기 대비 37.1퍼센트 증가, IMTS 2026 개막장에서 설비 수요와 물리 AI 시연이 동시 확인",
-      "source_label": "RoboticsTomorrow, 2026-09-14",
-      "source_url": "https://www.roboticstomorrow.com/news/2026/09/14/imts-2026-opens-in-chicago-as-manufacturing-takes-center-stage-in-reindustrializing-the-united-states/27090/",
-      "detail": "FANUC 아메리카는 이동 중인 엔진 블록을 CRX 협동로봇이 실시간 추적하며 볼트를 체결하는 시연을 공개했다. 전시 규모는 참가 1,788개사, 117만 제곱피트로 집계됐고 7월 단월 신규 수주는 6억 580만 달러다.",
-      "certainty": "[업계 분석]",
+      "field_note": "",
+      "headline": "산업AI EXPO 출품 기술 3건이 공통으로 엣지 폐루프를 택했고, 로거테크 LT-AO-03은 FFT 연산부터 결함 판정까지 센서 1개에 수직 통합했다",
+      "source_label": "헬로티, 2026-09-15",
+      "source_url": "https://www.hellot.net/news/article.html?no=114967",
+      "detail": "한배시스템은 자기부상 트랙 ACOPOStrak과 X20 Edge 컨트롤러를 묶어 진동·온도·부하 진단 결과를 셔틀 속도 제어로 되먹이는 구조를, 비전스페이스는 투자 집행 전 레이아웃과 동선을 검증하는 TESSERACT를 제시했다. 세 건 모두 클라우드 의존도를 낮추고 폐쇄망에서 분석을 완결하는 방향이다.",
+      "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "컨베이어 정지 없이 작업하는 추종형 협동로봇은 다품종 라인의 지그 투자와 전환시간을 줄일 파일럿 후보이나, 양산 신뢰성 데이터는 아직 없다."
+      "sl_text": "폐쇄망에서 완결되는 온디바이스 진동 진단은 완성차 고객사 보안 감사를 통과하면서 회전기기 예지보전을 도입할 수 있는 드문 경로다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "",
-      "headline": "현대차그룹 고위 임원이 보스턴다이내믹스의 2027년 미국 상장이 어렵다고 확인, 2025년 손실 5,284억 원과 2021-2025년 누적 손실 약 1조 7,000억 원 공개",
-      "source_label": "The Star(로이터 전재), 2026-09-14",
-      "source_url": "https://www.thestar.com.my/tech/tech-news/2026/09/14/exclusive-ipo-for-humanoid-robot-maker-boston-dynamics-unlikely-in-2027-executive-says",
-      "detail": "아틀라스가 대규모 실전 배치에 이르지 못한 점이 근거로 제시됐다. 연산 3만 대 규모 로봇 공장은 2028년 구축, 애널리스트 IPO 전망은 2029-2030년으로 제시됐다. 같은 기간 중국 NeodraDynamics는 양팔 500kg 페이로드와 손끝 반복정밀도 ±0.05mm를 주장하는 4미터급 유압-전기 하이브리드 휴머노이드 Neo1을 발표했다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "변곡점",
-      "sl_text": "완성차 계열 휴머노이드의 라인 투입 시점이 2028년 이후로 재확인된 만큼, 향후 2-3년 자동화 예산은 협동로봇과 AMR에 집중하는 편이 회수 확률이 높다."
+      "field_note": "2026-09-15 발행 IMTS 2026 개막의 후속",
+      "headline": "유니버설 로봇이 7세대 플랫폼 Gen 7을 공개, CB7 Core 컨트롤러가 연산 성능 40퍼센트 향상과 설치 면적 30퍼센트 축소를 제시했다",
+      "source_label": "PR Newswire, 2026-09-15",
+      "source_url": "https://www.prnewswire.com/apac/news-releases/universal-robots-unveils-gen-7-a-new-platform-for-industrial-automation-and-physical-ai-deployment-302876447.html",
+      "detail": "신규 g-시리즈 암 3종은 툴플랜지에 데이터와 전원, 안전 신호를 직결해 비전 배선을 단순화했고 전 기종이 ISO 10218-1과 UL1740 TÜV 인증을 받았다. 같은 기간 웨이모는 일본교통·GO와 2027년 도쿄 무인 서비스 약 100대 계획을 공식화했다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "기회",
+      "sl_text": "CB7이 기존 e-Series 암과 호환되므로, 설비 전면 교체 없이 컨트롤러만 갱신해 AI 비전을 얹는 저비용 경로가 열렸다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "",
-      "headline": "정부가 2027년 피지컬 AI 예산을 3조 1,000억 원으로 확대 편성하고, 제조 현장 행동데이터 표준화와 합성데이터용 월드모델 개발을 국가 전략 축으로 제시",
-      "source_label": "디지털타임스, 2026-09-14",
-      "source_url": "https://www.dt.co.kr/article/12083905",
-      "detail": "9월 14일 서울 은행회관 AI포럼에서 과기정통부 2차관이 밝힌 내용이며, 지난 8월 전북·경남 제조 현장 실증 착수가 함께 공개됐다. 참석 규모는 500여 명이고, 모건스탠리 기준 중국이 휴머노이드 부품 공급망의 63퍼센트를 장악했다는 진단도 제시됐다.",
+      "field_note": "2026-09-07 발행 제조 디지털 트윈 산학센터 건의 후속 흐름",
+      "headline": "디지털트윈 컨소시엄과 NTT DATA가 벤더 중립 컴포저블 트윈 테스트베드 COMPOSE를 발표, 초기 파트너 4개 기관이 참여한다",
+      "source_label": "EIN Presswire, 2026-09-14",
+      "source_url": "https://www.einpresswire.com/article/941532078/digital-twin-consortium-and-ntt-data-announce-compose-testbed-to-advance-scalable-digital-twin-adoption",
+      "detail": "물리 마이크로팩토리를 실데이터 소스로 두고 멀티 에이전트 자율 운영까지 검증 범위에 넣었다. LG CNS는 IMTS 2026에서 설비 10만 대 적용 실적의 Factova Control을 앞세워 북미 진출을 선언했고, Metrology News는 AI 검사 확대 전 이견 감사 4개 지표를 제시했다.",
       "certainty": "[공식 발표]",
       "sl_label": "리스크",
-      "sl_text": "제조데이터 표준화가 국가 어젠다로 올라선 만큼, 공정·품질 데이터의 공개 범위와 영업기밀 경계를 먼저 정리하지 않으면 표준 확정 국면에서 협상력을 잃는다."
+      "sl_text": "트윈 아키텍처가 컴포저블 방향으로 표준화되면 특정 SI에 종속된 기존 라인 트윈 자산은 재사용 가치가 떨어져 재투자 시점이 앞당겨진다."
     },
     {
       "field": "금형·사출 기술",
-      "field_note": "",
-      "headline": "금속 적층제조 컨포멀 쿨링 인서트 적용 사례에서 냉각 사이클 1분에서 40초 단축과 금형 내 온도 편차 86퍼센트 감소 보고",
-      "source_label": "Plastics Today, 2026-09-14",
-      "source_url": "https://www.plasticstoday.com/injection-molding/advanced-3d-printing-revolutionizes-conformal-cooling-channels",
-      "detail": "Mantle 3D Systems는 금속 페이스트 적층 후 CNC 마무리 공정으로 클린룸 요건을 없앴고, Bastech은 인서트를 2일 만에 출력해 방전가공과 드릴링을 제거하며 사이클타임을 22퍼센트 줄였다. 같은 날 Husky Technologies는 코어 간 강-강 접촉을 폴리머 부싱으로 대체한 클로저 툴링 HyCAP 4.0을 공개했다.",
-      "certainty": "[2차 인용]",
+      "field_note": "2026-09-10 발행 핫러너 지능화 진단의 후속",
+      "headline": "현업 엔지니어가 금형 취득가 10만 달러당 연 4,000-5,000달러를 핫러너 예방보전비로 별도 책정해야 한다는 정량 기준을 제시했다",
+      "source_label": "PlasticsToday, 2026-09-15",
+      "source_url": "https://www.plasticstoday.com/injection-molding/hot-runner-systems-optimize-injection-molding-efficiency",
+      "detail": "예지보전 수집 신호를 히터 저항, 볼트 토크, 진동 시그니처, 밸브핀 상태 4종으로 특정했고, 온도로 유동을 맞추는 열적 밸런싱을 부정하고 설계 단계 매니폴드 밸런싱을 원칙으로 규정했다. Husky는 폴리머 부싱으로 강-강 접촉을 줄인 HyCAP 4.0 툴링 플랫폼을 공개했다.",
+      "certainty": "[업계 분석]",
       "sl_label": "기회",
-      "sl_text": "램프 하우징이나 렌즈 홀더처럼 냉각 불균형이 휨과 싱크마크로 직결되는 부품에 우선 검토 대상이나, 인용 수치가 모두 벤더 자체 사례라 자사 조건 파일럿이 선행돼야 한다."
+      "sl_text": "금형 보전비를 취득가 연동 비율로 표준화하면 램프 금형 다품종 운영에서 돌발 정지 비용을 사전 예산화할 근거가 생긴다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-15-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-16-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
