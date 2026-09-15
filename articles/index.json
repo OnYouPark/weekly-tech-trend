@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "slug": "2026-09-16-production",
+      "title": "생산기술 신규기술 브리핑 - 2026년 9월 3주차",
+      "date": "2026-09-16",
+      "type": "production",
+      "period": "2026년 9월 3주차",
+      "tags": [
+        "ENGEL EVA",
+        "Kistler ComoNeo",
+        "Husky HyCAP",
+        "Moretto",
+        "Universal Robots Gen 7",
+        "Agility Digit 5",
+        "ISO 21423",
+        "IMTS 2026"
+      ],
+      "summary": "사출은 AI가 조언 단계를 넘어 작업자 승인 후 사출기 제어계에 파라미터를 직접 쓰는 구조가 ENGEL에서 처음 제시되고, Kistler는 캐비티 압력에 금형 온도 신호를 더해 사출-보압 절환을 제어하는 구성을 공개. 로봇은 IMTS 2026 개막에 맞춰 Universal Robots가 힘-토크 센싱과 임피던스 제어를 암 내부로 흡수한 7세대 플랫폼을, Agility Robotics는 가동 대 충전 비율을 10대 1로 끌어올린 Digit 5를 공개"
+    },
+    {
       "slug": "2026-09-16-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 9월 16일",
       "date": "2026-09-16",
