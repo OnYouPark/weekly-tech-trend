@@ -1,6 +1,25 @@
 {
   "articles": [
     {
+      "slug": "2026-09-16-optatec-2026",
+      "title": "OPTATEC 2026",
+      "date": "2026-09-16",
+      "type": "exhibition",
+      "period": "2026-05-05 – 05-07",
+      "venue": "독일 프랑크푸르트 메세 프랑크푸르트 Halle 3.0",
+      "tags": [
+        "Fraunhofer ILT",
+        "Photonics Frontiers Award",
+        "Q.ANT",
+        "Precitec LWM",
+        "Innolite IL400L",
+        "Panasonic UA3P",
+        "FHR EOSS",
+        "Optotune"
+      ],
+      "summary": "제17회 Optatec은 출품사 265개사로 직전 회차 대비 약 37퍼센트 축소된 대신, optics.org와 공동 편성한 Photonics Talks와 Photonics Frontiers Award를 신설해 산업별 의제 설정 기능을 강화했다. 기술적 중심은 광학 부품이 아니라 광학 생산 설비였고, 자동차 센서가 반일 단독 트랙을 배정받았으며, 유럽 광학 산업의 양산 스케일업 능력이 공개 토론 주제로 올라왔다."
+    },
+    {
       "slug": "2026-09-16-production",
       "title": "생산기술 신규기술 브리핑 - 2026년 9월 3주차",
       "date": "2026-09-16",
