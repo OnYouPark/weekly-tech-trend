@@ -1,54 +1,54 @@
 {
-  "date": "2026-09-16",
-  "slug": "2026-09-16-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-16",
+  "date": "2026-09-17",
+  "slug": "2026-09-17-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-17",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "산업AI EXPO 출품 기술 3건이 공통으로 엣지 폐루프를 택했고, 로거테크 LT-AO-03은 FFT 연산부터 결함 판정까지 센서 1개에 수직 통합했다",
-      "source_label": "헬로티, 2026-09-15",
-      "source_url": "https://www.hellot.net/news/article.html?no=114967",
-      "detail": "한배시스템은 자기부상 트랙 ACOPOStrak과 X20 Edge 컨트롤러를 묶어 진동·온도·부하 진단 결과를 셔틀 속도 제어로 되먹이는 구조를, 비전스페이스는 투자 집행 전 레이아웃과 동선을 검증하는 TESSERACT를 제시했다. 세 건 모두 클라우드 의존도를 낮추고 폐쇄망에서 분석을 완결하는 방향이다.",
+      "headline": "지멘스와 P&G, AI 외관검사 Visual Inspection Cockpit 전 세계 생산거점 확대. 스크랩률 10-20퍼센트 감소, 신규 라인 커미셔닝 5-10배 단축",
+      "source_label": "Siemens Press, 2026-09-15",
+      "source_url": "https://press.siemens.com/global/en/pressrelease/siemens-and-procter-gamble-scale-ai-based-quality-inspection-across-global-production",
+      "detail": "검사 로직을 Industrial Edge 애플리케이션으로 패키징하고, Visual Inspection Engineering Tool을 통해 현장 엔지니어가 데이터 사이언스 인력 없이 모델을 설정하고 학습하고 갱신하는 구조다. 같은 날 지멘스는 장비 납입 전 프로그래밍과 가상 검증을 선행해 램프업 시간을 최대 50퍼센트 줄이는 Meet at the Machine도 발표했다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "폐쇄망에서 완결되는 온디바이스 진동 진단은 완성차 고객사 보안 감사를 통과하면서 회전기기 예지보전을 도입할 수 있는 드문 경로다."
+      "sl_text": "다품종 외관검사 비중이 큰 램프 라인에서 신규 모델 전개 때마다 반복되는 비전 재설정 공수를 앱 재사용 구조로 줄일 수 있다. 다만 Industrial Edge 스택 종속과 모델 재학습의 4M 변경관리 처리를 조달 단계에서 못 박아야 한다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "2026-09-15 발행 IMTS 2026 개막의 후속",
-      "headline": "유니버설 로봇이 7세대 플랫폼 Gen 7을 공개, CB7 Core 컨트롤러가 연산 성능 40퍼센트 향상과 설치 면적 30퍼센트 축소를 제시했다",
-      "source_label": "PR Newswire, 2026-09-15",
-      "source_url": "https://www.prnewswire.com/apac/news-releases/universal-robots-unveils-gen-7-a-new-platform-for-industrial-automation-and-physical-ai-deployment-302876447.html",
-      "detail": "신규 g-시리즈 암 3종은 툴플랜지에 데이터와 전원, 안전 신호를 직결해 비전 배선을 단순화했고 전 기종이 ISO 10218-1과 UL1740 TÜV 인증을 받았다. 같은 기간 웨이모는 일본교통·GO와 2027년 도쿄 무인 서비스 약 100대 계획을 공식화했다.",
+      "field_note": "2026-09-09 발행 삼성SDS 로봇 오케스트레이션의 후속",
+      "headline": "InOrbit.AI, 이동로봇 상호운용 국제표준 ISO 21423의 세계 첫 오픈소스 레퍼런스 구현 OpenRobOps를 Apache 2.0으로 공개",
+      "source_label": "The Robot Report, 2026-09-15",
+      "source_url": "https://www.therobotreport.com/inorbit-ai-releases-openrobops-iso-21423-reference-implementation/",
+      "detail": "해당 표준은 2026년 7월 21일 출판 단계인 60.00에 진입했고, 안전 요구사항과 공도 주행 기계는 적용 범위에서 제외된다. 국내에서는 디플리가 자동차 의장 공정 커넥터 체결 라인에 음향 AI를 공급해 진성 불량 탐지율 99.9퍼센트를 구현했다고 9월 16일 발표했다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "CB7이 기존 e-Series 암과 호환되므로, 설비 전면 교체 없이 컨트롤러만 갱신해 AI 비전을 얹는 저비용 경로가 열렸다."
+      "sl_text": "신규 AMR과 물류자동화 발주 사양서에 표준 준수 또는 준수 로드맵 제시를 요구 항목으로 넣으면 관제 시스템 벤더 종속과 향후 교체 비용을 선제 차단할 수 있다. 단 표준이 안전을 다루지 않으므로 안전 규격 대응은 별도 항목으로 유지해야 한다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-09-07 발행 제조 디지털 트윈 산학센터 건의 후속 흐름",
-      "headline": "디지털트윈 컨소시엄과 NTT DATA가 벤더 중립 컴포저블 트윈 테스트베드 COMPOSE를 발표, 초기 파트너 4개 기관이 참여한다",
-      "source_label": "EIN Presswire, 2026-09-14",
-      "source_url": "https://www.einpresswire.com/article/941532078/digital-twin-consortium-and-ntt-data-announce-compose-testbed-to-advance-scalable-digital-twin-adoption",
-      "detail": "물리 마이크로팩토리를 실데이터 소스로 두고 멀티 에이전트 자율 운영까지 검증 범위에 넣었다. LG CNS는 IMTS 2026에서 설비 10만 대 적용 실적의 Factova Control을 앞세워 북미 진출을 선언했고, Metrology News는 AI 검사 확대 전 이견 감사 4개 지표를 제시했다.",
+      "field_note": "피지컬 AI 연속 4일째",
+      "headline": "과기정통부, 전북·경남 피지컬 AI R&D 착수. 5년간 약 1조 4,000억 원 투입, 2030년 폐루프 자동화율 90퍼센트 이상 목표 제시",
+      "source_label": "정보통신신문, 2026-09-16",
+      "source_url": "https://www.koit.co.kr/news/articleView.html?idxno=209108",
+      "detail": "전북 7,368억 원과 경남 6,763억 원으로 배분되며 재학습 반영 24시간 이내라는 운영 지표가 함께 공개됐다. 같은 날 산업연구원은 자체 로봇 없이 국내 제조 현장만 제공하면 행동 데이터가 해외 기업 경쟁력으로 이전된다는 데이터 주권 경고를 내놨다.",
       "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "트윈 아키텍처가 컴포저블 방향으로 표준화되면 특정 SI에 종속된 기존 라인 트윈 자산은 재사용 가치가 떨어져 재투자 시점이 앞당겨진다."
+      "sl_label": "기회",
+      "sl_text": "경남 LAM 사업이 완성차와 일반 제조 조립 공정을 2단계 실증 구간으로 명시해, 행동 데이터 제공 대가로 모델 접근권을 협상할 창이 열렸다. PoC 계약서에 데이터 소유권과 경쟁사 적용 금지 조항을 선제적으로 넣어야 한다."
     },
     {
       "field": "금형·사출 기술",
-      "field_note": "2026-09-10 발행 핫러너 지능화 진단의 후속",
-      "headline": "현업 엔지니어가 금형 취득가 10만 달러당 연 4,000-5,000달러를 핫러너 예방보전비로 별도 책정해야 한다는 정량 기준을 제시했다",
-      "source_label": "PlasticsToday, 2026-09-15",
-      "source_url": "https://www.plasticstoday.com/injection-molding/hot-runner-systems-optimize-injection-molding-efficiency",
-      "detail": "예지보전 수집 신호를 히터 저항, 볼트 토크, 진동 시그니처, 밸브핀 상태 4종으로 특정했고, 온도로 유동을 맞추는 열적 밸런싱을 부정하고 설계 단계 매니폴드 밸런싱을 원칙으로 규정했다. Husky는 폴리머 부싱으로 강-강 접촉을 줄인 HyCAP 4.0 툴링 플랫폼을 공개했다.",
-      "certainty": "[업계 분석]",
+      "field_note": "2026-09-09 발행 Fakuma 2026 사전 발표의 후속",
+      "headline": "Arburg, Fakuma 2026용 자동화 셀 공개. 16캐비티 PA 12 + GF 30퍼센트 자동차 커넥터를 사이클 약 8초로 성형",
+      "source_label": "plasticker, 2026-09-16",
+      "source_url": "https://plasticker.de/Kunststoff_News_49324_Arburg_Allrounder_Trend_fr_automatisierte_Standardanwendungen_im_Spritzgieen",
+      "detail": "STL 데이터만으로 초기 머신 데이터셋을 설비에서 직접 산출하는 aXw Control FirstShotAssist가 함께 공개됐다. Nolden은 금형 냉각수 회로를 현장에서 즉시 점검하는 휴대형 유량과 온도 측정기 FlowExpert를, Hasco는 금형 배선 검사기용 어댑터 제품군 확대를 내놨다.",
+      "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "금형 보전비를 취득가 연동 비율로 표준화하면 램프 금형 다품종 운영에서 돌발 정지 비용을 사전 예산화할 근거가 생긴다."
+      "sl_text": "신규 금형 T0 시작조건 설정 공수를 줄이는 수단으로 다품종 시작품 라인의 셋업 표준화에 우선 검증할 실익이 있다. 냉각회로 휴대형 계측은 컨포멀 쿨링 투자 효과를 검증할 기준선 데이터 확보 수단으로 즉시 검토 가능하다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-16-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-17-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
