@@ -1,54 +1,54 @@
 {
-  "date": "2026-09-17",
-  "slug": "2026-09-17-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-17",
+  "date": "2026-09-18",
+  "slug": "2026-09-18-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-18",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "지멘스와 P&G, AI 외관검사 Visual Inspection Cockpit 전 세계 생산거점 확대. 스크랩률 10-20퍼센트 감소, 신규 라인 커미셔닝 5-10배 단축",
-      "source_label": "Siemens Press, 2026-09-15",
-      "source_url": "https://press.siemens.com/global/en/pressrelease/siemens-and-procter-gamble-scale-ai-based-quality-inspection-across-global-production",
-      "detail": "검사 로직을 Industrial Edge 애플리케이션으로 패키징하고, Visual Inspection Engineering Tool을 통해 현장 엔지니어가 데이터 사이언스 인력 없이 모델을 설정하고 학습하고 갱신하는 구조다. 같은 날 지멘스는 장비 납입 전 프로그래밍과 가상 검증을 선행해 램프업 시간을 최대 50퍼센트 줄이는 Meet at the Machine도 발표했다.",
-      "certainty": "[공식 발표]",
+      "headline": "LG전자, 산업용 로봇 관절모듈·감속기·프레임까지 자체 설계 착수. 스마트팩토리 누적 수주 1조 2,000억원 돌파",
+      "source_label": "뉴스핌, 2026-09-17",
+      "source_url": "https://www.newspim.com/news/view/20260917000725",
+      "detail": "생산기술원이 AI Powered Industrial Humanoid를 목표로 하드웨어 플랫폼을 선확보하는 구조이며, 2026년 7월 스마트팩토리솔루션센터가 상무급에서 전무급 조직으로 격상됐다. 같은 날 KT는 과기정통부 AI 기반 다크팩토리 설계·구축 과제의 공동연구기관으로 확정돼 전북혁신도시 인근 24시간 무인공장 실증에 들어간다.",
+      "certainty": "[업계 분석]",
       "sl_label": "기회",
-      "sl_text": "다품종 외관검사 비중이 큰 램프 라인에서 신규 모델 전개 때마다 반복되는 비전 재설정 공수를 앱 재사용 구조로 줄일 수 있다. 다만 Industrial Edge 스택 종속과 모델 재학습의 4M 변경관리 처리를 조달 단계에서 못 박아야 한다."
+      "sl_text": "라인 자동화를 해외 SI에 의존하던 구조에서 전장·배터리 고객 경험을 가진 국내 공급사를 협상 테이블에 올릴 선택지가 생겼다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "2026-09-09 발행 삼성SDS 로봇 오케스트레이션의 후속",
-      "headline": "InOrbit.AI, 이동로봇 상호운용 국제표준 ISO 21423의 세계 첫 오픈소스 레퍼런스 구현 OpenRobOps를 Apache 2.0으로 공개",
-      "source_label": "The Robot Report, 2026-09-15",
-      "source_url": "https://www.therobotreport.com/inorbit-ai-releases-openrobops-iso-21423-reference-implementation/",
-      "detail": "해당 표준은 2026년 7월 21일 출판 단계인 60.00에 진입했고, 안전 요구사항과 공도 주행 기계는 적용 범위에서 제외된다. 국내에서는 디플리가 자동차 의장 공정 커넥터 체결 라인에 음향 AI를 공급해 진성 불량 탐지율 99.9퍼센트를 구현했다고 9월 16일 발표했다.",
+      "field_note": "",
+      "headline": "ALVEST가 EasyMile 인수해 구내 자율물류 단일 법인 TLD Robotics 출범, 10개국 35개 이상 사이트에서 누적 자율임무 5만 건",
+      "source_label": "EasyMile, 2026-09-16",
+      "source_url": "https://easymile.com/en/news-insights/tld-robotics-launched-as-alvest-group-acquires-easymile-and-tracteasy",
+      "detail": "자율주행 소프트웨어와 차량 제조, 선단 관리를 한 조직에 통합해 안전 개념을 일원화했고 고객사에 BMW 딩골핑 공장과 다임러트럭, 보쉬가 포함된다. 같은 기간 미스미는 5,000만 달러 규모 로보틱스·피지컬 AI 전용 벤처펀드를 설립했다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "신규 AMR과 물류자동화 발주 사양서에 표준 준수 또는 준수 로드맵 제시를 요구 항목으로 넣으면 관제 시스템 벤더 종속과 향후 교체 비용을 선제 차단할 수 있다. 단 표준이 안전을 다루지 않으므로 안전 규격 대응은 별도 항목으로 유지해야 한다."
+      "sl_label": "리스크",
+      "sl_text": "완성차 구내 물류가 차량·소프트웨어 단일 책임 공급사 체제로 묶이면 납품 측이 적재 규격과 핸드오버 프로토콜 대응 비용을 협상 없이 떠안게 된다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "피지컬 AI 연속 4일째",
-      "headline": "과기정통부, 전북·경남 피지컬 AI R&D 착수. 5년간 약 1조 4,000억 원 투입, 2030년 폐루프 자동화율 90퍼센트 이상 목표 제시",
-      "source_label": "정보통신신문, 2026-09-16",
-      "source_url": "https://www.koit.co.kr/news/articleView.html?idxno=209108",
-      "detail": "전북 7,368억 원과 경남 6,763억 원으로 배분되며 재학습 반영 24시간 이내라는 운영 지표가 함께 공개됐다. 같은 날 산업연구원은 자체 로봇 없이 국내 제조 현장만 제공하면 행동 데이터가 해외 기업 경쟁력으로 이전된다는 데이터 주권 경고를 내놨다.",
+      "field_note": "2026-09-14 발행 M.AX 지역 확산 컨퍼런스의 후속",
+      "headline": "산업통상부, 제조 AI 파운데이션 모델·제조 데이터 라이브러리 구축계획 공개. 현재 10개 업종 82개 공정에서 122개 데이터셋 확보",
+      "source_label": "포인트데일리, 2026-09-17",
+      "source_url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=319718",
+      "detail": "데이터 확보 기준이 수집 가능한 것부터에서 공정 영향도·범용성 선별로 바뀌고, 필요 시 신규 생성·구매·합성을 병행하는 방식이 처음 명시됐다. 중기부는 같은 날 GPU 40장 규모 경남 공공형 제조 AI 센터를 개소했으며 2027년부터 유료 전환된다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "경남 LAM 사업이 완성차와 일반 제조 조립 공정을 2단계 실증 구간으로 명시해, 행동 데이터 제공 대가로 모델 접근권을 협상할 창이 열렸다. PoC 계약서에 데이터 소유권과 경쟁사 적용 금지 조항을 선제적으로 넣어야 한다."
+      "sl_text": "사출·도장 공정을 국가 데이터셋에 먼저 편입시키면 모델 튜닝 우선권을 선점하지만, 어느 수준까지 데이터를 내보낼지 사내 기준이 선행돼야 한다."
     },
     {
       "field": "금형·사출 기술",
-      "field_note": "2026-09-09 발행 Fakuma 2026 사전 발표의 후속",
-      "headline": "Arburg, Fakuma 2026용 자동화 셀 공개. 16캐비티 PA 12 + GF 30퍼센트 자동차 커넥터를 사이클 약 8초로 성형",
-      "source_label": "plasticker, 2026-09-16",
-      "source_url": "https://plasticker.de/Kunststoff_News_49324_Arburg_Allrounder_Trend_fr_automatisierte_Standardanwendungen_im_Spritzgieen",
-      "detail": "STL 데이터만으로 초기 머신 데이터셋을 설비에서 직접 산출하는 aXw Control FirstShotAssist가 함께 공개됐다. Nolden은 금형 냉각수 회로를 현장에서 즉시 점검하는 휴대형 유량과 온도 측정기 FlowExpert를, Hasco는 금형 배선 검사기용 어댑터 제품군 확대를 내놨다.",
+      "field_note": "",
+      "headline": "technotrans, 광학 PC 부품 전용 변온 온조 셀 공개. 변온 시스템 vario Gekko 에너지 절감 잠재력 최대 40% 제시",
+      "source_label": "plasticker, 2026-09-17",
+      "source_url": "https://plasticker.de/news/shownews.php?nr=49219",
+      "detail": "수배분기 orcinus를 사출기에 내장해 온조 회로 파라미터를 OPC UA로 상위에 전송하고, 편광 필터로 부품 내부 잔류응력을 상시 가시화한다. HB-Therm은 회로당 0.4에서 40 L/min을 계측하는 무보수 초음파 유량계 Flow-6를 공개했으며 능동 유량제어는 2027년 3월 개방 예정이다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "신규 금형 T0 시작조건 설정 공수를 줄이는 수단으로 다품종 시작품 라인의 셋업 표준화에 우선 검증할 실익이 있다. 냉각회로 휴대형 계측은 컨포멀 쿨링 투자 효과를 검증할 기준선 데이터 확보 수단으로 즉시 검토 가능하다."
+      "sl_text": "램프 렌즈급 투명 PC의 잔류응력 책임이 성형조건에서 금형 온조 하드웨어로 옮겨가면서, 온조 회로 사양을 금형 견적 단계 협상 항목으로 끌어올릴 여지가 생겼다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-17-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-18-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
