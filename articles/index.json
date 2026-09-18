@@ -1,6 +1,25 @@
 {
   "articles": [
     {
+      "slug": "2026-09-18-hannover-messe-2026",
+      "title": "HANNOVER MESSE 2026",
+      "date": "2026-09-18",
+      "type": "exhibition",
+      "period": "2026-04-20 – 04-24",
+      "venue": "독일 하노버 전시장(Messegelände Hannover)",
+      "tags": [
+        "Schaeffler",
+        "HERMES AWARD",
+        "HMND 01 Alpha",
+        "SENTRON 3QD2",
+        "Defense Production Area",
+        "Agile ONE",
+        "BTRY",
+        "Eigen Engineering Agent"
+      ],
+      "summary": "참관객 110,000명, 출품사 약 3,000개사로 규모 지표가 동시에 후퇴한 회차다. 전시 영역은 자동화·디지털화 / 에너지·산업인프라 / 연구·기술이전 3대 축으로 통합됐고 방위산업 생산기술 전용 구역이 처음 신설됐다. 기술 의제는 휴머노이드와 산업 AI가 지배했으나 정량 실적을 낸 쪽은 로봇 완제품이 아니라 액추에이터·감속기 같은 부품 공급사였다. HERMES AWARD 2026은 자동차 부품사 Schaeffler의 휴머노이드 관절 액추에이터 플랫폼에 돌아갔다."
+    },
+    {
       "slug": "2026-09-18-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 9월 18일",
       "date": "2026-09-18",
