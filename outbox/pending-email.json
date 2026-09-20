@@ -1,54 +1,54 @@
 {
-  "date": "2026-09-18",
-  "slug": "2026-09-18-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-18",
+  "date": "2026-09-21",
+  "slug": "2026-09-21-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-21",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "LG전자, 산업용 로봇 관절모듈·감속기·프레임까지 자체 설계 착수. 스마트팩토리 누적 수주 1조 2,000억원 돌파",
-      "source_label": "뉴스핌, 2026-09-17",
-      "source_url": "https://www.newspim.com/news/view/20260917000725",
-      "detail": "생산기술원이 AI Powered Industrial Humanoid를 목표로 하드웨어 플랫폼을 선확보하는 구조이며, 2026년 7월 스마트팩토리솔루션센터가 상무급에서 전무급 조직으로 격상됐다. 같은 날 KT는 과기정통부 AI 기반 다크팩토리 설계·구축 과제의 공동연구기관으로 확정돼 전북혁신도시 인근 24시간 무인공장 실증에 들어간다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "기회",
-      "sl_text": "라인 자동화를 해외 SI에 의존하던 구조에서 전장·배터리 고객 경험을 가진 국내 공급사를 협상 테이블에 올릴 선택지가 생겼다."
+      "headline": "중국이 제조 AI 보급률 34.2퍼센트를 첫 공식 지표로 발표, 생산제조 단계는 69.5퍼센트에 머물렀다",
+      "source_label": "홍콩상보, 2026-09-20",
+      "source_url": "https://www.hkcd.com/hkcdweb/content/2026/09/20/content_8776119.html",
+      "detail": "세계제조업대회 개막일에 공신부 계열 기관이 제조업 수즈화 전환 능력 수준(2026)을 발표했다. 연구개발 86.3퍼센트, 경영관리 81.4퍼센트에 비해 생산제조 단계가 16.8퍼센트포인트 뒤져 MES와 설비 제어 계층이 여전히 병목임이 수치로 드러났다. 안후이성은 같은 날 CV 품질검사 대모델 9건과 DFMEA 등 공업 지능체 26건을 성급 인증 자산으로 공개했다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "리스크",
+      "sl_text": "중국 부품사의 검사·설계 리드타임이 성급 인증과 정책 지원을 업고 단축되면서 램프·전장 외관검사의 원가 우위가 잠식된다."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "ALVEST가 EasyMile 인수해 구내 자율물류 단일 법인 TLD Robotics 출범, 10개국 35개 이상 사이트에서 누적 자율임무 5만 건",
-      "source_label": "EasyMile, 2026-09-16",
-      "source_url": "https://easymile.com/en/news-insights/tld-robotics-launched-as-alvest-group-acquires-easymile-and-tracteasy",
-      "detail": "자율주행 소프트웨어와 차량 제조, 선단 관리를 한 조직에 통합해 안전 개념을 일원화했고 고객사에 BMW 딩골핑 공장과 다임러트럭, 보쉬가 포함된다. 같은 기간 미스미는 5,000만 달러 규모 로보틱스·피지컬 AI 전용 벤처펀드를 설립했다.",
+      "headline": "체리 아이모가가 스마트카와 휴머노이드의 공급망 중복률을 90퍼센트 이상으로 제시했다",
+      "source_label": "Global Times, 2026-09-20",
+      "source_url": "https://www.globaltimes.cn/page/202609/1370978.shtml",
+      "detail": "기어 트랜스미션, 도메인 컨트롤러, 라이다, 카메라가 공통 품목으로 지목됐다. 허사이는 2026년 2분기 로봇용 라이다 14만 2,371대를 출하해 전년 동기 대비 193.4퍼센트 늘었고, 속텐취엔촨은 고객과의 경쟁을 피하려 로봇 완제품 사업을 5,987만 8,000위안에 매각했다. IMTS 폐막일에는 하이어보틱스가 협동로봇 라인 트래킹과 모듈형 리니어 레일을 공개했다.",
       "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "완성차 구내 물류가 차량·소프트웨어 단일 책임 공급사 체제로 묶이면 납품 측이 적재 규격과 핸드오버 프로토콜 대응 비용을 협상 없이 떠안게 된다."
+      "sl_label": "기회",
+      "sl_text": "차량용 양산 검증 자산을 로봇 관절·인지 모듈로 전용할 구간이 열렸고, 중국 티어1 연맹이 인터페이스 규격을 굳히기 전이 진입 시점이다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-09-14 발행 M.AX 지역 확산 컨퍼런스의 후속",
-      "headline": "산업통상부, 제조 AI 파운데이션 모델·제조 데이터 라이브러리 구축계획 공개. 현재 10개 업종 82개 공정에서 122개 데이터셋 확보",
-      "source_label": "포인트데일리, 2026-09-17",
-      "source_url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=319718",
-      "detail": "데이터 확보 기준이 수집 가능한 것부터에서 공정 영향도·범용성 선별로 바뀌고, 필요 시 신규 생성·구매·합성을 병행하는 방식이 처음 명시됐다. 중기부는 같은 날 GPU 40장 규모 경남 공공형 제조 AI 센터를 개소했으며 2027년부터 유료 전환된다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "사출·도장 공정을 국가 데이터셋에 먼저 편입시키면 모델 튜닝 우선권을 선점하지만, 어느 수준까지 데이터를 내보낼지 사내 기준이 선행돼야 한다."
+      "field_note": "2026-09-15 IMTS 개막의 후속",
+      "headline": "SK텔레콤이 AI 도입 직후 50시간 업무가 500시간으로 늘었다가 재설계 후 1시간이 됐다고 공개했다",
+      "source_label": "이데일리 IR, 2026-09-20",
+      "source_url": "https://ir.edaily.co.kr/News/Read?k=01561286645582088",
+      "detail": "정재헌 CEO가 AX의 J커브를 주제로 제시한 실측치로, 한국은행 조사에서도 업무시간 감소가 산출량 증가로 이어지지 않는 생산성 단절이 확인됐다. SK텔레콤은 AI 에이전트에 사번과 직무, 권한을 부여해 조직 자원으로 관리하는 방안을 추진 중이다. 같은 기간 중국 FAW 지에팡 공장은 전 물류를 AGV로 치환하고 타이어 조립 오차 0.2mm를 제시했다.",
+      "certainty": "[2차 인용]",
+      "sl_label": "변곡점",
+      "sl_text": "AX 초기 공수가 10배로 팽창하는 구간이 실측되면서, 파일럿 KPI를 산출량이 아닌 데이터 정합률로 분리할 근거가 생겼다."
     },
     {
       "field": "금형·사출 기술",
-      "field_note": "",
-      "headline": "technotrans, 광학 PC 부품 전용 변온 온조 셀 공개. 변온 시스템 vario Gekko 에너지 절감 잠재력 최대 40% 제시",
-      "source_label": "plasticker, 2026-09-17",
-      "source_url": "https://plasticker.de/news/shownews.php?nr=49219",
-      "detail": "수배분기 orcinus를 사출기에 내장해 온조 회로 파라미터를 OPC UA로 상위에 전송하고, 편광 필터로 부품 내부 잔류응력을 상시 가시화한다. HB-Therm은 회로당 0.4에서 40 L/min을 계측하는 무보수 초음파 유량계 Flow-6를 공개했으며 능동 유량제어는 2027년 3월 개방 예정이다.",
+      "field_note": "2026-09-14 재생수지 압력의 후속",
+      "headline": "Envalior가 Fakuma 2026용 800V 대응 소재군을 공개했다. Stanyl CR310은 GWFI 960도, Pocan PBT는 CTI 600 등급이다",
+      "source_label": "K-Zeitung, 2026-09-20",
+      "source_url": "https://k-zeitung.de/kunststoffe-fuer-den-dynamischen-wandel-der-zeit",
+      "detail": "전압 상승과 열밀도 상승, 재생재 의무라는 세 제약을 한 포트폴리오에서 다룬 구성이다. 폐차 부품에서 고순도 카프로락탐을 회수하는 Secara와 제휴해 순환 PA6 공급망도 함께 제시했으며, EU 폐차 규정의 재생재 함량 요구 대응이 목적이다. 주말과 겹쳐 ETMM, MoldMaking Technology 등 금형 전문매체의 기간 내 신규 기사는 0건이었다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "램프 렌즈급 투명 PC의 잔류응력 책임이 성형조건에서 금형 온조 하드웨어로 옮겨가면서, 온조 회로 사양을 금형 견적 단계 협상 항목으로 끌어올릴 여지가 생겼다."
+      "sl_label": "리스크",
+      "sl_text": "재생재 부담은 소재 구매 전환이 아니라 기존 금형의 공정창 재검증과 로트 편차 관리로 전가된다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-18-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-21-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
