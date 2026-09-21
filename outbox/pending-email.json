@@ -1,54 +1,54 @@
 {
-  "date": "2026-09-21",
-  "slug": "2026-09-21-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-21",
+  "date": "2026-09-22",
+  "slug": "2026-09-22-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-22",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "",
-      "headline": "중국이 제조 AI 보급률 34.2퍼센트를 첫 공식 지표로 발표, 생산제조 단계는 69.5퍼센트에 머물렀다",
-      "source_label": "홍콩상보, 2026-09-20",
-      "source_url": "https://www.hkcd.com/hkcdweb/content/2026/09/20/content_8776119.html",
-      "detail": "세계제조업대회 개막일에 공신부 계열 기관이 제조업 수즈화 전환 능력 수준(2026)을 발표했다. 연구개발 86.3퍼센트, 경영관리 81.4퍼센트에 비해 생산제조 단계가 16.8퍼센트포인트 뒤져 MES와 설비 제어 계층이 여전히 병목임이 수치로 드러났다. 안후이성은 같은 날 CV 품질검사 대모델 9건과 DFMEA 등 공업 지능체 26건을 성급 인증 자산으로 공개했다.",
+      "field_note": "2026-09-18 발행 M.AX 얼라이언스 건의 후속",
+      "headline": "산업통상부가 9월 21일 세종에서 산단 제조기업 CEO 50여 명 포함 약 100명을 10개 팀으로 편성한 M.AX CEO 해커톤을 열고, AI 비전검사·예지보전·제조 암묵지·피지컬AI 4개 축을 후속 실증 지원 과제로 확정했다",
+      "source_label": "EBN, 2026-09-21",
+      "source_url": "https://www.ebn.co.kr/news/articleView.html?idxno=1725189",
+      "detail": "기존 M.AX가 얼라이언스·데이터 라이브러리 같은 공급 측 인프라 구축에 집중했다면, 이번에는 CEO가 적용 기술·대상 공정·투자 규모·기대효과·정부사업 연계 가능성까지 한 세션에서 확정하는 수요 측 과제 발굴 단계로 넘어갔다. 오성철강사의 숙련공 설비 운전 노하우 데이터화와 AI 시뮬레이션 기반 신규 인력 훈련기간 단축 사례가 함께 공유됐다.",
       "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "중국 부품사의 검사·설계 리드타임이 성급 인증과 정책 지원을 업고 단축되면서 램프·전장 외관검사의 원가 우위가 잠식된다."
+      "sl_label": "기회",
+      "sl_text": "검사 불량 유출률이나 특정 설비 비계획 정지 시간처럼 손실 금액이 이미 계량된 단일 공정을 실증과제로 선제 정리해 두면, 차기 공고 대응 리드타임과 초기 투자비를 동시에 줄일 수 있다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "",
-      "headline": "체리 아이모가가 스마트카와 휴머노이드의 공급망 중복률을 90퍼센트 이상으로 제시했다",
-      "source_label": "Global Times, 2026-09-20",
-      "source_url": "https://www.globaltimes.cn/page/202609/1370978.shtml",
-      "detail": "기어 트랜스미션, 도메인 컨트롤러, 라이다, 카메라가 공통 품목으로 지목됐다. 허사이는 2026년 2분기 로봇용 라이다 14만 2,371대를 출하해 전년 동기 대비 193.4퍼센트 늘었고, 속텐취엔촨은 고객과의 경쟁을 피하려 로봇 완제품 사업을 5,987만 8,000위안에 매각했다. IMTS 폐막일에는 하이어보틱스가 협동로봇 라인 트래킹과 모듈형 리니어 레일을 공개했다.",
+      "field_note": "2026-09-11·2026-09-15 발행 보스턴다이내믹스 건의 후속",
+      "headline": "보스턴다이내믹스가 9월 21일 현대차그룹 메타플랜트 아메리카(HMGMA) 부지에 아틀라스 훈련시설 RMAC을 개소하고, 글로벌 공장 2만 5,000대 우선 배치와 미국 연산 3만 대 로봇 생산시설 계획을 함께 제시했다",
+      "source_label": "Boston Dynamics, 2026-09-21",
+      "source_url": "https://bostondynamics.com/news/boston-dynamics-opens-robotics-metaplant-application-center-to-train-humanoid-robots-for-manufacturing-tasks/",
+      "detail": "1차 과업은 조립 투입 직전의 자동차 부품 물류·시퀀싱이며, 텔레오퍼레이션·시뮬레이션 강화학습·UMI 장치를 병용해 행동 학습 데이터를 생산한다. CPTO는 양산형 아틀라스의 설계 가정은 대체로 검증됐고 오히려 치구와 포장을 휴머노이드에 맞게 바꾸는 쪽을 더 많이 학습 중이라고 밝혔다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "차량용 양산 검증 자산을 로봇 관절·인지 모듈로 전용할 구간이 열렸고, 중국 티어1 연맹이 인터페이스 규격을 굳히기 전이 진입 시점이다."
+      "sl_label": "변곡점",
+      "sl_text": "HMGMA 납입 협력사의 포장 형태·수납함 피치·파지 가능 영역 사양이 중기적으로 로봇 친화 규격으로 재정의될 개연성이 커, 현행 납입 용기 사양을 로봇 파지 관점에서 먼저 점검해 둘 국면이다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-09-15 IMTS 개막의 후속",
-      "headline": "SK텔레콤이 AI 도입 직후 50시간 업무가 500시간으로 늘었다가 재설계 후 1시간이 됐다고 공개했다",
-      "source_label": "이데일리 IR, 2026-09-20",
-      "source_url": "https://ir.edaily.co.kr/News/Read?k=01561286645582088",
-      "detail": "정재헌 CEO가 AX의 J커브를 주제로 제시한 실측치로, 한국은행 조사에서도 업무시간 감소가 산출량 증가로 이어지지 않는 생산성 단절이 확인됐다. SK텔레콤은 AI 에이전트에 사번과 직무, 권한을 부여해 조직 자원으로 관리하는 방안을 추진 중이다. 같은 기간 중국 FAW 지에팡 공장은 전 물류를 AGV로 치환하고 타이어 조립 오차 0.2mm를 제시했다.",
-      "certainty": "[2차 인용]",
-      "sl_label": "변곡점",
-      "sl_text": "AX 초기 공수가 10배로 팽창하는 구간이 실측되면서, 파일럿 KPI를 산출량이 아닌 데이터 정합률로 분리할 근거가 생겼다."
+      "field_note": "",
+      "headline": "SK텔레콤이 ITU-T에 제안한 로봇 데이터 팩토리 연동 구조가 신규 표준화 과제로 채택됐고, KT는 전남 영암 조선소 용접·도장 2개 공장에서 AI-RAN 기반 피지컬 AI 실증에 착수했다",
+      "source_label": "디지털투데이, 2026-09-22",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=702102",
+      "detail": "제조사·플랫폼마다 제각각인 로봇 학습 데이터 포맷을 연계해, 디지털트윈이 만든 합성 데이터를 이종 로봇 파운데이션 모델 학습에 재사용하는 계층을 표준으로 올린 것이다. KT의 K RaaS는 이동로봇·WMS·엘리베이터·자동문까지 묶는 오케스트레이션 계층을 표준화 대상으로 삼았다.",
+      "certainty": "[업계 분석]",
+      "sl_label": "리스크",
+      "sl_text": "로봇 학습 데이터 규격이 ITU-T 논의 단계인 지금 특정 벤더의 디지털트윈·로봇 데이터 포맷에 깊게 종속되는 계약은 2–3년 내 전환 비용을 키우므로, 데이터 반출 권한과 표준 포맷 변환 의무를 계약서에 명시해야 한다."
     },
     {
       "field": "금형·사출 기술",
-      "field_note": "2026-09-14 재생수지 압력의 후속",
-      "headline": "Envalior가 Fakuma 2026용 800V 대응 소재군을 공개했다. Stanyl CR310은 GWFI 960도, Pocan PBT는 CTI 600 등급이다",
-      "source_label": "K-Zeitung, 2026-09-20",
-      "source_url": "https://k-zeitung.de/kunststoffe-fuer-den-dynamischen-wandel-der-zeit",
-      "detail": "전압 상승과 열밀도 상승, 재생재 의무라는 세 제약을 한 포트폴리오에서 다룬 구성이다. 폐차 부품에서 고순도 카프로락탐을 회수하는 Secara와 제휴해 순환 PA6 공급망도 함께 제시했으며, EU 폐차 규정의 재생재 함량 요구 대응이 목적이다. 주말과 겹쳐 ETMM, MoldMaking Technology 등 금형 전문매체의 기간 내 신규 기사는 0건이었다.",
+      "field_note": "2026-09-17 발행 Arburg Fakuma 2026 사전 발표의 연속",
+      "headline": "ARBURG·Kebo·Matriq가 9월 21일 캐비티에 0.28 x 0.28 mm 마이크로 히터 144개를 내장해 사출 중 부품마다 다른 Data Matrix 코드를 각인하는 4캐비티·사이클 약 11초 셀을 공개했다",
+      "source_label": "ARBURG, 2026-09-21",
+      "source_url": "https://www.arburg.com/en/company/news-press/detail/fakuma-2026-partner-project/",
+      "detail": "별도 레이저·잉크젯 마킹 설비와 취출 로봇 없이 금형 안에서 개별 식별을 끝내며, OPC UA로 사출기 제어계와 중앙 DB를 묶어 부품 ID에 쇼트 카운트·사출압력·쿠션량을 결합한다. 금형은 Kebo의 완전 기계식 Lift & Strip 구동으로 클린룸 ISO 7 사양을 맞췄다.",
       "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "재생재 부담은 소재 구매 전환이 아니라 기존 금형의 공정창 재검증과 로트 편차 관리로 전가된다."
+      "sl_label": "기회",
+      "sl_text": "후공정 마킹 설비와 로봇 없이 램프류 외관 부품의 단품 추적성을 확보하는 경로가 열려, 디지털 제품 패스포트 대응 원가를 낮출 수 있다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-21-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-22-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
