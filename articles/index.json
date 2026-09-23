@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "slug": "2026-09-23-production",
+      "title": "생산기술 신규기술 브리핑 - 2026년 9월 4주차",
+      "date": "2026-09-23",
+      "type": "production",
+      "period": "2026년 9월 4주차",
+      "tags": [
+        "ARBURG",
+        "Matriq",
+        "DOMINO",
+        "WITTMANN WX253",
+        "Epson AX6",
+        "Isaac ROS 5.0",
+        "Boston Dynamics Atlas",
+        "Robotiq Contact Core"
+      ],
+      "summary": "사출은 Fakuma 2026 사전 공개가 부품 단위 추적성으로 이동해 ARBURG가 금형 인서트에 마이크로히터 144개를 넣어 성형 중 데이터매트릭스를 각인하는 구성을, HASCO·POLAR-FORM과는 회전판 없는 2K 금형 DOMINO를 제시. 로봇은 Epson이 협동로봇 AX6로 첫 진입하고, NVIDIA Isaac ROS 5.0이 독자 가속 API를 표준 ROS 인터페이스로 교체. 휴머노이드는 Boston Dynamics가 완성차 공장 부지에 Atlas 훈련센터를 열어 부품 시퀀싱부터 실환경 학습에 착수."
+    },
+    {
       "slug": "2026-09-22-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 9월 22일",
       "date": "2026-09-22",
