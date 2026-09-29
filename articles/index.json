@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "slug": "2026-09-30-production",
+      "title": "생산기술 신규기술 브리핑 - 2026년 10월 1주차",
+      "date": "2026-09-30",
+      "type": "production",
+      "period": "2026년 10월 1주차",
+      "tags": [
+        "ENGEL e-motion 380",
+        "Plus10 Hopper",
+        "WITTMANN R9",
+        "우진플라임 WABOT",
+        "ABB E-Device",
+        "ANYbotics ANYmal",
+        "뉴로메카 LAM",
+        "Avient Nymax FR"
+      ],
+      "summary": "사출은 Fakuma 2026 사전 발표가 설비 하드웨어에서 제어기 내부로 이동해 ARBURG가 외부 AI(Plus10 Hopper)를 GESTICA에 처음 통합하고 WITTMANN은 취출로봇 제어기 R9가 주변기기 컨트롤러를 흡수하는 구성을 제시. ENGEL은 전동식 e-motion 380으로 사출속도 500 mm/s 박육 영역에 진입. 로봇은 주요 메이커 신제품 발표가 없었고, 대신 ABB가 ISO 10218:2025 대응 범용 단말 조작 인터페이스를, ANYbotics는 로봇에 디지털 신원을 부여해 출입통제 구역을 통과하는 구성을 공개"
+    },
+    {
       "slug": "2026-09-30-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 9월 30일",
       "date": "2026-09-30",
