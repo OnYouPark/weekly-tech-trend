@@ -1,54 +1,54 @@
 {
-  "date": "2026-09-29",
-  "slug": "2026-09-29-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-29",
+  "date": "2026-09-30",
+  "slug": "2026-09-30-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-30",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "산업제어 아키텍처가 PLC·MCU 중심에서 PLC + 고성능 MPU/SoC 결합 구조로 이행, 하드 실시간 제어와 AI 추론을 한 연산 플랫폼에 올리는 혼합임계 설계가 논점으로 부상",
-      "source_label": "Automation.com, 2026-09-28",
-      "source_url": "https://www.automation.com/article/building-resilient-and-secure-industrial-automation-systems",
-      "detail": "QNX 명의 기고는 결함 격리와 커널 재부팅 없는 사용자공간 서비스 재기동 등 마이크로커널 효과 5개 항목을 제시하고, 2026년 9월 요구사항이 공개된 EU CRA와 ISA/IEC 62443을 함께 짚었다. 정량 벤치마크는 제시되지 않았다.",
-      "certainty": "[업계 분석]",
+      "headline": "산업용 TSN 국제표준 IEEE/IEC 60802-2026이 6월 29일 발행 후 처음으로 다벤더 상호운용 검증 단계 진입, 제11회 TSN/A 컨퍼런스 9월 30일 개막",
+      "source_label": "IEEE SA, 2026-06-29",
+      "source_url": "https://standards.ieee.org/ieee/60802/11358/",
+      "detail": "9월 28일부터 29일까지 슈투트가르트 대학 ISW에서 60802-ready 망에 OPC UA FX 지원 엔드포인트를 연결하는 Industrial TSN PlugFest가 열렸다. 9월 30일 세션에서 지멘스가 기존 PROFINET 설치기반을 교체하지 않고 60802로 이행하는 경로를 공개해, 표준 문서 단계에서 마이그레이션 경로 단계로 넘어갔다.",
+      "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "설비 RFQ에 실시간 스케줄링 보장·메모리 분리·SBOM 제출을 사양 조건으로 선반영하면 AI 비전 증설 시 IPC 난립과 유럽향 규제 리스크를 동시에 차단할 수 있다."
+      "sl_text": "신규·개조 라인 발주 사양서에 60802 준수와 Avnu 인증 조항을 지금 넣으면 제어망·정보망 이중 포설 비용과 향후 수렴망 재투자를 함께 줄일 수 있다."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "샤오펑이 광둥성에 휴머노이드 전용 생산라인을 가동하고 12월 말 양산 일정을 제시, 올해 R&D 약 150억 위안 중 절반을 AI에 배정",
-      "source_label": "로봇신문, 2026-09-27",
-      "source_url": "https://www.irobotnews.com/news/articleView.html?idxno=48698",
-      "detail": "같은 날 유니트리는 상장 후 첫 핵심 제품 G1+를 9만 5,000위안(약 1,934만 원)에 공개했고, 코그넥스는 리얼센스를 약 5억 달러 전액 현금으로 인수해 3D 로봇 인지 영역에 직접 진입했다.",
+      "headline": "엔비디아가 9월 28일 참여 조직 100개 이상 규모의 Open Agent Safety Platform을 공개하고 경계 이탈 AI 에이전트를 밀리초 단위로 격리하는 실리콘 감시 계층을 로보틱스까지 확장",
+      "source_label": "NVIDIA Newsroom, 2026-09-28",
+      "source_url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+      "detail": "오픈소스 런타임 OpenShell과 BlueField-4 DPU 기반 감시자 Sentry로 구성된다. Gecko Robotics는 검사로봇 Komodo에서 에이전트에 모션 제어와 페이로드 승강 권한만 부여하고 데이터 거버넌스는 차단하는 권한 분리 구조를 적용했다.",
       "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "완성차 OEM이 자동차 양산 설비·공급망을 로봇으로 전용하기 시작해, 부품사에 로봇용 액추에이터·열관리 수요처가 열리는 동시에 OEM 내재화 리스크가 병존한다."
+      "sl_label": "리스크",
+      "sl_text": "자율제조·AI 검사 설비 조달에서 에이전트 권한 경계와 감사 추적 입증이 사양서 항목으로 내려오면, 기존 SI 계약의 안전 책임 분계점을 재정의하지 않은 채 도입 시 책임 공백이 생긴다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-09-17 발행 과기정통부 피지컬 AI 1.4조의 후속",
-      "headline": "뉴로메카가 국가 LAM 개발 사업의 조선 곡블록 자율용접 세부과제 주관기관으로 확정, 총 175억 원·정부지원 105억 원·2030년 12월까지",
-      "source_label": "인더스트리뉴스, 2026-09-28",
-      "source_url": "https://www.industrynews.co.kr/news/articleView.html?idxno=86591",
-      "detail": "사전 입력 경로 재생을 넘어 로봇이 용접선을 탐색해 경로를 생성하고 궤적·용접조건을 실시간 보정하며, 형상·로봇동작·용접조건·품질정보를 묶은 융합데이터를 LAM 학습에 쓴다.",
+      "field_note": "2026-09-28 발행 피지컬 AI 데이터 경쟁 건의 후속",
+      "headline": "뉴빌리티가 9월 29일 하이브리드 휴머노이드 빌리를 공개하며 150개 이상 현장 400대 운영, 누적 14만 km 주행, 연 1억 4,500만 건 공간 인지 데이터를 경쟁 근거로 제시",
+      "source_label": "산업일보, 2026-09-29",
+      "source_url": "https://kidd.co.kr/news/247561",
+      "detail": "빌리는 구동형 하체에 360도 회전 승강 상체를 결합해 작업 페이로드 15 kg 미만, 적재함 최대 60 kg을 지원한다. 하반기부터 대형 식품 제조사와 정밀 제조사, 물류사와 PoC에 들어간다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "정부 자금이 데이터셋 구축에서 현장 제어 실증으로 내려왔다. 용접·프레스·사출처럼 숙련자 판단이 수율을 좌우하는 공정의 행동 데이터를 지금 축적해야 과제 참여 자격이 선다."
+      "sl_label": "리스크",
+      "sl_text": "PoC 대상에 정밀 제조사가 포함된 만큼, 데이터 소유·재사용 조항을 계약 단계에서 선점하지 않으면 라인 피킹·이송 노하우가 벤더 모델 학습 자산으로 이전된다."
     },
     {
       "field": "금형·사출 기술",
-      "field_note": "",
-      "headline": "Haidlmair가 금형이 공정을 능동 보정하는 액티브 몰드와 FDU 신형 단일 니들밸브 노즐, 충전 수지용 원통형 게이트를 Fakuma 2026 홀 B2·스탠드 2305에 공개",
-      "source_label": "PolyForm NEXT, 2026-09-28",
-      "source_url": "https://www.polyformnext.de/heisskanal/haidlmair-auf-der-fakuma-2026-neue-werkzeugtechnik-soll-zykluszeiten-und-ausschuss-senken.htm",
-      "detail": "자회사 Digital Moulds가 금형 상태 모니터링·수명주기 관리 툴을 함께 제시했고, 같은 날 Engel은 건식 사이클 1.2초·벽두께 0.28 mm 전전동 e-motion 380을 공개했다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "금형 평가축이 단가·납기에서 공정 안정화 능력과 상태기반 보전 데이터 제공 여부로 이동한다. 사내 금형 대장이 엑셀 수준이면 공급사 데이터를 받을 준비부터 필요하다."
+      "field_note": "인접 영역",
+      "headline": "알루미늄 CNC 금형과 벤치탑 전동 사출기로 저물량 부품을 내재화해 인건비 반영 후에도 부품 원가를 절반으로 낮춘 사례 보도, Fakuma 2026 신규 금형 발표는 이 기간 부재",
+      "source_label": "PlasticsToday, 2026-09-29",
+      "source_url": "https://www.plasticstoday.com/injection-molding/rocket-manufacturer-launches-in-house-injection-molding-operation",
+      "detail": "설비는 길이 약 43인치 규모로 일반 벽전원에서 구동되고 별도 냉각수 계통이 필요 없다. 치수 변경 시 경화강 금형을 새로 만들지 않고 알루미늄 캐비티만 재가공해 재투입하는 반복 루프가 성립한다.",
+      "certainty": "[업계 분석]",
+      "sl_label": "기회",
+      "sl_text": "브래킷·클립·치구류 저물량 수지 부품의 외주 최소발주량과 금형비 상각 부담을 사내 툴링으로 대체할 수 있으나, 판단 기준은 캐비티 수가 아니라 연간 샷수와 충전재 등급이다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-29-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-30-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
