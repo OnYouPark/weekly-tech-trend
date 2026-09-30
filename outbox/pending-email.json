@@ -1,54 +1,54 @@
 {
-  "date": "2026-09-30",
-  "slug": "2026-09-30-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-09-30",
+  "date": "2026-10-01",
+  "slug": "2026-10-01-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-01",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "",
-      "headline": "산업용 TSN 국제표준 IEEE/IEC 60802-2026이 6월 29일 발행 후 처음으로 다벤더 상호운용 검증 단계 진입, 제11회 TSN/A 컨퍼런스 9월 30일 개막",
-      "source_label": "IEEE SA, 2026-06-29",
-      "source_url": "https://standards.ieee.org/ieee/60802/11358/",
-      "detail": "9월 28일부터 29일까지 슈투트가르트 대학 ISW에서 60802-ready 망에 OPC UA FX 지원 엔드포인트를 연결하는 Industrial TSN PlugFest가 열렸다. 9월 30일 세션에서 지멘스가 기존 PROFINET 설치기반을 교체하지 않고 60802로 이행하는 경로를 공개해, 표준 문서 단계에서 마이그레이션 경로 단계로 넘어갔다.",
+      "field_note": "2026-09-29 발행 코그넥스-리얼센스 인수의 후속",
+      "headline": "라이카 마이크로시스템즈가 코그넥스 비전 AI를 통합한 외관검사 모듈 Aivaro를 9월 29일 공개, 학습 이미지 5장에서 10장으로 모델 생성 가능",
+      "source_label": "Laser Focus World, 2026-09-29",
+      "source_url": "https://www.laserfocusworld.com/directory/detectors-and-imaging/machine-vision-systems/press-release/55408733/leica-microsystems-gmbh-leica-microsystems-launches-ai-software-module-for-consistent-inspection-decisions",
+      "detail": "사전학습 베이스 모델을 얹어 클라우드 연결 없이 표준 하드웨어에서 온프레미스 추론하는 구성이다. 같은 기간 지멘스와 P&G의 Visual Inspection Cockpit은 신규 라인 커미셔닝을 기존 맞춤형 비전 대비 5배에서 10배 단축하고 스크랩률을 10퍼센트에서 20퍼센트 낮췄다고 보고됐다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "신규·개조 라인 발주 사양서에 60802 준수와 Avnu 인증 조항을 지금 넣으면 제어망·정보망 이중 포설 비용과 향후 수렴망 재투자를 함께 줄일 수 있다."
+      "sl_text": "AI 외관검사 원가가 라인당 SI 공수에서 플랫폼 라이선스와 소량 재학습으로 이동해, 대표 결함 도메인 1개를 다라인 복제하는 확산 설계가 처음으로 경제성을 갖는다."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "엔비디아가 9월 28일 참여 조직 100개 이상 규모의 Open Agent Safety Platform을 공개하고 경계 이탈 AI 에이전트를 밀리초 단위로 격리하는 실리콘 감시 계층을 로보틱스까지 확장",
-      "source_label": "NVIDIA Newsroom, 2026-09-28",
-      "source_url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
-      "detail": "오픈소스 런타임 OpenShell과 BlueField-4 DPU 기반 감시자 Sentry로 구성된다. Gecko Robotics는 검사로봇 Komodo에서 에이전트에 모션 제어와 페이로드 승강 권한만 부여하고 데이터 거버넌스는 차단하는 권한 분리 구조를 적용했다.",
+      "headline": "정부가 9월 30일 로봇 첫 국가첨단전략산업 특화단지로 대구·경북을 지정, 선도기업 투자 5조 3,839억 원과 2030년 로봇 20만 대 보급 계획 제시",
+      "source_label": "로봇신문, 2026-09-30",
+      "source_url": "https://www.irobotnews.com/news/articleView.html?idxno=48771",
+      "detail": "지원 항목에 지역 자동차 부품기업의 로봇 부품기업 전환이 명시됐고 2027년 정부 직접 구매 1,700대 이상 계획도 함께 나왔다. 같은 날 IFR은 2025년 풀사이즈 휴머노이드 실판매 약 7,000대, 전문 서비스 로봇 출하 약 25만 대라는 첫 공식 통계를 냈다.",
       "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "자율제조·AI 검사 설비 조달에서 에이전트 권한 경계와 감사 추적 입증이 사양서 항목으로 내려오면, 기존 SI 계약의 안전 책임 분계점을 재정의하지 않은 채 도입 시 책임 공백이 생긴다."
+      "sl_label": "변곡점",
+      "sl_text": "차부품사의 로봇 부품 진입이 개별 신사업 판단에서 정책 자금과 공공 수요가 붙는 지정 트랙으로 바뀌었다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-09-28 발행 피지컬 AI 데이터 경쟁 건의 후속",
-      "headline": "뉴빌리티가 9월 29일 하이브리드 휴머노이드 빌리를 공개하며 150개 이상 현장 400대 운영, 누적 14만 km 주행, 연 1억 4,500만 건 공간 인지 데이터를 경쟁 근거로 제시",
-      "source_label": "산업일보, 2026-09-29",
-      "source_url": "https://kidd.co.kr/news/247561",
-      "detail": "빌리는 구동형 하체에 360도 회전 승강 상체를 결합해 작업 페이로드 15 kg 미만, 적재함 최대 60 kg을 지원한다. 하반기부터 대형 식품 제조사와 정밀 제조사, 물류사와 PoC에 들어간다.",
+      "field_note": "2026-09-28 발행 합성데이터 이슈의 후속",
+      "headline": "마이크로소프트가 9월 30일 서울 인더스트리 서밋에서 실데이터 100개 에피소드 기준 픽앤플레이스 정확도 약 60퍼센트를 디지털 트윈 증강으로 90퍼센트대 후반까지 올린다고 제시",
+      "source_label": "ZDNet Korea, 2026-09-30",
+      "source_url": "https://zdnet.co.kr/view/?no=20260930111305",
+      "detail": "엔비디아 아이작 심과 옴니버스를 결합한 오픈소스 피지컬 AI 툴체인이 함께 소개됐다. 도요타 인더스트리즈는 도장 공정 약 400개 변수 분석으로 불량을 약 25퍼센트 줄였고, 조회형 에이전트와 생산계획 변경형 에이전트의 권한을 분리해야 한다는 거버넌스 원칙도 제시됐다.",
       "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "PoC 대상에 정밀 제조사가 포함된 만큼, 데이터 소유·재사용 조항을 계약 단계에서 선점하지 않으면 라인 피킹·이송 노하우가 벤더 모델 학습 자산으로 이전된다."
+      "sl_label": "기회",
+      "sl_text": "로봇 도입 판단 기준이 실데이터 축적 여력에서 설비 태그 정합성과 시뮬레이션 모델링 역량으로 옮겨간다."
     },
     {
       "field": "금형·사출 기술",
-      "field_note": "인접 영역",
-      "headline": "알루미늄 CNC 금형과 벤치탑 전동 사출기로 저물량 부품을 내재화해 인건비 반영 후에도 부품 원가를 절반으로 낮춘 사례 보도, Fakuma 2026 신규 금형 발표는 이 기간 부재",
-      "source_label": "PlasticsToday, 2026-09-29",
-      "source_url": "https://www.plasticstoday.com/injection-molding/rocket-manufacturer-launches-in-house-injection-molding-operation",
-      "detail": "설비는 길이 약 43인치 규모로 일반 벽전원에서 구동되고 별도 냉각수 계통이 필요 없다. 치수 변경 시 경화강 금형을 새로 만들지 않고 알루미늄 캐비티만 재가공해 재투입하는 반복 루프가 성립한다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "기회",
-      "sl_text": "브래킷·클립·치구류 저물량 수지 부품의 외주 최소발주량과 금형비 상각 부담을 사내 툴링으로 대체할 수 있으나, 판단 기준은 캐비티 수가 아니라 연간 샷수와 충전재 등급이다."
+      "field_note": "",
+      "headline": "독일 의료용 금형·자동화 업체 Zahoransky가 9월 29일 Todtnau·Freiburg 두 사업장에서 최대 120명, 해당 거점 인력의 25퍼센트 감축 발표",
+      "source_label": "K-Zeitung, 2026-09-29",
+      "source_url": "https://k-zeitung.de/zahoransky-streicht-120-jobs-in-deutschland",
+      "detail": "수주 잔고가 전년 대비 큰 폭으로 밀린 데 따른 조치이며, 이 회사는 2024년 초 독일 금형 거점을 매각하고 사출금형 생산을 인도 Coimbatore로 집중한 상태다. 같은 기간 Arburg는 금형 상태감시를 사출기 제어기에 통합한 aXw Control Moldlife Assist를 Fakuma 2026용으로 공개했다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "리스크",
+      "sl_text": "유럽 발주 금형의 수정과 A/S 리드타임이 길어질 수 있어 계약상 수정 대응 조항과 대체 공급처 점검이 필요하다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-09-30-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-01-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
