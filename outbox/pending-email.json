@@ -1,54 +1,54 @@
 {
-  "date": "2026-10-01",
-  "slug": "2026-10-01-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-01",
+  "date": "2026-10-06",
+  "slug": "2026-10-06-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-06",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "2026-09-29 발행 코그넥스-리얼센스 인수의 후속",
-      "headline": "라이카 마이크로시스템즈가 코그넥스 비전 AI를 통합한 외관검사 모듈 Aivaro를 9월 29일 공개, 학습 이미지 5장에서 10장으로 모델 생성 가능",
-      "source_label": "Laser Focus World, 2026-09-29",
-      "source_url": "https://www.laserfocusworld.com/directory/detectors-and-imaging/machine-vision-systems/press-release/55408733/leica-microsystems-gmbh-leica-microsystems-launches-ai-software-module-for-consistent-inspection-decisions",
-      "detail": "사전학습 베이스 모델을 얹어 클라우드 연결 없이 표준 하드웨어에서 온프레미스 추론하는 구성이다. 같은 기간 지멘스와 P&G의 Visual Inspection Cockpit은 신규 라인 커미셔닝을 기존 맞춤형 비전 대비 5배에서 10배 단축하고 스크랩률을 10퍼센트에서 20퍼센트 낮췄다고 보고됐다.",
-      "certainty": "[공식 발표]",
+      "field_note": "",
+      "headline": "니콘, 컨베이어 엔코더 없이 이동 워크피스의 경사·자세까지 3D로 측정해 로봇 접근 각도를 실시간 보정하는 비전 트래킹 공개",
+      "source_label": "Metrology News, 2026-10-05",
+      "source_url": "https://metrology.news/nikon-adds-3d-vision-tracking-for-flexible-robotic-automation/",
+      "detail": "적용 공정으로 자동차 차체 그로밋 삽입, 플러그홀 실링, 이동 중 볼트 체결이 제시됐다. 같은 날 Ajile DepthScan은 VDI/VDE 2634 Part 2 기준 검증과 PolyWorks 양방향 연동으로 CMM 검사플랜을 그대로 인라인에 이식하는 구조를 공개했고, 풀해상도 400만 컬러 3D 포인트를 취득한다.",
+      "certainty": "[업계 분석]",
       "sl_label": "기회",
-      "sl_text": "AI 외관검사 원가가 라인당 SI 공수에서 플랫폼 라이선스와 소량 재학습으로 이동해, 대표 결함 도메인 1개를 다라인 복제하는 확산 설계가 처음으로 경제성을 갖는다."
+      "sl_text": "부품 자세 고정용 전용 치공구와 엔코더 동기화 설비를 3D 비전으로 대체하면 모델 체인지가 잦은 램프·전장 조립의 자동화 투자 회수 구조가 하드웨어에서 소프트웨어로 이동한다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "",
-      "headline": "정부가 9월 30일 로봇 첫 국가첨단전략산업 특화단지로 대구·경북을 지정, 선도기업 투자 5조 3,839억 원과 2030년 로봇 20만 대 보급 계획 제시",
-      "source_label": "로봇신문, 2026-09-30",
-      "source_url": "https://www.irobotnews.com/news/articleView.html?idxno=48771",
-      "detail": "지원 항목에 지역 자동차 부품기업의 로봇 부품기업 전환이 명시됐고 2027년 정부 직접 구매 1,700대 이상 계획도 함께 나왔다. 같은 날 IFR은 2025년 풀사이즈 휴머노이드 실판매 약 7,000대, 전문 서비스 로봇 출하 약 25만 대라는 첫 공식 통계를 냈다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "차부품사의 로봇 부품 진입이 개별 신사업 판단에서 정책 자금과 공공 수요가 붙는 지정 트랙으로 바뀌었다."
+      "field_note": "2026-10-01 발행 IFR 휴머노이드 통계의 후속",
+      "headline": "생산 공정에 실제 투입된 휴머노이드 2026년 상반기 1,200대·7,800만 달러, 전년 연간 매출 대비 65.9퍼센트 증가. 매출 상위 5개사 전원 중국 기업",
+      "source_label": "로봇신문, 2026-10-05",
+      "source_url": "https://www.irobotnews.com/news/articleView.html?idxno=48827",
+      "detail": "프로스트앤설리번 집계에서 전체 판매 3만 6,000대 중 생산 투입분은 3.3퍼센트에 그쳤고 유비테크가 2025년 출하 1만 3,838대·점유율 24.8퍼센트로 1위를 차지했다. 테슬라 옵티머스와 피규어 AI는 시제품 또는 사내 시범 단계로 평가됐다.",
+      "certainty": "[업계 분석]",
+      "sl_label": "리스크",
+      "sl_text": "로봇 하드웨어 원가 하락이 중국 공급망 주도로 진행되면 국내 설비 벤더를 경유하는 조달 구조가 가격 열위에 놓이므로 그 시점을 역산해 조달 경로를 재설계해야 한다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-09-28 발행 합성데이터 이슈의 후속",
-      "headline": "마이크로소프트가 9월 30일 서울 인더스트리 서밋에서 실데이터 100개 에피소드 기준 픽앤플레이스 정확도 약 60퍼센트를 디지털 트윈 증강으로 90퍼센트대 후반까지 올린다고 제시",
-      "source_label": "ZDNet Korea, 2026-09-30",
-      "source_url": "https://zdnet.co.kr/view/?no=20260930111305",
-      "detail": "엔비디아 아이작 심과 옴니버스를 결합한 오픈소스 피지컬 AI 툴체인이 함께 소개됐다. 도요타 인더스트리즈는 도장 공정 약 400개 변수 분석으로 불량을 약 25퍼센트 줄였고, 조회형 에이전트와 생산계획 변경형 에이전트의 권한을 분리해야 한다는 거버넌스 원칙도 제시됐다.",
+      "field_note": "",
+      "headline": "슈나이더일렉트릭, PTC를 전액 현금 주당 205달러·지분가치 226억 달러에 인수. 직전 종가 대비 프리미엄 42.3퍼센트로 자사 사상 최대 규모",
+      "source_label": "Schneider Electric 공식 발표, 2026-10-05",
+      "source_url": "https://www.se.com/ww/en/assets/pdf/Schneider-Electric-to-acquire-PTC",
+      "detail": "PTC의 CAD·PLM·ALM·SLM이 AVEVA와 Cognite에 결합되며 슈나이더일렉트릭은 이를 AI 에이전트가 필요로 하는 신뢰 가능한 맥락으로 규정했다. 프로포마 기준 소프트웨어·서비스 비중은 그룹 매출의 약 24퍼센트가 되고 거래 종결은 2027년 3분기로 예상된다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "로봇 도입 판단 기준이 실데이터 축적 여력에서 설비 태그 정합성과 시뮬레이션 모델링 역량으로 옮겨간다."
+      "sl_label": "리스크",
+      "sl_text": "Creo·Windchill 사용 시 2027년에서 2028년 갱신 협상에서 번들 종속 조건이 들어올 수 있어 지금 교환 표준 기반 탈출 경로와 계약 조항을 선제 확보해야 한다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "독일 의료용 금형·자동화 업체 Zahoransky가 9월 29일 Todtnau·Freiburg 두 사업장에서 최대 120명, 해당 거점 인력의 25퍼센트 감축 발표",
-      "source_label": "K-Zeitung, 2026-09-29",
-      "source_url": "https://k-zeitung.de/zahoransky-streicht-120-jobs-in-deutschland",
-      "detail": "수주 잔고가 전년 대비 큰 폭으로 밀린 데 따른 조치이며, 이 회사는 2024년 초 독일 금형 거점을 매각하고 사출금형 생산을 인도 Coimbatore로 집중한 상태다. 같은 기간 Arburg는 금형 상태감시를 사출기 제어기에 통합한 aXw Control Moldlife Assist를 Fakuma 2026용으로 공개했다.",
+      "headline": "Nonnenmann, 금형 승강 보어 유로 단면을 냉각채널 직경과 일치시키는 표준부품 ULE를 Ø4·Ø6 두 사양으로 출시. 소재 1.4301, 표준 길이 250 mm, 공차 h9",
+      "source_label": "plasticker, 2026-10-02",
+      "source_url": "https://plasticker.de/Plastics_News_49509_Nonnenmann_Adds_Cooling_Deflectors_for_Consistent_Flow_Cross_Sections",
+      "detail": "기존 배플 방식이 보어 내 유효 단면을 변동시켜 압력 손실과 스케일 퇴적을 키우는 문제를 겨냥했고 재고 상시 공급으로 현장 절단 적용이 가능하다. 같은 날 BASF는 PCR PET를 최대 30퍼센트 함유한 유리섬유 강화 PBT/PET 컴파운드 Ultradur RC1을 자동차 구조부품용으로 추가했다.",
       "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "유럽 발주 금형의 수정과 A/S 리드타임이 길어질 수 있어 계약상 수정 대응 조항과 대체 공급처 점검이 필요하다."
+      "sl_label": "기회",
+      "sl_text": "컨포멀 쿨링 투자 전에 기존 금형의 배플 구간을 표준부품으로 치환해 냉각 편차를 실측하는 저비용 선행 단계가 생겼고 그 데이터가 적층제조 인서트 투자 우선순위를 가른다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-01-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-06-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
