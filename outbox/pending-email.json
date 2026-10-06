@@ -1,54 +1,54 @@
 {
-  "date": "2026-10-06",
-  "slug": "2026-10-06-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-06",
+  "date": "2026-10-07",
+  "slug": "2026-10-07-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-07",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "니콘, 컨베이어 엔코더 없이 이동 워크피스의 경사·자세까지 3D로 측정해 로봇 접근 각도를 실시간 보정하는 비전 트래킹 공개",
-      "source_label": "Metrology News, 2026-10-05",
-      "source_url": "https://metrology.news/nikon-adds-3d-vision-tracking-for-flexible-robotic-automation/",
-      "detail": "적용 공정으로 자동차 차체 그로밋 삽입, 플러그홀 실링, 이동 중 볼트 체결이 제시됐다. 같은 날 Ajile DepthScan은 VDI/VDE 2634 Part 2 기준 검증과 PolyWorks 양방향 연동으로 CMM 검사플랜을 그대로 인라인에 이식하는 구조를 공개했고, 풀해상도 400만 컬러 3D 포인트를 취득한다.",
-      "certainty": "[업계 분석]",
+      "headline": "디플리, 자동차 라인 커넥터 체결음 검사 정확도 99.87퍼센트 제시하며 양산 적용 공개",
+      "source_label": "헬로티, 2026-10-06",
+      "source_url": "https://www.hellot.net/news/article.html?no=115316",
+      "detail": "가청 20Hz에서 20kHz와 최대 100kHz 초음파를 함께 보는 리슨 AI 인더스트리얼이 80dB 이상 설비 소음에서 대상 음원을 분리하고, 판정 결과를 PLC와 MES에 연동한 뒤 MLOps로 재학습한다는 설명이다. 같은 기간 테크맨 로봇은 TM AI Cobot S 시리즈로 IEC 62443-4-2 SL2 인증을 취득했다.",
+      "certainty": "[2차 인용]",
       "sl_label": "기회",
-      "sl_text": "부품 자세 고정용 전용 치공구와 엔코더 동기화 설비를 3D 비전으로 대체하면 모델 체인지가 잦은 램프·전장 조립의 자동화 투자 회수 구조가 하드웨어에서 소프트웨어로 이동한다."
+      "sl_text": "커넥터·모터 등 비전 검사 사각지대를 음향 전수검사로 메울 파일럿 후보이나, 99.87퍼센트는 업체 주장이므로 자사 라인 소음 조건에서의 오검출률 검증이 선행 조건이다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "2026-10-01 발행 IFR 휴머노이드 통계의 후속",
-      "headline": "생산 공정에 실제 투입된 휴머노이드 2026년 상반기 1,200대·7,800만 달러, 전년 연간 매출 대비 65.9퍼센트 증가. 매출 상위 5개사 전원 중국 기업",
-      "source_label": "로봇신문, 2026-10-05",
-      "source_url": "https://www.irobotnews.com/news/articleView.html?idxno=48827",
-      "detail": "프로스트앤설리번 집계에서 전체 판매 3만 6,000대 중 생산 투입분은 3.3퍼센트에 그쳤고 유비테크가 2025년 출하 1만 3,838대·점유율 24.8퍼센트로 1위를 차지했다. 테슬라 옵티머스와 피규어 AI는 시제품 또는 사내 시범 단계로 평가됐다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "리스크",
-      "sl_text": "로봇 하드웨어 원가 하락이 중국 공급망 주도로 진행되면 국내 설비 벤더를 경유하는 조달 구조가 가격 열위에 놓이므로 그 시점을 역산해 조달 경로를 재설계해야 한다."
+      "field_note": "",
+      "headline": "Teradyne, 마이크로팩토리 130개 이상 운영하는 Bright Machines에 전략 투자해 로봇·시험 데이터 폐루프 착수",
+      "source_label": "The Robot Report, 2026-10-05",
+      "source_url": "https://www.therobotreport.com/teradyne-invests-ibright-machines-brings-robotics-ai-infrastructure-manufacturing/",
+      "detail": "정밀 로봇 조립, 시험 장비 로딩·언로딩, 자재 자율 이송을 한 플랫폼에 올려 Universal Robots 협동로봇과 보드 테스트 시스템을 한 라인에서 운용하는 구성이다. 투자 금액과 지분은 공개되지 않았다. 같은 날 독일 RobCo는 기업가치 10억 달러를 넘기며 자율 산업용 로봇 Alfie의 2027년 3월 4일 상용 출시를 예고했다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "기회",
+      "sl_text": "로봇 도입 효과가 단일 셀 자동화가 아니라 조립·검사·시험 데이터를 같은 식별자로 묶는 품질 폐루프에서 나온다는 설계 근거로 쓸 수 있다."
     },
     {
       "field": "AI·디지털전환",
       "field_note": "",
-      "headline": "슈나이더일렉트릭, PTC를 전액 현금 주당 205달러·지분가치 226억 달러에 인수. 직전 종가 대비 프리미엄 42.3퍼센트로 자사 사상 최대 규모",
-      "source_label": "Schneider Electric 공식 발표, 2026-10-05",
-      "source_url": "https://www.se.com/ww/en/assets/pdf/Schneider-Electric-to-acquire-PTC",
-      "detail": "PTC의 CAD·PLM·ALM·SLM이 AVEVA와 Cognite에 결합되며 슈나이더일렉트릭은 이를 AI 에이전트가 필요로 하는 신뢰 가능한 맥락으로 규정했다. 프로포마 기준 소프트웨어·서비스 비중은 그룹 매출의 약 24퍼센트가 되고 거래 종결은 2027년 3분기로 예상된다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "Creo·Windchill 사용 시 2027년에서 2028년 갱신 협상에서 번들 종속 조건이 들어올 수 있어 지금 교환 표준 기반 탈출 경로와 계약 조항을 선제 확보해야 한다."
+      "headline": "AI FESTA 26 개막, 약 350개 기업 500개 부스 규모로 에이전틱·피지컬 AI를 독립 전시 축에 배치",
+      "source_label": "산업종합저널, 2026-10-06",
+      "source_url": "https://industryjournal.co.kr/news/247629",
+      "detail": "논의 무게중심이 기술 시연에서 도입과 운영으로 이동했고, 8일에는 산업 현장 적용 사례 중심의 AIR Showcase가 예정돼 있다. NHN클라우드는 GPU 인프라와 에이전트 개발·운영 도구를 묶은 NHN FactoryX를 전시한다고 밝혔으나 제조 현장 정량 성과는 제시되지 않았다.",
+      "certainty": "[2차 인용]",
+      "sl_label": "기회",
+      "sl_text": "에이전트 실행 기반을 외부 조달할 선택지가 늘어난 반면, 생산 데이터 반출과 폐쇄망 요건은 이번 발표로 해소되지 않아 조달 사양서에 분리 명시가 필요하다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "Nonnenmann, 금형 승강 보어 유로 단면을 냉각채널 직경과 일치시키는 표준부품 ULE를 Ø4·Ø6 두 사양으로 출시. 소재 1.4301, 표준 길이 250 mm, 공차 h9",
-      "source_label": "plasticker, 2026-10-02",
-      "source_url": "https://plasticker.de/Plastics_News_49509_Nonnenmann_Adds_Cooling_Deflectors_for_Consistent_Flow_Cross_Sections",
-      "detail": "기존 배플 방식이 보어 내 유효 단면을 변동시켜 압력 손실과 스케일 퇴적을 키우는 문제를 겨냥했고 재고 상시 공급으로 현장 절단 적용이 가능하다. 같은 날 BASF는 PCR PET를 최대 30퍼센트 함유한 유리섬유 강화 PBT/PET 컴파운드 Ultradur RC1을 자동차 구조부품용으로 추가했다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "컨포멀 쿨링 투자 전에 기존 금형의 배플 구간을 표준부품으로 치환해 냉각 편차를 실측하는 저비용 선행 단계가 생겼고 그 데이터가 적층제조 인서트 투자 우선순위를 가른다."
+      "headline": "이번 기간 신규 발표 없음, Fakuma 2026 개막(10월 12일에서 16일) 직전 대기 국면",
+      "source_label": "K-Zeitung, Fakuma Innovation Award 2026",
+      "source_url": "https://k-zeitung.de/fakuma-innovation-award-2026-nominierte-preisverleihung",
+      "detail": "1단계 및 인접 영역(3D 프린팅 금형, 사출 공정 모니터링, 마이크로 사출, 리사이클 수지) 탐색 모두 조사 기간 내 신규 게시물을 확인하지 못했다. Innovation Award 시상식이 10월 12일로 예정돼 있어 금형·온도조절 신규 발표는 10월 8일 이후 집중될 가능성이 있다.",
+      "certainty": "[업계 분석]",
+      "sl_label": "검토",
+      "sl_text": "Fakuma 개막 전 관심 품목과 비교 항목을 사전 정리해 두면 전시 기간 집중 발표를 선별 수집할 수 있다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-06-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-07-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
