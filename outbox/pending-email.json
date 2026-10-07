@@ -1,54 +1,54 @@
 {
-  "date": "2026-10-07",
-  "slug": "2026-10-07-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-07",
+  "date": "2026-10-08",
+  "slug": "2026-10-08-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-08",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "디플리, 자동차 라인 커넥터 체결음 검사 정확도 99.87퍼센트 제시하며 양산 적용 공개",
-      "source_label": "헬로티, 2026-10-06",
-      "source_url": "https://www.hellot.net/news/article.html?no=115316",
-      "detail": "가청 20Hz에서 20kHz와 최대 100kHz 초음파를 함께 보는 리슨 AI 인더스트리얼이 80dB 이상 설비 소음에서 대상 음원을 분리하고, 판정 결과를 PLC와 MES에 연동한 뒤 MLOps로 재학습한다는 설명이다. 같은 기간 테크맨 로봇은 TM AI Cobot S 시리즈로 IEC 62443-4-2 SL2 인증을 취득했다.",
+      "headline": "이아나이코리아, 규격 입력만으로 부품·소요량·원가를 자동 산출하는 규칙 기반 동적 BOM ERP·MES를 10월 21-23일 AMXPO 2026(300개사 1,000부스)에 출품",
+      "source_label": "헬로티, 2026-10-07",
+      "source_url": "https://www.hellot.net/news/article.html?no=115326",
+      "detail": "작업지시서를 대기·발행·진행·완료·취소 5단계로 관리하고 노무비·가공비·외주비를 합산한 실제 원가를 자재 투입 실적과 연결한다. AI 직원 와미노는 사전 정의된 권한과 승인 범위 안에서만 견적 후속연락과 부족자재 발주를 수행하고 모든 행동을 기록한다.",
       "certainty": "[2차 인용]",
       "sl_label": "기회",
-      "sl_text": "커넥터·모터 등 비전 검사 사각지대를 음향 전수검사로 메울 파일럿 후보이나, 99.87퍼센트는 업체 주장이므로 자사 라인 소음 조건에서의 오검출률 검증이 선행 조건이다."
+      "sl_text": "수주 건별 규격이 달라지는 금형·치공구·설비 개조 견적 업무의 규칙화 가능성을 가늠할 참고 사례이며, 에이전트형 AI의 권한·감사 로그를 발주 사양서 항목으로 명문화할 근거."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "Teradyne, 마이크로팩토리 130개 이상 운영하는 Bright Machines에 전략 투자해 로봇·시험 데이터 폐루프 착수",
-      "source_label": "The Robot Report, 2026-10-05",
-      "source_url": "https://www.therobotreport.com/teradyne-invests-ibright-machines-brings-robotics-ai-infrastructure-manufacturing/",
-      "detail": "정밀 로봇 조립, 시험 장비 로딩·언로딩, 자재 자율 이송을 한 플랫폼에 올려 Universal Robots 협동로봇과 보드 테스트 시스템을 한 라인에서 운용하는 구성이다. 투자 금액과 지분은 공개되지 않았다. 같은 날 독일 RobCo는 기업가치 10억 달러를 넘기며 자율 산업용 로봇 Alfie의 2027년 3월 4일 상용 출시를 예고했다.",
+      "headline": "애질리티 로보틱스, Digit 5에 대해 1,000대 3년 RaaS 계약을 전제로 한 3억 달러 이상 다년 주문과 세일럼 로보팹 연 1만 대 생산 능력 공개",
+      "source_label": "로봇신문, 2026-10-07",
+      "source_url": "https://www.irobotnews.com/news/articleView.html?idxno=48873",
+      "detail": "이 금액은 확정 매출이 아니라 마일스톤 달성에 연동된 조건부 잠재 주문액이다. 잠재 고객 약 100곳 대비 확약 배치는 최대 25곳이며 초기 고객 공급은 2027년 상반기로 제시됐다. 같은 기간 보스턴다이내믹스는 로히트 프라사드를 신임 CEO로 선임했고, 두산로보틱스는 총 989억 원 규모 피지컬 AI 국책과제 2건에 선정됐다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "로봇 도입 효과가 단일 셀 자동화가 아니라 조립·검사·시험 데이터를 같은 식별자로 묶는 품질 폐루프에서 나온다는 설계 근거로 쓸 수 있다."
+      "sl_label": "변곡점",
+      "sl_text": "휴머노이드 도입 모델이 설비 구매에서 구독형 운영비로 이동 중이므로, 평가 기준을 로봇 단가가 아닌 가동률 보증·안전 책임 범위·해지 조건으로 재설정해야 한다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "",
-      "headline": "AI FESTA 26 개막, 약 350개 기업 500개 부스 규모로 에이전틱·피지컬 AI를 독립 전시 축에 배치",
-      "source_label": "산업종합저널, 2026-10-06",
-      "source_url": "https://industryjournal.co.kr/news/247629",
-      "detail": "논의 무게중심이 기술 시연에서 도입과 운영으로 이동했고, 8일에는 산업 현장 적용 사례 중심의 AIR Showcase가 예정돼 있다. NHN클라우드는 GPU 인프라와 에이전트 개발·운영 도구를 묶은 NHN FactoryX를 전시한다고 밝혔으나 제조 현장 정량 성과는 제시되지 않았다.",
-      "certainty": "[2차 인용]",
+      "field_note": "2026-09-23 발행 포스코DX 데이터 소유권 논의의 후속",
+      "headline": "제조 암묵지 AI 사업 2027년 예산안 2,900억 원 편성, 올해 추경 480억 원·30개 과제 시범사업 평가가 국회 심사 쟁점으로 부상",
+      "source_label": "한국경제 시론, 2026-10-07",
+      "source_url": "https://www.hankyung.com/article/2026100791221",
+      "detail": "일회성 데이터 수집으로는 설비 마모와 소재 변동을 따라가지 못하므로, 숙련자가 자신의 AI 에이전트를 지속 갱신하고 기여 이력을 보상·계약에 연결하는 구조가 필요하다는 제언이다. 과제당 16억 원 균등 배정은 공정별 데이터 확보 비용 차이를 반영하지 못한다는 비판도 함께 제기됐다.",
+      "certainty": "[업계 분석]",
       "sl_label": "기회",
-      "sl_text": "에이전트 실행 기반을 외부 조달할 선택지가 늘어난 반면, 생산 데이터 반출과 폐쇄망 요건은 이번 발표로 해소되지 않아 조달 사양서에 분리 명시가 필요하다."
+      "sl_text": "용접·열처리·도장 등 숙련 의존 공정의 지식 수집·갱신·보상 체계를 사내에서 선제 설계해 두면 2027년 과제 공모에 즉시 응할 수 있다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "이번 기간 신규 발표 없음, Fakuma 2026 개막(10월 12일에서 16일) 직전 대기 국면",
-      "source_label": "K-Zeitung, Fakuma Innovation Award 2026",
-      "source_url": "https://k-zeitung.de/fakuma-innovation-award-2026-nominierte-preisverleihung",
-      "detail": "1단계 및 인접 영역(3D 프린팅 금형, 사출 공정 모니터링, 마이크로 사출, 리사이클 수지) 탐색 모두 조사 기간 내 신규 게시물을 확인하지 못했다. Innovation Award 시상식이 10월 12일로 예정돼 있어 금형·온도조절 신규 발표는 10월 8일 이후 집중될 가능성이 있다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "검토",
-      "sl_text": "Fakuma 개막 전 관심 품목과 비교 항목을 사전 정리해 두면 전시 기간 집중 발표를 선별 수집할 수 있다."
+      "headline": "Otto Männer, 밸브핀 위치를 0.05mm 단위로 조정하고 금형 분해 없이 개별 캐비티를 차단하는 사이드 게이팅 밸브게이트 노즐을 Fakuma 2026 사전 공개",
+      "source_label": "plasticker, 2026-10-07",
+      "source_url": "https://plasticker.de/news/shownews_en.php?nr=49590",
+      "detail": "볼트 체결식 매니폴드로 기존 Thrust-Pad 방식 대비 열전달 손실을 약 50퍼센트 줄였다고 제시했으며, 제조사는 이 수치가 시스템 총 에너지 소비 감축이 아니라 해당 손실에 한정된다고 명시했다. 같은 날 Werkzeugbau Ruhla는 성형 부품 일부 교체로 주사기 3종을 생산하는 8캐비티 금형 개념을, Ferromatik Milacron은 3세대 전동 E-Series를 공개했다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "기회",
+      "sl_text": "고캐비티 금형에서 캐비티 1개 불량으로 금형 전체를 세우는 손실을 줄일 수 있어, 캐비티 단위 차단과 비분해 보수성을 금형 사양서 요건으로 검토할 시점."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-07-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-08-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
