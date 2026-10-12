@@ -1,54 +1,54 @@
 {
-  "date": "2026-10-12",
-  "slug": "2026-10-12-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-12",
+  "date": "2026-10-13",
+  "slug": "2026-10-13-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-13",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "플로리젠로보틱스, 로봇 관제에 양자난수 암호화 적용… 암호화 평균 0.09ms, 왕복 지연 299ms, 무인기기 3대 동시 제어 성공률 100%",
-      "source_label": "헬로티, 2026-10-10",
-      "source_url": "https://www.hellot.net/news/article_print.html?no=115365",
-      "detail": "광자 기반 양자난수생성기로 세션마다 AES-256-GCM 일회성 키를 배정하고 접속 종료 시 폐기하는 구조다. 서울시·SBA 과제로 아이디퀀티크와 국립군산대가 공동 참여했으며, KOLAS 공인시험으로 실시간성 손실이 없음을 확인하고 후속으로 양자내성암호 키 교환 확장을 예고했다.",
-      "certainty": "[공식 발표]",
+      "headline": "용접 비드 AI 검사 솔루션이 3개국 24개 양산 라인에서 가동, 누적 검사 데이터 400만 건 확보",
+      "source_label": "머니투데이, 2026-10-12",
+      "source_url": "https://mt.co.kr/future/2026/10/12/2026093017271211772",
+      "detail": "DGIST 교원창업 기업 에이아이로보틱스의 AIR Inspector는 비드 영역을 픽셀 단위로 분할한 뒤 길이·폭·중심선 편차를 mm 단위 실측값으로 적재한다. 배터리팩 케이스 홀 120개를 인라인에서 반복정밀도 0.06에서 0.15mm로 측정해 CMM 샘플링을 전수 측정으로 대체하는 구성도 함께 제시됐다.",
+      "certainty": "[2차 인용]",
       "sl_label": "기회",
-      "sl_text": "완성차사 OT 보안 감사가 로봇 관제 트래픽 암호화를 묻기 시작한 시점에 실시간성 손실 없는 검증 사례가 나와, AMR 도입 라인의 보안 요건을 선제 설계할 근거가 생겼다."
+      "sl_text": "판정값이 아닌 측정값을 남기는 구조는 고객사 PPAP·불량 소명 대응 자산이 되므로, 램프 용접·프레스 검사기 교체 주기에 사양 요구사항으로 반영할 수 있다."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "BYD 휴머노이드 디자인 특허 공개(신장 1.61m·중량 58.5kg·자유도 31), 양산 병목은 하모닉 드라이브·정밀감속기 가공 캐파로 지목",
-      "source_label": "CnEVPost, 2026-10-09",
-      "source_url": "https://cnevpost.com/2026/10/09/byd-humanoid-robot-design-emerges/",
-      "detail": "같은 기간 보스턴다이내믹스는 Atlas 신형 핸드를 5지가 아닌 4지 13자유도·동일 규격 액추에이터 13개로 설계한 이유를 공개했고, TDK Ventures는 동작 성공률 99%일 때 100단계 공정 완주율이 36.6%에 그친다는 계산을 제시했다. 논쟁 축이 지능에서 제조·신뢰도로 이동했다.",
+      "headline": "상하이시, 2028년까지 공장 투입 휴머노이드 8,000대·산업용 로봇 밀도 1만 명당 600대 목표 가동",
+      "source_label": "신화재경·21경제, 2026-10-12",
+      "source_url": "https://m.21jingji.com/article/20261012/herald/9b86c77f1841c5183a261234c67d5d32.html",
+      "detail": "CIIF 2026 개막식에서 공표됐다. 같은 전시에서 협동로봇 점유율 1위 제카(JAKA)가 가반하중 50kg 협동로봇 Zu50과 중하중 휠형 휴머노이드 Kargo50을 공개했고, 전작 Kargo 시리즈가 2026년 7월부터 글로벌 자동차부품사의 스마트 헤드램프 공장에서 자재함 반송에 투입돼 있다고 밝혔다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "휴머노이드 병목 품목인 정밀감속기·5축 가공·협공차 검사가 차량부품 정밀가공 라인과 동일 설비·숙련공을 쓰므로, 신규 수주 검토 전 캐파 배분을 수치화해야 한다."
+      "sl_label": "리스크",
+      "sl_text": "중국 휠형 휴머노이드의 첫 양산 적용처가 헤드램프 공장으로 확인돼, 램프 공정 자동화 원가 기준선이 사내 ROI 계산보다 경쟁사의 중국산 장비 단가로 먼저 결정될 수 있다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "인접 영역 탐색",
-      "headline": "조사 기간 내 1차 출처로 확정되는 핵심 신규 발표 0건, 인접 영역에서 산업별 sLM과 ERP·MES 연계 기반 중소 제조 AX 서비스 1건만 확인",
-      "source_label": "보건의료연합신문, 2026-10-12",
-      "source_url": "https://www.hmnews.co.kr/17567",
-      "detail": "플로우오에스는 AI 제안, 코드 기반 규칙 검증, 담당자 승인의 3단 분리와 산업 공통 기반·기업별 레이어 분리 구조를 제시했다. 성능·적용 사업장 수·모델 규모 등 정량 근거는 공개되지 않았고, 10월 14일부터 16일 창원 The Next AI 2026 직전 발표 유보 구간으로 보인다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "리스크",
-      "sl_text": "AI 도입 병목이 모델이 아니라 거래처별 품목 코드·단위·예외 규칙 불일치로 지목된 만큼, 자재 체계를 정리하지 못한 부품사는 고객사 AI 연동 요구 시 데이터 정비 비용을 뒤늦게 떠안는다."
+      "field_note": "",
+      "headline": "산업부·해수부, 조선 제조공정 AI 전환에 2030년까지 민관 1조 4,060억 원 투입과 4,000억 원 AI 등대공장 발표",
+      "source_label": "파이낸셜뉴스, 2026-10-12",
+      "source_url": "https://www.fnnews.com/news/202610121443318403",
+      "detail": "영암 대불자유무역지역에 HD현대삼호·대아산업이 AI 조선소를 세우고 검증된 공정을 인근 협력사 9곳으로 확산한다. 거제·부산 권역은 대형사 설계 데이터를 기자재사 자동화 로봇에 직접 투입 가능한 형태로 표준화하는 플랫폼에 5,000억 원을 배정했다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "기회",
+      "sl_text": "협력사 AI 설비보급 360억 원을 별도 항목으로 분리한 설계가 자동차로 복제될 경우, 완성차 공동과제 형태로 설비 투자 분담을 먼저 제안할 창구가 열린다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "Zahoransky·Netstal 턴 툴링 금형 Z.Sonic 공개, 4캐비티 사이클타임 12초(기존 18초)·단가 23% 감소 제시",
-      "source_label": "PolyForm NEXT, 2026-10-09",
-      "source_url": "https://www.polyformnext.de/tooling/zahoransky-at-fakuma-2026-12-second-cycle-time-for-autoinjector-housings.htm",
-      "detail": "잔여 냉각과 취출을 캐비티 밖 서보 인덱싱 유닛으로 옮겨 다음 사출과 병렬 처리하는 구조로, 금형 중량도 3,500kg으로 동급 대비 약 1,000kg 가볍다. 같은 날 ONI는 냉각수 수질 관리를, Lehvoss는 헤드램프 하우징 발포 성형으로 중량 25%·사이클 21% 저감을 공개했다.",
+      "headline": "Scherdel Wiesauplast, 냉각 구조 일체 사출 Hycool로 알루미늄 다이캐스팅 대비 중량 최대 35퍼센트·비용 20퍼센트 저감 제시",
+      "source_label": "plasticker, 2026-10-12",
+      "source_url": "https://plasticker.de/Kunststoff_News_49714_Scherdel_Wiesauplast_Hycool_integriert_Khlstrukturen_in_spritzgegossene_Kunststoffbauteile",
+      "detail": "Fakuma 2026 개막일 발표다. 열전도성 수지로 냉각핀·냉각채널·매체 유로를 제품 안에 직접 성형하는 방식이며 적용 대상으로 파워일렉트로닉스·배터리 시스템·수소 기술을 들었다. 기준 부품과 산출근거는 공개되지 않았다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "램프 하우징 발포 성형은 설비 신규 투자 없이 기존 사출기로 검증 가능한 저투자 원가 과제이나, 외관면 적용 한계를 사내 데이터로 먼저 확정해야 실익이 남는다."
+      "sl_text": "램프 히트싱크·전장 하우징의 다이캐스팅 대체는 금형 난이도와 공구강·표면처리 사양을 올리는 대신 조립 공수를 걷어내는 거래이므로, 단가 비교가 아니라 열부하 기준 수지 역산이 선행 조건이다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-12-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-13-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
