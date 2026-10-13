@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "slug": "2026-10-14-production",
+      "title": "생산기술 신규기술 브리핑 - 2026년 10월 3주차",
+      "date": "2026-10-14",
+      "type": "production",
+      "period": "2026년 10월 3주차",
+      "tags": [
+        "Fakuma",
+        "ARBURG",
+        "ROBOSHOT",
+        "Mold-Masters",
+        "코어백사출",
+        "KUKA",
+        "AutoStore",
+        "휴머노이드핸드"
+      ],
+      "summary": "사출은 Fakuma 2026 개막과 함께 신설된 Innovation Award가 핫러너·게이트 제어 쪽에 집중되고, Mold-Masters DeXa는 사이드게이트 제어 단위를 드롭에서 팁으로 내림. FANUC ROBOSHOT은 전 캐비티 압력 취득을 핫러너 밸런싱 시뮬레이션과 묶은 C세대 2기종을 공개하고, ARBURG는 취출로봇을 사출기 제어기에서 분리해 단독 판매로 전환. 로봇은 KUKA가 AI 비전을 로봇 컨트롤러 내부 GPU에서 실행하는 구성을 내놓고, Boston Dynamics는 Atlas 핸드를 13개 동일 액추에이터 4지 구조로 재설계"
+    },
+    {
       "slug": "2026-10-13-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 10월 13일",
       "date": "2026-10-13",
