@@ -1,54 +1,54 @@
 {
-  "date": "2026-10-13",
-  "slug": "2026-10-13-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-13",
+  "date": "2026-10-15",
+  "slug": "2026-10-15-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-15",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "용접 비드 AI 검사 솔루션이 3개국 24개 양산 라인에서 가동, 누적 검사 데이터 400만 건 확보",
-      "source_label": "머니투데이, 2026-10-12",
-      "source_url": "https://mt.co.kr/future/2026/10/12/2026093017271211772",
-      "detail": "DGIST 교원창업 기업 에이아이로보틱스의 AIR Inspector는 비드 영역을 픽셀 단위로 분할한 뒤 길이·폭·중심선 편차를 mm 단위 실측값으로 적재한다. 배터리팩 케이스 홀 120개를 인라인에서 반복정밀도 0.06에서 0.15mm로 측정해 CMM 샘플링을 전수 측정으로 대체하는 구성도 함께 제시됐다.",
-      "certainty": "[2차 인용]",
+      "headline": "중국 Microintelligence, AI 외관검사 결과로 그라인딩 로봇 경로를 직접 생성. 체화형 산업용 로봇 매출 비중 2023년 26.3퍼센트에서 2025년 57퍼센트로 전환",
+      "source_label": "TechNode, 2026-10-13",
+      "source_url": "https://technode.com/2026/10/13/ai-is-getting-a-factory-job",
+      "detail": "검사 소프트웨어가 결함 좌표와 형상을 산출하면 그 출력이 그대로 로봇 모션 생성 입력으로 넘어가 개체별 가공 경로를 만든다. 2m급 대형 다이캐스팅 부품에서 약 3,000개 촬상 위치를 10분 사이클에 처리하는 온더플라이 이미징이 전제다. 같은 기간 CIIF 2026에서는 정격 가반하중 5,000.36kg의 중하중 로봇 CR5000-3700이 RV 감속기·서보·컨트롤러 내재화와 함께 공개됐다.",
+      "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "판정값이 아닌 측정값을 남기는 구조는 고객사 PPAP·불량 소명 대응 자산이 되므로, 램프 용접·프레스 검사기 교체 주기에 사양 요구사항으로 반영할 수 있다."
+      "sl_text": "동일 비전 자산으로 검사와 후공정 가공 공수를 함께 줄이는 구조이므로, AI 외관검사 투자의 ROI 계산식을 유출불량 저감 단독에서 가공 공수 포함으로 재설정할 근거."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "상하이시, 2028년까지 공장 투입 휴머노이드 8,000대·산업용 로봇 밀도 1만 명당 600대 목표 가동",
-      "source_label": "신화재경·21경제, 2026-10-12",
-      "source_url": "https://m.21jingji.com/article/20261012/herald/9b86c77f1841c5183a261234c67d5d32.html",
-      "detail": "CIIF 2026 개막식에서 공표됐다. 같은 전시에서 협동로봇 점유율 1위 제카(JAKA)가 가반하중 50kg 협동로봇 Zu50과 중하중 휠형 휴머노이드 Kargo50을 공개했고, 전작 Kargo 시리즈가 2026년 7월부터 글로벌 자동차부품사의 스마트 헤드램프 공장에서 자재함 반송에 투입돼 있다고 밝혔다.",
+      "headline": "2026 로보월드, 휴머노이드 특별관 신설. 참가 규모 전년 13개국 365개사에서 17개국 390개사 1,150부스로 확대",
+      "source_label": "서울경제, 2026-10-14",
+      "source_url": "https://www.sedaily.com/article/20101542",
+      "detail": "특별관은 완성형 휴머노이드뿐 아니라 액추에이터·감속기·센서·배터리·제어기를 함께 배치하며, 해외 참가사로 부스터로보틱스·파시니·유니트리로보틱스·화낙이 확정됐다. 유진로봇은 특정 휴머노이드 기종에 종속되지 않는 통합 시스템을 국책과제로 추진한다고 밝혔다.",
       "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "중국 휠형 휴머노이드의 첫 양산 적용처가 헤드램프 공장으로 확인돼, 램프 공정 자동화 원가 기준선이 사내 ROI 계산보다 경쟁사의 중국산 장비 단가로 먼저 결정될 수 있다."
+      "sl_label": "기회",
+      "sl_text": "11월 4-7일 전시를 완성체 구매처가 아니라 로봇 구동부품 신규 공급 포트폴리오 발굴 창구로 설정하면 기존 정밀가공 역량을 직접 연결할 수 있다."
     },
     {
       "field": "AI·디지털전환",
       "field_note": "",
-      "headline": "산업부·해수부, 조선 제조공정 AI 전환에 2030년까지 민관 1조 4,060억 원 투입과 4,000억 원 AI 등대공장 발표",
-      "source_label": "파이낸셜뉴스, 2026-10-12",
-      "source_url": "https://www.fnnews.com/news/202610121443318403",
-      "detail": "영암 대불자유무역지역에 HD현대삼호·대아산업이 AI 조선소를 세우고 검증된 공정을 인근 협력사 9곳으로 확산한다. 거제·부산 권역은 대형사 설계 데이터를 기자재사 자동화 로봇에 직접 투입 가능한 형태로 표준화하는 플랫폼에 5,000억 원을 배정했다.",
+      "headline": "마키나락스, 총사업비 118억 원 산업부 R&D 과제로 열간단조 금형 설계 자동 보정과 자율 생산을 세일단조 양산라인에서 실증",
+      "source_label": "파이낸셜뉴스, 2026-10-14",
+      "source_url": "https://www.fnnews.com/news/202610140940555795",
+      "detail": "AI OS 런웨이와 도면 의사결정 에이전트 드로우엑스가 단조 도면에서 설계 파라미터를 추출해 금형 보정안을 추천하고, 온도·하중·비전 다중 센서 진단과 디지털 스레드로 묶는다. 기간은 2026년 6월부터 2029년 12월까지이며 주관기관은 세일단조다. 같은 기간 엔비디아는 SEMICON West에서 AI 정의 팹 구상과 신규 라이브러리 cuPotential을 공개했다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "협력사 AI 설비보급 360억 원을 별도 항목으로 분리한 설계가 자동차로 복제될 경우, 완성차 공동과제 형태로 설비 투자 분담을 먼저 제안할 창구가 열린다."
+      "sl_label": "변곡점",
+      "sl_text": "금형 설계 암묵지가 국책 과제의 양산 실증 대상으로 편입됐고 참여 자격을 도면·금형 이력의 디지털화 수준이 가르므로, 스캔 PDF 상태의 설계 자산 정비가 선행 투자 항목이 된다."
     },
     {
       "field": "금형·사출 기술",
-      "field_note": "",
-      "headline": "Scherdel Wiesauplast, 냉각 구조 일체 사출 Hycool로 알루미늄 다이캐스팅 대비 중량 최대 35퍼센트·비용 20퍼센트 저감 제시",
-      "source_label": "plasticker, 2026-10-12",
-      "source_url": "https://plasticker.de/Kunststoff_News_49714_Scherdel_Wiesauplast_Hycool_integriert_Khlstrukturen_in_spritzgegossene_Kunststoffbauteile",
-      "detail": "Fakuma 2026 개막일 발표다. 열전도성 수지로 냉각핀·냉각채널·매체 유로를 제품 안에 직접 성형하는 방식이며 적용 대상으로 파워일렉트로닉스·배터리 시스템·수소 기술을 들었다. 기준 부품과 산출근거는 공개되지 않았다.",
+      "field_note": "2026-10-13 발행 Haidlmair Euro Stampi 지분 인수의 후속",
+      "headline": "FDU Hotrunner와 Oerlikon HRSflow, Fakuma 2026 현장에서 생산 파트너십 체결. 제어·조절 기술과 기술 총괄 책임은 FDU에 잔류",
+      "source_label": "PolyForm NEXT, 2026-10-14",
+      "source_url": "https://www.polyformnext.de/hot-runner-systems/news-from-fakuma-2026-fdu-and-hrsflow-partner-on-hot-runner-solutions.htm",
+      "detail": "FDU가 기술 개발·엔지니어링·시스템 설계를 유지하고 HRSflow가 산업적 양산 구현을 맡는 분업 구조다. 같은 날 Roemheld는 최대 1,000kg 금형을 전동으로 운반·승강하는 교환 대차 RWA 1000 elmo를 데뷔시켰고, HRSflow는 육후 최대 12mm 두꺼운 투명부품용 Xp 노즐 시리즈를 공개했다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "램프 히트싱크·전장 하우징의 다이캐스팅 대체는 금형 난이도와 공구강·표면처리 사양을 올리는 대신 조립 공수를 걷어내는 거래이므로, 단가 비교가 아니라 열부하 기준 수지 역산이 선행 조건이다."
+      "sl_label": "리스크",
+      "sl_text": "제어 IP와 하드웨어 양산 주체가 분리되면서 품질 책임 소재와 스페어 리드타임이 모호해지므로, 핫러너 구매 계약의 보증 조항을 재협의해야 한다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-13-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-15-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
