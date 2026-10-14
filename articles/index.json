@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "slug": "2026-10-14-daily-brief",
+      "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 10월 14일",
+      "date": "2026-10-14",
+      "tags": [
+        "Rockwell Automation",
+        "Siemens",
+        "휴머노이드",
+        "CIIF2026",
+        "Fakuma2026",
+        "Oerlikon HRSflow",
+        "핫러너",
+        "디지털트윈"
+      ],
+      "summary": "Rockwell이 IEC 62443-4-2와 EU CRA 대응을 명시한 CompactLogix 5390을 내놓으며 설치 공간을 전 세대 대비 43퍼센트 줄였고, 산업통상부는 이동형 휴머노이드 공장 실증 규제특례를 처음 승인해 자동차 차체부품 등 4개 공정에 20대를 투입한다. CIIF 2026에서 지멘스는 엔지니어링 에이전트 Eigen 업데이트(개발 시간 최대 50퍼센트 단축 주장)와 디지털 트윈 국가표준 GB/T 47859-2026을 공동 발표했고, 야스카와는 Jetson 기반 YNX1000 컨트롤러로 로봇 컨트롤러를 AI 앱 플랫폼으로 열었다. Fakuma 2026에서는 Oerlikon HRSflow가 니들 없는 핫러너 Stargate HRS를 PMMA와 ABS로 확대하며 사이클 최대 20퍼센트 단축을 제시했고, 첫 Fakuma Innovation Award 금형 부문 1위는 Leonhardt가 차지했다."
+    },
+    {
       "slug": "2026-10-14-production",
       "title": "생산기술 신규기술 브리핑 - 2026년 10월 3주차",
       "date": "2026-10-14",
