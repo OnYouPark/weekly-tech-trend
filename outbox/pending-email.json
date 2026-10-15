@@ -1,54 +1,54 @@
 {
-  "date": "2026-10-15",
-  "slug": "2026-10-15-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-15",
+  "date": "2026-10-16",
+  "slug": "2026-10-16-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-16",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "중국 Microintelligence, AI 외관검사 결과로 그라인딩 로봇 경로를 직접 생성. 체화형 산업용 로봇 매출 비중 2023년 26.3퍼센트에서 2025년 57퍼센트로 전환",
-      "source_label": "TechNode, 2026-10-13",
-      "source_url": "https://technode.com/2026/10/13/ai-is-getting-a-factory-job",
-      "detail": "검사 소프트웨어가 결함 좌표와 형상을 산출하면 그 출력이 그대로 로봇 모션 생성 입력으로 넘어가 개체별 가공 경로를 만든다. 2m급 대형 다이캐스팅 부품에서 약 3,000개 촬상 위치를 10분 사이클에 처리하는 온더플라이 이미징이 전제다. 같은 기간 CIIF 2026에서는 정격 가반하중 5,000.36kg의 중하중 로봇 CR5000-3700이 RV 감속기·서보·컨트롤러 내재화와 함께 공개됐다.",
-      "certainty": "[공식 발표]",
+      "headline": "ABB가 CIIF 2026에서 IRB 1700 제품군을 공개하며 사이클타임 최대 20퍼센트 단축, 설치면적 50퍼센트 축소, 오일 교환 주기 20,000시간을 제시했다",
+      "source_label": "MachineToolNews, 2026-10-15",
+      "source_url": "https://machinetoolnews.ai/abb-irb-1700-industrial-robot/",
+      "detail": "가반하중 6에서 12kg 5개 변형, 경로 반복정밀도 0.03mm, 관절 속도 최대 700도/s 사양으로 OmniCore 컨트롤러 기반이며, IRB 1700ID는 암 내부 배선으로 아크용접과 디버링의 케이블 간섭을 구조적으로 제거했다. 같은 48시간에 MVTec은 원격 접속 기본 비활성화와 SPDX SBOM을 담은 MERLIC 26.10을 출시했다.",
+      "certainty": "[업계 분석]",
       "sl_label": "기회",
-      "sl_text": "동일 비전 자산으로 검사와 후공정 가공 공수를 함께 줄이는 구조이므로, AI 외관검사 투자의 ROI 계산식을 유출불량 저감 단독에서 가공 공수 포함으로 재설정할 근거."
+      "sl_text": "노후 IRB 1600 셀 교체 시 동일 면적 안에 디버링과 검사 공정을 추가 수용할 수 있어, 라인 증설 없이 공정 통합으로 투자비를 전환할 수 있다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "",
-      "headline": "2026 로보월드, 휴머노이드 특별관 신설. 참가 규모 전년 13개국 365개사에서 17개국 390개사 1,150부스로 확대",
-      "source_label": "서울경제, 2026-10-14",
-      "source_url": "https://www.sedaily.com/article/20101542",
-      "detail": "특별관은 완성형 휴머노이드뿐 아니라 액추에이터·감속기·센서·배터리·제어기를 함께 배치하며, 해외 참가사로 부스터로보틱스·파시니·유니트리로보틱스·화낙이 확정됐다. 유진로봇은 특정 휴머노이드 기종에 종속되지 않는 통합 시스템을 국책과제로 추진한다고 밝혔다.",
-      "certainty": "[공식 발표]",
+      "field_note": "2026-10-08 발행 보스턴다이내믹스 CEO 선임의 후속",
+      "headline": "현대차그룹이 RX사업전략팀을 신설하고, 아틀라스 1대 제작시간을 현재 약 1일에서 2027년 1시간 수준으로 줄여 2028년 연 3만 대 체계를 구축한다",
+      "source_label": "머니투데이, 2026-10-16",
+      "source_url": "https://www.mt.co.kr/industry/2026/10/16/2026101520052839564",
+      "detail": "미래사업전략실 산하 전담조직으로 로보틱스랩과 보스턴다이내믹스의 밸류체인을 통합하며, RX를 로보틱스에브리싱으로 재정의했다. 보스턴다이내믹스는 외부 업체가 요구 정밀도를 맞추지 못해 정밀가공과 기어절삭을 자체 시설에서 수행 중이다.",
+      "certainty": "[업계 분석]",
       "sl_label": "기회",
-      "sl_text": "11월 4-7일 전시를 완성체 구매처가 아니라 로봇 구동부품 신규 공급 포트폴리오 발굴 창구로 설정하면 기존 정밀가공 역량을 직접 연결할 수 있다."
+      "sl_text": "완성차 고객사가 휴머노이드를 자체 양산 품목으로 확정한 만큼, 정밀가공과 다이캐스팅 역량을 관절·구조 부품 공급 기회로 조기 타진할 창구가 열렸다."
     },
     {
       "field": "AI·디지털전환",
       "field_note": "",
-      "headline": "마키나락스, 총사업비 118억 원 산업부 R&D 과제로 열간단조 금형 설계 자동 보정과 자율 생산을 세일단조 양산라인에서 실증",
-      "source_label": "파이낸셜뉴스, 2026-10-14",
-      "source_url": "https://www.fnnews.com/news/202610140940555795",
-      "detail": "AI OS 런웨이와 도면 의사결정 에이전트 드로우엑스가 단조 도면에서 설계 파라미터를 추출해 금형 보정안을 추천하고, 온도·하중·비전 다중 센서 진단과 디지털 스레드로 묶는다. 기간은 2026년 6월부터 2029년 12월까지이며 주관기관은 세일단조다. 같은 기간 엔비디아는 SEMICON West에서 AI 정의 팹 구상과 신규 라이브러리 cuPotential을 공개했다.",
+      "headline": "국가 피지컬 AI R&D 7,368억 원 중 720억 원 세부과제에서 제조 범용 AI 프레임워크 6종 개발이 착수되며, 제조 AI 축이 공장별 맞춤에서 표준 프레임워크로 이동했다",
+      "source_label": "인더스트리뉴스, 2026-10-15",
+      "source_url": "https://www.industrynews.co.kr/news/articleView.html?idxno=87625",
+      "detail": "원프레딕트가 프레임워크 6종을 총괄해 주조, 식품, 정밀부품 현장에서 교차 검증한다. KOSA와 TTA는 10월 15일 세미나에서 피지컬AI 표준화 포럼 PASA의 시뮬레이션-현실 신뢰성 평가 프레임워크 과제를 공유했다.",
       "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "금형 설계 암묵지가 국책 과제의 양산 실증 대상으로 편입됐고 참여 자격을 도면·금형 이력의 디지털화 수준이 가르므로, 스캔 PDF 상태의 설계 자산 정비가 선행 투자 항목이 된다."
+      "sl_label": "기회",
+      "sl_text": "정밀부품이 국가 과제 교차 검증 대상에 포함된 지금이 자사 공정 요구사항을 표준 초안에 반영시킬 수 있는 창이며, 놓치면 확정 후 적합성 비용을 일방 부담한다."
     },
     {
       "field": "금형·사출 기술",
-      "field_note": "2026-10-13 발행 Haidlmair Euro Stampi 지분 인수의 후속",
-      "headline": "FDU Hotrunner와 Oerlikon HRSflow, Fakuma 2026 현장에서 생산 파트너십 체결. 제어·조절 기술과 기술 총괄 책임은 FDU에 잔류",
-      "source_label": "PolyForm NEXT, 2026-10-14",
-      "source_url": "https://www.polyformnext.de/hot-runner-systems/news-from-fakuma-2026-fdu-and-hrsflow-partner-on-hot-runner-solutions.htm",
-      "detail": "FDU가 기술 개발·엔지니어링·시스템 설계를 유지하고 HRSflow가 산업적 양산 구현을 맡는 분업 구조다. 같은 날 Roemheld는 최대 1,000kg 금형을 전동으로 운반·승강하는 교환 대차 RWA 1000 elmo를 데뷔시켰고, HRSflow는 육후 최대 12mm 두꺼운 투명부품용 Xp 노즐 시리즈를 공개했다.",
+      "field_note": "",
+      "headline": "Husky가 캡 자유낙하와 금형 개폐 운동을 분리한 HyCAP PRO를 출시해 기존 대비 생산성 최대 45퍼센트 향상, 에너지 최대 15퍼센트 절감을 제시했다",
+      "source_label": "Husky Technologies, 2026-10-14",
+      "source_url": "https://www.husky.co/en/about-us/news/hycap-pro/",
+      "detail": "300톤 형체력, 듀얼 RS 사출 유닛, 72캐비티 금형, HDPE 처리량 최대 260kg/h 구성이다. 같은 날 Incoe는 캐비티 배면 국부 열펄스로 웰드라인 표면 노치를 억제하는 Heat-Inject와, 밸브핀을 외부에서 개별 조정하는 APR 옵션을 함께 공개했다.",
       "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "제어 IP와 하드웨어 양산 주체가 분리되면서 품질 책임 소재와 스페어 리드타임이 모호해지므로, 핫러너 구매 계약의 보증 조항을 재협의해야 한다."
+      "sl_label": "기회",
+      "sl_text": "Incoe Heat-Inject는 램프와 외관부 웰드라인 후가공 비용을 금형 전면 교체 없이 핫러너 모듈 리트로핏만으로 줄일 수 있는 경로다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-15-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-16-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
