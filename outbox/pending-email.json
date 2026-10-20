@@ -1,54 +1,54 @@
 {
-  "date": "2026-10-20",
-  "slug": "2026-10-20-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-20",
+  "date": "2026-10-21",
+  "slug": "2026-10-21-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-21",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "지멘스, 에를랑겐 전자공장에서 엔비디아 공동 개발 AI 공개. 가상 생산준비로 엔지니어링 공수 최대 85퍼센트 절감, 출시기간 최대 40퍼센트 단축",
-      "source_label": "Siemens 보도자료, 2026-10-19",
-      "source_url": "https://press.siemens.com/global/en/pressrelease/siemens-partners-nvidia-advance-ai-driven-autonomous-factories",
-      "detail": "디지털 트윈에서 생성한 합성 이미지로 비전 검사 모델을 선학습시켜 실물 시제품 없이 검사 셋업을 끝내는 구조다. 약 1,000명이 일하는 실가동 라인에서 10개월간 검증한 값이며, 에이전트 기반 생산계획은 공장 전체 트윈 검증을 거쳐 최대 20퍼센트 비용 절감을 제시했다.",
+      "headline": "AGCO가 캔자스 헤스턴 공장에 Agility Robotics 휴머노이드 Digit을 2027년 투입하는 상용 계약을 10월 20일 체결했다. Digit 누적 실환경 가동은 6만 5,000시간 이상이다.",
+      "source_label": "Agility Robotics 보도자료, 2026-10-20",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/20/3384385/0/en/agco-and-agility-robotics-advance-smart-manufacturing-with-humanoid-robot-pilot-in-hesston-kansas-facility.html",
+      "detail": "적용 공정은 부품 분류·적재와 보관 토트의 지능형 배치이며, 클라우드 플릿 관리 플랫폼 Agility Arc를 통해 대규모 설비 개조 없이 기존 라인에 투입한다는 것이 전제다. 휴머노이드 적용 지점이 물류창고에서 조립·생산 공정 지원으로 명시적으로 이동한 첫 상용 계약이다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "신규 품번 양산 준비의 임계공정이 검사 셋업에서 설계 단계로 이동하므로, 모델 전환이 잦은 램프·전장 품목에서 PPAP 일정 단축을 먼저 시험할 구간이다."
+      "sl_text": "2027년 파일럿 결과 공개 전에 사내 '사람 기준으로 설계된 작업'의 사이클타임·작업자 부하 베이스라인을 확보해 두면 비교 평가 시점을 1년 앞당길 수 있다."
     },
     {
       "field": "로보틱스·모빌리티",
       "field_note": "",
-      "headline": "제32회 ITS 세계총회 강릉 개막, 108개 기관 428개 부스. 300km 떨어진 대구 시험장 자율주행 셔틀 원격 조작 시연 공개",
-      "source_label": "서울경제, 2026-10-19",
-      "source_url": "https://m.sedaily.com/article/20103460",
-      "detail": "도요타·혼다·현대모비스·퀄컴이 같은 전시장에 부스를 차렸고, HL로보틱스 실외 주차로봇 STAN과 레벨4 셔틀이 실도로에서 운행됐다. 자율주행 안전 구조가 차량 단독 자율성에서 원격 개입을 포함한 다중 구조로 수렴하는 흐름이다.",
+      "headline": "대구 FIX 2026이 10월 21일 역대 최대 588개사 규모로 개막하며 SL이 자체 개발 AMR에 뉴로메카 양팔로봇을 결합한 '쓸모로봇'의 성서공장 실증을 공개했다. 해외 참가 비중은 전년 17퍼센트에서 28퍼센트로 올랐다.",
+      "source_label": "서울경제, 2026-10-20",
+      "source_url": "https://www.sedaily.com/article/20103949",
+      "detail": "SL은 현대차 이동형 로봇 플랫폼 MobED 위탁생산도 수행 중이며 장기적으로 로봇 공급기업으로 사업을 확장할 계획이라고 밝혔다. 같은 행사에서 삼보모터스는 UAM 기체 B-33X 축소 모델을, PHC는 로봇 구동용 액추에이터를 전시한다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "램프·센서 수요처가 완성차 OEM 단일 채널에서 노변 인프라 B2G 조달로 분화되는 국면이나, 단가·물량 구조가 달라 라인 전환이 아닌 파생 사양 대응이 현실적이다."
+      "sl_label": "변곡점",
+      "sl_text": "자사 공정 자동화 수요에서 출발해 내부 실증으로 레퍼런스를 쌓는 경로가 공개된 반면, 매니퓰레이터를 외부 조달에 의존하는 구조여서 감속기·모터 내재화 로드맵 없이는 조립·CM 수준에 머물 위험이 있다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "",
-      "headline": "중기부 AX 스프린트 48개 과제 1,242억 원 확정, 포항철강산단 AX 실증산단 4년 235억 원 착수",
-      "source_label": "서울경제, 2026-10-18",
-      "source_url": "https://www.sedaily.com/article/20102950",
-      "detail": "단조업체 한호산업의 프레스 끼임 감지, 자동차 부품업체 리하온의 EV 배터리 부품 자율생산 시스템 등 뿌리·부품 업종 과제가 실제로 포함됐다. 정책 자금이 공급사 솔루션 배포가 아닌 제조기업 공정 데이터 기준 검증 구조로 설계됐다.",
-      "certainty": "[2차 인용]",
-      "sl_label": "기회",
-      "sl_text": "자사 공정 데이터 정리 수준이 지원 획득의 선행 조건이 되는 구조이므로, 설비 데이터 수집 체계 정비가 과제 제안 역량과 직결된다."
+      "field_note": "2026-10-20 발행 지멘스-엔비디아 건의 후속",
+      "headline": "독일 연방정부가 10월 19일 베를린에서 엔비디아와 산업용 피지컬 AI 공동의향서에 서명하고, 유럽 전역에 약 100억 달러 규모 투자를 약속하며 독일 스타트업 4곳에 신규 투자를 발표했다.",
+      "source_label": "NVIDIA Blog, 2026-10-19",
+      "source_url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
+      "detail": "총리실, 연방 경제에너지부, 연방 연구기술우주부가 공동 서명 주체이며, 기존 '인더스트리 4.0 플랫폼' 구조를 그대로 끌어와 피지컬 AI 선도 모델 개발을 국가 의제로 올렸다. 메르츠 총리는 중견·중소기업에 운영 데이터를 AI에 개방하라고 직접 요청했다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "리스크",
+      "sl_text": "유럽 완성차·Tier1이 국가 단위 피지컬 AI 생태계에 편입되면서 공급사에 공정 데이터의 트윈 연동과 AI 학습 제공을 거래 조건으로 요구할 개연성이 커졌다. 데이터 제공 범위와 학습 결과물 소유권 기준을 협상 전에 확정해야 한다."
     },
     {
-      "field": "금형·사출 기술 (인접 영역)",
-      "field_note": "2026-10-19 발행 공백기 보고의 후속, 연속 2일째",
-      "headline": "1차 출처 기준 신규 발표 0건. 기간 내 유일 보도는 Shibaura Machine LWB의 MultiStation 사출셀 10월 28-29일 세계 최초 공개 예고",
-      "source_label": "KunststoffWeb, 2026-10-19",
-      "source_url": "https://www.kunststoffweb.de/technologie-news/",
-      "detail": "사출·가류·탈형 공정을 분리·병렬화해 생산 중에도 개별 스테이션의 금형 교체·정비가 가능한 셀 구조로, 사이클 단축률 등 정량 지표는 미공개다. Fakuma 2026 폐막 직후 발표 공백기가 이어지고 있다.",
+      "field": "금형·사출 기술",
+      "field_note": "",
+      "headline": "미국 마이크로 사출 전문업체 Accumold가 아이오와주 Ankeny 캠퍼스에 3,325만 달러를 투입해 약 53,000제곱피트 제4동을 신축하고 사출 생산능력을 거의 2배로 늘린다.",
+      "source_label": "Plastics Today, 2026-10-20",
+      "source_url": "https://www.plasticstoday.com/materials/accumold-set-to-nearly-double-micro-injection-molding-capacity-for-medical-microelectronics-micro-optics",
+      "detail": "신축동은 자사가 직접 설계·제작한 전용 마이크로 사출기와 Sumitomo 소형 사출 플랫폼을 수용하며, 현원 425명에 150명을 추가 고용한다. Fakuma 2026 폐막 이후 금형 신기술 발표 공백기는 이어지고 있다.",
       "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "금형 교체가 라인 정지로 직결되던 전제가 흔들리면 경쟁력의 축이 금형 단품 정밀도에서 금형-셀 인터페이스 표준화로 이동한다."
+      "sl_label": "기회",
+      "sl_text": "센서 하우징·커넥터 미세 단자부·소형 광학 부품처럼 범용 사출 라인으로 수율이 나오지 않는 품목에 대해, 자체 설비 증설 대신 북미 외주로 돌리는 선택지가 확대된다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-20-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-21-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
