@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "slug": "2026-10-21-production",
+      "title": "생산기술 신규기술 브리핑 - 2026년 10월 4주차",
+      "date": "2026-10-21",
+      "type": "production",
+      "period": "2026년 10월 4주차",
+      "tags": [
+        "Haidlmair",
+        "HRSflow",
+        "우진플라임",
+        "ARBURG",
+        "MATSUI",
+        "Novarc",
+        "Schaeffler",
+        "Agility Robotics"
+      ],
+      "summary": "사출은 Fakuma 2026 폐막 후 사후 보도에서 금형이 냉각 수축을 기계적으로 추종하는 Active Mould와 핀 없는 핫러너의 PMMA·ABS 확대가 확인되고, SPE 어워드 후보로 샷당 30 kg·12,000 ton급 일체형 트럭 베드와 3색 사출 렌즈의 양산 사례가 공개됨. 로봇은 적응 용접 AI가 메이커 자체 기능이 아닌 제3자 레이어로 Yaskawa·ABB 셀에 레트로핏되는 구성이 제시되고, Schaeffler는 휴머노이드 조립라인·훈련센터·디지털 트윈·부품 양산을 한 부지에 묶은 공장을 가동"
+    },
+    {
       "slug": "2026-10-21-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 10월 21일",
       "date": "2026-10-21",
