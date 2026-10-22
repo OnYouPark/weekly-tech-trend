@@ -1,54 +1,54 @@
 {
-  "date": "2026-10-22",
-  "slug": "2026-10-22-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-22",
+  "date": "2026-10-23",
+  "slug": "2026-10-23-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-23",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "로크웰이 10월 21일 AI 네이티브 오케스트레이션 플랫폼 FactoryTalk Conductor를 발표하고 출시 시점 연동 소프트웨어 4종, 상용화 2027년 1분기를 제시했다",
-      "source_label": "PR Newswire, 2026-10-21",
-      "source_url": "https://www.prnewswire.com/news-releases/rockwell-automation-introduces-factorytalk-conductor-an-ai-native-orchestration-platform-for-industrial-automation-302914710.html",
-      "detail": "개별 코파일럿이 아니라 복수 AI 에이전트와 워크플로, 엔지니어링 툴을 하나의 환경에서 조율하는 구조다. 고객이 선호하는 외부 모델과 로컬 호스팅 오픈웨이트 모델까지 연결하도록 열어둬 토큰 비용과 데이터 거버넌스 요구를 동시에 겨냥했다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "산업 AI 구매 단위가 개별 솔루션에서 에이전트 오케스트레이션 플랫폼으로 바뀌므로, 벤더별 PoC를 늘리기 전에 KPI 우선순위와 가드레일 정책을 먼저 확정해야 벤더 종속을 피한다."
+      "headline": "제2회 산업AI EXPO 201개사·430부스, AMXPO 2026 12개국 160개사·400부스로 10월 21일 킨텍스 동시 개막",
+      "source_label": "산업일보, 2026-10-21",
+      "source_url": "https://kidd.co.kr/news/247819",
+      "detail": "주제는 Embodied AI: Beyond Physical AI이며, 두 전시회는 산업통상부가 5개 전문 전시회를 묶는 국가 브랜드 K Connect AI에 함께 참여한다. 현장에서는 회전설비 진동감시의 무선화(우진)와 UWB 기반 볼트 체결 이력 추적(비엠솔루션)이 공개됐다.",
+      "certainty": "[2차 인용]",
+      "sl_label": "기회",
+      "sl_text": "공급사들이 대기업·중견 부품사를 주력 타깃으로 명시한 국면이라, 램프·모듈 조립 라인에 바로 붙는 솔루션을 전시 종료일인 23일까지 직접 비교 선정할 수 있다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "2026-10-21 발행 독일-엔비디아 피지컬 AI 건의 후속",
-      "headline": "GTC Berlin에서 Bolt가 Lucid 기반 L4 차량 최소 25,000대 유럽 전개를 공식화하고 Aptiv·Valeo·Schaeffler가 Hyperion 기반 컴퓨팅 플랫폼 공급사로 올라섰다",
-      "source_label": "NVIDIA, 2026-10-21",
-      "source_url": "https://www.globenewswire.com/news-release/2026/10/21/3385334/0/en/European-Mobility-Leaders-Build-Safe-Vehicles-and-Robotaxi-Fleets-on-NVIDIA-Hyperion.html",
-      "detail": "같은 날 Agile Robots가 Jetson Thor와 Isaac GR00T를 기본 탑재한 레퍼런스 휴머노이드 Agile ONE SN을 공개했고, Tesla는 프리몬트 라인에서 Optimus 양산 품질 생산을 개시했다. Schaeffler는 휴머노이드 1대당 손 제외 약 26개 액추에이터 규모를 제시했다.",
+      "field_note": "",
+      "headline": "테슬라, 10월 21일 3분기 공시에서 프리몬트 옵티머스 양산 개시 발표 및 설비능력표에 Robotics/California를 Early Ramp로 신규 등재",
+      "source_label": "SEC EDGAR, Tesla Q3 2026 Update, 2026-10-21",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001318605/000162828026066738/exhibit9914.htm",
+      "detail": "휴머노이드가 모델 Y·메가팩과 같은 공시 설비 테이블에 오른 첫 사례로, 회사는 이 라인에서 나온 로봇을 최초의 양산 품질 로봇으로 규정했다. 텍사스 라인은 Construction 상태다.",
       "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "Tier1 부가가치가 개별 모듈에서 통합 컴퓨팅·안전 플랫폼으로 이동 중이며, 모듈 공급에 머물면 L4 차량 아키텍처 사양 결정권에서 밀려난다."
+      "sl_label": "변곡점",
+      "sl_text": "로봇 검토를 시범 과제가 아니라 감속기·액추에이터 캐파 경합까지 포함한 설비 투자 심의 트랙으로 옮길 시점이다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-10-20 발행 지멘스 에를랑겐 건의 후속",
-      "headline": "지멘스·엔비디아가 PCB 광학검사 가상 준비 워크플로를 공식화하며 수동 엔지니어링 공수 최대 85% 절감, 오검출 40% 감소, 초기 수율 5% 이상 개선을 목표로 제시했다",
-      "source_label": "Siemens Newsroom, 2026-10-21",
-      "source_url": "https://news.siemens.com/en-us/siemens-nvidia-pcba-digital-twin-factory/",
-      "detail": "같은 날 공장 관리자 에이전트 참조설계 NVIDIA FOX가 GitHub 얼리액세스로 풀렸고, CAE 희소행렬 해석을 GPU로 옮기는 cuDSS가 정식 출시돼 가상 시운전 반복 주기가 단축된다. 어드밴텍은 자사 20개 라인 배치로 AI 에이전트 기여 산출 증가분 8.91%를 공개했다.",
+      "field_note": "",
+      "headline": "삼성전자 2030년 AI 드리븐 팩토리 구축 목표 공개, 검사 자동화율 86퍼센트에서 내년 98퍼센트로 상향",
+      "source_label": "이투데이, 2026-10-22",
+      "source_url": "https://www.etoday.co.kr/news/view/2639019",
+      "detail": "베트남 스마트폰 라인에서 AI 에이전트가 공정상세정보(BOP)를 자동 생성해 작성 시간을 70퍼센트 줄였고, 설비 이상 예측은 주요 공정 2,000개소에 적용 중이다. SK하이닉스는 AI 판단을 디지털 트윈에서 먼저 검증한 뒤 로봇이 실행하는 순환 구조를 자율팹의 골격으로 제시했다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "검사 ROI 기준이 불량 검출률에서 검사 준비 공수와 과검 재확인 공수로 이동하며, 실물 시제품 없이 비전 모델을 선행 학습시킬 수 있는 품목을 먼저 확보한 쪽이 유리하다."
+      "sl_label": "리스크",
+      "sl_text": "병목이 모델이 아니라 공정조건과 품질을 잇는 시간정합 데이터로 확정된 이상, 완성차의 SDF 전환이 협력사 공정 이력 제출 요구로 넘어가면 단가가 아니라 데이터 정합 역량이 재소싱 기준이 된다."
     },
     {
       "field": "금형·사출 기술",
-      "field_note": "연속 4일째",
-      "headline": "Fakuma 폐막 후 신규 하드웨어 공백이 이어진 가운데 PP 가격이 5월 이후 누적 17센트/lb 하락하고 9월 PGP 계약가 43센트/lb가 체결됐다",
-      "source_label": "Plastics Technology, 2026-10-21",
-      "source_url": "https://www.ptonline.com/articles/november-2026-flat-to-down-price-trajectory-for-the-five-commodity-resins",
-      "detail": "하드웨어 대신 설계 전 단계 거버넌스가 쟁점으로 올라와, 복수 공장 간 금형 인터페이스 표준 불일치와 예비 금형 승인 회의의 교차기능 참석 부재가 실제 병목으로 지목됐다. PE도 2027년 계약에서 구매자 우위 전망이 제시됐다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "기회",
-      "sl_text": "PP 약세와 구매자 우위 전망이 겹치는 지금이 2027년 사출용 수지 계약 조건을 재설정할 창이다."
+      "field_note": "2026-10-21 발행 SPE 자동차혁신상 후보 기사의 후속",
+      "headline": "SPE 지속가능성 결선에서 금형·성형조건·설계 변경 없는 탄소포집 POM이 소재 생산 CO2 90퍼센트 저감, 도요타 승인기간 2–3년에서 2개월로 단축",
+      "source_label": "Plastics Today, 2026-10-22",
+      "source_url": "https://www.plasticstoday.com/automotive-mobility/spe-names-three-sustainability-finalists-for-automotive-awards",
+      "detail": "같은 결선에 오른 Llink Technologies와 GM의 램프 재제조는 자동차 조명 분야 최초의 양산형 재제조 공정으로, 부품 최대 95퍼센트를 회수해 신품 대비 약 40퍼센트 저가로 GM 36개 품번에 대응한다. Fakuma 폐막 후 하드웨어 신제품 발표는 공백이었다.",
+      "certainty": "[2차 인용]",
+      "sl_label": "리스크",
+      "sl_text": "재제조 램프가 FMVSS 108과 OEM 보증을 통과한 채 보수 물량을 잠식하기 시작했고, 이는 서비스용 수요를 전제로 산정한 저가동 램프 금형의 회수 근거를 직접 깎는다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-22-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-23-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
