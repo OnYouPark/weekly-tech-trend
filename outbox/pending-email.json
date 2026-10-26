@@ -1,54 +1,54 @@
 {
-  "date": "2026-10-26",
-  "slug": "2026-10-26-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-26",
+  "date": "2026-10-27",
+  "slug": "2026-10-27-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-27",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "인접 영역(탄소 측정)",
-      "headline": "산업통상부, 2028년 1월 EU CBAM 하류재 확대로 자동차부품 수출에 인증서 비용 발생",
-      "source_label": "산업통상부, 2026-10-23",
-      "source_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172324/view?mno=&pageIndex=1",
-      "detail": "철강·알루미늄 가공품이 대상이며 최종 품목은 EU 개정 후 확정된다.",
+      "field_note": "",
+      "headline": "ORAFOL, Zebra AI 비전으로 렌즈 150만 개 이상 검사하며 검사시간 50% 단축",
+      "source_label": "Business Wire(Zebra), 2026-10-26",
+      "source_url": "https://www.businesswire.com/news/home/20261026775215/en/",
+      "detail": "라인당 최대 15명이 하던 미세구조 렌즈 육안검사를 딥러닝 비전으로 옮기며 광학 터렛을 따로 개발했다.",
       "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "방열판·브래킷의 내재 배출을 실측 증빙하지 못하면 기본값 기준 비용이 단가로 넘어올 수 있다."
+      "sl_label": "기회",
+      "sl_text": "렌즈 검사 자동화의 선행 투자처가 AI 모델보다 조명·광학 지그라는 실증이다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "2026-10-14 발행 휴머노이드 실증특례의 후속",
-      "headline": "정부, 이동식 로봇·휴머노이드의 1.8m 펜스 면제 판단 기준 마련 추진",
-      "source_label": "국무조정실 보도자료, 2026-10-23",
-      "source_url": "https://www.korea.kr/briefing/pressReleaseList.do?pageIndex=2&repCodeType=&repCode=&startDate=2026-10-23&endDate=2026-10-23&srchWord=",
-      "detail": "이동식 로봇 가이드는 2027년 1분기, 휴머노이드 안전 가이드는 2026년 하반기에 나온다.",
+      "field_note": "2026-10-26 발행 주간 종합 휴머노이드 상용 계약의 후속",
+      "headline": "Agility, 부품 개발사 등 제조 고객 3곳 유료 프로그램 공개, 잠재 고객 30곳 이상",
+      "source_label": "GlobeNewswire(Agility Robotics), 2026-10-26",
+      "source_url": "https://www.globenewswire.com/news-release/2026/10/26/3388115/0/en/agility-robotics-highlights-commercial-momentum-and-growing-enterprise-demand-for-digit-humanoid-robot.html",
+      "detail": "GXO도 Digit 거점을 2곳 늘려 2027년 초 Digit 4로 시작한다.",
       "certainty": "[공식 발표]",
       "sl_label": "변곡점",
-      "sl_text": "쓸모로봇형 이동 셀의 라인 확산 판단이 개별 승인에서 가이드 기반 위험성평가로 넘어온다."
+      "sl_text": "유료 실증이 부품사로 내려와 Digit 5 얼리 액세스(2027년 상반기) 전에 포장·이송 파일럿 KPI를 정해야 한다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-10-19 발행 가상 시운전 흐름의 후속",
-      "headline": "HD현대사이트솔루션, 63억 3,000만 원 규모 무인 굴착기 디지털 트윈 국책과제 주관",
-      "source_label": "머니투데이, 2026-10-25",
-      "source_url": "https://www.mt.co.kr/industry/2026/10/25/2026102509321291509",
-      "detail": "유압·동역학·토사 상호작용을 가상 재현해 자율작업을 먼저 검증하고 실장비로 보정한다.",
-      "certainty": "[2차 인용]",
-      "sl_label": "기회",
-      "sl_text": "설비 데이터 표준을 먼저 갖춘 부품사가 가상 시운전 국책과제를 맡을 여지가 생겼다."
+      "field_note": "2026-10-26 발행 주간 종합 에이전트 플랫폼 흐름의 후속",
+      "headline": "Poka, 현장용 노코드 에이전트 빌더·MCP 서버 출시, 2주 파일럿 내 첫 에이전트 가동 제시",
+      "source_label": "Poka AI Studio 제품 페이지, 2026-10-26 출시",
+      "source_url": "https://www.poka.io/en/ai-studio/",
+      "detail": "MCP 서버가 범용 AI 비서를 MES·QMS에 읽기·쓰기로 잇고, 동작별 승인·감사 로그를 둔다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "리스크",
+      "sl_text": "본사 권한 기준 없이 해외 공장이 먼저 도입하면 품질 기록 변경 통제가 공장별로 갈린다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "미국 플라스틱 가공 GBI 9월 51.1, 생산지수 58.2→51.7로 하락",
-      "source_label": "Plastics Technology, 2026-10-23",
-      "source_url": "https://www.ptonline.com/articles/plastics-processing-index-eases-but-the-outlook-holds-steady",
-      "detail": "공급업체 납기 지수는 62.0으로 올라 물량이 줄어도 조달 리드타임은 길어지고 있다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "리스크",
-      "sl_text": "북미향 램프는 물량보다 수지·핫러너 부품 리드타임과 금융비용이 원가를 먼저 압박한다."
+      "headline": "Elite Mold·PCS, 프린팅 H13 인서트 하이브리드 금형으로 예상 리드타임 약 30% 단축",
+      "source_label": "MoldMaking Technology, 2026-10-26",
+      "source_url": "https://www.moldmakingtechnology.com/articles/hybrid-ev-bridge-mold-cuts-estimated-lead-time-by-approximately-30",
+      "detail": "30%는 기존 공법 대비 예상치이며, 리브 가공용 방전 전극 생략이 주요인이다.",
+      "certainty": "[추정]",
+      "sl_label": "기회",
+      "sl_text": "하우징 리브부만 인서트로 분리하면 브리지·설계변경 금형 납기를 줄일 수 있으나 사내 대조 검증이 먼저다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-26-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-27-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
