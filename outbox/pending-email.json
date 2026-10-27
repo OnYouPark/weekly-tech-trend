@@ -1,54 +1,54 @@
 {
-  "date": "2026-10-27",
-  "slug": "2026-10-27-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-27",
+  "date": "2026-10-28",
+  "slug": "2026-10-28-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-10-28",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "ORAFOL, Zebra AI 비전으로 렌즈 150만 개 이상 검사하며 검사시간 50% 단축",
-      "source_label": "Business Wire(Zebra), 2026-10-26",
-      "source_url": "https://www.businesswire.com/news/home/20261026775215/en/",
-      "detail": "라인당 최대 15명이 하던 미세구조 렌즈 육안검사를 딥러닝 비전으로 옮기며 광학 터렛을 따로 개발했다.",
-      "certainty": "[공식 발표]",
+      "headline": "LG디스플레이, 증착기 진공도 AI로 이상징후 85% 사전 감지",
+      "source_label": "EBN, 2026-10-28",
+      "source_url": "https://www.ebn.co.kr/news/articleView.html?idxno=1729259",
+      "detail": "정상 범위 안에서도 진공도 변화 기울기로 이상 시점을 예측하며, 10여 개 공정에 적용 중이다.",
+      "certainty": "[2차 인용]",
       "sl_label": "기회",
-      "sl_text": "렌즈 검사 자동화의 선행 투자처가 AI 모델보다 조명·광학 지그라는 실증이다."
+      "sl_text": "반사경 진공증착·핫러너 히터처럼 단일 변수가 고장에 앞서는 설비가 1개월 검증형 예지보전 1순위다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "2026-10-26 발행 주간 종합 휴머노이드 상용 계약의 후속",
-      "headline": "Agility, 부품 개발사 등 제조 고객 3곳 유료 프로그램 공개, 잠재 고객 30곳 이상",
-      "source_label": "GlobeNewswire(Agility Robotics), 2026-10-26",
-      "source_url": "https://www.globenewswire.com/news-release/2026/10/26/3388115/0/en/agility-robotics-highlights-commercial-momentum-and-growing-enterprise-demand-for-digit-humanoid-robot.html",
-      "detail": "GXO도 Digit 거점을 2곳 늘려 2027년 초 Digit 4로 시작한다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "유료 실증이 부품사로 내려와 Digit 5 얼리 액세스(2027년 상반기) 전에 포장·이송 파일럿 KPI를 정해야 한다."
+      "field_note": "2026-10-16 발행 아틀라스 양산 체계 목표의 후속",
+      "headline": "보스턴다이내믹스, 2027년 말까지 아틀라스 1만 대분 부품 준비 요청",
+      "source_label": "한국경제, 2026-10-27",
+      "source_url": "https://www.hankyung.com/article/2026102787761",
+      "detail": "헤드램프·메인 카메라는 현대모비스 컨소시엄에 배정됐고, 확정 주문은 아니다.",
+      "certainty": "[2차 인용]",
+      "sl_label": "리스크",
+      "sl_text": "로봇 조명이 카메라와 묶여 발주돼, 2028년 연 3만 대 증산 전 연동 모듈 제안 역량이 진입 조건이 된다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-10-26 발행 주간 종합 에이전트 플랫폼 흐름의 후속",
-      "headline": "Poka, 현장용 노코드 에이전트 빌더·MCP 서버 출시, 2주 파일럿 내 첫 에이전트 가동 제시",
-      "source_label": "Poka AI Studio 제품 페이지, 2026-10-26 출시",
-      "source_url": "https://www.poka.io/en/ai-studio/",
-      "detail": "MCP 서버가 범용 AI 비서를 MES·QMS에 읽기·쓰기로 잇고, 동작별 승인·감사 로그를 둔다.",
+      "field_note": "2026-10-22·10-27 발행 FactoryTalk Conductor·Poka MCP 서버의 후속",
+      "headline": "SAP, ERP가 로봇 작업을 지시하는 Physical AI 공개, 사례 3건",
+      "source_label": "SAP News Center, 2026-10-27",
+      "source_url": "https://news.sap.com/2026/10/sap-unveils-physical-ai-extends-autonomous-enterprise-real-world-sap-teched/",
+      "detail": "창고 작업은 휴머노이드로, 정비계획은 드론·4족 로봇 점검으로 이어지고 결과는 ERP로 회수된다.",
       "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "본사 권한 기준 없이 해외 공장이 먼저 도입하면 품질 기록 변경 통제가 공장별로 갈린다."
+      "sl_label": "기회",
+      "sl_text": "AMR 작업 이력이 ERP에 남아 ROI를 재고 정확도·추적성으로 입증할 수 있다."
     },
     {
       "field": "금형·사출 기술",
-      "field_note": "",
-      "headline": "Elite Mold·PCS, 프린팅 H13 인서트 하이브리드 금형으로 예상 리드타임 약 30% 단축",
-      "source_label": "MoldMaking Technology, 2026-10-26",
-      "source_url": "https://www.moldmakingtechnology.com/articles/hybrid-ev-bridge-mold-cuts-estimated-lead-time-by-approximately-30",
-      "detail": "30%는 기존 공법 대비 예상치이며, 리브 가공용 방전 전극 생략이 주요인이다.",
-      "certainty": "[추정]",
+      "field_note": "2026-10-26 발행 JIMTOF 2026 개막의 후속",
+      "headline": "JIMTOF 2026, 방전가공기 3사가 무인 셀 스케줄러 동시 출품",
+      "source_label": "ケズリバ, 2026-10-27",
+      "source_url": "https://kezuriba.net/articles/jimtof2026-report/",
+      "detail": "소딕은 공정 끼워넣기, 미쓰비시전기는 다기 자동화, 세이부전기는 QR 작업 투입을 내세웠다.",
+      "certainty": "[업계 분석]",
       "sl_label": "기회",
-      "sl_text": "하우징 리브부만 인서트로 분리하면 브리지·설계변경 금형 납기를 줄일 수 있으나 사내 대조 검증이 먼저다."
+      "sl_text": "방전 설비 평가축을 셀 무인 가동시간으로 바꾸면 설계변경·보수 금형을 야간에 흡수할 수 있다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-27-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-10-28-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
