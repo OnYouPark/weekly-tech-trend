@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "slug": "2026-10-28-production",
+      "title": "생산기술 신규기술 브리핑 - 2026년 10월 5주차",
+      "date": "2026-10-28",
+      "type": "production",
+      "period": "2026년 10월 5주차",
+      "tags": [
+        "Mitsubishi Electric",
+        "ABB RobotStudio",
+        "Agility Robotics",
+        "NVIDIA Isaac",
+        "ROKAE",
+        "Celanese",
+        "하이브리드금형",
+        "가상시운전"
+      ],
+      "summary": "사출은 Fakuma 이후 장비 발표 공백 속에 적층 H13 인서트와 표준 몰드베이스를 병렬 제작해 금형 리드타임을 약 30% 줄인 사례와, 화학적으로 동일한 탄소포집 POM을 금형·성형조건 변경 없이 2개월 만에 승인받은 양산 사례가 공개됨. 로봇은 미쓰비시전기가 CNC 측 피지컬 AI로 휴머노이드에 작업을 배분하는 가공 시스템을 JIMTOF에서 시연하고, ABB는 인식·합성데이터까지 포함한 가상시운전 RobotStudio HyperReality를 사용자 6만 명에 배포, Agility는 Digit 5 안전 기능에 AI 인지 모델을 넣어 제3자 인증 절차에 들어감"
+    },
+    {
       "slug": "2026-10-28-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 10월 28일",
       "date": "2026-10-28",
