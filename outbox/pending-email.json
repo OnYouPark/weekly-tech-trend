@@ -1,54 +1,54 @@
 {
-  "date": "2026-11-02",
-  "slug": "2026-11-02-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-11-02",
+  "date": "2026-11-03",
+  "slug": "2026-11-03-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-11-03",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "2026-10-20 발행 중기부 AX 스프린트의 후속",
-      "headline": "중기부, 2027년 9개 사업 사전공고…제조AI특화 스마트공장 500개",
-      "source_label": "동행일보, 2026-10-30",
-      "source_url": "https://www.dhilbo.co.kr/news/articleView.html?idxno=2188",
-      "detail": "과제당 최대 2억 원(50–70%)을 지원하고, 피지컬AI 실증에는 3년간 5,061억 원을 편성했다.",
-      "certainty": "[2차 인용]",
-      "sl_label": "기회",
-      "sl_text": "상생형 AX선도모델로 협력사 성형·검사 데이터 연계 투자를 정부 지원과 분담할 수 있다."
+      "field_note": "2026-06-24 발행 ISO/DIS 21423 보도의 후속",
+      "headline": "A3, AMR 상호운용 국제표준 ISO 21423 발행 공지…공유 정보 6종 규격화",
+      "source_label": "RoboticsTomorrow(A3 보도자료), 2026-11-02",
+      "source_url": "https://www.roboticstomorrow.com/news/2026/11/02/new-iso-interoperability-standard-helps-mobile-robots-from-different-vendors-work-together/27330/",
+      "detail": "로봇·플릿 매니저가 위치·작업·가용성을 공유하고 ERP·자동문과 연동하며, 안전은 범위 밖이다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "변곡점",
+      "sl_text": "AMR 확산 입찰 사양을 벤더 전용 연동에서 ISO 21423 적합 요구로 바꿀 근거다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "2026-10-28 발행 아틀라스 부품 국내 공급사 확정의 후속",
-      "headline": "현대모비스, 11월 아틀라스용 액추에이터 시제품 생산…로봇부품 인력 2배",
-      "source_label": "SBS Biz, 2026-10-30",
-      "source_url": "https://biz.sbs.co.kr/amp/article/20000343232",
-      "detail": "액추에이터는 휴머노이드 재료비의 약 60%로, 2028년 공급에 맞춰 성능·신뢰성을 검증한다.",
-      "certainty": "[2차 인용]",
-      "sl_label": "기회",
-      "sl_text": "로봇 부품 협력망이 새로 꾸려져 하우징·센서 커버 등 사출·광학 부품의 진입 창이 열렸다."
+      "field_note": "2026-06-26 발행 Agility SPAC 상장 발표의 후속",
+      "headline": "Agility 합병안 찬성 84% 이상 승인…11월 5일 나스닥 상장 예정",
+      "source_label": "GlobeNewswire, 2026-11-02",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/02/3393830/0/en/churchill-capital-corp-xi-shareholders-approve-business-combination-with-agility-robotics.html",
+      "detail": "조달 예상액은 약 4억 6,500만 달러이며, Digit 5 주문 일부는 마일스톤 조건부라고 고지했다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "리스크",
+      "sl_text": "부품 수요가 고객 마일스톤에 묶여 금형 선투자 전 최소 물량·금형비 정산 조건이 필요하다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-10-19 발행 현대차·기아 티칭 자동화·폴라리스 에이전트의 후속",
-      "headline": "HD현대로보틱스, AI 에이전트로 로봇 현장 문제해결 기간 63% 단축",
-      "source_label": "디일렉, 2026-11-01",
-      "source_url": "https://www.thelec.kr/news/articleView.html?idxno=64637",
-      "detail": "에이전트가 로봇 프로그램 개선안을 내고 엔지니어가 확정하는 구조로 21.5일이 7.9일로 줄었다.",
+      "field_note": "2026-10-20 발행 지멘스 에이전트 생산계획의 후속 흐름",
+      "headline": "한화오션에코텍, 디지털 트윈·LLM 에이전트 생산관리 12월 1차 가동",
+      "source_label": "전자신문, 2026-11-02",
+      "source_url": "https://www.etnews.com/20261102000288",
+      "detail": "회의록·작업표준서를 KPI와 묶어 에이전트가 공정 지연 원인과 대응안을 내고, 2027년 6월 안정화한다.",
       "certainty": "[2차 인용]",
       "sl_label": "기회",
-      "sl_text": "로봇 프로그램 버전·이슈 이력을 구조화한 조립·도포 라인부터 문제해결 공수를 줄일 수 있다."
+      "sl_text": "품질회의록·4M 기록을 LOT로 MES와 묶으면 AI 팩토리 과제에 같은 구조를 쓸 수 있다."
     },
     {
       "field": "금형·사출 기술",
-      "field_note": "",
-      "headline": "공정위, 협력사 샘플에서 얻은 열처리 수치 유용에 과징금 4억 2,000만 원",
-      "source_label": "아주경제, 2026-11-01",
-      "source_url": "https://www.ajunews.com/view/20261101102109258",
-      "detail": "도면이 아닌 시제품 분석으로 얻은 무형 수치를 하도급법상 기술자료로 처음 인정한 사례다.",
+      "field_note": "2026-11-02 발행 우진플라임 성형 셀 자동화의 후속",
+      "headline": "아이엘, 사출 라인 휴머노이드 실증 외부 PoC로 확대…3분기 로봇 매출 약 27억 원",
+      "source_label": "서울신문, 2026-11-02",
+      "source_url": "https://www.seoul.co.kr/news/economy/2026/11/02/20261102500051",
+      "detail": "양산 라인의 작업·장애 복구 데이터를 학습하는 5단계 PoC 절차를 로보월드에서 공개한다.",
       "certainty": "[2차 인용]",
-      "sl_label": "리스크",
-      "sl_text": "금형 이관·이원화 때 기존 협력사 샘플·성적서 수치를 활용하면 기술유용으로 제재될 수 있다."
+      "sl_label": "기회",
+      "sl_text": "하우징 취출 후 적재·포장을 외부 PoC로 먼저 검증하되 데이터 소유권 계약이 전제다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-11-02-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-11-03-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
