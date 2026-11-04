@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "slug": "2026-11-04-production",
+      "title": "생산기술 신규기술 브리핑 - 2026년 11월 1주차",
+      "date": "2026-11-04",
+      "type": "production",
+      "period": "2026년 11월 1주차",
+      "tags": [
+        "스미토모중기계 AI-Drive",
+        "WABOT A310",
+        "ISO 21423",
+        "MOTOMAN NEXT",
+        "Stretch Gen 2",
+        "Sinamics E210",
+        "Hikrobot",
+        "현대모비스"
+      ],
+      "summary": "사출은 IPF Japan 2026 사전 공개가 시작돼 스미토모중기계가 양산 중 성형조건 AI 자동조정의 감시 항목에 금형 내압을 추가한 AI-Drive Optima+를 예고했고, 우진플라임은 자동차 그릴·엔진 미드쉘 취출용 3축 취출로봇 WABOT A310의 모델 사양을 처음 공개함. 로봇은 제조사가 다른 이동로봇·플릿 매니저·설비가 위치·상태·작업 정보를 공통 형식으로 주고받는 국제표준 ISO 21423이 정식 발행되고, Yaskawa는 이음부 갭 인식부터 용접 후 검사·보정까지 로봇이 판단하는 MOTOMAN NEXT 셀을 GR KART 프레임 실생산에 투입, Boston Dynamics는 10만 시간 운영 데이터로 비계획 정지 원인을 겨냥한 Stretch Gen 2를 공개"
+    },
+    {
       "slug": "2026-11-04-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 11월 4일",
       "date": "2026-11-04",
