@@ -1,54 +1,54 @@
 {
-  "date": "2026-11-04",
-  "slug": "2026-11-04-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-11-04",
+  "date": "2026-11-05",
+  "slug": "2026-11-05-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-11-05",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "2026-10-29 발행 산업부 산단 실증확산 트랙의 후속",
-      "headline": "산업부, 제조 AI 모델 541개 재사용 4단계 AI 팩토리 확산전략 발표",
-      "source_label": "산업통상부 보도자료, 2026-11-03",
-      "source_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172373/view",
-      "detail": "검증 모델을 유사 공정에 추가학습해 재사용하고, 풀스택 R&D에 2027년 정부안 1,200억 원을 반영했다.",
+      "field_note": "",
+      "headline": "Cognex, 3분기 매출 3억 1,300만 달러로 분기 최대…연간 전망 상향",
+      "source_label": "Cognex IR, 2026-11-04",
+      "source_url": "https://investor.cognex.com/news/news-details/2026/Cognex-Reports-Third-Quarter-2026-Results/default.aspx",
+      "detail": "일회성 수익을 빼면 19% 늘었고, 메모리 원가 부담은 가격 인상으로 상쇄했다고 밝혔다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "성형조건·외관검사 AI를 자체 개발 대신 검증 모델 재사용으로 확보할 길이 열렸다."
+      "sl_label": "리스크",
+      "sl_text": "램프 외관·점등 검사 비전의 2027년 증설·교체 견적은 단가 인상을 전제로 다시 받아야 한다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "2026-07-16 발행 Xiaomi 휴머노이드 라인 영상의 후속",
-      "headline": "Xiaomi 휴머노이드, 차 공장 서열 공정서 첫 8시간 작업…3월 3시간에서 확대",
-      "source_label": "IT之家, 2026-11-03",
-      "source_url": "https://www.ithome.com/1/021/525.htm",
-      "detail": "센터콘솔 측면 커버 서열 공정의 하루 수요를 채웠으나 성공률·인력 개입 횟수는 공개하지 않았다.",
-      "certainty": "[2차 인용]",
-      "sl_label": "리스크",
-      "sl_text": "서열납품 부품사에 로봇 피킹용 적재 방향·트레이 규격이 납품 조건으로 붙을 수 있다."
+      "field_note": "2026-11-03 발행 Agility 주총 승인의 후속",
+      "headline": "Agility, 스팩 합병 완료…5일 나스닥 상장, 확정 주문 3억 달러 이상 제시",
+      "source_label": "GlobeNewswire, 2026-11-04",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/04/3395899/0/en/agility-robotics-and-churchill-capital-corp-xi-complete-business-combination.html",
+      "detail": "기존 주주 지분은 180일간 매도가 제한되며, 고객 명단·주문 수치는 10월 발표와 같다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "기회",
+      "sl_text": "2027년 출하 전에 토트 이송·서열 공정 PoC 후보와 평가 기준을 정해 둘 시점이다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-11-03 발행 오쿠마 CNC AI 에이전트의 후속",
-      "headline": "키엔스, PLC 전용 AI 에이전트 11월 16일 발매…KV-X 4개 CPU 대응",
-      "source_label": "키엔스 보도자료, 2026-11-02",
-      "source_url": "https://www.keyence.co.jp/news-events/20261102-kv-intelligence.jsp",
-      "detail": "운전 기록을 정상 사이클과 비교해 정지 원인을 짚고 래더도 생성하며, 인터넷 접속이 필수다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "PLC AI 진단이 상용화돼 설비 발주 사양에 AI 지원·외부 전송 조건을 넣을 시점이다."
+      "field_note": "제조 AI 에이전트 연속 4일째",
+      "headline": "OpenAI, 직원 2명이 1주 안에 기기 설계…Codex로 CAD·PCB·해석 적용",
+      "source_label": "Interesting Engineering, 2026-11-03",
+      "source_url": "https://interestingengineering.com/ai-robotics/openai-gpt-6-hardware-design-prototype",
+      "detail": "마쓰다 공력 해석 협업도 시작했으나, 공차·조립 반영은 사람 검토가 필요하다고 밝혔다.",
+      "certainty": "[2차 인용]",
+      "sl_label": "기회",
+      "sl_text": "원본 CAD가 없는 보수용 램프 부품을 스캔으로 도면화해 금형 재제작 준비를 줄일 수 있다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "Roctool, 유도가열 금형 650만 유로 재수주…같은 고객 1년 내 두 번째",
-      "source_label": "WebDisclosure(EQS), 2026-11-03",
-      "source_url": "https://www.webdisclosure.com/press-release/roctool-epa-alroc-roctool-new-significant-65-million-order-gyM6eGURmMy",
-      "detail": "항공·방산 복합재 고속 사이클용 Heat & Cool 시스템과 완성 금형을 2027 회계연도에 인도한다.",
-      "certainty": "[공식 발표]",
+      "headline": "Moldex3D 콘퍼런스, HKMC가 메탈릭 MIC 해석의 실물 정확성 검증 발표",
+      "source_label": "산업일보, 2026-11-04",
+      "source_url": "https://kidd.co.kr/news/248001",
+      "detail": "평화산업·HRS Korea도 해석-실측을 대조했으나 정확도 수치는 공개되지 않았다.",
+      "certainty": "[업계 분석]",
       "sl_label": "기회",
-      "sl_text": "베젤·가니시 무도장 성형 검토 시 유도가열을 기존 온조와 비교할 사례가 생겼다."
+      "sl_text": "해석-실측 데이터를 먼저 쌓은 협력사가 무도장 외장 부품의 게이트·웰드라인 협의를 주도할 수 있다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-11-04-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-11-05-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
