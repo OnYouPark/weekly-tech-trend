@@ -1,54 +1,54 @@
 {
-  "date": "2026-11-05",
-  "slug": "2026-11-05-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-11-05",
+  "date": "2026-11-06",
+  "slug": "2026-11-06-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-11-06",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "",
-      "headline": "Cognex, 3분기 매출 3억 1,300만 달러로 분기 최대…연간 전망 상향",
-      "source_label": "Cognex IR, 2026-11-04",
-      "source_url": "https://investor.cognex.com/news/news-details/2026/Cognex-Reports-Third-Quarter-2026-Results/default.aspx",
-      "detail": "일회성 수익을 빼면 19% 늘었고, 메모리 원가 부담은 가격 인상으로 상쇄했다고 밝혔다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "램프 외관·점등 검사 비전의 2027년 증설·교체 견적은 단가 인상을 전제로 다시 받아야 한다."
+      "field_note": "2026-11-05 발행 자동화 공급사 실적의 후속",
+      "headline": "Rockwell, 4분기 소프트웨어·제어 매출 15% 증가…FY2027 유기성장 6–9% 제시",
+      "source_label": "SEC EDGAR 8-K, 2026-11-05",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001024478/000102447826000045/fy2026ex99.htm",
+      "detail": "자동차 매출도 15% 늘었고, 완성차의 제어·MES 표준화가 진행 중이라고 밝혔다.",
+      "certainty": "[2차 인용]",
+      "sl_label": "기회",
+      "sl_text": "북미 공장 구매 이력으로 8,500만 달러 관세 인상분 환급 대상 여부를 따질 수 있다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "2026-11-03 발행 Agility 주총 승인의 후속",
-      "headline": "Agility, 스팩 합병 완료…5일 나스닥 상장, 확정 주문 3억 달러 이상 제시",
-      "source_label": "GlobeNewswire, 2026-11-04",
-      "source_url": "https://www.globenewswire.com/news-release/2026/11/04/3395899/0/en/agility-robotics-and-churchill-capital-corp-xi-complete-business-combination.html",
-      "detail": "기존 주주 지분은 180일간 매도가 제한되며, 고객 명단·주문 수치는 10월 발표와 같다.",
+      "field_note": "완성차 로봇 사업화 흐름, 2026-10-23 발행 후속",
+      "headline": "도요타, 전사 직할 '도요타 로보틱스' 신설…협력사 25만 대 포함 로봇 40만 대 수요",
+      "source_label": "도요타 결산 설명자료, 2026-11-05",
+      "source_url": "https://global.toyota/pages/global_toyota/ir/financial-results/2027_2q_presentation_2_jp.pdf",
+      "detail": "2027년 1월 출범해 연 1조 엔 설비 갱신을 발판으로 외부 판매에 나선다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "2027년 출하 전에 토트 이송·서열 공정 PoC 후보와 평가 기준을 정해 둘 시점이다."
+      "sl_label": "변곡점",
+      "sl_text": "현대차도 모베드 얼라이언스를 꾸려, 부품사 설비 선정에 완성차 로봇 연동 조건이 붙을 수 있다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "제조 AI 에이전트 연속 4일째",
-      "headline": "OpenAI, 직원 2명이 1주 안에 기기 설계…Codex로 CAD·PCB·해석 적용",
-      "source_label": "Interesting Engineering, 2026-11-03",
-      "source_url": "https://interestingengineering.com/ai-robotics/openai-gpt-6-hardware-design-prototype",
-      "detail": "마쓰다 공력 해석 협업도 시작했으나, 공차·조립 반영은 사람 검토가 필요하다고 밝혔다.",
+      "field_note": "제조 AI 에이전트 연속 5일째",
+      "headline": "LG, 안전 AI를 설비 정지로 연동…LG화학 PSM 서류 검토 98% 단축",
+      "source_label": "전자신문, 2026-11-05",
+      "source_url": "https://www.etnews.com/20261105000138",
+      "detail": "LG전자는 CCTV 4,226대를 AI에 연결해 도장 설비 가동 중 사람이 감지되면 전원을 끊는다.",
       "certainty": "[2차 인용]",
       "sl_label": "기회",
-      "sl_text": "원본 CAD가 없는 보수용 램프 부품을 스캔으로 도면화해 금형 재제작 준비를 줄일 수 있다."
+      "sl_text": "도장·사출 라인 CCTV를 정지 연동에 쓰되, 오검지 기준과 안전 경로부터 정해야 한다."
     },
     {
       "field": "금형·사출 기술",
       "field_note": "",
-      "headline": "Moldex3D 콘퍼런스, HKMC가 메탈릭 MIC 해석의 실물 정확성 검증 발표",
-      "source_label": "산업일보, 2026-11-04",
-      "source_url": "https://kidd.co.kr/news/248001",
-      "detail": "평화산업·HRS Korea도 해석-실측을 대조했으나 정확도 수치는 공개되지 않았다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "기회",
-      "sl_text": "해석-실측 데이터를 먼저 쌓은 협력사가 무도장 외장 부품의 게이트·웰드라인 협의를 주도할 수 있다."
+      "headline": "타코마 PA6 사출 적재함, SPE 그랜드 어워드…110,000 kN 전용기·샷 30 kg",
+      "source_label": "BASF, 2026-11-05",
+      "source_url": "https://www.basf.com/us/en/media/news-releases/2026/11/P-US-26-43",
+      "detail": "SMC 대신 유리섬유 50% PA6 단일 사출로 크로스멤버를 오버몰딩해 체결·도장을 없앴다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "변곡점",
+      "sl_text": "코오롱 PV5 후드(금형비 80% 절감)도 후보에 올라 외장 총원가 비교 근거가 쌓였다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-11-05-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-11-06-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
