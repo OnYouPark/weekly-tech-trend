@@ -1,54 +1,54 @@
 {
-  "date": "2026-11-06",
-  "slug": "2026-11-06-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-11-06",
+  "date": "2026-11-09",
+  "slug": "2026-11-09-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-11-09",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "2026-11-05 발행 자동화 공급사 실적의 후속",
-      "headline": "Rockwell, 4분기 소프트웨어·제어 매출 15% 증가…FY2027 유기성장 6–9% 제시",
-      "source_label": "SEC EDGAR 8-K, 2026-11-05",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/0001024478/000102447826000045/fy2026ex99.htm",
-      "detail": "자동차 매출도 15% 늘었고, 완성차의 제어·MES 표준화가 진행 중이라고 밝혔다.",
+      "field_note": "",
+      "headline": "Lear, 오리온 자동화 시트공장을 글로벌 표준으로…가공비 10–15% 절감 전망",
+      "source_label": "Manufacturing Dive, 2026-11-06",
+      "source_url": "https://www.manufacturingdive.com/news/lear-automated-factory-blueprint-global-network/873986/",
+      "detail": "입고–출하를 하나의 물류·검사 계층으로 묶고, 내부 조직이 설비 IP를 보유한다.",
       "certainty": "[2차 인용]",
-      "sl_label": "기회",
-      "sl_text": "북미 공장 구매 이력으로 8,500만 달러 관세 인상분 환급 대상 여부를 따질 수 있다."
+      "sl_label": "리스크",
+      "sl_text": "북미 견적 경쟁이 공장 단위 가공비로 옮겨가 라인별 자동화로는 단가 격차를 메우기 어렵다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "완성차 로봇 사업화 흐름, 2026-10-23 발행 후속",
-      "headline": "도요타, 전사 직할 '도요타 로보틱스' 신설…협력사 25만 대 포함 로봇 40만 대 수요",
-      "source_label": "도요타 결산 설명자료, 2026-11-05",
-      "source_url": "https://global.toyota/pages/global_toyota/ir/financial-results/2027_2q_presentation_2_jp.pdf",
-      "detail": "2027년 1월 출범해 연 1조 엔 설비 갱신을 발판으로 외부 판매에 나선다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "현대차도 모베드 얼라이언스를 꾸려, 부품사 설비 선정에 완성차 로봇 연동 조건이 붙을 수 있다."
+      "field_note": "2026-10-28 발행 아틀라스 공급망 보도의 후속",
+      "headline": "아틀라스 배터리, 삼성SDI 2170 셀 70개·약 1.3 kWh로 확정 보도",
+      "source_label": "디일렉, 2026-11-06",
+      "source_url": "https://www.thelec.kr/news/articleView.html?idxno=65065",
+      "detail": "LG에너지솔루션도 협력사로 선정됐고, 같은 셀의 스팟2가 월 100대로 먼저 양산된다.",
+      "certainty": "[2차 인용]",
+      "sl_label": "기회",
+      "sl_text": "아틀라스(2028년 이후)보다 스팟2 단계에서 전장 1차사 경유 부품 인증 창구가 먼저 열린다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "제조 AI 에이전트 연속 5일째",
-      "headline": "LG, 안전 AI를 설비 정지로 연동…LG화학 PSM 서류 검토 98% 단축",
-      "source_label": "전자신문, 2026-11-05",
-      "source_url": "https://www.etnews.com/20261105000138",
-      "detail": "LG전자는 CCTV 4,226대를 AI에 연결해 도장 설비 가동 중 사람이 감지되면 전원을 끊는다.",
+      "field_note": "2026-11-04 발행 제조 AI 확산전략의 후속",
+      "headline": "KEA, 전자산업 AI 활용률 11.7%…가전 협력사 비전검사 전환 사례 공개",
+      "source_label": "전자신문, 2026-11-08",
+      "source_url": "https://www.etnews.com/20261106000208",
+      "detail": "냉장고 도어 검사 인력 2명을 재배치했으나, 모델 변경마다 카메라·기준·학습 데이터를 다시 맞춰야 했다.",
       "certainty": "[2차 인용]",
-      "sl_label": "기회",
-      "sl_text": "도장·사출 라인 CCTV를 정지 연동에 쓰되, 오검지 기준과 안전 경로부터 정해야 한다."
+      "sl_label": "리스크",
+      "sl_text": "품번 변경이 잦은 램프 라인은 AI 검사의 재설정 공수가 총비용을 좌우한다."
     },
     {
       "field": "금형·사출 기술",
-      "field_note": "",
-      "headline": "타코마 PA6 사출 적재함, SPE 그랜드 어워드…110,000 kN 전용기·샷 30 kg",
-      "source_label": "BASF, 2026-11-05",
-      "source_url": "https://www.basf.com/us/en/media/news-releases/2026/11/P-US-26-43",
-      "detail": "SMC 대신 유리섬유 50% PA6 단일 사출로 크로스멤버를 오버몰딩해 체결·도장을 없앴다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "코오롱 PV5 후드(금형비 80% 절감)도 후보에 올라 외장 총원가 비교 근거가 쌓였다."
+      "field_note": "2026-11-02 발행 금형 거래 기준 이슈의 후속",
+      "headline": "HIPUS, 금형대장 SaaS에 업무대행 결합…파나소닉그룹 관리 금형 35만→17만 형",
+      "source_label": "金型しんぶんONLINE, 2026-11-06",
+      "source_url": "https://kanagata-shimbun.com/202609_hipus-saasbpo/",
+      "detail": "보관 공급사가 QR·사진·GPS로 실사 결과를 등록하고 폐기·반환도 요청한다.",
+      "certainty": "[2차 인용]",
+      "sl_label": "리스크",
+      "sl_text": "협력사 보관 금형의 대장·보관비 이력을 증빙하지 못하면 거래 감독·원가 협상에서 불리하다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-11-06-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-11-09-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
