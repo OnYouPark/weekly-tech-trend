@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "slug": "2026-11-11-daily-brief",
+      "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 11월 11일",
+      "date": "2026-11-11",
+      "tags": [
+        "Rockwell Automation",
+        "Path Robotics",
+        "BMW",
+        "클로봇",
+        "Anthropic",
+        "DN솔루션즈",
+        "Gerresheimer",
+        "디지털트윈"
+      ],
+      "summary": "Rockwell Automation은 11월 10일 기존 FactoryTalk View ME 화면을 그대로 쓰고 표시부와 로직부를 모듈 단위로 교체하는 HMI PanelView Pro를 2026년 4분기부터 공급한다고 밝혔고, 상하이전기는 가스터빈 블레이드 유연 라인에서 3D 비전 피킹 정확도 99.99퍼센트 초과와 MES·QMS 연동 품목 자동 전환을, Lattice와 NXP는 EU CRA 대응 보안을 넣은 산업용 엣지 조합을 공개했다. Path Robotics는 ARR이 18개월 새 17배 늘었다며 AI 용접로봇으로 3억 달러 시리즈 E를 유치했고, BMW는 Gen6 배터리 셀 공급사로 유럽 삼성SDI와 미국 LG에너지솔루션을 추가하며 local for local 원칙을 전 공급망에 적용한다고 밝혔으며, 클로봇은 KG모빌리티 평택공장 디캔팅 공정에서 휴머노이드 2대 협업 이송을 실증하는 55.6억 원 규모 국책과제를 맡았다. Anthropic은 Claude가 설계한 전자기기 3종이 회로 수정 없이 작동했다는 연구를 공개했고, DN솔루션즈는 공작기계 기능을 AAS와 MCP로 AI 에이전트에 여는 방식을 2027년 초 일부 상품화 목표로 제시했으며, 지멘스는 TRACE32 업체 Lauterbach 인수 계약을 맺었다. 금형·사출은 신규 발표가 적은 가운데 Gerresheimer가 금형 디지털 트윈과 양산 데이터를 한 이력으로 묶고 가상 DoE로 시사출 조건을 먼저 정하는 Digital Mold 운영을 공개했다."
+    },
+    {
       "slug": "2026-11-10-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 11월 10일",
       "date": "2026-11-10",
