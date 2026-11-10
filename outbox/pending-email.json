@@ -1,54 +1,54 @@
 {
-  "date": "2026-11-10",
-  "slug": "2026-11-10-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-11-10",
+  "date": "2026-11-11",
+  "slug": "2026-11-11-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-11-11",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
       "field_note": "",
-      "headline": "농심 녹산 수출공장, ERP 작업지시 연동 자동 세팅으로 품목교체 시간 최대 1/4 단축",
-      "source_label": "식품음료신문, 2026-11-09",
-      "source_url": "https://www.thinkfood.co.kr/news/articleView.html?idxno=201591",
-      "detail": "진동·전류 예지보전과 유도선 없는 자율주행로봇을 함께 적용했다.",
-      "certainty": "[2차 인용]",
+      "headline": "Rockwell, ME 화면 재사용 모듈식 HMI 'PanelView Pro' 2026년 4분기 공급",
+      "source_label": "PR Newswire, 2026-11-10",
+      "source_url": "https://www.prnewswire.co.uk/news-releases/rockwell-automation-introduces-panelview-pro-to-deliver-high-performance-visualization-for-modern-manufacturing-302934254.html",
+      "detail": "표시부·로직부를 분리해 고장 모듈만 바꾸고 보안 원격접속을 기본 탑재했다.",
+      "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "품번이 많은 램프 사출·조립 라인의 교체손실 감축 효과를 레시피 자동 하달 단위로 산정할 국내 비교 기준이 생겼다."
+      "sl_text": "Rockwell 라인은 HMI 교체를 화면 재개발 없이 보전 예산으로 분산할 수 있다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "",
-      "headline": "엔비디아 GR00T 2, 과제당 시연 5회로 50개 과제 평균 성공률 95%",
-      "source_label": "NVIDIA Blog, 2026-11-09",
-      "source_url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
-      "detail": "CoRL 2026에서 Isaac Lab 3.0·VABAR 벤치마크와 함께 공개했고, 40개 과제는 시연 없이 성공했다.",
+      "field_note": "2026-08-10 발행 후속",
+      "headline": "Path Robotics, AI 용접로봇으로 3억 달러 유치…ARR 18개월 새 17배",
+      "source_label": "Path Robotics, 2026-11-10",
+      "source_url": "https://www.path-robotics.com/news/path-robotics-announces-300-million-series-e-led-by-georgian",
+      "detail": "자금은 용접 전후 공정과 새 로봇 폼팩터 확장, 모델 학습용 데이터·연산 확보에 쓴다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "재교시 부담으로 미뤄 온 커넥터 삽입·하네스 체결 자동화의 손익을 다시 계산할 근거다(성능은 자체 평가)."
+      "sl_text": "실링·디버링 후공정 자동화를 티칭 공수 대신 신규 품번 셋업 시간 기준으로 재평가할 근거다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-11-09 발행 주간 기술 트렌드 종합의 후속",
-      "headline": "엔비디아 AI 데이 서울, 삼성전자 칩 열·기계 해석 18시간→41초 공개",
-      "source_label": "NVIDIA 블로그 코리아, 2026-11-09",
-      "source_url": "https://blogs.nvidia.co.kr/blog/korea-physical-ai-ecosystem/",
-      "detail": "PhysicsNeMo 기반 AI 균질화 사례이며, 현대차그룹은 에이전트 런타임 OpenShell을 검토 중이다.",
+      "field_note": "2026-11-05 발행 후속",
+      "headline": "Anthropic, Claude 설계 전자기기 3종 회로 수정 없이 작동…PCB 벤치마크 25%→69%",
+      "source_label": "Anthropic, 2026-11-09",
+      "source_url": "https://www.anthropic.com/research/claude-electronics-design",
+      "detail": "회로도·배선·외장·펌웨어·DFM 점검을 모델이 맡았고 전기·열 시험과 인증은 하지 않았다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "해석·트윈 구축 비용이 내려가 라인 신설 시 설비 발주 전 가상 검증을 표준 절차로 넣기 쉬워졌다(단축 효과는 벤더 주장)."
+      "sl_text": "램프 구동 보드는 시작·지그 보드부터 설계 반복 단축을 검증할 수 있다."
     },
     {
       "field": "금형·사출 기술",
-      "field_note": "2026-11-04 발행 생산기술 신규기술 브리핑의 후속",
-      "headline": "소딕, IPF Japan 2026서 분쇄재 50% 이상 무리펠렛 성형 시연 예고",
-      "source_label": "PR TIMES, 2026-11-09",
-      "source_url": "https://prtimes.jp/main/html/rd/p/000000092.000142070.html",
-      "detail": "V-LINE 사출기에 벤트 탈기와 스크루·피더 자율 제어를 더해 건조·리펠렛 없이 성형한다.",
-      "certainty": "[공식 발표]",
+      "field_note": "",
+      "headline": "Gerresheimer, 금형 디지털 트윈과 양산 데이터를 묶은 'Digital Mold' 공개",
+      "source_label": "K-Zeitung, 2026-11-10",
+      "source_url": "https://k-zeitung.de/schneller-werkzeuge-entwickel-in-der-medizintechnik",
+      "detail": "가상 DoE로 시사출 조건을 먼저 정하고 금형 온도조절·수명주기를 같은 데이터로 관리한다.",
+      "certainty": "[2차 인용]",
       "sl_label": "기회",
-      "sl_text": "스프루·러너 등 공정 스크랩 재투입률을 성형기 사양 협의 항목으로 올릴 근거다(자동차용 수지 물성 검증은 별도)."
+      "sl_text": "렌즈·하우징 금형의 해석·시사출·보전 기록을 금형 ID로 묶는 파일럿 근거다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-11-10-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-11-11-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
