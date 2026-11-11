@@ -1,54 +1,54 @@
 {
-  "date": "2026-11-11",
-  "slug": "2026-11-11-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-11-11",
+  "date": "2026-11-12",
+  "slug": "2026-11-12-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-11-12",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "",
-      "headline": "Rockwell, ME 화면 재사용 모듈식 HMI 'PanelView Pro' 2026년 4분기 공급",
-      "source_label": "PR Newswire, 2026-11-10",
-      "source_url": "https://www.prnewswire.co.uk/news-releases/rockwell-automation-introduces-panelview-pro-to-deliver-high-performance-visualization-for-modern-manufacturing-302934254.html",
-      "detail": "표시부·로직부를 분리해 고장 모듈만 바꾸고 보안 원격접속을 기본 탑재했다.",
+      "field_note": "2026-11-04 발행 AI 팩토리 확산전략의 후속",
+      "headline": "CJ제일제당, 판정→설비 제어를 잇는 52억 원 AI 팩토리 과제 공개",
+      "source_label": "AI타임스, 2026-11-11",
+      "source_url": "https://www.aitimes.com/news/articleView.html?idxno=217256",
+      "detail": "PINN 공정 제어·비전 판정·AI CCTV 정지를 MES 연동 플랫폼으로 묶어 2028년 실증한다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "Rockwell 라인은 HMI 교체를 화면 재개발 없이 보전 예산으로 분산할 수 있다."
+      "sl_text": "램프 외관검사·사출 AI 과제를 '판정→설비 제어→MES 이력' 범위로 짤 참조안이다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "2026-08-10 발행 후속",
-      "headline": "Path Robotics, AI 용접로봇으로 3억 달러 유치…ARR 18개월 새 17배",
-      "source_label": "Path Robotics, 2026-11-10",
-      "source_url": "https://www.path-robotics.com/news/path-robotics-announces-300-million-series-e-led-by-georgian",
-      "detail": "자금은 용접 전후 공정과 새 로봇 폼팩터 확장, 모델 학습용 데이터·연산 확보에 쓴다.",
-      "certainty": "[공식 발표]",
+      "field_note": "2026-11-10 발행 액추에이터 외판 추진의 후속",
+      "headline": "정부, 휴머노이드 액추에이터에 국비 1,000억 원…차 부품사 로봇 전환 지원",
+      "source_label": "이투데이, 2026-11-11",
+      "source_url": "https://www.etoday.co.kr/news/view/2646589",
+      "detail": "2029년 상용화 목표로 무게 대비 힘 5배, 반복 내구 100만 회 이상을 기준으로 제시했다.",
+      "certainty": "[2차 인용]",
       "sl_label": "기회",
-      "sl_text": "실링·디버링 후공정 자동화를 티칭 공수 대신 신규 품번 셋업 시간 기준으로 재평가할 근거다."
+      "sl_text": "사출·전장 조립 역량을 액추에이터 하우징·드라이버 PCB 공급으로 돌릴 통로가 열렸다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-11-05 발행 후속",
-      "headline": "Anthropic, Claude 설계 전자기기 3종 회로 수정 없이 작동…PCB 벤치마크 25%→69%",
-      "source_label": "Anthropic, 2026-11-09",
-      "source_url": "https://www.anthropic.com/research/claude-electronics-design",
-      "detail": "회로도·배선·외장·펌웨어·DFM 점검을 모델이 맡았고 전기·열 시험과 인증은 하지 않았다.",
+      "field_note": "2026-11-09 발행 주간 종합 '에이전트의 설계 도구 진입'의 후속",
+      "headline": "Rescale, 해석 에이전트에 동작별 승인 도입…도입사는 효율 최대 3배 전망",
+      "source_label": "PR Newswire, 2026-11-10",
+      "source_url": "https://www.prnewswire.com/news-releases/rescale-expands-agentic-digital-engineering-with-customizable-ai-agents-for-rd-teams-302934651.html",
+      "detail": "프로젝트별 가드레일을 두고 원자로 설계 해석·보고서를 에이전트가 맡되 엔지니어가 동작마다 승인한다.",
       "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "램프 구동 보드는 시작·지그 보드부터 설계 반복 단축을 검증할 수 있다."
+      "sl_text": "램프 방열·광학 해석은 판정 기준을 표준화한 조직부터 해석 회차를 늘릴 수 있다."
     },
     {
       "field": "금형·사출 기술",
-      "field_note": "",
-      "headline": "Gerresheimer, 금형 디지털 트윈과 양산 데이터를 묶은 'Digital Mold' 공개",
-      "source_label": "K-Zeitung, 2026-11-10",
-      "source_url": "https://k-zeitung.de/schneller-werkzeuge-entwickel-in-der-medizintechnik",
-      "detail": "가상 DoE로 시사출 조건을 먼저 정하고 금형 온도조절·수명주기를 같은 데이터로 관리한다.",
-      "certainty": "[2차 인용]",
+      "field_note": "2026-11-10 발행 IPF Japan 사전 공개의 후속",
+      "headline": "Futaba, 금형 내 계측 배선 1/16로 줄이고 AI로 재생재 편차 보정 실연",
+      "source_label": "PR TIMES, 2026-11-11",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000105.000075680.html",
+      "detail": "MAZIN과 만든 AI 앱이 샷별 파형으로 양부를 판정하며 12월 1일 한정 선행 판매한다.",
+      "certainty": "[공식 발표]",
       "sl_label": "기회",
-      "sl_text": "렌즈·하우징 금형의 해석·시사출·보전 기록을 금형 ID로 묶는 파일럿 근거다."
+      "sl_text": "재생 PC·PP 투입 전 금형 내압 판정은 사출기 브랜드와 무관하게 시험할 수 있다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-11-11-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-11-12-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
