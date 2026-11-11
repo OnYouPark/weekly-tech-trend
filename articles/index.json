@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "slug": "2026-11-11-production",
+      "title": "생산기술 신규기술 브리핑 - 2026년 11월 2주차",
+      "date": "2026-11-11",
+      "type": "production",
+      "period": "2026년 11월 2주차",
+      "tags": [
+        "Krevera",
+        "ENGEL duo 12000",
+        "소딕 V-LINE-Complete",
+        "Gemini Robotics 2.5",
+        "GR00T 2",
+        "Aptiv",
+        "Kawasaki S-type",
+        "LG CLOiD"
+      ],
+      "summary": "사출은 Krevera가 취출 셀 외관 판정 결과로 다음 샷 성형조건을 자동 보정하는 비전 폐루프를 약 86대에 배치했고, Tacoma PA6 적재함은 SPE 그랜드 어워드와 함께 12,000 US ton급 전용 사출기에서 구조 크로스멤버 3개를 인서트 오버몰딩하는 공정이 공개됐으며, 소딕은 분쇄재 50% 이상을 리펠렛 없이 성형하는 V-LINE-Complete 데모를 IPF Japan 출품으로 확정함. 로봇은 DeepMind·Apptronik이 Mercedes-Benz 가동 라인 키팅 PoC 성공률 96%를 공개하고, NVIDIA GR00T 2는 과제당 시연 5회로 처음 보는 50개 과제 성공률 95%를 제시했으며, Aptiv는 它石智航·上海电气 체화 로봇 수백 대를 전장부품 공장에 단계 투입하고 Aptiv 컴퓨팅·전원 부품을 로봇에 역공급하기로 함"
+    },
+    {
       "slug": "2026-11-11-daily-brief",
       "title": "제조업 기술 트렌드 일일 브리핑 - 2026년 11월 11일",
       "date": "2026-11-11",
