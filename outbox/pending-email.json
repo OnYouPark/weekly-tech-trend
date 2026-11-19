@@ -1,54 +1,54 @@
 {
-  "date": "2026-11-18",
-  "slug": "2026-11-18-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-11-18",
+  "date": "2026-11-20",
+  "slug": "2026-11-20-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-11-20",
   "mode_notice": "",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "",
-      "headline": "Nikon, 광각·6배 확대 동시 촬영 검사 카메라…촬영 위치 변경 1/9 이하",
-      "source_label": "Nikon, 2026-11-16",
-      "source_url": "https://www.nikon.com/company/news/2026/1116_01/",
-      "detail": "센서 2개를 동축으로 묶어 자동차 부품 미세 스크래치를 겨냥하며 2027년 1월 발매한다.",
+      "field_note": "2026-11-09 발행 주간 종합 CNC·PLC AI 에이전트의 후속",
+      "headline": "미쓰비시전기, e-F@ctory 23년 만에 Serendie Automation으로 교체",
+      "source_label": "미쓰비시전기, 2026-11-18",
+      "source_url": "https://www.mitsubishielectric.co.jp/fa/news/2026/news_20261118.pdf",
+      "detail": "AI 에이전트·피지컬 AI·데이터 기반 MAPs로 공장 자율조업을 겨냥한다.",
       "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "대형 램프 외관검사의 카메라 수·로봇 이동을 줄일 후보로 2027년 라인 평가 대상이다."
+      "sl_label": "변곡점",
+      "sl_text": "제어기에 AI 에이전트가 표준 탑재돼 신규 라인 사양서에 AI 코드 검수 기준이 필요하다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "2026-11-09 발행 중국 제조 동향 주간의 후속",
-      "headline": "중국 완성차, 휴머노이드 라인 투입 후퇴…산업용 로봇 MTBF 8만–10만 시간과 격차",
-      "source_label": "Caixin Global, 2026-11-13",
-      "source_url": "https://www.caixinglobal.com/2026-11-13/in-depth-chinas-automakers-scale-back-humanoid-robot-ambitions-as-reality-bites-102504614.html",
-      "detail": "샤오펑은 IRON을 1년 넘게 시험한 뒤 경제성이 없다고 보고 손 마모를 원인으로 꼽았다.",
-      "certainty": "[업계 분석]",
-      "sl_label": "리스크",
-      "sl_text": "자동화 예산은 검증된 로봇 셀에, 휴머노이드는 서열·키팅 파일럿에 한정할 근거다."
+      "field_note": "2026-11-18 발행 휴머노이드 라인 투입 논쟁의 후속",
+      "headline": "노바레스, 스페인 사출부품 공장 휴머노이드 PoC…부품 집기 성공률 99.5%",
+      "source_label": "Novares, 2026-11-17",
+      "source_url": "https://www.novaresteam.com/poc-conducted-at-novares-sesena-plant-delivers-first-results/",
+      "detail": "작업자 시연 12회, 11분으로 작업을 가르쳐 검출·집기·포장을 60분·200사이클 자율 수행했다.",
+      "certainty": "[공식 발표]",
+      "sl_label": "기회",
+      "sl_text": "램프 사출품 취출 후 포장 PoC를 같은 지표로 단기 검증할 비교 기준이 생겼다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-11-12 발행 Rockwell 보도의 후속",
-      "headline": "Rockwell, Emulate3D에 Omniverse 통합…가상 시운전을 공장 단위로 확장",
-      "source_label": "PR Newswire, 2026-11-16",
-      "source_url": "https://www.prnewswire.com/news-releases/rockwell-automation-integrates-nvidia-omniverse-into-emulate3d-to-advance-industrial-simulation-and-ai-powered-factory-design-302940633.html",
-      "detail": "OpenUSD 트윈을 AI 학습·검증 환경으로 내세웠으나 가격·실기 대조 데이터는 없다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "리스크",
-      "sl_text": "RFQ에 시뮬레이션-실측 허용 편차를 넣지 않으면 검증 부담이 부품사로 온다."
+      "field_note": "2026-11-02 발행 스마트 제조혁신 사전공고의 후속",
+      "headline": "중기부·대기업 11곳 AI 상생협약…5년 2조 원으로 중소기업 2,000곳 이상 지원",
+      "source_label": "서울경제, 2026-11-18",
+      "source_url": "https://m.sedaily.com/article/20116044",
+      "detail": "현대차 등이 재원과 제조 AI 노하우를 내고 2027년 피지컬 AI 예산 300억 원도 계획했다.",
+      "certainty": "[2차 인용]",
+      "sl_label": "기회",
+      "sl_text": "협력사 AI 품질 투자를 이 재원에 연결해 데이터 연계 비용을 나눌 수 있다."
     },
     {
       "field": "금형·사출 기술",
-      "field_note": "2026-11-12 발행 재생재 편차 보정 흐름의 후속",
-      "headline": "LS엠트론, 원료 변동 자동보정 '몰딩 5.0' 공개…멕시코에 시연 라인 3개 테크센터",
-      "source_label": "아시아경제, 2026-11-13",
-      "source_url": "https://view.asiae.co.kr/article/2026111307501850085",
-      "detail": "현지 고객이 양산 전 금형을 무상 시험 성형할 수 있고, 북미 사출기 점유율 10%를 밝혔다.",
+      "field_note": "2026-11-04 발행 AI 팩토리 확산전략의 후속",
+      "headline": "금형업계 AX 구체화…광주, AI 지능화센터 180억 원 국비 추진",
+      "source_label": "뉴스포털1, 2026-11-19",
+      "source_url": "http://www.civilreporter.co.kr/news/articleView.html?idxno=547938",
+      "detail": "산업통상부는 금형 용접 보수의 전류·속도 등 숙련 변수를 센서로 수치화해 AI에 학습시킨다.",
       "certainty": "[2차 인용]",
       "sl_label": "기회",
-      "sl_text": "북미 거점 사출기 교체 시 자사 금형 실성형 데이터로 국산 기종을 비교할 수 있다."
+      "sl_text": "협력 금형사와 과제에 참여하면 램프 금형 보수·트라이 조건을 국비로 데이터화할 수 있다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-11-18-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-11-20-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
