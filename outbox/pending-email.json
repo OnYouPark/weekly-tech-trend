@@ -1,54 +1,43 @@
 {
-  "date": "2026-11-20",
-  "slug": "2026-11-20-daily-brief",
-  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-11-20",
-  "mode_notice": "",
+  "date": "2026-11-23",
+  "slug": "2026-11-23-daily-brief",
+  "subject": "[일일 브리핑] 제조업 기술 트렌드 - 2026-11-23",
+  "mode_notice": "금일 신규 핵심 동향이 한산하여 핵심과 인접 영역 위주로 정리함",
   "fields": [
     {
       "field": "스마트제조·자동화",
-      "field_note": "2026-11-09 발행 주간 종합 CNC·PLC AI 에이전트의 후속",
-      "headline": "미쓰비시전기, e-F@ctory 23년 만에 Serendie Automation으로 교체",
-      "source_label": "미쓰비시전기, 2026-11-18",
-      "source_url": "https://www.mitsubishielectric.co.jp/fa/news/2026/news_20261118.pdf",
-      "detail": "AI 에이전트·피지컬 AI·데이터 기반 MAPs로 공장 자율조업을 겨냥한다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "변곡점",
-      "sl_text": "제어기에 AI 에이전트가 표준 탑재돼 신규 라인 사양서에 AI 코드 검수 기준이 필요하다."
+      "field_note": "",
+      "headline": "대구국제기계산업대전, 제조 AX 상담 382건·계약 추진액 219억 원 집계",
+      "source_label": "매일일보, 2026-11-22",
+      "source_url": "https://m-i.kr/news/articleView.html?idxno=2021723",
+      "detail": "특별관에서 공작기계·AMR·로봇팔 연계가 시연됐으나 집계액은 계약 체결액이 아니다.",
+      "certainty": "[2차 인용]",
+      "sl_label": "기회",
+      "sl_text": "대구·경북권 제조 AI 공급사 비교 창구이나, 선정은 유사 공정 양산 실적으로 해야 한다."
     },
     {
       "field": "로보틱스·모빌리티",
-      "field_note": "2026-11-18 발행 휴머노이드 라인 투입 논쟁의 후속",
-      "headline": "노바레스, 스페인 사출부품 공장 휴머노이드 PoC…부품 집기 성공률 99.5%",
-      "source_label": "Novares, 2026-11-17",
-      "source_url": "https://www.novaresteam.com/poc-conducted-at-novares-sesena-plant-delivers-first-results/",
-      "detail": "작업자 시연 12회, 11분으로 작업을 가르쳐 검출·집기·포장을 60분·200사이클 자율 수행했다.",
-      "certainty": "[공식 발표]",
-      "sl_label": "기회",
-      "sl_text": "램프 사출품 취출 후 포장 PoC를 같은 지표로 단기 검증할 비교 기준이 생겼다."
+      "field_note": "2026-11-12 발행 휴머노이드 액추에이터 국책 프로젝트의 후속",
+      "headline": "대만 HIWIN, 미국 휴머노이드사로부터 로봇 손용 리니어 가이드 1만 개 이상 수주",
+      "source_label": "로봇신문, 2026-11-22",
+      "source_url": "https://www.irobotnews.com/news/articleView.html?idxno=49705",
+      "detail": "업계는 2027년 검증, 2028년 매출 본격화를 보나 설계 변경으로 양산 시점은 불확실하다.",
+      "certainty": "[2차 인용]",
+      "sl_label": "리스크",
+      "sl_text": "정밀부품은 대만이 선점 중이라, 진입 품목은 외장·센서 모듈로 좁혀야 한다."
     },
     {
       "field": "AI·디지털전환",
-      "field_note": "2026-11-02 발행 스마트 제조혁신 사전공고의 후속",
-      "headline": "중기부·대기업 11곳 AI 상생협약…5년 2조 원으로 중소기업 2,000곳 이상 지원",
-      "source_label": "서울경제, 2026-11-18",
-      "source_url": "https://m.sedaily.com/article/20116044",
-      "detail": "현대차 등이 재원과 제조 AI 노하우를 내고 2027년 피지컬 AI 예산 300억 원도 계획했다.",
+      "field_note": "",
+      "headline": "LG전자 협력사, 설비 점검 디지털화로 장애 대응 시간 50% 이상 단축",
+      "source_label": "이투데이, 2026-11-22",
+      "source_url": "https://www.etoday.co.kr/news/view/2651276",
+      "detail": "이상 자동 알림을 갖춘 뒤 엑사원 기반 에이전트로 생산량·불량률을 바로 조회한다.",
       "certainty": "[2차 인용]",
       "sl_label": "기회",
-      "sl_text": "협력사 AI 품질 투자를 이 재원에 연결해 데이터 연계 비용을 나눌 수 있다."
-    },
-    {
-      "field": "금형·사출 기술",
-      "field_note": "2026-11-04 발행 AI 팩토리 확산전략의 후속",
-      "headline": "금형업계 AX 구체화…광주, AI 지능화센터 180억 원 국비 추진",
-      "source_label": "뉴스포털1, 2026-11-19",
-      "source_url": "http://www.civilreporter.co.kr/news/articleView.html?idxno=547938",
-      "detail": "산업통상부는 금형 용접 보수의 전류·속도 등 숙련 변수를 센서로 수치화해 AI에 학습시킨다.",
-      "certainty": "[2차 인용]",
-      "sl_label": "기회",
-      "sl_text": "협력 금형사와 과제에 참여하면 램프 금형 보수·트라이 조건을 국비로 데이터화할 수 있다."
+      "sl_text": "사출·도장 설비 점검 데이터부터 디지털화하면 AI 에이전트는 후속 투자로 분리해 집행할 수 있다."
     }
   ],
-  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-11-20-daily-brief",
+  "article_url": "https://onyoupark.github.io/weekly-tech-trend/article.html?slug=2026-11-23-daily-brief",
   "site_url": "https://onyoupark.github.io/weekly-tech-trend/"
 }
